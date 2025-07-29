@@ -1,0 +1,277 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: synthesis_targets_ALN.fasta
+Type of analysis: tree reconstruction
+Random seed number: 435688
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 519 amino-acid sites
+Number of constant sites: 141 (= 27.1676% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 141 (= 27.1676% of all sites)
+Number of parsimony informative sites: 292
+Number of distinct site patterns: 458
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -33300.9425 (s.e. 1558.5906)
+Unconstrained log-likelihood (without tree): -3130.7019
+Number of free parameters (#branches + #model parameters): 197
+Akaike information criterion (AIC) score: 66995.8849
+Corrected Akaike information criterion (AICc) score: 67238.9129
+Bayesian information criterion (BIC) score: 67833.5100
+
+Total tree length (sum of branch lengths): 32.6003
+Sum of internal branch lengths: 10.0484 (30.8231% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'CYANO150__Chamaesiphon_sp__UniRef90_UPI0035946169' is drawn at root
+
++--CYANO150__Chamaesiphon_sp__UniRef90_UPI0035946169
+|
++--CYANO150__Chamaesiphon_sp__UniRef90_UPI003592F9D2
+|
+|           +--CYANO150__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1
+|        +--|
+|        |  +--CYANO150__Leptolyngbyaceae_cyanobacterium_JSC12__UniRef90_K8GTY7
+|     +--|
+|     |  +--CYANO150__Leptolyngbya_sp_LCM1Bin17__UniRef90_A0A6H2NHV9
+|  +--|
+|  |  |  +----CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9
+|  |  +--|
+|  |     |     +---CYANO150__Halothece_sp__UniRef90_K9YEI2
+|  |     |  +--|
+|  |     |  |  +--CYANO150__filamentous_cyanobacterium_CCP5__UniRef90_A0A2P8WHZ5
+|  |     +--|
+|  |        +--CYANO150__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9
++--|
+   |     +---CYANO150__Deinococcus__UniRef90_A0A172TD44
+   |  +--|
+   |  |  +-----CYANO150__Deinococcus_sp__UniRef90_UPI0025F8D0E5
+   +--|
+      |           +--CYANO150__Allomeiothermus_silvanus__UniRef90_UPI0023F38943
+      |        +--|
+      |        |  +--CYANO150__Thermaceae_bacterium__UniRef90_A0A931EK09
+      |     +--|
+      |     |  +-----CYANO150__Meiothermus_sp_QL1__UniRef90_A0A370JXE9
+      |  +--|
+      |  |  |                             +--CYANO150__Sphingomonas_sp_SUN039__UniRef90_UPI00216411C4
+      |  |  |                          +--|
+      |  |  |                          |  +--CYANO150__Novosphingobium_sp_Chol11__UniRef90_UPI0025FC40A3
+      |  |  |                       +--|
+      |  |  |                       |  +--CYANO150__Novosphingobium_sp__UniRef90_UPI00286A501F
+      |  |  |                    +--|
+      |  |  |                    |  |     +--CYANO150__Polymorphobacter__UniRef90_UPI001C1E708F
+      |  |  |                    |  |  +--|
+      |  |  |                    |  |  |  +--CYANO150__Sphingomonadaceae_bacterium__UniRef90_A0A924C2L6
+      |  |  |                    |  +--|
+      |  |  |                    |     |  +--CYANO150__Sandarakinorhabdus__UniRef90_UPI00286D8C23
+      |  |  |                    |     +--|
+      |  |  |                    |        +--CYANO150__Sphingomonadaceae__UniRef90_UPI001669FD14
+      |  |  |                 +--|
+      |  |  |                 |  +--CYANO150__Novosphingopyxis_baekryungensis__UniRef90_UPI0003B5F996
+      |  |  |              +--|
+      |  |  |              |  +--CYANO150__Sphingomonas_sp__UniRef90_UPI00286D4F82
+      |  |  |           +--|
+      |  |  |           |  |           +--CYANO150__Novosphingobium_sp__UniRef90_UPI00260007B9
+      |  |  |           |  |        +--|
+      |  |  |           |  |        |  +--CYANO150__Sphingomonas_bacterium__UniRef90_UPI0015771C83
+      |  |  |           |  |     +--|
+      |  |  |           |  |     |  |  +--CYANO150__uncultured_Sphingomonas_sp__UniRef90_UPI0035CA0ED2
+      |  |  |           |  |     |  +--|
+      |  |  |           |  |     |     |  +--CYANO150__Sphingomonas__UniRef90_A0A7W9BTJ3
+      |  |  |           |  |     |     +--|
+      |  |  |           |  |     |        +--CYANO150__Sphingomonas_sp__UniRef90_UPI002ED986C3
+      |  |  |           |  |  +--|
+      |  |  |           |  |  |  +--CYANO150__Polymorphobacter_glacialis__UniRef90_A0A917A1R5
+      |  |  |           |  +--|
+      |  |  |           |     +--CYANO150__unclassified_Novosphingobium__UniRef90_UPI001CEFCFBB
+      |  |  |        +--|
+      |  |  |        |  +-----CYANO150__Wenzhouxiangella_sp__UniRef90_A0A5Q4GMP1
+      |  |  |     +--|
+      |  |  |     |  |     +--CYANO150__unclassified_Variovorax__UniRef90_A0A7G8VYU8
+      |  |  |     |  |  +--|
+      |  |  |     |  |  |  +--CYANO150__Ramlibacter_sp__UniRef90_A0A923XFD9
+      |  |  |     |  +--|
+      |  |  |     |     +--CYANO150__Rhodoferax_sp__UniRef90_A0A924NT25
+      |  |  |  +--|
+      |  |  |  |  |                       +------Br__Archaea__UR50_P02945
+      |  |  |  |  |                    +--|
+      |  |  |  |  |                    |  +---------Cyr__Haloquadratum__UR50_Q18DH5
+      |  |  |  |  |      +-------------|
+      |  |  |  |  |      |             |     +-------------Br__Deinococcus__UR50_UPI00220D8E58
+      |  |  |  |  |      |             |  +--|
+      |  |  |  |  |      |             |  |  |  +---------------Cyhr__Gloeobacterales__UR50_A0A925XUD8
+      |  |  |  |  |      |             |  |  +--|
+      |  |  |  |  |      |             |  |     |  +---------Cyhr__Rubrivirga__UniRef90_UPI0028C9517B
+      |  |  |  |  |      |             |  |     +--|
+      |  |  |  |  |      |             |  |        +---------Cyr__Leptolyngbya__UniRef90_UPI000B5A185C
+      |  |  |  |  |      |             +--|
+      |  |  |  |  |      |                +-------------Cyr__Halorutilus__UR50_A0A9Q4C3E6
+      |  |  |  |  +------|
+      |  |  |  |         |         +-----------Pr__Pseudomonadota__UR50_A0A5J6N178
+      |  |  |  |         +---------|
+      |  |  |  |                   |  +----Pr__Verrucomicrobiales__UR50_A0A2E2HQ20
+      |  |  |  |                   +--|
+      |  |  |  |                      +--Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6
+      |  |  +--|
+      |  |     +------CYANO150__Pyrinomonas_sp__UniRef90_UPI00333052B4
+      +--|
+         |           +----CYANO150__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2
+         |        +--|
+         |        |  |           +--CYANO150__Ilumatobacteraceae_bacterium__UniRef90_A0A973H857
+         |        |  |        +--|
+         |        |  |        |  +--CYANO150__Actinomycetota_bacterium__UniRef90_A0A938J199
+         |        |  |     +--|
+         |        |  |     |  +--CYANO150__Ilumatobacter_sp__UniRef90_UPI0026349BF9
+         |        |  |  +--|
+         |        |  |  |  +----CYANO150__Actinotalea_ferrariae_CF54__UniRef90_A0A021VV84
+         |        |  +--|
+         |        |     +------CYANO150__Actinomycetota_bacterium__UniRef90_A0A965K6Y6
+         |     +--|
+         |     |  |     +---CYANO150__Gracilibacteria_bacterium__UniRef90_A0A968T6V2
+         |     |  |  +--|
+         |     |  |  |  |  +--CYANO150__unclassified_Roseiflexus__UniRef90_A5UXH7
+         |     |  |  |  +--|
+         |     |  |  |     |  +--CYANO150__Roseiflexaceae_bacterium__UniRef90_A0A926CB40
+         |     |  |  |     +--|
+         |     |  |  |        |     +--CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BAJ6
+         |     |  |  |        |  +--|
+         |     |  |  |        |  |  |  +--CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BQ30
+         |     |  |  |        |  |  +--|
+         |     |  |  |        |  |     +--CYANO150__Armatimonadota_bacterium__UniRef90_A0A924Y846
+         |     |  |  |        +--|
+         |     |  |  |           +--CYANO150__Armatimonadota_bacterium__UniRef90_A0A926AH54
+         |     |  +--|
+         |     |     |                 +--CYANO150__Williamsia_sp_CHRR6__UniRef90_UPI001BDAAC7A
+         |     |     |              +--|
+         |     |     |              |  |        +--CYANO150__Microbacteriaceae_bacterium__UniRef90_A0A924CUM7
+         |     |     |              |  |     +--|
+         |     |     |              |  |     |  +--CYANO150__Clavibacter_michiganensis__UniRef90_UPI0026DDB336
+         |     |     |              |  |  +--|
+         |     |     |              |  |  |  +--CYANO150__Marisediminicola__UniRef90_A0A7L5AK79
+         |     |     |              |  +--|
+         |     |     |              |     +--CYANO150__Cryobacterium__UniRef90_A0A7W8ZXB5
+         |     |     |           +--|
+         |     |     |           |  +----CYANO150__Aquipuribacter_nitratireducens__UniRef90_UPI0030EFA4BC
+         |     |     |        +--|
+         |     |     |        |  |        +--CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NNI9
+         |     |     |        |  |     +--|
+         |     |     |        |  |     |  +--CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NQ99
+         |     |     |        |  |  +--|
+         |     |     |        |  |  |  +--CYANO150__Rhodococcus_antarcticus__UniRef90_UPI00223C9C6A
+         |     |     |        |  +--|
+         |     |     |        |     +-----CYANO150__Goekera_deserti__UniRef90_A0A7K3WHF5
+         |     |     |     +--|
+         |     |     |     |  |  +--CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0P1B6
+         |     |     |     |  +--|
+         |     |     |     |     +--CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0KLA6
+         |     |     |  +--|
+         |     |     |  |  |  +--CYANO150__Actinomycetes_bacterium__UniRef90_A0A3C1P5D0
+         |     |     |  |  +--|
+         |     |     |  |     +--CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2
+         |     |     +--|
+         |     |        +-------CYANO150__Euzebya_tangerina__UniRef90_UPI00196AFC51
+         |  +--|
+         |  |  |           +---CYANO150__Myxococcales_bacterium__UniRef90_A0A2E7ZR97
+         |  |  |        +--|
+         |  |  |        |  |     +--CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2D4SQ06
+         |  |  |        |  |  +--|
+         |  |  |        |  |  |  +--CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2E7UR14
+         |  |  |        |  +--|
+         |  |  |        |     +----CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A938QS95
+         |  |  |     +--|
+         |  |  |     |  +------CYANO150__Chloroflexota__UniRef90_A0A4P5V1B0
+         |  |  |  +--|
+         |  |  |  |  |        +--CYANO150__Oligoflexia_bacterium__UniRef90_A0A923U6H7
+         |  |  |  |  |     +--|
+         |  |  |  |  |     |  +--CYANO150__Oligoflexia_bacterium__UniRef90_A0A924SSG2
+         |  |  |  |  |  +--|
+         |  |  |  |  |  |  +---CYANO150__Chloroflexota_bacterium__UniRef90_A0A3L7VYY9
+         |  |  |  |  +--|
+         |  |  |  |     |              +--CYANO150__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9
+         |  |  |  |     |           +--|
+         |  |  |  |     |           |  +-----CYANO150__Bacteria__UniRef90_A0A977XLG0
+         |  |  |  |     |        +--|
+         |  |  |  |     |        |  |  +--CYANO150__Salisaeta_longa__UniRef90_UPI0003B640DC
+         |  |  |  |     |        |  +--|
+         |  |  |  |     |        |     +---CYANO150__Longibacter_salinarum__UniRef90_A0A2A8D2B5
+         |  |  |  |     |     +--|
+         |  |  |  |     |     |  |  +-----CYANO150__Candidatus_Sericytochromatia_bacterium__UniRef90_A0A923XRS8
+         |  |  |  |     |     |  +--|
+         |  |  |  |     |     |     |     +--CYANO150__Halalkalibaculum_roseum__UniRef90_A0A6M1SYC8
+         |  |  |  |     |     |     |  +--|
+         |  |  |  |     |     |     |  |  +--CYANO150__Rhodohalobacter_sulfatireducens__UniRef90_UPI001EDA905F
+         |  |  |  |     |     |     +--|
+         |  |  |  |     |     |        |  +--CYANO150__Bacteroidota_bacterium__UniRef90_A0A2T4XL02
+         |  |  |  |     |     |        +--|
+         |  |  |  |     |     |           +--CYANO150__Balneolaceae__UniRef90_A0A2D8CE81
+         |  |  |  |     |  +--|
+         |  |  |  |     |  |  +---CYANO150__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6
+         |  |  |  |     +--|
+         |  |  |  |        +--------CYANO150__Calditrichota_bacterium__UniRef90_A0A958E829
+         |  |  +--|
+         |  |     |           +--CYANO150__Chloroflexota_bacterium__UniRef90_A0A6L9IXQ0
+         |  |     |        +--|
+         |  |     |        |  +--CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7L1S3
+         |  |     |     +--|
+         |  |     |     |  +----CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6P5N0
+         |  |     |  +--|
+         |  |     |  |  |  +---CYANO150__bacterium__UniRef90_A0A969PXR2
+         |  |     |  |  +--|
+         |  |     |  |     |  +---CYANO150__Anaerolineae_bacterium__UniRef90_A0A925E260
+         |  |     |  |     +--|
+         |  |     |  |        +--CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7K4U3
+         |  |     +--|
+         |  |        +-----CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6NY40
+         +--|
+            +-------CYANO150__Deinococcales_bacterium__UniRef90_A0A924RR09
+
+Tree in newick format:
+
+(CYANO150__Chamaesiphon_sp__UniRef90_UPI0035946169:0.1550584693,CYANO150__Chamaesiphon_sp__UniRef90_UPI003592F9D2:0.1671324876,((((CYANO150__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1:0.1159720446,CYANO150__Leptolyngbyaceae_cyanobacterium_JSC12__UniRef90_K8GTY7:0.1214434466):0.0551979367,CYANO150__Leptolyngbya_sp_LCM1Bin17__UniRef90_A0A6H2NHV9:0.1376013656):0.1229304757,(CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9:0.2738986835,((CYANO150__Halothece_sp__UniRef90_K9YEI2:0.2242259054,CYANO150__filamentous_cyanobacterium_CCP5__UniRef90_A0A2P8WHZ5:0.1644465861):0.0602241844,CYANO150__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9:0.1839691669):0.1018008584):0.0953129809):0.0656078489,((CYANO150__Deinococcus__UniRef90_A0A172TD44:0.2140476646,CYANO150__Deinococcus_sp__UniRef90_UPI0025F8D0E5:0.3372430353):0.0567256957,((((CYANO150__Allomeiothermus_silvanus__UniRef90_UPI0023F38943:0.0826588228,CYANO150__Thermaceae_bacterium__UniRef90_A0A931EK09:0.1222104744):0.1558180174,CYANO150__Meiothermus_sp_QL1__UniRef90_A0A370JXE9:0.3387533385):0.1509621152,((((((((((CYANO150__Sphingomonas_sp_SUN039__UniRef90_UPI00216411C4:0.0682390454,CYANO150__Novosphingobium_sp_Chol11__UniRef90_UPI0025FC40A3:0.1572693928):0.0262818340,CYANO150__Novosphingobium_sp__UniRef90_UPI00286A501F:0.1459108729):0.0715108903,((CYANO150__Polymorphobacter__UniRef90_UPI001C1E708F:0.1541769997,CYANO150__Sphingomonadaceae_bacterium__UniRef90_A0A924C2L6:0.1394274463):0.0783894022,(CYANO150__Sandarakinorhabdus__UniRef90_UPI00286D8C23:0.1067180598,CYANO150__Sphingomonadaceae__UniRef90_UPI001669FD14:0.1102598569):0.0387184568):0.0367224287):0.0259716145,CYANO150__Novosphingopyxis_baekryungensis__UniRef90_UPI0003B5F996:0.2066936776):0.0497210362,CYANO150__Sphingomonas_sp__UniRef90_UPI00286D4F82:0.0786601394):0.0440723122,((((CYANO150__Novosphingobium_sp__UniRef90_UPI00260007B9:0.1034400227,CYANO150__Sphingomonas_bacterium__UniRef90_UPI0015771C83:0.1344103179):0.0172197113,(CYANO150__uncultured_Sphingomonas_sp__UniRef90_UPI0035CA0ED2:0.1117280919,(CYANO150__Sphingomonas__UniRef90_A0A7W9BTJ3:0.1322528426,CYANO150__Sphingomonas_sp__UniRef90_UPI002ED986C3:0.0694389339):0.0292303320):0.0123260260):0.0436825791,CYANO150__Polymorphobacter_glacialis__UniRef90_A0A917A1R5:0.1396051737):0.0671017274,CYANO150__unclassified_Novosphingobium__UniRef90_UPI001CEFCFBB:0.1963435610):0.0331903012):0.1729445484,CYANO150__Wenzhouxiangella_sp__UniRef90_A0A5Q4GMP1:0.3325911170):0.0487250274,((CYANO150__unclassified_Variovorax__UniRef90_A0A7G8VYU8:0.0908139042,CYANO150__Ramlibacter_sp__UniRef90_A0A923XFD9:0.0698138434):0.0595448955,CYANO150__Rhodoferax_sp__UniRef90_A0A924NT25:0.1704327937):0.1485140293):0.1182935502,(((Br__Archaea__UR50_P02945:0.4090222053,Cyr__Haloquadratum__UR50_Q18DH5:0.5595270890):0.1439024164,((Br__Deinococcus__UR50_UPI00220D8E58:0.7646276243,(Cyhr__Gloeobacterales__UR50_A0A925XUD8:0.8545353532,(Cyhr__Rubrivirga__UniRef90_UPI0028C9517B:0.5284508014,Cyr__Leptolyngbya__UniRef90_UPI000B5A185C:0.5269610532):0.1855561523):0.1640701256):0.2038370684,Cyr__Halorutilus__UR50_A0A9Q4C3E6:0.7554347089):0.1143687930):0.7805588042,(Pr__Pseudomonadota__UR50_A0A5J6N178:0.6747940689,(Pr__Verrucomicrobiales__UR50_A0A2E2HQ20:0.2991435421,Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6:0.1986469156):0.1974864581):0.5676687093):0.3855678089):0.1093132712,CYANO150__Pyrinomonas_sp__UniRef90_UPI00333052B4:0.4078589076):0.1178874719):0.0306783537,((((CYANO150__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2:0.2755727834,((((CYANO150__Ilumatobacteraceae_bacterium__UniRef90_A0A973H857:0.0654635561,CYANO150__Actinomycetota_bacterium__UniRef90_A0A938J199:0.2057005169):0.0715733745,CYANO150__Ilumatobacter_sp__UniRef90_UPI0026349BF9:0.1169617053):0.0886816022,CYANO150__Actinotalea_ferrariae_CF54__UniRef90_A0A021VV84:0.2783108202):0.1144182591,CYANO150__Actinomycetota_bacterium__UniRef90_A0A965K6Y6:0.3812801278):0.1873077157):0.1014394668,((CYANO150__Gracilibacteria_bacterium__UniRef90_A0A968T6V2:0.2417320132,(CYANO150__unclassified_Roseiflexus__UniRef90_A5UXH7:0.1128419552,(CYANO150__Roseiflexaceae_bacterium__UniRef90_A0A926CB40:0.1055835866,((CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BAJ6:0.0826054472,(CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BQ30:0.1858284207,CYANO150__Armatimonadota_bacterium__UniRef90_A0A924Y846:0.1216073046):0.0737632243):0.0482140991,CYANO150__Armatimonadota_bacterium__UniRef90_A0A926AH54:0.2035606364):0.1299733426):0.0545779697):0.1013804183):0.2033640424,((((((CYANO150__Williamsia_sp_CHRR6__UniRef90_UPI001BDAAC7A:0.1615601297,(((CYANO150__Microbacteriaceae_bacterium__UniRef90_A0A924CUM7:0.1453009834,CYANO150__Clavibacter_michiganensis__UniRef90_UPI0026DDB336:0.1379061706):0.0531010336,CYANO150__Marisediminicola__UniRef90_A0A7L5AK79:0.1348006571):0.1403071987,CYANO150__Cryobacterium__UniRef90_A0A7W8ZXB5:0.1091314172):0.0900466168):0.1106671010,CYANO150__Aquipuribacter_nitratireducens__UniRef90_UPI0030EFA4BC:0.2614618074):0.0796089797,(((CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NNI9:0.1305839288,CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NQ99:0.1985377697):0.0782764249,CYANO150__Rhodococcus_antarcticus__UniRef90_UPI00223C9C6A:0.1164608249):0.0894357054,CYANO150__Goekera_deserti__UniRef90_A0A7K3WHF5:0.3169664628):0.1226246174):0.0850781030,(CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0P1B6:0.1423399332,CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0KLA6:0.1098219445):0.1086233018):0.0539979416,(CYANO150__Actinomycetes_bacterium__UniRef90_A0A3C1P5D0:0.1573573446,CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2:0.1318771569):0.1666440027):0.2060755354,CYANO150__Euzebya_tangerina__UniRef90_UPI00196AFC51:0.4185986600):0.1139206367):0.0141521168):0.0447498736,((((CYANO150__Myxococcales_bacterium__UniRef90_A0A2E7ZR97:0.2395442224,((CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2D4SQ06:0.1963142659,CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2E7UR14:0.1615879081):0.0305679657,CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A938QS95:0.2723850615):0.0524639707):0.0678397622,CYANO150__Chloroflexota__UniRef90_A0A4P5V1B0:0.4071767158):0.0631262631,(((CYANO150__Oligoflexia_bacterium__UniRef90_A0A923U6H7:0.1200578267,CYANO150__Oligoflexia_bacterium__UniRef90_A0A924SSG2:0.1006742549):0.1581566778,CYANO150__Chloroflexota_bacterium__UniRef90_A0A3L7VYY9:0.2552657438):0.1052565321,(((((CYANO150__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9:0.1447783496,CYANO150__Bacteria__UniRef90_A0A977XLG0:0.3414152975):0.0505831130,(CYANO150__Salisaeta_longa__UniRef90_UPI0003B640DC:0.1521145812,CYANO150__Longibacter_salinarum__UniRef90_A0A2A8D2B5:0.2127533845):0.2031538993):0.0666836030,(CYANO150__Candidatus_Sericytochromatia_bacterium__UniRef90_A0A923XRS8:0.3220575806,((CYANO150__Halalkalibaculum_roseum__UniRef90_A0A6M1SYC8:0.1085533471,CYANO150__Rhodohalobacter_sulfatireducens__UniRef90_UPI001EDA905F:0.1018894111):0.0961343910,(CYANO150__Bacteroidota_bacterium__UniRef90_A0A2T4XL02:0.1586303207,CYANO150__Balneolaceae__UniRef90_A0A2D8CE81:0.1099837812):0.0843766089):0.0897417349):0.0829079644):0.0195598187,CYANO150__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6:0.2497362264):0.0600109090,CYANO150__Calditrichota_bacterium__UniRef90_A0A958E829:0.4852776166):0.0420482532):0.0141411086):0.0582272320,((((CYANO150__Chloroflexota_bacterium__UniRef90_A0A6L9IXQ0:0.1988247991,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7L1S3:0.1428226768):0.0491054586,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6P5N0:0.2720549216):0.0377922567,(CYANO150__bacterium__UniRef90_A0A969PXR2:0.2181446560,(CYANO150__Anaerolineae_bacterium__UniRef90_A0A925E260:0.2338081693,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7K4U3:0.2066805460):0.0763583339):0.0417416851):0.1091263189,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6NY40:0.3326280128):0.1227413060):0.0727874738):0.0452540092,CYANO150__Deinococcales_bacterium__UniRef90_A0A924RR09:0.4210583766):0.0551241758):0.0997299363):0.1036751282):0.1703758887);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t synthesis_targets_ALN.fasta.treefile -m "JTT" --length 519
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s synthesis_targets_ALN.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s synthesis_targets_ALN.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Jul 29 12:15:39 2025
+Total CPU time used: 302.011 seconds (0h:5m:2s)
+Total wall-clock time used: 302.679 seconds (0h:5m:2s)
+
