@@ -1,0 +1,202 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=100;
+	taxlabels
+	Br__Archaea__UR50_P02945
+	Br__Deinococcus__UR50_UPI00220D8E58
+	CYANO150__Actinomycetes_bacterium__UniRef90_A0A3C1P5D0
+	CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0KLA6
+	CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0P1B6
+	CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2
+	CYANO150__Actinomycetota_bacterium__UniRef90_A0A938J199
+	CYANO150__Actinomycetota_bacterium__UniRef90_A0A965K6Y6
+	CYANO150__Actinotalea_ferrariae_CF54__UniRef90_A0A021VV84
+	CYANO150__Allomeiothermus_silvanus__UniRef90_UPI0023F38943
+	CYANO150__Anaerolineae_bacterium__UniRef90_A0A925E260
+	CYANO150__Aquipuribacter_nitratireducens__UniRef90_UPI0030EFA4BC
+	CYANO150__Armatimonadota_bacterium__UniRef90_A0A924Y846
+	CYANO150__Armatimonadota_bacterium__UniRef90_A0A926AH54
+	CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BAJ6
+	CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BQ30
+	CYANO150__Bacteria__UniRef90_A0A977XLG0
+	CYANO150__Bacteroidota_bacterium__UniRef90_A0A2T4XL02
+	CYANO150__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9
+	CYANO150__Balneolaceae__UniRef90_A0A2D8CE81
+	CYANO150__Calditrichota_bacterium__UniRef90_A0A958E829
+	CYANO150__Candidatus_Sericytochromatia_bacterium__UniRef90_A0A923XRS8
+	CYANO150__Chamaesiphon_sp__UniRef90_UPI003592F9D2
+	CYANO150__Chamaesiphon_sp__UniRef90_UPI0035946169
+	CYANO150__Chloroflexota__UniRef90_A0A4P5V1B0
+	CYANO150__Chloroflexota_bacterium__UniRef90_A0A3L7VYY9
+	CYANO150__Chloroflexota_bacterium__UniRef90_A0A6L9IXQ0
+	CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6NY40
+	CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6P5N0
+	CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7K4U3
+	CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7L1S3
+	CYANO150__Clavibacter_michiganensis__UniRef90_UPI0026DDB336
+	CYANO150__Cryobacterium__UniRef90_A0A7W8ZXB5
+	CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9
+	CYANO150__Deinococcales_bacterium__UniRef90_A0A924RR09
+	CYANO150__Deinococcus__UniRef90_A0A172TD44
+	CYANO150__Deinococcus_sp__UniRef90_UPI0025F8D0E5
+	CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2D4SQ06
+	CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2E7UR14
+	CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A938QS95
+	CYANO150__Euzebya_tangerina__UniRef90_UPI00196AFC51
+	CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NNI9
+	CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NQ99
+	CYANO150__Goekera_deserti__UniRef90_A0A7K3WHF5
+	CYANO150__Gracilibacteria_bacterium__UniRef90_A0A968T6V2
+	CYANO150__Halalkalibaculum_roseum__UniRef90_A0A6M1SYC8
+	CYANO150__Halothece_sp__UniRef90_K9YEI2
+	CYANO150__Ilumatobacter_sp__UniRef90_UPI0026349BF9
+	CYANO150__Ilumatobacteraceae_bacterium__UniRef90_A0A973H857
+	CYANO150__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1
+	CYANO150__Leptolyngbya_sp_LCM1Bin17__UniRef90_A0A6H2NHV9
+	CYANO150__Leptolyngbyaceae_cyanobacterium_JSC12__UniRef90_K8GTY7
+	CYANO150__Longibacter_salinarum__UniRef90_A0A2A8D2B5
+	CYANO150__Marisediminicola__UniRef90_A0A7L5AK79
+	CYANO150__Meiothermus_sp_QL1__UniRef90_A0A370JXE9
+	CYANO150__Microbacteriaceae_bacterium__UniRef90_A0A924CUM7
+	CYANO150__Myxococcales_bacterium__UniRef90_A0A2E7ZR97
+	CYANO150__Novosphingobium_sp_Chol11__UniRef90_UPI0025FC40A3
+	CYANO150__Novosphingobium_sp__UniRef90_UPI00260007B9
+	CYANO150__Novosphingobium_sp__UniRef90_UPI00286A501F
+	CYANO150__Novosphingopyxis_baekryungensis__UniRef90_UPI0003B5F996
+	CYANO150__Oligoflexia_bacterium__UniRef90_A0A923U6H7
+	CYANO150__Oligoflexia_bacterium__UniRef90_A0A924SSG2
+	CYANO150__Polymorphobacter__UniRef90_UPI001C1E708F
+	CYANO150__Polymorphobacter_glacialis__UniRef90_A0A917A1R5
+	CYANO150__Pyrinomonas_sp__UniRef90_UPI00333052B4
+	CYANO150__Ramlibacter_sp__UniRef90_A0A923XFD9
+	CYANO150__Rhodococcus_antarcticus__UniRef90_UPI00223C9C6A
+	CYANO150__Rhodoferax_sp__UniRef90_A0A924NT25
+	CYANO150__Rhodohalobacter_sulfatireducens__UniRef90_UPI001EDA905F
+	CYANO150__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6
+	CYANO150__Roseiflexaceae_bacterium__UniRef90_A0A926CB40
+	CYANO150__Salisaeta_longa__UniRef90_UPI0003B640DC
+	CYANO150__Sandarakinorhabdus__UniRef90_UPI00286D8C23
+	CYANO150__Sphingomonadaceae__UniRef90_UPI001669FD14
+	CYANO150__Sphingomonadaceae_bacterium__UniRef90_A0A924C2L6
+	CYANO150__Sphingomonas__UniRef90_A0A7W9BTJ3
+	CYANO150__Sphingomonas_bacterium__UniRef90_UPI0015771C83
+	CYANO150__Sphingomonas_sp_SUN039__UniRef90_UPI00216411C4
+	CYANO150__Sphingomonas_sp__UniRef90_UPI00286D4F82
+	CYANO150__Sphingomonas_sp__UniRef90_UPI002ED986C3
+	CYANO150__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9
+	CYANO150__Thermaceae_bacterium__UniRef90_A0A931EK09
+	CYANO150__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2
+	CYANO150__Wenzhouxiangella_sp__UniRef90_A0A5Q4GMP1
+	CYANO150__Williamsia_sp_CHRR6__UniRef90_UPI001BDAAC7A
+	CYANO150__bacterium__UniRef90_A0A969PXR2
+	CYANO150__filamentous_cyanobacterium_CCP5__UniRef90_A0A2P8WHZ5
+	CYANO150__unclassified_Novosphingobium__UniRef90_UPI001CEFCFBB
+	CYANO150__unclassified_Roseiflexus__UniRef90_A5UXH7
+	CYANO150__unclassified_Variovorax__UniRef90_A0A7G8VYU8
+	CYANO150__uncultured_Sphingomonas_sp__UniRef90_UPI0035CA0ED2
+	Cyhr__Gloeobacterales__UR50_A0A925XUD8
+	Cyhr__Rubrivirga__UniRef90_UPI0028C9517B
+	Cyr__Haloquadratum__UR50_Q18DH5
+	Cyr__Halorutilus__UR50_A0A9Q4C3E6
+	Cyr__Leptolyngbya__UniRef90_UPI000B5A185C
+	Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6
+	Pr__Pseudomonadota__UR50_A0A5J6N178
+	Pr__Verrucomicrobiales__UR50_A0A2E2HQ20
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (CYANO150__Chamaesiphon_sp__UniRef90_UPI0035946169[&!color=#ff0000]:0.155058,CYANO150__Chamaesiphon_sp__UniRef90_UPI003592F9D2[&!color=#ff0000]:0.167132,((((CYANO150__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1[&!color=#ff0000]:0.115972,CYANO150__Leptolyngbyaceae_cyanobacterium_JSC12__UniRef90_K8GTY7[&!color=#ff0000]:0.121443)[&!color=#ff0000]:0.055198,CYANO150__Leptolyngbya_sp_LCM1Bin17__UniRef90_A0A6H2NHV9[&!color=#ff0000]:0.137601)[&!color=#ff0000]:0.12293,(CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9[&!color=#ff0000]:0.273899,((CYANO150__Halothece_sp__UniRef90_K9YEI2[&!color=#ff0000]:0.224226,CYANO150__filamentous_cyanobacterium_CCP5__UniRef90_A0A2P8WHZ5[&!color=#ff0000]:0.164447)[&!color=#ff0000]:0.060224,CYANO150__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9[&!color=#ff0000]:0.183969)[&!color=#ff0000]:0.101801)[&!color=#ff0000]:0.095313)[&!color=#ff0000]:0.065608,((CYANO150__Deinococcus__UniRef90_A0A172TD44[&!color=#ff0000]:0.214048,CYANO150__Deinococcus_sp__UniRef90_UPI0025F8D0E5[&!color=#ff0000]:0.337243)[&!color=#ff0000]:0.056726,((((CYANO150__Allomeiothermus_silvanus__UniRef90_UPI0023F38943[&!color=#ff0000]:0.082659,CYANO150__Thermaceae_bacterium__UniRef90_A0A931EK09[&!color=#ff0000]:0.12221)[&!color=#ff0000]:0.155818,CYANO150__Meiothermus_sp_QL1__UniRef90_A0A370JXE9[&!color=#ff0000]:0.338753)[&!color=#ff0000]:0.150962,((((((((((CYANO150__Sphingomonas_sp_SUN039__UniRef90_UPI00216411C4[&!color=#ff0000]:0.068239,CYANO150__Novosphingobium_sp_Chol11__UniRef90_UPI0025FC40A3[&!color=#ff0000]:0.157269)[&!color=#ff0000]:0.026282,CYANO150__Novosphingobium_sp__UniRef90_UPI00286A501F[&!color=#ff0000]:0.145911)[&!color=#ff0000]:0.071511,((CYANO150__Polymorphobacter__UniRef90_UPI001C1E708F[&!color=#ff0000]:0.154177,CYANO150__Sphingomonadaceae_bacterium__UniRef90_A0A924C2L6[&!color=#ff0000]:0.139427)[&!color=#ff0000]:0.078389,(CYANO150__Sandarakinorhabdus__UniRef90_UPI00286D8C23[&!color=#ff0000]:0.106718,CYANO150__Sphingomonadaceae__UniRef90_UPI001669FD14[&!color=#ff0000]:0.11026)[&!color=#ff0000]:0.038718)[&!color=#ff0000]:0.036722)[&!color=#ff0000]:0.025972,CYANO150__Novosphingopyxis_baekryungensis__UniRef90_UPI0003B5F996[&!color=#ff0000]:0.206694)[&!color=#ff0000]:0.049721,CYANO150__Sphingomonas_sp__UniRef90_UPI00286D4F82[&!color=#ff0000]:0.07866)[&!color=#ff0000]:0.044072,((((CYANO150__Novosphingobium_sp__UniRef90_UPI00260007B9[&!color=#ff0000]:0.10344,CYANO150__Sphingomonas_bacterium__UniRef90_UPI0015771C83[&!color=#ff0000]:0.13441)[&!color=#ff0000]:0.01722,(CYANO150__uncultured_Sphingomonas_sp__UniRef90_UPI0035CA0ED2[&!color=#ff0000]:0.111728,(CYANO150__Sphingomonas__UniRef90_A0A7W9BTJ3[&!color=#ff0000]:0.132253,CYANO150__Sphingomonas_sp__UniRef90_UPI002ED986C3[&!color=#ff0000]:0.069439)[&!color=#ff0000]:0.02923)[&!color=#ff0000]:0.012326)[&!color=#ff0000]:0.043683,CYANO150__Polymorphobacter_glacialis__UniRef90_A0A917A1R5[&!color=#ff0000]:0.139605)[&!color=#ff0000]:0.067102,CYANO150__unclassified_Novosphingobium__UniRef90_UPI001CEFCFBB[&!color=#ff0000]:0.196344)[&!color=#ff0000]:0.03319)[&!color=#ff0000]:0.172945,CYANO150__Wenzhouxiangella_sp__UniRef90_A0A5Q4GMP1[&!color=#ff0000]:0.332591)[&!color=#ff0000]:0.048725,((CYANO150__unclassified_Variovorax__UniRef90_A0A7G8VYU8[&!color=#ff0000]:0.090814,CYANO150__Ramlibacter_sp__UniRef90_A0A923XFD9[&!color=#ff0000]:0.069814)[&!color=#ff0000]:0.059545,CYANO150__Rhodoferax_sp__UniRef90_A0A924NT25[&!color=#ff0000]:0.170433)[&!color=#ff0000]:0.148514)[&!color=#ff0000]:0.118294,(((Br__Archaea__UR50_P02945[&!color=#ff8000]:0.409022,Cyr__Haloquadratum__UR50_Q18DH5[&!color=#0000ff]:0.559527):0.143902,((Br__Deinococcus__UR50_UPI00220D8E58[&!color=#ff8000]:0.764628,(Cyhr__Gloeobacterales__UR50_A0A925XUD8[&!color=#ff8000]:0.854535,(Cyhr__Rubrivirga__UniRef90_UPI0028C9517B[&!color=#ff8000]:0.528451,Cyr__Leptolyngbya__UniRef90_UPI000B5A185C[&!color=#ff8000]:0.526961)[&!color=#ff8000]:0.185556)[&!color=#ff8000]:0.16407)[&!hilight={4,2.220446049250313E-16,#ffffff},!color=#ff8000]:0.203837,Cyr__Halorutilus__UR50_A0A9Q4C3E6[&!color=#0000ff]:0.755435):0.114369):0.780559,(Pr__Pseudomonadota__UR50_A0A5J6N178[&!color=#0000ff]:0.674794,(Pr__Verrucomicrobiales__UR50_A0A2E2HQ20[&!color=#0000ff]:0.299144,Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6[&!color=#0000ff]:0.198647)[&!color=#0000ff]:0.197486)[&!color=#0000ff]:0.567669)[&!color=#ff0000]:0.385568)[&!color=#ff0000]:0.109313,CYANO150__Pyrinomonas_sp__UniRef90_UPI00333052B4[&!color=#ff0000]:0.407859)[&!color=#ff0000]:0.117887)[&!color=#ff0000]:0.030678,((((CYANO150__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2[&!color=#ff0000]:0.275573,((((CYANO150__Ilumatobacteraceae_bacterium__UniRef90_A0A973H857[&!color=#ff0000]:0.065464,CYANO150__Actinomycetota_bacterium__UniRef90_A0A938J199[&!color=#ff0000]:0.205701)[&!color=#ff0000]:0.071573,CYANO150__Ilumatobacter_sp__UniRef90_UPI0026349BF9[&!color=#ff0000]:0.116962)[&!color=#ff0000]:0.088682,CYANO150__Actinotalea_ferrariae_CF54__UniRef90_A0A021VV84[&!color=#ff0000]:0.278311)[&!color=#ff0000]:0.114418,CYANO150__Actinomycetota_bacterium__UniRef90_A0A965K6Y6[&!color=#ff0000]:0.38128)[&!color=#ff0000]:0.187308)[&!color=#ff0000]:0.101439,((CYANO150__Gracilibacteria_bacterium__UniRef90_A0A968T6V2[&!color=#ff0000]:0.241732,(CYANO150__unclassified_Roseiflexus__UniRef90_A5UXH7[&!color=#ff0000]:0.112842,(CYANO150__Roseiflexaceae_bacterium__UniRef90_A0A926CB40[&!color=#ff0000]:0.105584,((CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BAJ6[&!color=#ff0000]:0.082605,(CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BQ30[&!color=#ff0000]:0.185828,CYANO150__Armatimonadota_bacterium__UniRef90_A0A924Y846[&!color=#ff0000]:0.121607)[&!color=#ff0000]:0.073763)[&!color=#ff0000]:0.048214,CYANO150__Armatimonadota_bacterium__UniRef90_A0A926AH54[&!color=#ff0000]:0.203561)[&!color=#ff0000]:0.129973)[&!color=#ff0000]:0.054578)[&!color=#ff0000]:0.10138)[&!color=#ff0000]:0.203364,((((((CYANO150__Williamsia_sp_CHRR6__UniRef90_UPI001BDAAC7A[&!color=#ff0000]:0.16156,(((CYANO150__Microbacteriaceae_bacterium__UniRef90_A0A924CUM7[&!color=#ff0000]:0.145301,CYANO150__Clavibacter_michiganensis__UniRef90_UPI0026DDB336[&!color=#ff0000]:0.137906)[&!color=#ff0000]:0.053101,CYANO150__Marisediminicola__UniRef90_A0A7L5AK79[&!color=#ff0000]:0.134801)[&!color=#ff0000]:0.140307,CYANO150__Cryobacterium__UniRef90_A0A7W8ZXB5[&!color=#ff0000]:0.109131)[&!color=#ff0000]:0.090047)[&!color=#ff0000]:0.110667,CYANO150__Aquipuribacter_nitratireducens__UniRef90_UPI0030EFA4BC[&!color=#ff0000]:0.261462)[&!color=#ff0000]:0.079609,(((CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NNI9[&!color=#ff0000]:0.130584,CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NQ99[&!color=#ff0000]:0.198538)[&!color=#ff0000]:0.078276,CYANO150__Rhodococcus_antarcticus__UniRef90_UPI00223C9C6A[&!color=#ff0000]:0.116461)[&!color=#ff0000]:0.089436,CYANO150__Goekera_deserti__UniRef90_A0A7K3WHF5[&!color=#ff0000]:0.316966)[&!color=#ff0000]:0.122625)[&!color=#ff0000]:0.085078,(CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0P1B6[&!color=#ff0000]:0.14234,CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0KLA6[&!color=#ff0000]:0.109822)[&!color=#ff0000]:0.108623)[&!color=#ff0000]:0.053998,(CYANO150__Actinomycetes_bacterium__UniRef90_A0A3C1P5D0[&!color=#ff0000]:0.157357,CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2[&!color=#ff0000]:0.131877)[&!color=#ff0000]:0.166644)[&!color=#ff0000]:0.206076,CYANO150__Euzebya_tangerina__UniRef90_UPI00196AFC51[&!color=#ff0000]:0.418599)[&!color=#ff0000]:0.113921)[&!color=#ff0000]:0.014152)[&!color=#ff0000]:0.04475,((((CYANO150__Myxococcales_bacterium__UniRef90_A0A2E7ZR97[&!color=#ff0000]:0.239544,((CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2D4SQ06[&!color=#ff0000]:0.196314,CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2E7UR14[&!color=#ff0000]:0.161588)[&!color=#ff0000]:0.030568,CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A938QS95[&!color=#ff0000]:0.272385)[&!color=#ff0000]:0.052464)[&!color=#ff0000]:0.06784,CYANO150__Chloroflexota__UniRef90_A0A4P5V1B0[&!color=#ff0000]:0.407177)[&!color=#ff0000]:0.063126,(((CYANO150__Oligoflexia_bacterium__UniRef90_A0A923U6H7[&!color=#ff0000]:0.120058,CYANO150__Oligoflexia_bacterium__UniRef90_A0A924SSG2[&!color=#ff0000]:0.100674)[&!color=#ff0000]:0.158157,CYANO150__Chloroflexota_bacterium__UniRef90_A0A3L7VYY9[&!color=#ff0000]:0.255266)[&!color=#ff0000]:0.105257,(((((CYANO150__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9[&!color=#ff0000]:0.144778,CYANO150__Bacteria__UniRef90_A0A977XLG0[&!color=#ff0000]:0.341415)[&!color=#ff0000]:0.050583,(CYANO150__Salisaeta_longa__UniRef90_UPI0003B640DC[&!color=#ff0000]:0.152115,CYANO150__Longibacter_salinarum__UniRef90_A0A2A8D2B5[&!color=#ff0000]:0.212753)[&!color=#ff0000]:0.203154)[&!color=#ff0000]:0.066684,(CYANO150__Candidatus_Sericytochromatia_bacterium__UniRef90_A0A923XRS8[&!color=#ff0000]:0.322058,((CYANO150__Halalkalibaculum_roseum__UniRef90_A0A6M1SYC8[&!color=#ff0000]:0.108553,CYANO150__Rhodohalobacter_sulfatireducens__UniRef90_UPI001EDA905F[&!color=#ff0000]:0.101889)[&!color=#ff0000]:0.096134,(CYANO150__Bacteroidota_bacterium__UniRef90_A0A2T4XL02[&!color=#ff0000]:0.15863,CYANO150__Balneolaceae__UniRef90_A0A2D8CE81[&!color=#ff0000]:0.109984)[&!color=#ff0000]:0.084377)[&!color=#ff0000]:0.089742)[&!color=#ff0000]:0.082908)[&!color=#ff0000]:0.01956,CYANO150__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6[&!color=#ff0000]:0.249736)[&!color=#ff0000]:0.060011,CYANO150__Calditrichota_bacterium__UniRef90_A0A958E829[&!color=#ff0000]:0.485278)[&!color=#ff0000]:0.042048)[&!color=#ff0000]:0.014141)[&!color=#ff0000]:0.058227,((((CYANO150__Chloroflexota_bacterium__UniRef90_A0A6L9IXQ0[&!color=#ff0000]:0.198825,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7L1S3[&!color=#ff0000]:0.142823)[&!color=#ff0000]:0.049105,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6P5N0[&!color=#ff0000]:0.272055)[&!color=#ff0000]:0.037792,(CYANO150__bacterium__UniRef90_A0A969PXR2[&!color=#ff0000]:0.218145,(CYANO150__Anaerolineae_bacterium__UniRef90_A0A925E260[&!color=#ff0000]:0.233808,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7K4U3[&!color=#ff0000]:0.206681)[&!color=#ff0000]:0.076358)[&!color=#ff0000]:0.041742)[&!color=#ff0000]:0.109126,CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6NY40[&!color=#ff0000]:0.332628)[&!color=#ff0000]:0.122741)[&!color=#ff0000]:0.072787)[&!color=#ff0000]:0.045254,CYANO150__Deinococcales_bacterium__UniRef90_A0A924RR09[&!color=#ff0000]:0.421058)[&!color=#ff0000]:0.055124)[&!color=#ff0000]:0.09973)[&!color=#ff0000]:0.103675)[&!color=#ff0000]:0.170376);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
