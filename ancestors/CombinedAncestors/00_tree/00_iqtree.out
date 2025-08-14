@@ -1,0 +1,1455 @@
+IQ-TREE multicore version 2.3.6 for MacOS Intel 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    eemb-micro-room.eemb.ucsb.edu (AVX2, FMA3, 64 GB RAM)
+Command: iqtree -s CombinedAncestors/00_tree/combined.ALN.fa -st AA -T 4 -m MFP -B 1000
+Seed:    40225 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 13 10:51:28 2025
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file CombinedAncestors/00_tree/combined.ALN.fa ... Fasta format detected
+Reading fasta file: done in 0.0465541 secs using 90.44% CPU
+Alignment most likely contains protein sequences
+Alignment has 829 sequences with 2647 columns, 1635 distinct patterns
+779 parsimony-informative, 565 singleton sites, 1303 constant sites
+                                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00164604 secs using 366% CPU
+   1  CYANO150__Gloeobacter__UniRef90_Q7NP59                    88.74%    failed      0.02%
+   2  CYANO150__Cyanobacteria__UniRef90_A0A969T0G4              88.70%    failed      0.16%
+   3  CYANO150__Cyanophyceae__UniRef90_A0A2W7ARY7               88.78%    failed      0.47%
+   4  CYANO150__unclassified__UniRef90_A0A969FEC7               88.78%    failed      0.00%
+   5  CYANO150__Leptolyngbya__UniRef90_A0A925M2S9               88.78%    failed      0.05%
+   6  CYANO150__Phormidesmis__UniRef90_UPI000A475A3D            88.74%    failed      0.11%
+   7  CYANO150__Chamaesiphon__UniRef90_UPI0035946169            86.14%    failed      0.00%
+   8  CYANO150__Chamaesiphon__UniRef90_UPI003592F9D2            88.52%    failed      0.35%
+   9  CYANO150__Chamaesiphon__UniRef90_UPI0035935AE6            90.59%    passed      8.99%
+  10  CYANO150__Leptolyngbya__UniRef90_U9W0I1                   89.35%    failed      0.01%
+  11  CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9               89.84%    failed      0.07%
+  12  CYANO150__Halomicronema__UniRef90_UPI0021030F7B           89.38%    failed      4.06%
+  13  CYANO150__Cyanophyceae__UniRef90_A0A4Q7E4T5               89.38%    failed      0.68%
+  14  CYANO150__Leptolyngbyaceae__UniRef90_K8GTY7               90.10%    failed      0.04%
+  15  CYANO150__Halothece__UniRef90_K9YEI2                      89.38%    failed      0.63%
+  16  CYANO150__Leptolyngbya__UniRef90_A0A6H2NHV9               89.57%    failed      1.23%
+  17  CYANO150__Symploca__UniRef90_A0A845YHD9                   89.99%    failed      0.42%
+  18  CYANO150__Deinococcus__UniRef90_A0A172TD44                89.23%    failed      0.00%
+  19  CYANO150__Deinococcus__UniRef90_A0A918CFF3                88.93%    failed      0.12%
+  20  CYANO150__Deinococcus__UniRef90_A0A917PC33                88.86%    failed      0.29%
+  21  CYANO150__Deinococcus__UniRef90_UPI0025F8D0E5             90.22%    failed      1.60%
+  22  CYANO150__Allomeiothermus__UniRef90_UPI0023F38943         90.25%    failed      0.19%
+  23  CYANO150__Bdellovibrio__UniRef90_A0A924B300               90.44%    failed      4.59%
+  24  CYANO150__Trueperaceae__UniRef90_A0A5Q4G3V2               90.03%    failed      0.02%
+  25  CYANO150__Myxococcales__UniRef90_A0A2E7ZR97               90.14%    failed      2.01%
+  26  CYANO150__Thermaceae__UniRef90_A0A931EK09                 90.10%    failed      0.09%
+  27  CYANO150__Oligoflexia__UniRef90_A0A923U6H7                90.37%    failed      4.66%
+  28  CYANO150__Deinococcus__UniRef90_UPI002869BBA0             88.70%    failed      0.03%
+  29  CYANO150__Bacteroidota__UniRef90_A0A3M2FMH9               90.18%    failed      4.27%
+  30  CYANO150__Rhodothermales__UniRef90_A0A9D8YSH6             90.14%    failed      1.04%
+  31  CYANO150__Pseudobdellovibrionaceae__UniRef90_A0A924ZXQ0   90.44%    passed     17.28%
+  32  CYANO150__Deinococcus__UniRef90_A0A2K3UTP4                89.23%    failed      0.16%
+  33  CYANO150__Deinococcus__UniRef90_UPI0031F05F27             88.70%    failed      0.18%
+  34  CYANO150__Bdellovibrio__UniRef90_A0A923V7B8               90.44%    passed     13.27%
+  35  CYANO150__filamentous__UniRef90_A0A2P8WHZ5                91.69%    failed      1.53%
+  36  CYANO150__Gracilibacteria__UniRef90_A0A968T6V2            89.27%    failed      0.00%
+  37  CYANO150__Deinococcus__UniRef90_UPI001C63F925             91.16%    failed      0.56%
+  38  CYANO150__Deltaproteobacteria__UniRef90_A0A2D4SQ06        90.10%    passed      9.02%
+  39  CYANO150__Deinococcus__UniRef90_A0A1U7NV99                88.48%    failed      0.71%
+  40  CYANO150__unclassified__UniRef90_A5UXH7                   90.22%    failed      0.08%
+  41  CYANO150__Oligoflexia__UniRef90_A0A924SSG2                90.33%    failed      2.17%
+  42  CYANO150__unclassified__UniRef90_UPI001E3E6221            88.70%    failed      0.77%
+  43  CYANO150__Deltaproteobacteria__UniRef90_A0A2E7UR14        90.10%    failed      1.49%
+  44  CYANO150__Roseiflexaceae__UniRef90_A0A926CB40             90.22%    failed      0.02%
+  45  CYANO150__Candidatus__UniRef90_A0A923XRS8                 90.29%    passed     14.04%
+  46  CYANO150__Chloroflexota__UniRef90_A0A6L9IXQ0              90.03%    failed      0.12%
+  47  CYANO150__Chloroflexota__UniRef90_A0A8T7L1S3              89.80%    failed      0.00%
+  48  CYANO150__Meiothermus__UniRef90_UPI0005667CA7             89.84%    failed      0.51%
+  49  CYANO150__Meiothermus__UniRef90_A0A370JXE9                89.80%    failed      0.07%
+  50  CYANO150__Salisaeta__UniRef90_UPI0003B640DC               89.95%    failed      1.82%
+  51  CYANO150__Meiothermus__UniRef90_UPI000408B316             89.84%    failed      0.07%
+  52  CYANO150__Williamsia__UniRef90_UPI001BDAAC7A              89.72%    failed      2.11%
+  53  CYANO150__Deinococcales__UniRef90_A0A924RR09              89.12%    failed      0.17%
+  54  CYANO150__Frankiaceae__UniRef90_A0A924NNI9                89.80%    passed      6.54%
+  55  CYANO150__Ilumatobacteraceae__UniRef90_A0A973H857         89.76%    failed      0.88%
+  56  CYANO150__Meiothermus__UniRef90_UPI00307DDE32             89.84%    failed      0.29%
+  57  CYANO150__Frankiaceae__UniRef90_A0A924NQ99                89.61%    passed      9.22%
+  58  CYANO150__Armatimonadota__UniRef90_A0A926BAJ6             89.95%    failed      3.37%
+  59  CYANO150__Actinomycetes__UniRef90_A0A3C1P5D0              89.54%    failed      1.86%
+  60  CYANO150__Actinotalea__UniRef90_A0A021VV84                89.50%    failed      0.12%
+  61  CYANO150__Halalkalibaculum__UniRef90_A0A6M1SYC8           90.18%    failed      3.10%
+  62  CYANO150__Calditrichota__UniRef90_A0A958E829              89.61%    failed      1.94%
+  63  CYANO150__Bacteria__UniRef90_A0A977XLG0                   90.33%    failed      0.29%
+  64  CYANO150__Armatimonadota__UniRef90_A0A926BQ30             89.46%    failed      2.38%
+  65  CYANO150__Nocardioides__UniRef90_UPI0031D37B4F            89.57%    failed      1.05%
+  66  CYANO150__Williamsia__UniRef90_UPI0020A3348B              89.76%    failed      2.40%
+  67  CYANO150__uncultured__UniRef90_UPI0035CB696C              89.31%    failed      0.01%
+  68  CYANO150__Deltaproteobacteria__UniRef90_A0A938QS95        90.29%    failed      0.03%
+  69  CYANO150__Actinomycetes__UniRef90_A0A7K0P1B6              89.69%    failed      1.37%
+  70  CYANO150__Longibacter__UniRef90_A0A2A8D2B5                89.69%    failed      2.60%
+  71  CYANO150__Microbacteriaceae__UniRef90_A0A924CUM7          89.08%    failed      0.67%
+  72  CYANO150__bacterium__UniRef90_A0A969PXR2                  90.18%    failed      0.61%
+  73  CYANO150__Mycolicibacterium__UniRef90_UPI001A280E7A       89.31%    failed      0.03%
+  74  CYANO150__Anaerolineae__UniRef90_A0A925E260               89.95%    failed      3.25%
+  75  CYANO150__Sphingomonas__UniRef90_UPI00216411C4            90.40%    passed      8.71%
+  76  CYANO150__Aeromicrobium__UniRef90_A0A924GH09              89.88%    failed      0.17%
+  77  CYANO150__Sphingomonadales__UniRef90_A0A502FTC3           90.37%    failed      0.41%
+  78  CYANO150__Chloroflexota__UniRef90_A0A3L7VYY9              90.33%    failed      3.02%
+  79  CYANO150__unclassified__UniRef90_A0A7G8VYU8               90.56%    failed      0.52%
+  80  CYANO150__Nocardioides__UniRef90_A0A0Q9PU23               89.69%    failed      0.00%
+  81  CYANO150__Sphingomonadales__UniRef90_A0A426RPW8           90.44%    passed     15.72%
+  82  CYANO150__Marisediminicola__UniRef90_A0A7L5AK79           89.65%    failed      0.14%
+  83  CYANO150__Williamsia__UniRef90_UPI0016668F42              89.50%    failed      4.35%
+  84  CYANO150__Ramlibacter__UniRef90_A0A923XFD9                90.56%    failed      0.94%
+  85  CYANO150__Nocardioides__UniRef90_A0A0S9QCK3               89.35%    failed      0.00%
+  86  CYANO150__Armatimonadota__UniRef90_A0A924Y846             89.72%    passed     10.96%
+  87  CYANO150__Rhodococcus__UniRef90_UPI00223C9C6A             89.61%    failed      4.58%
+  88  CYANO150__Goekera__UniRef90_A0A7K3WHF5                    88.33%    failed      0.12%
+  89  CYANO150__Armatimonadota__UniRef90_A0A926AH54             89.88%    failed      0.52%
+  90  CYANO150__Cryobacterium__UniRef90_A0A5R1NKQ6              89.46%    failed      0.09%
+  91  CYANO150__Cryobacterium__UniRef90_A0A4V3IV66              88.97%    failed      0.00%
+  92  CYANO150__Ilumatobacter__UniRef90_UPI0026349BF9           89.61%    failed      0.02%
+  93  CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2             89.61%    failed      2.50%
+  94  CYANO150__Bacteroidota__UniRef90_A0A2T4XL02               90.33%    failed      0.93%
+  95  CYANO150__Rhodoferax__UniRef90_A0A924PWN9                 90.67%    passed     17.23%
+  96  CYANO150__Novosphingobium__UniRef90_UPI00260007B9         90.18%    failed      0.67%
+  97  CYANO150__Nocardioides__UniRef90_UPI001CC7EDCB            89.72%    failed      0.49%
+  98  CYANO150__Sphingomonas__UniRef90_UPI0015771C83            90.48%    failed      0.75%
+  99  CYANO150__Sphingorhabdus__UniRef90_A0A6I4M6C6             90.44%    passed     11.79%
+ 100  CYANO150__Nocardioides__UniRef90_UPI00286D3F2D            89.80%    failed      0.16%
+ 101  CYANO150__Mycolicibacterium__UniRef90_UPI001A19B12E       89.72%    passed      6.57%
+ 102  CYANO150__Bacteroidota/Chlorobiota__UniRef90_A0A2T2UNC8   89.46%    failed      1.84%
+ 103  CYANO150__Polymorphobacter__UniRef90_UPI001C1E708F        90.22%    failed      4.55%
+ 104  CYANO150__Pseudonocardia__UniRef90_A0A1Q4DHI1             89.35%    failed      0.01%
+ 105  CYANO150__Novosphingobium__UniRef90_UPI00286A501F         90.44%    failed      2.25%
+ 106  CYANO150__Chloroflexota__UniRef90_A0A8T6P5N0              89.88%    failed      0.41%
+ 107  CYANO150__Ilumatobacter__UniRef90_A0A945NTW3              90.03%    failed      3.21%
+ 108  CYANO150__Chloroflexota__UniRef90_A0A8T6NY40              89.99%    failed      0.16%
+ 109  CYANO150__Actinomycetota__UniRef90_A0A972XLD2             89.54%    failed      4.95%
+ 110  CYANO150__Chloroflexota__UniRef90_A0A8T7K4U3              90.18%    failed      0.23%
+ 111  CYANO150__Novosphingopyxis__UniRef90_UPI0003B5F996        89.35%    failed      0.03%
+ 112  CYANO150__Ilumatobacter__UniRef90_A0A945IRF6              89.72%    failed      0.35%
+ 113  CYANO150__Aquipuribacter__UniRef90_UPI0030EFA4BC          88.78%    failed      0.00%
+ 114  CYANO150__Actinomycetota__UniRef90_A0A6I2XY17             89.54%    failed      3.54%
+ 115  CYANO150__Rhodoferax__UniRef90_A0A924NT25                 90.67%    failed      1.31%
+ 116  CYANO150__Sandarakinorhabdus__UniRef90_UPI00286D8C23      90.25%    failed      1.31%
+ 117  CYANO150__Euzebya__UniRef90_UPI00196AFC51                 89.84%    failed      0.04%
+ 118  CYANO150__Wenzhouxiangella__UniRef90_A0A5Q4GMP1           90.52%    failed      1.26%
+ 119  CYANO150__Clavibacter__UniRef90_UPI0026DDB336             89.61%    failed      0.35%
+ 120  CYANO150__Actinomycetes__UniRef90_A0A7K0KLA6              87.91%    failed      0.70%
+ 121  CYANO150__uncultured__UniRef90_UPI0035CA0ED2              90.37%    failed      0.51%
+ 122  CYANO150__Rhodohalobacter__UniRef90_UPI001EDA905F         90.22%    failed      1.31%
+ 123  CYANO150__Sphingomonadaceae__UniRef90_UPI001669FD14       90.18%    failed      1.29%
+ 124  CYANO150__Chloroflexota__UniRef90_A0A4P5V1B0              90.74%    passed     11.71%
+ 125  CYANO150__Nocardioides__UniRef90_A0A7Y9ULE6               89.46%    failed      0.02%
+ 126  CYANO150__Nocardioides__UniRef90_UPI00286D77D7            89.69%    failed      0.09%
+ 127  CYANO150__Salinibacter__UniRef90_Q2S2F8                   89.69%    failed      3.21%
+ 128  CYANO150__Pyrinomonas__UniRef90_UPI00333052B4             90.37%    failed      0.18%
+ 129  CYANO150__Mycolicibacterium__UniRef90_UPI0010C0A09F       88.86%    failed      0.04%
+ 130  CYANO150__Mycolicibacterium__UniRef90_A0AA37RQW6          89.23%    failed      0.02%
+ 131  CYANO150__Sphingomonadaceae__UniRef90_A0A502C9V7          90.29%    failed      2.28%
+ 132  CYANO150__unclassified__UniRef90_UPI001CEFCFBB            90.63%    failed      0.35%
+ 133  CYANO150__Actinomycetes__UniRef90_A0A6I2XYV7              89.72%    failed      4.04%
+ 134  CYANO150__Balneolaceae__UniRef90_A0A2D8CE81               90.03%    failed      4.86%
+ 135  CYANO150__Polymorphobacter__UniRef90_A0A917A1R5           90.37%    failed      0.53%
+ 136  CYANO150__Sphingomonas__UniRef90_A0A7W9BTJ3               90.29%    failed      1.11%
+ 137  CYANO150__Actinomycetota__UniRef90_A0A965K6Y6             90.29%    failed      2.45%
+ 138  CYANO150__Sphingomonas__UniRef90_UPI002ED986C3            90.37%    failed      0.12%
+ 139  CYANO150__Sphingomonadaceae__UniRef90_A0A924C2L6          90.22%    failed      1.69%
+ 140  CYANO150__Sphingomonas__UniRef90_UPI00166A20D4            90.33%    failed      1.38%
+ 141  CYANO150__Mycolicibacterium__UniRef90_UPI001F1CAB3C       88.93%    failed      2.32%
+ 142  CYANO150__Mycobacterium__UniRef90_A0A0T1WJZ0              89.23%    failed      0.18%
+ 143  CYANO150__Novosphingobium__UniRef90_UPI0025FC40A3         90.44%    failed      2.97%
+ 144  CYANO150__Sphingomonas__UniRef90_UPI00286D4F82            90.29%    failed      0.87%
+ 145  CYANO150__Actinomycetota__UniRef90_A0A938J199             89.88%    failed      1.84%
+ 146  CYANO150__Cryobacterium__UniRef90_A0A7W8ZXB5              89.38%    failed      1.25%
+ 147  CyR_Phormidesmis                                          90.63%    passed      9.06%
+ 148  CyR_Tolypothrix                                           90.48%    failed      4.32%
+ 149  CyR_Calothrix                                             90.67%    passed     31.56%
+ 150  CyHR_Mastigocladopsis                                     91.24%    passed     19.63%
+ 151  CyHR_Synechocystis                                        91.16%    passed     14.39%
+ 152  BR_Halobacterium                                          90.10%    failed      0.36%
+ 153  XeR_Nostoc                                                90.14%    passed     53.30%
+ 154  PR_proteobacterium                                        90.59%    failed      3.49%
+ 155  XLR_Gloeobacter                                           88.74%    failed      0.02%
+ 156  Br__Chromera__UR50_A0A0G4G5F3                             69.70%    failed      0.00%
+ 157  Br__Vitrella__UR50_A0A0G4FEK1                             86.06%    failed      0.00%
+ 158  Br__cellular__UR50_S0ELR6                                 88.40%    passed      6.72%
+ 159  Br__Tremellales__UR50_A0A5M6C708                          87.46%    failed      0.02%
+ 160  Br__leotiomyceta__UR50_M2MME4                             88.33%    passed     34.90%
+ 161  Br__Daldinia__UR50_UPI00200731EA                          88.18%    passed     13.93%
+ 162  Br__Archaea__UR50_P69051                                  90.18%    failed      0.00%
+ 163  Br__Haloplanus__UR50_A0A368NBE5                           88.74%    failed      0.00%
+ 164  Br__Bacteria__UR50_A0A0D8ZW42                             91.08%    passed     48.80%
+ 165  Br__Halobacteria__UR50_Q53496                             90.37%    failed      0.02%
+ 166  Br__Archaea__UR50_P94854                                  90.56%    failed      0.01%
+ 167  Br__Archaea__UR50_P02945                                  90.10%    failed      0.36%
+ 168  Br__Halobacteriales__UR50_A0A2R6DJW3                      90.10%    failed      0.00%
+ 169  Br__Cyanobacteriota__UR50_A0A252D874                      90.67%    passed     33.83%
+ 170  Br__Cryptomonadales__UR50_A0A7S1DWA7                      90.25%    failed      3.37%
+ 171  Br__Halohasta__UR50_UPI0020A34ABF                         90.29%    failed      0.00%
+ 172  Br__unclassified__UR50_A0A2R6GG49                         90.44%    failed      0.00%
+ 173  Br__Haloarculaceae__UR50_A0A3P3RCT8                       90.44%    failed      0.00%
+ 174  Br__Halobacteriales__UR50_A0A2R6JL35                      90.48%    failed      0.00%
+ 175  Br__Tetraselmis__UR50_A0A061RSZ0                          90.48%    failed      1.00%
+ 176  Br__Haloplanus__UR50_A0A6B9F3Z3                           90.59%    failed      0.00%
+ 177  Br__Truepera__UR50_A0A6J4UQD4                             90.74%    failed      0.17%
+ 178  Br__Halorutilus__UR50_A0A9Q4C304                          90.59%    failed      0.00%
+ 179  Br__Hemiselmis__UR50_A0A6T8IZ18                           90.63%    failed      3.86%
+ 180  Br__Rubricoccaceae__UR50_A0A271IU12                       90.74%    failed      0.08%
+ 181  Br__Haloquadratum__UR50_Q18DH5                            90.71%    failed      0.01%
+ 182  Br__Halobacteria__UR50_U1R2U7                             90.71%    failed      0.09%
+ 183  Br__Deinococcus__UR50_UPI00220D8E58                       90.74%    failed      0.01%
+ 184  Br__cellular__UR50_A0A7R9U5N0                             90.78%    failed      0.47%
+ 185  Br__Cyanobacteriota__UR50_A0A9X9ZA75                      91.16%    passed     14.39%
+ 186  Br__Rubrobacteraceae__UR50_Q1AUE6                         90.97%    failed      0.00%
+ 187  Br__Tetraselmis__UR50_A0A061S8L7                          90.93%    failed      2.75%
+ 188  Br__Actinomycetota__UR50_A0A938EPH0                       91.05%    failed      0.22%
+ 189  Br__Dictyobacter__UR50_A0A402ATH3                         91.05%    failed      0.00%
+ 190  Br__Gammaproteobacteria__UR50_A0A2R8CJ36                  91.42%    failed      2.86%
+ 191  Br__Halovenus__UR50_A0A6B0T5F9                            91.20%    failed      0.00%
+ 192  Br__Halorutilus__UR50_A0A9Q4C3E6                          91.24%    failed      0.00%
+ 193  Br__Pseudanabaenaceae__UR50_A0A928YZN9                    92.56%    failed      0.10%
+ 194  Br__Halobacterium__UR50_UPI0000110B77                     92.60%    failed      0.22%
+ 195  Br__Hemiselmis__UR50_A0A7S0TWK7                           92.82%    failed      2.76%
+ 196  Br__halophilic__UR50_U1R431                               92.97%    failed      1.05%
+ 197  Br__cellular__UR50_U5TVL7                                 94.52%    failed      0.03%
+ 198  Br__cellular__UR50_U5TY47                                 94.79%    failed      0.05%
+ 199  Br__Uncultured__UR50_I1X8Q4                               95.09%    passed     15.44%
+ 200  Br__Uncultured__UR50_I1X8N9                               95.13%    passed      6.83%
+ 201  Br__Halobacteria__UR50_W0FWY1                             95.13%    failed      1.75%
+ 202  Br__uncultured__UR50_D9MWK9                               95.13%    passed      6.80%
+ 203  Br__uncultured__UR50_A0A0S1WDR5                           95.35%    failed      0.09%
+ 204  Br__uncultured__UR50_A0A0S1WEI0                           95.35%    failed      0.97%
+ 205  Br__Halorubrum__UR50_A0A4U7EYP1                           96.07%    passed     26.83%
+ 206  Cyhr__Monilinia__UR50_A0A5N6KJ15                          82.24%    failed      0.00%
+ 207  Cyhr__Phialophora__UR50_A0A0D2FVJ8                        84.21%    failed      3.92%
+ 208  Cyhr__Alphaproteobacteria__UR50_A0A7V7TUE7                87.27%    failed      0.72%
+ 209  Cyhr__Sphingomonas__UR50_A0A2A2SBC3                       87.46%    failed      0.00%
+ 210  Cyhr__Erysiphaceae__UR50_A0A0B1P8N0                       89.65%    passed     18.49%
+ 211  Cyhr__Bacteria__UR50_A0A1G1STR4                           91.16%    passed     18.96%
+ 212  Cyhr__Archaea__UR50_P69051                                90.18%    failed      0.00%
+ 213  Cyhr__Haloplanus__UR50_A0A368NBE5                         88.74%    failed      0.00%
+ 214  Cyhr__Bacteria__UR50_A0A0D8ZW42                           91.08%    passed     48.80%
+ 215  Cyhr__Exobasidiomycetes__UR50_A0A316VHF9                  89.08%    failed      0.56%
+ 216  Cyhr__viral__UR50_A0A6C0APG5                              89.42%    passed     12.40%
+ 217  Cyhr__Halobacteria__UR50_Q53496                           90.37%    failed      0.02%
+ 218  Cyhr__Ktedonobacterales__UR50_D6U1J0                      90.86%    passed      7.79%
+ 219  Cyhr__Terrabacteria__UR50_A0A0P7YZ09                      90.78%    failed      2.08%
+ 220  Cyhr__Archaea__UR50_P94854                                90.56%    failed      0.01%
+ 221  Cyhr__Taphrinales__UR50_R4XKS9                            89.80%    passed     19.04%
+ 222  Cyhr__Cryptophyceae__UR50_L1JTW1                          90.10%    failed      0.05%
+ 223  Cyhr__Archaea__UR50_P02945                                90.10%    failed      0.36%
+ 224  Cyhr__Alphaproteobacteria__UR50_A0A5B2VFD4                90.06%    failed      0.03%
+ 225  Cyhr__Halobacteria__UR50_A0A125T1B2                       90.33%    failed      0.00%
+ 226  Cyhr__Halobacteriales__UR50_A0A2R6DJW3                    90.10%    failed      0.00%
+ 227  Cyhr__root__UR50_A0A938EDB5                               91.01%    failed      0.13%
+ 228  Cyhr__Sphingomonas__UR50_UPI0015775044                    90.18%    failed      4.10%
+ 229  Cyhr__Cyanobacteriota__UR50_A0A2W4UKV5                    90.22%    passed     56.77%
+ 230  Cyhr__Cyanobacteriota__UR50_A0A252D874                    90.67%    passed     33.83%
+ 231  Cyhr__Cryptomonadales__UR50_A0A7S1DWA7                    90.25%    failed      3.37%
+ 232  Cyhr__Nodosilinea__UR50_UPI00293DA23B                     90.33%    passed     23.75%
+ 233  Cyhr__Bacteroidota__UR50_A0A1P9WTB2                       90.37%    failed      0.15%
+ 234  Cyhr__unclassified__UR50_A0A2R6GG49                       90.44%    failed      0.00%
+ 235  Cyhr__Bacteria__UR50_A0A966QHT7                           90.48%    failed      0.02%
+ 236  Cyhr__Truepera__UR50_A0A6J4UQD4                           90.74%    failed      0.17%
+ 237  Cyhr__Halorutilus__UR50_A0A9Q4C304                        90.59%    failed      0.00%
+ 238  Cyhr__Halobacteria__UR50_P42196                           90.97%    failed      0.00%
+ 239  Cyhr__Haloplanus__UR50_A0A6B9FAL0                         90.71%    failed      0.00%
+ 240  Cyhr__Halobellus__UR50_A0A498G7H5                         90.67%    failed      0.00%
+ 241  Cyhr__Gloeobacterales__UR50_A0A925XUD8                    90.67%    failed      0.03%
+ 242  Cyhr__Rubricoccaceae__UR50_A0A271IU12                     90.74%    failed      0.08%
+ 243  Cyhr__Haloquadratum__UR50_Q18DH5                          90.71%    failed      0.01%
+ 244  Cyhr__Halobacteria__UR50_U1R2U7                           90.71%    failed      0.09%
+ 245  Cyhr__Halohasta__UR50_A0A1H6WB68                          90.71%    failed      0.00%
+ 246  Cyhr__Haloferacales__UR50_U1P7Y5                          90.78%    failed      0.11%
+ 247  Cyhr__Deinococcus__UR50_UPI00220D8E58                     90.74%    failed      0.01%
+ 248  Cyhr__Halobacteria__UR50_A0A6G3ZG40                       90.82%    failed      0.00%
+ 249  Cyhr__Cyanobacteriota__UR50_A0A9X9ZA75                    91.16%    passed     14.39%
+ 250  Cyhr__Rubrobacteraceae__UR50_Q1AUE6                       90.97%    failed      0.00%
+ 251  Cyhr__Bacteria__UR50_A0A072NB13                           90.90%    failed      0.40%
+ 252  Cyhr__Tetraselmis__UR50_A0A061S8L7                        90.93%    failed      2.75%
+ 253  Cyhr__Actinomycetota__UR50_A0A938EPH0                     91.05%    failed      0.22%
+ 254  Cyhr__Lichenibacterium__UR50_A0A4Q2RG75                   91.05%    passed     19.69%
+ 255  Cyhr__Dictyobacter__UR50_A0A402ATH3                       91.05%    failed      0.00%
+ 256  Cyhr__Gammaproteobacteria__UR50_A0A2R8CJ36                91.42%    failed      2.86%
+ 257  Cyhr__Alphaproteobacteria__UR50_A0A0P0YG33                91.08%    failed      0.76%
+ 258  Cyhr__Halovenus__UR50_A0A6B0T5F9                          91.20%    failed      0.00%
+ 259  Cyhr__unclassified__UR50_A0A2H2Y0M0                       91.20%    passed     20.49%
+ 260  Cyhr__Halorutilus__UR50_A0A9Q4C3E6                        91.24%    failed      0.00%
+ 261  Cyhr__Pseudanabaenaceae__UR50_A0A928YZN9                  92.56%    failed      0.10%
+ 262  Cyhr__Halobacterium__UR50_UPI0000110B77                   92.60%    failed      0.22%
+ 263  Cyhr__halophilic__UR50_U1R431                             92.97%    failed      1.05%
+ 264  Cyhr__Oculatella__UR50_A0A8J6T594                         93.09%    failed      4.25%
+ 265  Cyhr__Bacteria__UR50_A0A7Y3TUC4                           94.94%    passed     15.00%
+ 266  Cyhr__Actinomycetota__UR50_A0A9D8D7T8                     94.41%    failed      0.15%
+ 267  Cyhr__Nostocales__UR50_UPI00192D4A90                      95.24%    passed     44.62%
+ 268  Cyhr__Bacteria__UR50_A0A7Y3TU60                           95.77%    passed     94.75%
+ 269  Cyhr__Cyanophyceae__UR50_A0A139X2U3                       97.43%    passed     70.40%
+ 270  Cyr__Stachybotrys__UR50_A0A084B629                        69.85%    failed      0.00%
+ 271  Cyr__Xylaria__UR50_A0A553HJD1                             75.82%    failed      0.16%
+ 272  Cyr__Aureobasidium__UR50_A0A4T0DVF0                       79.15%    failed      0.00%
+ 273  Cyr__Monilinia__UR50_A0A5N6KJ15                           82.24%    failed      0.00%
+ 274  Cyr__Phialophora__UR50_A0A0D2FVJ8                         84.21%    failed      3.92%
+ 275  Cyr__leotiomyceta__UR50_A0A6A6BBW8                        87.87%    failed      0.63%
+ 276  Cyr__Vitrella__UR50_A0A0G4FEK1                            86.06%    failed      0.00%
+ 277  Cyr__Trebouxiophyceae__UR50_I0YUS5                        88.52%    failed      0.04%
+ 278  Cyr__Alphaproteobacteria__UR50_A0A7V7TUE7                 87.27%    failed      0.72%
+ 279  Cyr__Sphingomonas__UR50_A0A2A2SBC3                        87.46%    failed      0.00%
+ 280  Cyr__Mixia__UR50_G7DX39                                   87.80%    passed     65.19%
+ 281  Cyr__Erysiphaceae__UR50_A0A0B1P8N0                        89.65%    passed     18.49%
+ 282  Cyr__Dothideomycetes__UR50_N1Q8M8                         88.70%    failed      0.60%
+ 283  Cyr__Pleosporomycetidae__UR50_A0A1Y1YWQ8                  88.63%    passed      9.55%
+ 284  Cyr__Cryptophyceae__UR50_A0A6T8GGP0                       89.04%    passed     16.15%
+ 285  Cyr__Archaea__UR50_P69051                                 90.18%    failed      0.00%
+ 286  Cyr__Haloplanus__UR50_A0A368NBE5                          88.74%    failed      0.00%
+ 287  Cyr__Bacteria__UR50_A0A0D8ZW42                            91.08%    passed     48.80%
+ 288  Cyr__Pucciniales__UR50_F4S3M3                             89.16%    failed      0.31%
+ 289  Cyr__Alphaproteobacteria__UR50_A0A502GBB7                 89.88%    failed      0.06%
+ 290  Cyr__Halobacteria__UR50_Q53496                            90.37%    failed      0.02%
+ 291  Cyr__Ktedonobacterales__UR50_D6U1J0                       90.86%    passed      7.79%
+ 292  Cyr__Archaea__UR50_P94854                                 90.56%    failed      0.01%
+ 293  Cyr__Taphrinales__UR50_R4XKS9                             89.80%    passed     19.04%
+ 294  Cyr__Klebsormidium__UR50_A0A1Y1HL70                       89.72%    passed     29.31%
+ 295  Cyr__Cryptophyceae__UR50_L1JTW1                           90.10%    failed      0.05%
+ 296  Cyr__Archaea__UR50_P02945                                 90.10%    failed      0.36%
+ 297  Cyr__Rubrobacter__UR50_UPI0009FD7C88                      89.99%    failed      0.00%
+ 298  Cyr__Alphaproteobacteria__UR50_A0A5B2VFD4                 90.06%    failed      0.03%
+ 299  Cyr__Halobacteria__UR50_A0A125T1B2                        90.33%    failed      0.00%
+ 300  Cyr__Halobacteriales__UR50_A0A2R6DJW3                     90.10%    failed      0.00%
+ 301  Cyr__Cyanobacteriota__UR50_A0A2W4UKV5                     90.22%    passed     56.77%
+ 302  Cyr__Cyanobacteriota__UR50_A0A252D874                     90.67%    passed     33.83%
+ 303  Cyr__Cryptomonadales__UR50_A0A7S1DWA7                     90.25%    failed      3.37%
+ 304  Cyr__Nodosilinea__UR50_UPI00293DA23B                      90.33%    passed     23.75%
+ 305  Cyr__Cryptophyceae__UR50_L1J8F1                           90.86%    failed      0.06%
+ 306  Cyr__Bacteria__UR50_A0A966QHT7                            90.48%    failed      0.02%
+ 307  Cyr__Haloplanus__UR50_A0A6B9F3Z3                          90.59%    failed      0.00%
+ 308  Cyr__Truepera__UR50_A0A6J4UQD4                            90.74%    failed      0.17%
+ 309  Cyr__Halorutilus__UR50_A0A9Q4C304                         90.59%    failed      0.00%
+ 310  Cyr__Halobacteria__UR50_P42196                            90.97%    failed      0.00%
+ 311  Cyr__Hemiselmis__UR50_A0A6T8IZ18                          90.63%    failed      3.86%
+ 312  Cyr__Gloeobacterales__UR50_A0A925XUD8                     90.67%    failed      0.03%
+ 313  Cyr__Terrabacteria__UR50_A0A1L3MLR8                       91.31%    failed      0.46%
+ 314  Cyr__Rubricoccaceae__UR50_A0A271IU12                      90.74%    failed      0.08%
+ 315  Cyr__Haloquadratum__UR50_Q18DH5                           90.71%    failed      0.01%
+ 316  Cyr__Halobacteria__UR50_U1R2U7                            90.71%    failed      0.09%
+ 317  Cyr__Deinococcus__UR50_UPI00220D8E58                      90.74%    failed      0.01%
+ 318  Cyr__Candidatus__UR50_A0A924HUX2                          90.78%    passed      6.39%
+ 319  Cyr__Bacteroidota/Chlorobiota__UR50_A0A259U1H3            91.20%    failed      0.24%
+ 320  Cyr__Halobacteria__UR50_A0A6G3ZG40                        90.82%    failed      0.00%
+ 321  Cyr__Candidatus__UR50_A0A924E4Y5                          90.82%    failed      1.11%
+ 322  Cyr__Cyanobacteriota__UR50_A0A9X9ZA75                     91.16%    passed     14.39%
+ 323  Cyr__Rubrobacteraceae__UR50_Q1AUE6                        90.97%    failed      0.00%
+ 324  Cyr__Tetraselmis__UR50_A0A061S8L7                         90.93%    failed      2.75%
+ 325  Cyr__Candidatus__UR50_A0A924CI60                          90.93%    failed      2.33%
+ 326  Cyr__Halapricum__UR50_A0A897NL32                          91.05%    failed      0.01%
+ 327  Cyr__Actinomycetota__UR50_A0A938EPH0                      91.05%    failed      0.22%
+ 328  Cyr__Lichenibacterium__UR50_A0A4Q2RG75                    91.05%    passed     19.69%
+ 329  Cyr__Dictyobacter__UR50_A0A402ATH3                        91.05%    failed      0.00%
+ 330  Cyr__Gammaproteobacteria__UR50_A0A2R8CJ36                 91.42%    failed      2.86%
+ 331  Cyr__Bacillota__UR50_A0A6I0FE40                           91.24%    failed      0.01%
+ 332  Cyr__unclassified__UR50_A0A2H2Y0M0                        91.20%    passed     20.49%
+ 333  Cyr__Halorutilus__UR50_A0A9Q4C3E6                         91.24%    failed      0.00%
+ 334  Cyr__Pseudanabaenaceae__UR50_A0A928YZN9                   92.56%    failed      0.10%
+ 335  Cyr__Terrabacteria__UR50_A0A3R9M9T5                       93.46%    failed      1.29%
+ 336  Cyr__Halobacterium__UR50_UPI0000110B77                    92.60%    failed      0.22%
+ 337  Cyr__halophilic__UR50_U1R431                              92.97%    failed      1.05%
+ 338  Cyr__Oculatella__UR50_A0A8J6T594                          93.09%    failed      4.25%
+ 339  Cyr__Truepera__UR50_D7CXV3                                93.43%    passed     32.06%
+ 340  Cyr__cellular__UR50_U5TVL7                                94.52%    failed      0.03%
+ 341  Cyr__Actinomycetota__UR50_A0A9D8D7T8                      94.41%    failed      0.15%
+ 342  Cyr__cellular__UR50_U5TY47                                94.79%    failed      0.05%
+ 343  Pr__Amoebophrya__UR50_A0A8J2EIM1                          59.73%    failed      0.00%
+ 344  Pr__Amoebophrya__UR50_A0A8J2BIV1                          72.57%    failed      0.00%
+ 345  Pr__Amoebophrya__UR50_A0A8J2AJI1                          77.86%    failed      0.00%
+ 346  Pr__Amoebophrya__UR50_A0A8J2FIQ1                          78.24%    failed      0.00%
+ 347  Pr__Amoebophrya__UR50_A0A8J2B494                          78.50%    failed      0.00%
+ 348  Pr__Amoebophrya__UR50_A0A8J2B126                          81.00%    failed      0.00%
+ 349  Pr__Amoebophrya__UR50_A0A8J1ZYC7                          83.00%    failed      0.13%
+ 350  Pr__unclassified__UR50_A0A8J2F610                         84.96%    failed      0.60%
+ 351  Pr__Amoebophrya__UR50_A0A8J2AET9                          86.97%    failed      4.66%
+ 352  Pr__unclassified__UR50_A0A8J2AJK3                         89.04%    passed     33.53%
+ 353  Pr__root__UR50_Q6J4G7                                     90.56%    failed      2.88%
+ 354  Pr__root__UR50_A0A2D9XFY8                                 90.25%    failed      0.13%
+ 355  Pr__PVC__UR50_A0A2A2Q7A6                                  88.67%    passed     52.44%
+ 356  Pr__Amoebophrya__UR50_A0A8J2BL17                          88.93%    passed      9.61%
+ 357  Pr__root__UR50_A0A1L2YWB0                                 90.56%    failed      0.30%
+ 358  Pr__root__UR50_A0A2E3ZFL2                                 89.91%    failed      1.11%
+ 359  Pr__Bacillales__UR50_B1YFV8                               90.48%    failed      2.72%
+ 360  Pr__Verrucomicrobiota__UR50_A0A355S5S5                    90.78%    failed      0.14%
+ 361  Pr__root__UR50_A0A0R2UEA1                                 90.63%    failed      1.44%
+ 362  Pr__root__UR50_A0A916YX99                                 90.56%    failed      2.04%
+ 363  Pr__Hymenobacter__UR50_A0A4Z0PQC2                         89.95%    failed      1.74%
+ 364  Pr__root__UR50_C0KTK1                                     90.71%    failed      0.66%
+ 365  Pr__root__UR50_Q9AFF7                                     90.52%    failed      0.14%
+ 366  Pr__root__UR50_A0A2E9L3M5                                 90.37%    failed      0.00%
+ 367  Pr__Gammaproteobacteria__UR50_A0A2D7BW64                  90.44%    failed      0.14%
+ 368  Pr__root__UR50_A0A1Z9SCU5                                 90.97%    failed      0.35%
+ 369  Pr__Alphaproteobacteria__UR50_A0A2S6S8D0                  90.71%    failed      1.31%
+ 370  Pr__root__UR50_A0A093W7X4                                 91.35%    passed      8.63%
+ 371  Pr__root__UR50_A0A2E5KJU8                                 91.27%    failed      0.49%
+ 372  Pr__root__UR50_A0A920FU87                                 92.82%    failed      1.65%
+ 373  Pr__Pseudomonadota__UR50_A0A5J6N178                       91.20%    failed      0.67%
+ 374  Pr__Dehalococcoidia__UR50_A0A2E4TFN6                      91.99%    failed      0.82%
+ 375  Pr__Candidatus__UR50_A0A328QTJ8                           91.39%    failed      0.01%
+ 376  Pr__root__UR50_A0A1Z9VEM7                                 91.58%    failed      0.99%
+ 377  Pr__root__UR50_A0A2D5G8E2                                 94.07%    passed     15.63%
+ 378  Pr__root__UR50_A0A2E9IIC4                                 92.26%    passed     22.46%
+ 379  Pr__Bacteroidota__UR50_A0A3B8TP96                         92.26%    failed      2.79%
+ 380  Pr__root__UR50_B7S3I0                                     93.24%    failed      3.52%
+ 381  Pr__root__UR50_A0A1Z9IZG4                                 92.44%    failed      0.73%
+ 382  Pr__Bacteroidota__UR50_A0A923YXG2                         92.63%    passed     10.81%
+ 383  Pr__Flavobacteriales__UR50_A0A2E1W4H2                     92.52%    failed      0.00%
+ 384  Pr__root__UR50_A0A1L2YW38                                 92.75%    passed     57.33%
+ 385  Pr__root__UR50_A0A1L2YW73                                 93.96%    passed     15.77%
+ 386  Pr__root__UR50_A8QLQ3                                     93.84%    passed     36.80%
+ 387  Pr__root__UR50_A0A2E1TKR7                                 94.79%    failed      1.43%
+ 388  Pr__Bacteria__UR50_A1YC49                                 93.92%    passed     24.97%
+ 389  Pr__Verrucomicrobiales__UR50_A0A2E2HQ20                   94.03%    failed      0.06%
+ 390  Pr__root__UR50_A0A2D7UAZ4                                 94.98%    passed     23.71%
+ 391  Pr__Bacteria__UR50_A0A944STQ0                             95.47%    passed     48.78%
+ 392  Pr__root__UR50_A0A2D6ZW67                                 96.75%    passed      7.97%
+ 393  Xer__Alphaproteobacteria__UR50_A0A7V7TUE7                 87.27%    failed      0.72%
+ 394  Xer__Sphingomonas__UR50_A0A2A2SBC3                        87.46%    failed      0.00%
+ 395  Xer__Methylobacteriaceae__UR50_A0A0C6F7V1                 90.48%    failed      1.10%
+ 396  Xer__Pseudomonadota__UR50_A0A0Q4L756                      91.05%    failed      0.66%
+ 397  Xer__Bacteria__UR50_A0A1G1STR4                            91.16%    passed     18.96%
+ 398  Xer__Archaea__UR50_P69051                                 90.18%    failed      0.00%
+ 399  Xer__Bacteria__UR50_A0A0D8ZW42                            91.08%    passed     48.80%
+ 400  Xer__Actinomycetes__UR50_A0A1H6XB79                       91.16%    failed      0.00%
+ 401  Xer__Alphaproteobacteria__UR50_A0A502GBB7                 89.88%    failed      0.06%
+ 402  Xer__Halobacteria__UR50_Q53496                            90.37%    failed      0.02%
+ 403  Xer__Terrabacteria__UR50_A0A0P7YZ09                       90.78%    failed      2.08%
+ 404  Xer__Hyphomicrobiales__UR50_A0A4Q2U3N5                    89.57%    failed      0.15%
+ 405  Xer__Archaea__UR50_P94854                                 90.56%    failed      0.01%
+ 406  Xer__Rubrobacter__UR50_UPI0009FD7C88                      89.99%    failed      0.00%
+ 407  Xer__Alphaproteobacteria__UR50_A0A5B2VFD4                 90.06%    failed      0.03%
+ 408  Xer__Halobacteriales__UR50_A0A2R6DJW3                     90.10%    failed      0.00%
+ 409  Xer__root__UR50_A0A938EDB5                                91.01%    failed      0.13%
+ 410  Xer__Sphingomonas__UR50_UPI0015775044                     90.18%    failed      4.10%
+ 411  Xer__Cyanobacteriota__UR50_A0A252D874                     90.67%    passed     33.83%
+ 412  Xer__Bacteroidota__UR50_A0A1P9WTB2                        90.37%    failed      0.15%
+ 413  Xer__Bacteria__UR50_A0A271IX38                            91.61%    failed      0.00%
+ 414  Xer__Bacteria__UR50_A0A966QHT7                            90.48%    failed      0.02%
+ 415  Xer__Truepera__UR50_A0A6J4UQD4                            90.74%    failed      0.17%
+ 416  Xer__Micromonosporaceae__UR50_A0A1Q4ZQH2                  91.24%    failed      0.06%
+ 417  Xer__Gloeobacterales__UR50_A0A925XUD8                     90.67%    failed      0.03%
+ 418  Xer__Terrabacteria__UR50_A0A1L3MLR8                       91.31%    failed      0.46%
+ 419  Xer__Halobacteria__UR50_U1R2U7                            90.71%    failed      0.09%
+ 420  Xer__Deinococcus__UR50_UPI00220D8E58                      90.74%    failed      0.01%
+ 421  Xer__Candidatus__UR50_A0A924HUX2                          90.78%    passed      6.39%
+ 422  Xer__Bacteroidota/Chlorobiota__UR50_A0A259U1H3            91.20%    failed      0.24%
+ 423  Xer__Halobacteria__UR50_A0A6G3ZG40                        90.82%    failed      0.00%
+ 424  Xer__Candidatus__UR50_A0A924E4Y5                          90.82%    failed      1.11%
+ 425  Xer__Rubrobacteraceae__UR50_Q1AUE6                        90.97%    failed      0.00%
+ 426  Xer__Bacteria__UR50_A0A072NB13                            90.90%    failed      0.40%
+ 427  Xer__Gonapodya__UR50_A0A139AI58                           90.93%    failed      4.04%
+ 428  Xer__Actinomycetota__UR50_A0A938EPH0                      91.05%    failed      0.22%
+ 429  Xer__Lichenibacterium__UR50_A0A4Q2RG75                    91.05%    passed     19.69%
+ 430  Xer__Dictyobacter__UR50_A0A402ATH3                        91.05%    failed      0.00%
+ 431  Xer__Paeniclostridium__UR50_A0A0C7PQA0                    91.12%    failed      0.00%
+ 432  Xer__Bacillota__UR50_A0A6I0FE40                           91.24%    failed      0.01%
+ 433  Xer__unclassified__UR50_A0A2H2Y0M0                        91.20%    passed     20.49%
+ 434  Xer__Cyanothece__UR50_B8HWV7                              91.20%    failed      0.09%
+ 435  Xer__Terrabacteria__UR50_A0A3R9M9T5                       93.46%    failed      1.29%
+ 436  Xer__Oculatella__UR50_A0A8J6T594                          93.09%    failed      4.25%
+ 437  Xer__Bacteria__UR50_A0A519SK79                            93.24%    passed     34.78%
+ 438  Xer__Truepera__UR50_D7CXV3                                93.43%    passed     32.06%
+ 439  Xer__Hymenobacter__UR50_A0A7H0GW45                        94.56%    passed      9.64%
+ 440  Xer__Fischerella__UR50_UPI0025C16FD1                      94.98%    passed     12.88%
+ 441  Xer__Deinococcus__UR50_UPI00146FA852                      95.01%    passed     10.15%
+ 442  Xer__Pontibacter__UR50_A0A923N570                         95.16%    passed     44.83%
+ 443  Xlr__root__UR50_A0A1E8CRE3                                89.20%    failed      1.84%
+ 444  Xlr__root__UR50_A0A4P5SJD2                                89.61%    failed      2.50%
+ 445  Xlr__root__UR50_A0A3G9A0S2                                89.76%    failed      0.65%
+ 446  Xlr__Micrococcales__UR50_A0A1R3VVE3                       89.95%    failed      0.58%
+ 447  Xlr__Deinococcus__UR50_A0A172T7E0                         89.72%    failed      0.32%
+ 448  Xlr__root__UR50_E8QX23                                    88.36%    failed      0.00%
+ 449  Xlr__Terrabacteria__UR50_A0A8J7JWR5                       88.44%    failed      0.96%
+ 450  Xlr__root__UR50_Q7NP59                                    88.74%    failed      0.02%
+ 451  Xlr__root__UR50_A0A6J7BKN6                                88.48%    failed      4.29%
+ 452  Xlr__root__UR50_A0A7G8WQ84                                89.31%    failed      0.03%
+ 453  Xlr__Terrabacteria__UR50_A0A2W7ARY7                       88.78%    failed      0.47%
+ 454  Xlr__Bacteria__UR50_A0A1L2YW04                            90.48%    failed      1.67%
+ 455  Xlr__root__UR50_A0A8T6QQF4                                89.38%    failed      0.68%
+ 456  Xlr__unclassified__UR50_A0A2T2UZL0                        89.01%    failed      0.01%
+ 457  Xlr__cellular__UR50_A0A7S2RIV1                            90.48%    passed     43.30%
+ 458  Xlr__cellular__UR50_A0A813J0W5                            89.54%    failed      2.69%
+ 459  Xlr__Gammaproteobacteria__UR50_UPI00190F65E4              89.35%    failed      3.95%
+ 460  Xlr__Actinomycetes__UR50_A0A6J4KT46                       89.38%    failed      0.00%
+ 461  Xlr__Bacteria__UR50_A0A3L7VYY9                            90.33%    failed      3.02%
+ 462  Xlr__Bacteria__UR50_A0A2E7UR14                            90.10%    failed      1.49%
+ 463  Xlr__root__UR50_A0A0R2R0Q7                                91.01%    passed      5.45%
+ 464  Xlr__Pseudomonadota__UR50_A3JEZ3                          89.65%    failed      0.04%
+ 465  Xlr__Planctomycetaceae__UR50_A0A2E7EFI9                   89.61%    failed      2.72%
+ 466  Xlr__Bacteria__UR50_A0A958E829                            89.61%    failed      1.94%
+ 467  Xlr__Deinococcus__UR50_A0A7X1NVD0                         89.65%    failed      0.00%
+ 468  Xlr__Deinococcus__UR50_UPI0025F3DD2E                      89.65%    failed      0.00%
+ 469  Xlr__Bellilinea__UR50_A0A0P6XBM7                          89.84%    failed      4.89%
+ 470  Xlr__root__UR50_A0A6I3GA03                                90.29%    passed      7.16%
+ 471  Xlr__Bacteria__UR50_A0A2E3NLK8                            90.03%    failed      0.00%
+ 472  Xlr__Actinomycetota__UR50_A0A3M0G769                      90.10%    failed      0.05%
+ 473  Xlr__root__UR50_A0A6I2ZCL4                                91.12%    passed      7.97%
+ 474  Xlr__Bacteria__UR50_A0A1L2YWA8                            91.95%    passed     16.77%
+ 475  Xlr__Chloroflexota__UR50_A0A3L7YRV8                       90.71%    passed      5.81%
+ 476  Xlr__Bacteria__UR50_A0A9E1QVR0                            91.99%    passed     21.09%
+ 477  Xlr__Actinobacteria__UR50_A0A0J0YNF8                      91.12%    failed      1.01%
+ 478  Xlr__Terrabacteria__UR50_A0A2P8WHZ5                       91.69%    failed      1.53%
+ 479  Xlr__Sar__UR50_A0A813H5L3                                 91.99%    passed     22.55%
+ 480  Xlr__uncultured__UR50_A0A6J4S2K6                          91.76%    passed      5.10%
+ 481  Xlr__Dinophyceae__UR50_A0A7S4GN37                         92.10%    failed      1.49%
+ 482  Xlr__uncultured__UR50_UPI0028E77A7F                       92.26%    passed     23.24%
+ 483  Xlr__Bacteria__UR50_A0A6L6E9R4                            92.44%    failed      2.40%
+ 484  Xlr__Microbacterium__UR50_UPI001E4742A9                   92.48%    failed      4.42%
+ 485  Xlr__root__UR50_A0A923YTK2                                93.65%    passed     11.24%
+ 486  Xlr__Balneola__UR50_A0A2D7AG78                            92.82%    passed     34.01%
+ 487  Xlr__Phototrophicales__UR50_A0A2M8NK29                    92.90%    failed      4.94%
+ 488  Xlr__root__UR50_A0A6J7E014                                93.01%    failed      2.73%
+ 489  Xlr__Actinomycetota__UR50_A0A7K0YYK2                      93.16%    passed     19.03%
+ 490  Xlr__root__UR50_A0A7K1AQL8                                94.67%    passed     38.49%
+ 491  Xlr__root__UR50_A0A9D7FV15                                93.77%    passed      5.02%
+ 492  Xlr__root__UR50_A0A6I2VA48                                93.99%    passed      9.32%
+ 493  Br__Halomarina__UniRef90_UPI0026F40B8B                    89.65%    failed      0.00%
+ 494  Br__Halobacterium__UniRef90_P02945                        90.10%    failed      0.36%
+ 495  Br__Halobacteria__UniRef90_G0LFX8                         90.40%    failed      0.11%
+ 496  Br__Halobacteriales__UniRef90_A0A2R6JS63                  89.99%    failed      0.00%
+ 497  Br__Halobacteriales__UniRef90_A0A2R6J274                  90.03%    failed      0.60%
+ 498  Br__unclassified__UniRef90_A0A2R6LDY7                     90.03%    failed      0.00%
+ 499  Br__Halobacteriales__UniRef90_A0A2R6LT28                  90.06%    failed      0.25%
+ 500  Br__Halohasta__UniRef90_UPI002110EEC8                     90.06%    failed      0.00%
+ 501  Br__unclassified__UniRef90_A0A2R6GPV3                     90.10%    failed      0.02%
+ 502  Br__Halobacterium__UniRef90_UPI001F011AB0                 90.10%    failed      0.48%
+ 503  Br__Halorientalis__UniRef90_UPI001FF6B2B9                 90.10%    failed      0.02%
+ 504  Br__Halobacteria__UniRef90_P29563                         90.22%    failed      0.00%
+ 505  Br__Halobacteriales__UniRef90_A0A2R6LKP5                  90.14%    failed      0.03%
+ 506  Br__Halobacteria__UniRef90_P69051                         90.18%    failed      0.00%
+ 507  Br__Archaea__UniRef90_V4ZQH6                              90.18%    failed      0.00%
+ 508  Br__Uncultured__UniRef90_I1X958                           90.22%    failed      0.74%
+ 509  Br__unclassified__UniRef90_A0A4U7F7H9                     90.25%    failed      0.00%
+ 510  Br__Halorientalis__UniRef90_A0A1G7RA78                    90.25%    failed      0.00%
+ 511  Br__unclassified__UniRef90_A0A256HWP6                     90.25%    failed      0.01%
+ 512  Br__Halorubrum__UniRef90_A0A3Q9EA60                       90.25%    failed      0.02%
+ 513  Br__Natronomonas__UniRef90_M1Y5I7                         90.25%    failed      0.00%
+ 514  Br__Halobacteriales__UniRef90_P94854                      90.56%    failed      0.01%
+ 515  Br__Halorubrum__UniRef90_UPI0021111C71                    90.25%    failed      0.02%
+ 516  Br__Halobacteriales__UniRef90_A7U0U1                      90.33%    failed      0.08%
+ 517  Br__Halobellus__UniRef90_A0A7J9SID8                       90.33%    failed      0.01%
+ 518  Br__Haloplanus__UniRef90_A0A6B9F3P5                       90.33%    failed      0.42%
+ 519  Br__Halobacteriales__UniRef90_A0A2R6HQ15                  90.33%    failed      0.01%
+ 520  Br__uncultured__UniRef90_V4Y792                           90.33%    failed      0.39%
+ 521  Br__Haloplanus__UniRef90_UPI000A5CE34D                    90.33%    failed      0.92%
+ 522  Br__Salinirubrum__UniRef90_UPI001D07B5FE                  90.40%    failed      0.01%
+ 523  Br__Natronomonas__UniRef90_UPI0020C975B2                  90.40%    failed      0.21%
+ 524  Br__Halobacteriales__UniRef90_A0A2R6GSY0                  90.56%    failed      0.02%
+ 525  Br__Haloarchaeobius__UniRef90_UPI00226DF6EF               90.63%    failed      0.02%
+ 526  Br__Natrialbaceae__UniRef90_M0CK77                        90.90%    failed      0.00%
+ 527  Br__Natronobeatus__UniRef90_UPI0020CDB3FE                 90.71%    failed      0.00%
+ 528  Br__Halorientalis__UniRef90_A0A1G7PUC9                    90.74%    failed      0.43%
+ 529  Br__Salinigranum__UniRef90_A0A2I8VEZ7                     90.78%    failed      0.04%
+ 530  Br__Halomarina__UniRef90_UPI0020327DF1                    90.78%    failed      0.03%
+ 531  Br__Halobacteriales__UniRef90_A0A2R6KGD7                  90.82%    failed      0.61%
+ 532  Br__Halorientalis__UniRef90_UPI001FF6C9D7                 90.82%    failed      0.18%
+ 533  Br__Halobium__UniRef90_UPI002271B22C                      90.82%    failed      0.01%
+ 534  Br__Halostella__UniRef90_UPI000EF8332C                    90.82%    failed      0.22%
+ 535  Br__Halolamina__UniRef90_UPI0022715CDC                    90.82%    failed      0.01%
+ 536  Br__Halogranum__UniRef90_A0A1H8RSA7                       90.90%    failed      0.01%
+ 537  Br__Salinilacihabitans__UniRef90_UPI0021140345            90.90%    failed      0.01%
+ 538  Br__Halegenticoccus__UniRef90_UPI00100C2973               90.90%    failed      0.00%
+ 539  Br__Halobiforma__UniRef90_A0A1I1DPA8                      90.93%    failed      0.00%
+ 540  Br__Natrarchaeobaculum__UniRef90_A0A346PUS3               90.93%    failed      0.00%
+ 541  Br__Halobaculum__UniRef90_UPI001EFEF83C                   91.35%    failed      1.53%
+ 542  Br__Halobacterium__UniRef90_UPI0000110B77                 92.60%    failed      0.22%
+ 543  Cyhr__Cyanophyceae__UniRef90_K9U0A8                       91.12%    passed     18.08%
+ 544  Cyhr__Leptolyngbya__UniRef90_A0A2W4UKV5                   90.22%    passed     56.77%
+ 545  Cyhr__Nostocales__UniRef90_A0A252D874                     90.67%    passed     33.83%
+ 546  Cyhr__Pseudanabaenaceae__UniRef90_A0A928V9X3              90.63%    failed      4.23%
+ 547  Cyhr__Phormidesmis__UniRef90_UPI0009442622                90.63%    passed      9.06%
+ 548  Cyhr__Tolypothrix__UniRef90_A0A8S9SVI8                    90.67%    passed     14.36%
+ 549  Cyhr__Rubrivirga__UniRef90_UPI0028C9517B                  90.67%    failed      0.14%
+ 550  Cyhr__Pleurocapsa__UniRef90_UPI0029C671DC                 90.71%    passed     29.34%
+ 551  Cyhr__uncultured__UniRef90_A0A6J4UQD4                     90.74%    failed      0.17%
+ 552  Cyhr__Rubricoccus__UniRef90_A0A259U296                    90.74%    failed      0.03%
+ 553  Cyhr__Rubrivirga__UniRef90_A0A271IU12                     90.74%    failed      0.08%
+ 554  Cyhr__Deinococcus__UniRef90_UPI00220D8E58                 90.74%    failed      0.01%
+ 555  Cyhr__Nostocaceae__UniRef90_A0A838VMV4                    90.78%    failed      0.04%
+ 556  Cyhr__Plectolyngbya__UniRef90_A0A951NX98                  90.82%    passed     73.52%
+ 557  Cyhr__Halogranum__UniRef90_A0A1H8RSA7                     90.90%    failed      0.01%
+ 558  Cyhr__Nostocales__UniRef90_A0A6I8WFQ3                     90.90%    passed      8.19%
+ 559  Cyhr__Bacteria__UniRef90_A0A7Y3X9A8                       90.90%    passed      9.60%
+ 560  Cyhr__Rubrivirga__UniRef90_A0A271IYE2                     90.93%    failed      0.00%
+ 561  Cyhr__Rubrobacter__UniRef90_Q1AUE6                        90.97%    failed      0.00%
+ 562  Cyhr__Myxosarcina__UniRef90_UPI000689B0F6                 91.01%    failed      2.39%
+ 563  Cyhr__Actinomycetota__UniRef90_A0A938EPH0                 91.05%    failed      0.22%
+ 564  Cyhr__Nostocales__UniRef90_A0A0C2L739                     91.08%    passed     34.44%
+ 565  Cyhr__Cyanobacteriota__UniRef90_A0A926PME7                91.08%    passed     59.29%
+ 566  Cyhr__Cyanophyceae__UniRef90_A0A0S3UBN8                   91.08%    passed     46.84%
+ 567  Cyhr__Aliterella__UniRef90_A0A0D8ZW42                     91.08%    passed     48.80%
+ 568  Cyhr__Leptolyngbya__UniRef90_A0A0P4V0S4                   91.08%    passed     56.83%
+ 569  Cyhr__Leptolyngbya__UniRef90_UPI000B5A185C                91.08%    passed     41.70%
+ 570  Cyhr__Nodosilinea__UniRef90_A0A8J7EM17                    91.12%    passed     19.14%
+ 571  Cyhr__Cyanophyceae__UniRef90_A0A2W7AEB9                   91.12%    passed     22.46%
+ 572  Cyhr__Pseudanabaena__UniRef90_A0A926ZYX4                  91.12%    passed     33.37%
+ 573  Cyhr__Leptolyngbya__UniRef90_A0A926ZAJ4                   91.12%    passed     25.21%
+ 574  Cyhr__Chroococcus__UniRef90_A0A8J2TRF2                    91.12%    passed     34.63%
+ 575  Cyhr__unclassified__UniRef90_UPI0016884D19                91.12%    passed     10.83%
+ 576  Cyhr__Cyanophyceae__UniRef90_A0A9X9ZA75                   91.16%    passed     14.39%
+ 577  Cyhr__unclassified__UniRef90_A0A252DUV9                   91.16%    passed     35.56%
+ 578  Cyhr__Leptolyngbya__UniRef90_A0A926TVT6                   91.16%    passed     15.91%
+ 579  Cyhr__Phormidesmis__UniRef90_A0A2T1DCP3                   91.16%    passed     55.53%
+ 580  Cyhr__Cyanobacteria__UniRef90_A0A3D1PJK7                  91.16%    passed     15.47%
+ 581  Cyhr__Phormidesmis__UniRef90_UPI00083B4DA5                91.16%    passed     26.06%
+ 582  Cyhr__unclassified__UniRef90_A0A2H2Y0M0                   91.20%    passed     20.49%
+ 583  Cyhr__Cyanothece__UniRef90_B8HQU4                         91.20%    failed      0.49%
+ 584  Cyhr__Tolypothrix__UniRef90_A0A0C1N3L3                    91.20%    passed     35.17%
+ 585  Cyhr__Nostoc__UniRef90_A0A235I7A6                         91.20%    passed     37.67%
+ 586  Cyhr__Hassalia__UniRef90_A0A846HFU5                       91.20%    passed     45.06%
+ 587  Cyhr__Microcoleus__UniRef90_A0A926U182                    91.20%    passed     67.35%
+ 588  Cyhr__Cyanobacteria__UniRef90_A0A926PVG5                  91.24%    passed     30.49%
+ 589  Cyhr__Leptolyngbya__UniRef90_A0A926UF78                   91.35%    passed     13.39%
+ 590  Cyhr__Phormidium__UniRef90_A0A927EHN9                     91.46%    passed     10.53%
+ 591  Cyhr__Chamaesiphon__UniRef90_K9UIK1                       91.58%    passed     16.32%
+ 592  Cyhr__Leptolyngbya__UniRef90_UPI002938D558                92.37%    passed     26.08%
+ 593  Cyhr__Oculatella__UniRef90_A0A8J6T594                     93.09%    failed      4.25%
+ 594  Cyhr__Bacteria__UniRef90_A0A7Y3TUC4                       94.94%    passed     15.00%
+ 595  Cyhr__Iningainema__UniRef90_UPI00192D4A90                 95.24%    passed     44.62%
+ 596  Cyr__Halomarina__UniRef90_UPI0026F40B8B                   89.65%    failed      0.00%
+ 597  Cyr__unclassified__UniRef90_A0A2R6K7R7                    89.72%    failed      0.02%
+ 598  Cyr__Halobacteriales__UniRef90_A0A2R6DJW3                 90.10%    failed      0.00%
+ 599  Cyr__Actinomycetes__UniRef90_A0A6I2VAT4                   90.10%    failed      0.02%
+ 600  Cyr__Bacteria__UniRef90_A0A948WFJ8                        90.10%    failed      0.00%
+ 601  Cyr__Halobacteriales__UniRef90_A0A2R6F6G8                 90.14%    failed      0.02%
+ 602  Cyr__Mycobacteriaceae__UniRef90_A0A9E2K851                90.22%    failed      0.02%
+ 603  Cyr__Tolypothrix__UniRef90_A0A218QMM7                     90.48%    failed      4.32%
+ 604  Cyr__Dictyobacter__UniRef90_A0A5J4KXN6                    90.33%    failed      0.92%
+ 605  Cyr__unclassified__UniRef90_A0A2R6J4F0                    90.40%    failed      0.00%
+ 606  Cyr__Nostocales__UniRef90_A0A252D874                      90.67%    passed     33.83%
+ 607  Cyr__Halobacteria__UniRef90_A0A6B9F027                    90.48%    failed      0.00%
+ 608  Cyr__Natrialbaceae__UniRef90_O93740                       90.56%    failed      0.03%
+ 609  Cyr__Halobacteriales__UniRef90_A0A2R6EJH4                 90.56%    failed      0.04%
+ 610  Cyr__Solirubrobacterales__UniRef90_A0A7V8ZIZ4             90.56%    failed      0.00%
+ 611  Cyr__Halorussus__UniRef90_UPI0010932F32                   90.56%    failed      0.12%
+ 612  Cyr__Halorussus__UniRef90_UPI0023E81FAE                   90.56%    failed      0.20%
+ 613  Cyr__Haloferacales__UniRef90_A0A4U7F5Q1                   90.63%    failed      0.00%
+ 614  Cyr__Halohasta__UniRef90_UPI0020A583B9                    90.59%    failed      0.00%
+ 615  Cyr__Halorussus__UniRef90_UPI001FB584AA                   90.59%    failed      0.09%
+ 616  Cyr__Halobaculum__UniRef90_A0A1M5UDZ8                     90.63%    failed      0.02%
+ 617  Cyr__Pseudanabaenaceae__UniRef90_A0A928V9X3               90.63%    failed      4.23%
+ 618  Cyr__Haloplanus__UniRef90_UPI0020406A55                   90.63%    failed      0.01%
+ 619  Cyr__Haloarchaeobius__UniRef90_UPI00226DF6EF              90.63%    failed      0.02%
+ 620  Cyr__Halorubrum__UniRef90_A0A329T627                      90.67%    failed      0.02%
+ 621  Cyr__Phormidesmis__UniRef90_UPI0009442622                 90.63%    passed      9.06%
+ 622  Cyr__Tolypothrix__UniRef90_A0A8S9SVI8                     90.67%    passed     14.36%
+ 623  Cyr__Salinirubrum__UniRef90_UPI001D05D8F0                 90.67%    failed      0.01%
+ 624  Cyr__Natrialbaceae__UniRef90_M0CK77                       90.90%    failed      0.00%
+ 625  Cyr__Salinigranum__UniRef90_A0A2I8VP32                    90.71%    failed      0.00%
+ 626  Cyr__Pleurocapsa__UniRef90_UPI0029C671DC                  90.71%    passed     29.34%
+ 627  Cyr__Natronobeatus__UniRef90_UPI0020CDB3FE                90.71%    failed      0.00%
+ 628  Cyr__Halorientalis__UniRef90_UPI001FF15E48                90.74%    failed      0.27%
+ 629  Cyr__unclassified__UniRef90_UPI00240609FF                 90.74%    failed      0.02%
+ 630  Cyr__Deinococcus__UniRef90_UPI00220D8E58                  90.74%    failed      0.01%
+ 631  Cyr__Halobaculum__UniRef90_UPI0024C3D685                  90.74%    failed      0.00%
+ 632  Cyr__Salinirubellus__UniRef90_A0A9E7U421                  90.78%    failed      0.00%
+ 633  Cyr__Salinigranum__UniRef90_A0A2I8VEZ7                    90.78%    failed      0.04%
+ 634  Cyr__Halobacteriales__UniRef90_A0A2R6GS10                 90.78%    failed      0.17%
+ 635  Cyr__Nostocaceae__UniRef90_A0A838VMV4                     90.78%    failed      0.04%
+ 636  Cyr__Halomarina__UniRef90_UPI0020327DF1                   90.78%    failed      0.03%
+ 637  Cyr__Haloferax__UniRef90_M0IDG5                           90.82%    failed      0.12%
+ 638  Cyr__Halobacteriales__UniRef90_A0A2R6KGD7                 90.82%    failed      0.61%
+ 639  Cyr__Halobium__UniRef90_UPI002271B22C                     90.82%    failed      0.01%
+ 640  Cyr__Halostella__UniRef90_UPI000EF8332C                   90.82%    failed      0.22%
+ 641  Cyr__Halolamina__UniRef90_UPI0022715CDC                   90.82%    failed      0.01%
+ 642  Cyr__Halobiforma__UniRef90_A0A1P8LP89                     90.90%    failed      0.01%
+ 643  Cyr__Halogranum__UniRef90_A0A1H8RSA7                      90.90%    failed      0.01%
+ 644  Cyr__Natrinema__UniRef90_A0A7D5GSH5                       90.90%    failed      0.00%
+ 645  Cyr__Nostocales__UniRef90_A0A6I8WFQ3                      90.90%    passed      8.19%
+ 646  Cyr__Salinilacihabitans__UniRef90_UPI0021140345           90.90%    failed      0.01%
+ 647  Cyr__Halegenticoccus__UniRef90_UPI00100C2973              90.90%    failed      0.00%
+ 648  Cyr__Halobiforma__UniRef90_A0A1I1DPA8                     90.93%    failed      0.00%
+ 649  Cyr__Natrarchaeobaculum__UniRef90_A0A346PUS3              90.93%    failed      0.00%
+ 650  Cyr__Natribaculum__UniRef90_UPI0022466372                 90.93%    failed      0.00%
+ 651  Cyr__Rubrobacter__UniRef90_Q1AUE6                         90.97%    failed      0.00%
+ 652  Cyr__Haloarchaeobius__UniRef90_UPI00226E43C4              90.97%    failed      0.29%
+ 653  Cyr__Actinomycetota__UniRef90_A0A938EPH0                  91.05%    failed      0.22%
+ 654  Cyr__Dictyobacter__UniRef90_A0A402ATH3                    91.05%    failed      0.00%
+ 655  Cyr__Nostocales__UniRef90_A0A0C2L739                      91.08%    passed     34.44%
+ 656  Cyr__Aliterella__UniRef90_A0A0D8ZW42                      91.08%    passed     48.80%
+ 657  Cyr__Leptolyngbya__UniRef90_UPI000B5A185C                 91.08%    passed     41.70%
+ 658  Cyr__Nodosilinea__UniRef90_A0A8J7EM17                     91.12%    passed     19.14%
+ 659  Cyr__Cyanophyceae__UniRef90_A0A2W7AEB9                    91.12%    passed     22.46%
+ 660  Cyr__Pseudanabaena__UniRef90_A0A926ZYX4                   91.12%    passed     33.37%
+ 661  Cyr__Leptolyngbya__UniRef90_A0A926ZAJ4                    91.12%    passed     25.21%
+ 662  Cyr__Chroococcus__UniRef90_A0A8J2TRF2                     91.12%    passed     34.63%
+ 663  Cyr__unclassified__UniRef90_UPI0016884D19                 91.12%    passed     10.83%
+ 664  Cyr__Cyanophyceae__UniRef90_A0A9X9ZA75                    91.16%    passed     14.39%
+ 665  Cyr__unclassified__UniRef90_A0A252DUV9                    91.16%    passed     35.56%
+ 666  Cyr__Phormidesmis__UniRef90_A0A2T1DCP3                    91.16%    passed     55.53%
+ 667  Cyr__Cyanobacteria__UniRef90_A0A2T2RN81                   91.16%    failed      0.01%
+ 668  Cyr__Cyanobacteria__UniRef90_A0A3D1PJK7                   91.16%    passed     15.47%
+ 669  Cyr__Phormidesmis__UniRef90_UPI00083B4DA5                 91.16%    passed     26.06%
+ 670  Cyr__unclassified__UniRef90_A0A2H2Y0M0                    91.20%    passed     20.49%
+ 671  Cyr__Cyanothece__UniRef90_B8HQU4                          91.20%    failed      0.49%
+ 672  Cyr__Tolypothrix__UniRef90_A0A0C1N3L3                     91.20%    passed     35.17%
+ 673  Cyr__Nostoc__UniRef90_A0A235I7A6                          91.20%    passed     37.67%
+ 674  Cyr__Hassalia__UniRef90_A0A846HFU5                        91.20%    passed     45.06%
+ 675  Cyr__Microcoleus__UniRef90_A0A926U182                     91.20%    passed     67.35%
+ 676  Cyr__Cyanobacteria__UniRef90_A0A926PVG5                   91.24%    passed     30.49%
+ 677  Cyr__Leptolyngbya__UniRef90_A0A926UF78                    91.35%    passed     13.39%
+ 678  Cyr__Chamaesiphon__UniRef90_K9UIK1                        91.58%    passed     16.32%
+ 679  Cyr__Pseudanabaenaceae__UniRef90_A0A928YZN9               92.56%    failed      0.10%
+ 680  Pr__Bacteria__UniRef90_A0A2E9EAN5                         89.35%    failed      2.80%
+ 681  Pr__root__UniRef90_A0A2E8A7X9                             89.65%    failed      3.99%
+ 682  Pr__Burkholderiales__UniRef90_A0A976DY32                  89.84%    passed      5.46%
+ 683  Pr__Polaromonas__UniRef90_A0A924HFX7                      89.88%    failed      0.11%
+ 684  Pr__unclassified__UniRef90_A0A258U1R2                     89.91%    failed      0.04%
+ 685  Pr__Polaromonas__UniRef90_A0A7Y0BWA7                      89.91%    failed      0.02%
+ 686  Pr__Polaromonas__UniRef90_A0A923W2B8                      89.91%    failed      0.10%
+ 687  Pr__Polaromonas__UniRef90_A0A6H2HDR0                      89.91%    failed      0.23%
+ 688  Pr__Rhodoferax__UniRef90_UPI0025D0EA5D                    89.91%    failed      0.08%
+ 689  Pr__Opitutae__UniRef90_A0A2G4HKE5                         89.95%    failed      0.13%
+ 690  Pr__Polaromonas__UniRef90_A0A6N9REK5                      89.99%    failed      1.17%
+ 691  Pr__Polaromonas__UniRef90_A0A924GUJ9                      89.99%    failed      0.56%
+ 692  Pr__Polynucleobacter__UniRef90_A0A254Q1M6                 90.03%    failed      2.56%
+ 693  Pr__Polynucleobacter__UniRef90_A0A2M8VQ78                 90.06%    failed      1.15%
+ 694  Pr__Polynucleobacter__UniRef90_UPI001BFEBAA1              90.03%    failed      1.36%
+ 695  Pr__Betaproteobacteria__UniRef90_A0A6M9PKU4               90.06%    failed      1.58%
+ 696  Pr__root__UniRef90_V4YT71                                 90.06%    failed      1.26%
+ 697  Pr__uncultured__UniRef90_Q83TJ3                           90.40%    failed      0.08%
+ 698  Pr__root__UniRef90_Q9AFF7                                 90.52%    failed      0.14%
+ 699  Pr__uncultured__UniRef90_Q84C21                           90.25%    failed      0.52%
+ 700  Pr__root__UniRef90_Q4PNF2                                 90.33%    failed      0.17%
+ 701  Pr__Gammaproteobacteria__UniRef90_A0A2E1J3J0              90.44%    failed      0.77%
+ 702  Pr__root__UniRef90_Q6J4G7                                 90.56%    failed      2.88%
+ 703  Pr__root__UniRef90_Q6PL05                                 90.52%    failed      0.85%
+ 704  Pr__Bacteria__UniRef90_J4KSW5                             90.52%    failed      0.32%
+ 705  Pr__uncultured__UniRef90_A0A1L2YW20                       90.52%    failed      1.08%
+ 706  Pr__Gammaproteobacteria__UniRef90_A0A2E8KSB6              90.52%    failed      0.99%
+ 707  Pr__Bacteria__UniRef90_A0A1L2YWF0                         90.56%    failed      3.37%
+ 708  Pr__root__UniRef90_A0A1L2YWB0                             90.56%    failed      0.30%
+ 709  Pr__root__UniRef90_A0A1L2YW14                             90.56%    failed      0.82%
+ 710  Pr__Gammaproteobacteria__UniRef90_A0A1Z9LH41              90.56%    failed      0.39%
+ 711  Pr__Gammaproteobacteria__UniRef90_A0A2E4HPT1              90.56%    failed      1.33%
+ 712  Pr__SAR86__UniRef90_A0A937M2P1                            90.56%    failed      0.43%
+ 713  Pr__Bacteria__UniRef90_A0A1L2YW54                         90.59%    failed      0.86%
+ 714  Pr__root__UniRef90_A0A2E2ZER7                             90.59%    failed      0.31%
+ 715  Pr__Pseudomonadota__UniRef90_A0A944UJK0                   90.59%    failed      0.52%
+ 716  Pr__Pseudomonadota__UniRef90_A0A0R2UEA1                   90.63%    failed      1.44%
+ 717  Pr__root__UniRef90_A0A520TL11                             90.63%    failed      0.11%
+ 718  Pr__Woeseiaceae__UniRef90_A0A2E8TNK7                      90.63%    failed      0.10%
+ 719  Pr__Gammaproteobacteria__UniRef90_A0A3S5JK93              90.67%    failed      0.05%
+ 720  Pr__Gammaproteobacteria__UniRef90_A0A2E1J3Y9              90.71%    failed      1.23%
+ 721  Pr__root__UniRef90_A0A1L2YW34                             90.74%    failed      2.89%
+ 722  Pr__root__UniRef90_A0A1L2YW57                             90.82%    failed      1.46%
+ 723  Pr__SAR86__UniRef90_A0A520MXC4                            90.82%    failed      2.92%
+ 724  Pr__SAR86__UniRef90_A0A520N6G6                            90.86%    failed      3.81%
+ 725  Pr__Gammaproteobacteria__UniRef90_A0A2E1F7G8              90.93%    passed      8.71%
+ 726  Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6                 91.31%    failed      1.09%
+ 727  Pr__Gammaproteobacteria__UniRef90_A0A2E2D3E2              91.42%    failed      0.49%
+ 728  Pr__root__UniRef90_A1YC78                                 93.88%    passed     36.59%
+ 729  Pr__uncultured__UniRef90_A8QLU9                           93.92%    passed     30.32%
+ 730  Xer__Chamaesiphon__UniRef90_K9UDV6                        88.36%    passed     27.09%
+ 731  Xer__Chamaesiphon__UniRef90_UPI001FE7BDD5                 89.27%    passed     40.32%
+ 732  Xer__Chlorogloeopsis__UniRef90_A0A433NPX7                 89.50%    passed     40.77%
+ 733  Xer__Fischerella__UniRef90_A0A2N6KA72                     89.95%    passed     24.33%
+ 734  Xer__Plectonema__UniRef90_A0A8J7FDH7                      89.57%    passed     57.49%
+ 735  Xer__Chroococcidiopsis__UniRef90_K9U4X1                   89.57%    passed     42.32%
+ 736  Xer__Cyanobacteria__UniRef90_A0A350XF02                   89.61%    passed     54.51%
+ 737  Xer__unclassified__UniRef90_UPI00286B4FBA                 89.61%    passed     11.06%
+ 738  Xer__Myxacorys__UniRef90_A0A8J8CI44                       89.69%    passed     24.06%
+ 739  Xer__Trichocoleus__UniRef90_UPI0025B4A839                 89.80%    passed     59.72%
+ 740  Xer__Pegethrix__UniRef90_A0A951P8X6                       89.84%    passed     28.60%
+ 741  Xer__Leptolyngbya__UniRef90_UPI0021F24B09                 89.84%    passed     39.53%
+ 742  Xer__unclassified__UniRef90_A0A2H2XBQ5                    89.88%    passed     58.55%
+ 743  Xer__Cyanophyceae__UniRef90_A0A8J7FVH2                    89.88%    passed      9.98%
+ 744  Xer__Cyanobacteria__UniRef90_A0A926SLQ3                   89.88%    passed     57.72%
+ 745  Xer__unclassified__UniRef90_A0A969FFI9                    89.88%    passed     12.25%
+ 746  Xer__Leptolyngbya__UniRef90_A0A5Q4E204                    89.88%    passed     11.49%
+ 747  Xer__Calothrix__UniRef90_A0A930XBC0                       89.88%    passed     28.18%
+ 748  Xer__filamentous__UniRef90_A0A2T2W344                     89.91%    passed     32.56%
+ 749  Xer__Synechococcales__UniRef90_A0A930XI48                 89.91%    passed      7.85%
+ 750  Xer__unclassified__UniRef90_A0A8J7EH67                    89.91%    passed     12.17%
+ 751  Xer__Aliterella__UniRef90_A0A0D8ZMP0                      89.91%    passed     50.58%
+ 752  Xer__Cyanophyceae__UniRef90_K9XIR7                        89.91%    passed     59.75%
+ 753  Xer__Thermocoleostomius__UniRef90_A0A9E8ZCC3              89.91%    passed     15.24%
+ 754  Xer__Gloeocapsopsis__UniRef90_A0A2G7GF90                  89.95%    passed     24.23%
+ 755  Xer__Dulcicalothrix__UniRef90_A0A3S1AGP4                  89.95%    passed     11.70%
+ 756  Xer__Gloeocapsopsis__UniRef90_A0A6N8G1P5                  89.95%    passed      6.48%
+ 757  Xer__filamentous__UniRef90_A0A2P8W550                     89.95%    passed     13.60%
+ 758  Xer__Gloeothece__UniRef90_B7KKH0                          90.03%    passed     30.40%
+ 759  Xer__Chlorogloeopsis__UniRef90_UPI0025AA4827              90.03%    passed     65.83%
+ 760  Xer__Nodosilinea__UniRef90_A0AA97EF24                     90.06%    passed     32.62%
+ 761  Xer__Komarekiella__UniRef90_A0AA40SV90                    90.10%    passed     41.86%
+ 762  Xer__unclassified__UniRef90_A0A1Z4IC28                    90.14%    passed     48.69%
+ 763  Xer__Nostocaceae__UniRef90_Q8YSC4                         90.14%    passed     53.30%
+ 764  Xer__Nodosilinea__UniRef90_UPI0023B27A9D                  90.14%    passed     68.51%
+ 765  Xer__Nostoc__UniRef90_UPI0016870F7A                       90.14%    passed     41.25%
+ 766  Xer__Anabaena__UniRef90_UPI001681BA92                     90.14%    passed     51.10%
+ 767  Xer__Leptolyngbyaceae__UniRef90_A0A2W4TRN2                90.25%    passed     23.10%
+ 768  Xer__Leptolyngbyaceae__UniRef90_A0A968UBD0                90.25%    passed     15.03%
+ 769  Xer__Leptolyngbyaceae__UniRef90_A0A969KQC5                90.25%    passed     34.97%
+ 770  Xer__Phormidesmis__UniRef90_A0A0P7YZ09                    90.78%    failed      2.08%
+ 771  Xer__Chroococcidiopsis__UniRef90_A0A2P8QWW1               90.93%    passed     25.08%
+ 772  Xer__Leptolyngbya__UniRef90_A0A926UDI1                    90.93%    passed     61.32%
+ 773  Xer__Cyanobacteriota__UniRef90_A0A927ENI9                 90.93%    passed     39.27%
+ 774  Xer__Leptolyngbya__UniRef90_A0A926V7J7                    90.93%    passed     54.42%
+ 775  Xer__Trichocoleus__UniRef90_A0A8J7B835                    90.93%    passed     14.89%
+ 776  Xer__Phormidium__UniRef90_UPI0016846037                   90.93%    passed     39.89%
+ 777  Xer__Oculatella__UniRef90_A0A8J7EW44                      91.01%    passed     28.59%
+ 778  Xer__Oscillatoria__UniRef90_A0A926X8P0                    91.01%    passed     31.83%
+ 779  Xer__Cyanobacteria__UniRef90_A0A926PY22                   91.05%    passed     51.90%
+ 780  Xlr__Deinococcus__UniRef90_A0A1U7NV99                     88.48%    failed      0.71%
+ 781  Xlr__Cyanobacteria__UniRef90_A0A969T0G4                   88.70%    failed      0.16%
+ 782  Xlr__unclassified__UniRef90_UPI001E3E6221                 88.70%    failed      0.77%
+ 783  Xlr__Deinococcus__UniRef90_UPI001ED8D96D                  88.70%    failed      0.13%
+ 784  Xlr__Deinococcus__UniRef90_UPI002869BBA0                  88.70%    failed      0.03%
+ 785  Xlr__Gloeobacter__UniRef90_Q7NP59                         88.74%    failed      0.02%
+ 786  Xlr__Phormidesmis__UniRef90_UPI000A475A3D                 88.74%    failed      0.11%
+ 787  Xlr__unclassified__UniRef90_A0A969FEC7                    88.78%    failed      0.00%
+ 788  Xlr__Cyanophyceae__UniRef90_A0A2W7ARY7                    88.78%    failed      0.47%
+ 789  Xlr__Leptolyngbya__UniRef90_A0A925M2S9                    88.78%    failed      0.05%
+ 790  Xlr__Deinococcus__UniRef90_A0A2K3UTP4                     89.23%    failed      0.16%
+ 791  Xlr__Deinococcus__UniRef90_A0A172TD44                     89.23%    failed      0.00%
+ 792  Xlr__Deinococcus__UniRef90_A0A917PC33                     88.86%    failed      0.29%
+ 793  Xlr__Deinococcus__UniRef90_A0A918CFF3                     88.93%    failed      0.12%
+ 794  Xlr__Deinococcales__UniRef90_A0A924RR09                   89.12%    failed      0.17%
+ 795  Xlr__Gracilibacteria__UniRef90_A0A968T6V2                 89.27%    failed      0.00%
+ 796  Xlr__Leptolyngbya__UniRef90_U9W0I1                        89.35%    failed      0.01%
+ 797  Xlr__Halothece__UniRef90_K9YEI2                           89.38%    failed      0.63%
+ 798  Xlr__Cyanophyceae__UniRef90_A0A8T6QQF4                    89.38%    failed      0.68%
+ 799  Xlr__Halomicronema__UniRef90_UPI0021030F7B                89.38%    failed      4.06%
+ 800  Xlr__Leptolyngbya__UniRef90_A0A6H2NHV9                    89.57%    failed      1.23%
+ 801  Xlr__Frankiaceae__UniRef90_A0A924NQ99                     89.61%    passed      9.22%
+ 802  Xlr__Williamsia__UniRef90_UPI001BDAAC7A                   89.72%    failed      2.11%
+ 803  Xlr__Meiothermus__UniRef90_A0A370JXE9                     89.80%    failed      0.07%
+ 804  Xlr__Cyanophyceae__UniRef90_A0A8J7JTD9                    89.84%    failed      0.07%
+ 805  Xlr__Meiothermus__UniRef90_UPI0005667CA7                  89.84%    failed      0.51%
+ 806  Xlr__Meiothermus__UniRef90_UPI000408B316                  89.84%    failed      0.07%
+ 807  Xlr__Salisaeta__UniRef90_UPI0003B640DC                    89.95%    failed      1.82%
+ 808  Xlr__Symploca__UniRef90_A0A845YHD9                        89.99%    failed      0.42%
+ 809  Xlr__Trueperaceae__UniRef90_A0A5Q4G3V2                    90.03%    failed      0.02%
+ 810  Xlr__Chloroflexota__UniRef90_A0A6L9IXQ0                   90.03%    failed      0.12%
+ 811  Xlr__Leptolyngbyaceae__UniRef90_K8GTY7                    90.10%    failed      0.04%
+ 812  Xlr__Thermaceae__UniRef90_A0A931EK09                      90.10%    failed      0.09%
+ 813  Xlr__Deltaproteobacteria__UniRef90_A0A2D4SQ06             90.10%    passed      9.02%
+ 814  Xlr__Deltaproteobacteria__UniRef90_A0A2E7UR14             90.10%    failed      1.49%
+ 815  Xlr__Myxococcales__UniRef90_A0A2E7ZR97                    90.14%    failed      2.01%
+ 816  Xlr__Rhodothermales__UniRef90_A0A9D8YSH6                  90.14%    failed      1.04%
+ 817  Xlr__Bacteroidota__UniRef90_A0A3M2FMH9                    90.18%    failed      4.27%
+ 818  Xlr__Roseiflexaceae__UniRef90_A0A926CB40                  90.22%    failed      0.02%
+ 819  Xlr__unclassified__UniRef90_A5UXH7                        90.22%    failed      0.08%
+ 820  Xlr__Deinococcus__UniRef90_UPI0025F8D0E5                  90.22%    failed      1.60%
+ 821  Xlr__Allomeiothermus__UniRef90_UPI0023F38943              90.25%    failed      0.19%
+ 822  Xlr__Candidatus__UniRef90_A0A923XRS8                      90.29%    passed     14.04%
+ 823  Xlr__Oligoflexia__UniRef90_A0A924SSG2                     90.33%    failed      2.17%
+ 824  Xlr__Oligoflexia__UniRef90_A0A923U6H7                     90.37%    failed      4.66%
+ 825  Xlr__Pseudobdellovibrionaceae__UniRef90_A0A924ZXQ0        90.44%    passed     17.28%
+ 826  Xlr__Bdellovibrio__UniRef90_A0A923V7B8                    90.44%    passed     13.27%
+ 827  Xlr__Bdellovibrio__UniRef90_A0A924B300                    90.44%    failed      4.59%
+ 828  Xlr__Deinococcus__UniRef90_UPI001C63F925                  91.16%    failed      0.56%
+ 829  Xlr__filamentous__UniRef90_A0A2P8WHZ5                     91.69%    failed      1.53%
+WARNING: 829 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                     90.34%  602 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: XLR_Gloeobacter is identical to CYANO150__Gloeobacter__UniRef90_Q7NP59 but kept for subsequent analysis
+NOTE: Xlr__Cyanobacteria__UniRef90_A0A969T0G4 is identical to CYANO150__Cyanobacteria__UniRef90_A0A969T0G4 but kept for subsequent analysis
+NOTE: Xlr__Terrabacteria__UR50_A0A2W7ARY7 is identical to CYANO150__Cyanophyceae__UniRef90_A0A2W7ARY7 but kept for subsequent analysis
+NOTE: Xlr__unclassified__UniRef90_A0A969FEC7 is identical to CYANO150__unclassified__UniRef90_A0A969FEC7 but kept for subsequent analysis
+NOTE: Xlr__Leptolyngbya__UniRef90_A0A925M2S9 is identical to CYANO150__Leptolyngbya__UniRef90_A0A925M2S9 but kept for subsequent analysis
+NOTE: Xlr__Phormidesmis__UniRef90_UPI000A475A3D is identical to CYANO150__Phormidesmis__UniRef90_UPI000A475A3D but kept for subsequent analysis
+NOTE: Xlr__Leptolyngbya__UniRef90_U9W0I1 is identical to CYANO150__Leptolyngbya__UniRef90_U9W0I1 but kept for subsequent analysis
+NOTE: Xlr__Cyanophyceae__UniRef90_A0A8J7JTD9 is identical to CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9 but kept for subsequent analysis
+NOTE: Xlr__Halomicronema__UniRef90_UPI0021030F7B is identical to CYANO150__Halomicronema__UniRef90_UPI0021030F7B but kept for subsequent analysis
+NOTE: Xlr__root__UR50_A0A8T6QQF4 is identical to CYANO150__Cyanophyceae__UniRef90_A0A4Q7E4T5 but kept for subsequent analysis
+NOTE: Xlr__Leptolyngbyaceae__UniRef90_K8GTY7 is identical to CYANO150__Leptolyngbyaceae__UniRef90_K8GTY7 but kept for subsequent analysis
+NOTE: Xlr__Halothece__UniRef90_K9YEI2 is identical to CYANO150__Halothece__UniRef90_K9YEI2 but kept for subsequent analysis
+NOTE: Xlr__Leptolyngbya__UniRef90_A0A6H2NHV9 is identical to CYANO150__Leptolyngbya__UniRef90_A0A6H2NHV9 but kept for subsequent analysis
+NOTE: Xlr__Symploca__UniRef90_A0A845YHD9 is identical to CYANO150__Symploca__UniRef90_A0A845YHD9 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_A0A172TD44 is identical to CYANO150__Deinococcus__UniRef90_A0A172TD44 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_A0A918CFF3 is identical to CYANO150__Deinococcus__UniRef90_A0A918CFF3 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_A0A917PC33 is identical to CYANO150__Deinococcus__UniRef90_A0A917PC33 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_UPI0025F8D0E5 is identical to CYANO150__Deinococcus__UniRef90_UPI0025F8D0E5 but kept for subsequent analysis
+NOTE: Xlr__Allomeiothermus__UniRef90_UPI0023F38943 is identical to CYANO150__Allomeiothermus__UniRef90_UPI0023F38943 but kept for subsequent analysis
+NOTE: Xlr__Bdellovibrio__UniRef90_A0A924B300 is identical to CYANO150__Bdellovibrio__UniRef90_A0A924B300 but kept for subsequent analysis
+NOTE: Xlr__Trueperaceae__UniRef90_A0A5Q4G3V2 is identical to CYANO150__Trueperaceae__UniRef90_A0A5Q4G3V2 but kept for subsequent analysis
+NOTE: Xlr__Myxococcales__UniRef90_A0A2E7ZR97 is identical to CYANO150__Myxococcales__UniRef90_A0A2E7ZR97 but kept for subsequent analysis
+NOTE: Xlr__Thermaceae__UniRef90_A0A931EK09 is identical to CYANO150__Thermaceae__UniRef90_A0A931EK09 but kept for subsequent analysis
+NOTE: Xlr__Oligoflexia__UniRef90_A0A923U6H7 is identical to CYANO150__Oligoflexia__UniRef90_A0A923U6H7 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_UPI002869BBA0 is identical to CYANO150__Deinococcus__UniRef90_UPI002869BBA0 but kept for subsequent analysis
+NOTE: Xlr__Bacteroidota__UniRef90_A0A3M2FMH9 is identical to CYANO150__Bacteroidota__UniRef90_A0A3M2FMH9 but kept for subsequent analysis
+NOTE: Xlr__Rhodothermales__UniRef90_A0A9D8YSH6 is identical to CYANO150__Rhodothermales__UniRef90_A0A9D8YSH6 but kept for subsequent analysis
+NOTE: Xlr__Pseudobdellovibrionaceae__UniRef90_A0A924ZXQ0 is identical to CYANO150__Pseudobdellovibrionaceae__UniRef90_A0A924ZXQ0 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_A0A2K3UTP4 is identical to CYANO150__Deinococcus__UniRef90_A0A2K3UTP4 but kept for subsequent analysis
+NOTE: Xlr__Bdellovibrio__UniRef90_A0A923V7B8 is identical to CYANO150__Bdellovibrio__UniRef90_A0A923V7B8 but kept for subsequent analysis
+NOTE: Xlr__Terrabacteria__UR50_A0A2P8WHZ5 is identical to CYANO150__filamentous__UniRef90_A0A2P8WHZ5 but kept for subsequent analysis
+NOTE: Xlr__Gracilibacteria__UniRef90_A0A968T6V2 is identical to CYANO150__Gracilibacteria__UniRef90_A0A968T6V2 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_UPI001C63F925 is identical to CYANO150__Deinococcus__UniRef90_UPI001C63F925 but kept for subsequent analysis
+NOTE: Xlr__Deltaproteobacteria__UniRef90_A0A2D4SQ06 is identical to CYANO150__Deltaproteobacteria__UniRef90_A0A2D4SQ06 but kept for subsequent analysis
+NOTE: Xlr__Deinococcus__UniRef90_A0A1U7NV99 is identical to CYANO150__Deinococcus__UniRef90_A0A1U7NV99 but kept for subsequent analysis
+NOTE: Xlr__unclassified__UniRef90_A5UXH7 is identical to CYANO150__unclassified__UniRef90_A5UXH7 but kept for subsequent analysis
+NOTE: Xlr__Oligoflexia__UniRef90_A0A924SSG2 is identical to CYANO150__Oligoflexia__UniRef90_A0A924SSG2 but kept for subsequent analysis
+NOTE: Xlr__unclassified__UniRef90_UPI001E3E6221 is identical to CYANO150__unclassified__UniRef90_UPI001E3E6221 but kept for subsequent analysis
+NOTE: Xlr__Bacteria__UR50_A0A2E7UR14 is identical to CYANO150__Deltaproteobacteria__UniRef90_A0A2E7UR14 but kept for subsequent analysis
+NOTE: Xlr__Roseiflexaceae__UniRef90_A0A926CB40 is identical to CYANO150__Roseiflexaceae__UniRef90_A0A926CB40 but kept for subsequent analysis
+NOTE: Xlr__Candidatus__UniRef90_A0A923XRS8 is identical to CYANO150__Candidatus__UniRef90_A0A923XRS8 but kept for subsequent analysis
+NOTE: Xlr__Chloroflexota__UniRef90_A0A6L9IXQ0 is identical to CYANO150__Chloroflexota__UniRef90_A0A6L9IXQ0 but kept for subsequent analysis
+NOTE: Xlr__Meiothermus__UniRef90_UPI0005667CA7 is identical to CYANO150__Meiothermus__UniRef90_UPI0005667CA7 but kept for subsequent analysis
+NOTE: Xlr__Meiothermus__UniRef90_A0A370JXE9 is identical to CYANO150__Meiothermus__UniRef90_A0A370JXE9 but kept for subsequent analysis
+NOTE: Xlr__Salisaeta__UniRef90_UPI0003B640DC is identical to CYANO150__Salisaeta__UniRef90_UPI0003B640DC but kept for subsequent analysis
+NOTE: Xlr__Meiothermus__UniRef90_UPI000408B316 is identical to CYANO150__Meiothermus__UniRef90_UPI000408B316 but kept for subsequent analysis
+NOTE: Xlr__Williamsia__UniRef90_UPI001BDAAC7A is identical to CYANO150__Williamsia__UniRef90_UPI001BDAAC7A but kept for subsequent analysis
+NOTE: Xlr__Deinococcales__UniRef90_A0A924RR09 is identical to CYANO150__Deinococcales__UniRef90_A0A924RR09 but kept for subsequent analysis
+NOTE: Xlr__Frankiaceae__UniRef90_A0A924NQ99 is identical to CYANO150__Frankiaceae__UniRef90_A0A924NQ99 but kept for subsequent analysis
+NOTE: Xlr__Bacteria__UR50_A0A958E829 is identical to CYANO150__Calditrichota__UniRef90_A0A958E829 but kept for subsequent analysis
+NOTE: Xlr__Bacteria__UR50_A0A3L7VYY9 is identical to CYANO150__Chloroflexota__UniRef90_A0A3L7VYY9 but kept for subsequent analysis
+NOTE: Xlr__root__UR50_A0A4P5SJD2 is identical to CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2 but kept for subsequent analysis
+NOTE: Cyhr__Phormidesmis__UniRef90_UPI0009442622 is identical to CyR_Phormidesmis but kept for subsequent analysis
+NOTE: Cyr__Tolypothrix__UniRef90_A0A218QMM7 is identical to CyR_Tolypothrix but kept for subsequent analysis
+NOTE: Br__Cyanobacteriota__UR50_A0A9X9ZA75 is identical to CyHR_Synechocystis but kept for subsequent analysis
+NOTE: Br__Archaea__UR50_P02945 is identical to BR_Halobacterium but kept for subsequent analysis
+NOTE: Xer__Nostocaceae__UniRef90_Q8YSC4 is identical to XeR_Nostoc but kept for subsequent analysis
+NOTE: Cyr__Vitrella__UR50_A0A0G4FEK1 is identical to Br__Vitrella__UR50_A0A0G4FEK1 but kept for subsequent analysis
+NOTE: Cyhr__Archaea__UR50_P69051 is identical to Br__Archaea__UR50_P69051 but kept for subsequent analysis
+NOTE: Cyhr__Haloplanus__UR50_A0A368NBE5 is identical to Br__Haloplanus__UR50_A0A368NBE5 but kept for subsequent analysis
+NOTE: Cyhr__Bacteria__UR50_A0A0D8ZW42 is identical to Br__Bacteria__UR50_A0A0D8ZW42 but kept for subsequent analysis
+NOTE: Cyhr__Halobacteria__UR50_Q53496 is identical to Br__Halobacteria__UR50_Q53496 but kept for subsequent analysis
+NOTE: Cyhr__Archaea__UR50_P94854 is identical to Br__Archaea__UR50_P94854 but kept for subsequent analysis
+NOTE: Cyhr__Halobacteriales__UR50_A0A2R6DJW3 is identical to Br__Halobacteriales__UR50_A0A2R6DJW3 but kept for subsequent analysis
+NOTE: Cyhr__Cyanobacteriota__UR50_A0A252D874 is identical to Br__Cyanobacteriota__UR50_A0A252D874 but kept for subsequent analysis
+NOTE: Cyhr__Cryptomonadales__UR50_A0A7S1DWA7 is identical to Br__Cryptomonadales__UR50_A0A7S1DWA7 but kept for subsequent analysis
+NOTE: Cyhr__unclassified__UR50_A0A2R6GG49 is identical to Br__unclassified__UR50_A0A2R6GG49 but kept for subsequent analysis
+NOTE: Cyr__Haloplanus__UR50_A0A6B9F3Z3 is identical to Br__Haloplanus__UR50_A0A6B9F3Z3 but kept for subsequent analysis
+NOTE: Cyhr__Truepera__UR50_A0A6J4UQD4 is identical to Br__Truepera__UR50_A0A6J4UQD4 but kept for subsequent analysis
+NOTE: Cyhr__Halorutilus__UR50_A0A9Q4C304 is identical to Br__Halorutilus__UR50_A0A9Q4C304 but kept for subsequent analysis
+NOTE: Cyr__Hemiselmis__UR50_A0A6T8IZ18 is identical to Br__Hemiselmis__UR50_A0A6T8IZ18 but kept for subsequent analysis
+NOTE: Cyhr__Rubricoccaceae__UR50_A0A271IU12 is identical to Br__Rubricoccaceae__UR50_A0A271IU12 but kept for subsequent analysis
+NOTE: Cyhr__Haloquadratum__UR50_Q18DH5 is identical to Br__Haloquadratum__UR50_Q18DH5 but kept for subsequent analysis
+NOTE: Cyhr__Halobacteria__UR50_U1R2U7 is identical to Br__Halobacteria__UR50_U1R2U7 but kept for subsequent analysis
+NOTE: Cyhr__Deinococcus__UR50_UPI00220D8E58 is identical to Br__Deinococcus__UR50_UPI00220D8E58 but kept for subsequent analysis
+NOTE: Cyhr__Rubrobacteraceae__UR50_Q1AUE6 is identical to Br__Rubrobacteraceae__UR50_Q1AUE6 but kept for subsequent analysis
+NOTE: Cyhr__Tetraselmis__UR50_A0A061S8L7 is identical to Br__Tetraselmis__UR50_A0A061S8L7 but kept for subsequent analysis
+NOTE: Cyhr__Actinomycetota__UR50_A0A938EPH0 is identical to Br__Actinomycetota__UR50_A0A938EPH0 but kept for subsequent analysis
+NOTE: Cyhr__Dictyobacter__UR50_A0A402ATH3 is identical to Br__Dictyobacter__UR50_A0A402ATH3 but kept for subsequent analysis
+NOTE: Cyhr__Gammaproteobacteria__UR50_A0A2R8CJ36 is identical to Br__Gammaproteobacteria__UR50_A0A2R8CJ36 but kept for subsequent analysis
+NOTE: Cyhr__Halovenus__UR50_A0A6B0T5F9 is identical to Br__Halovenus__UR50_A0A6B0T5F9 but kept for subsequent analysis
+NOTE: Cyhr__Halorutilus__UR50_A0A9Q4C3E6 is identical to Br__Halorutilus__UR50_A0A9Q4C3E6 but kept for subsequent analysis
+NOTE: Cyhr__Pseudanabaenaceae__UR50_A0A928YZN9 is identical to Br__Pseudanabaenaceae__UR50_A0A928YZN9 but kept for subsequent analysis
+NOTE: Cyhr__Halobacterium__UR50_UPI0000110B77 is identical to Br__Halobacterium__UR50_UPI0000110B77 but kept for subsequent analysis
+NOTE: Cyhr__halophilic__UR50_U1R431 is identical to Br__halophilic__UR50_U1R431 but kept for subsequent analysis
+NOTE: Cyr__cellular__UR50_U5TVL7 is identical to Br__cellular__UR50_U5TVL7 but kept for subsequent analysis
+NOTE: Cyr__cellular__UR50_U5TY47 is identical to Br__cellular__UR50_U5TY47 but kept for subsequent analysis
+NOTE: Cyr__Monilinia__UR50_A0A5N6KJ15 is identical to Cyhr__Monilinia__UR50_A0A5N6KJ15 but kept for subsequent analysis
+NOTE: Cyr__Phialophora__UR50_A0A0D2FVJ8 is identical to Cyhr__Phialophora__UR50_A0A0D2FVJ8 but kept for subsequent analysis
+NOTE: Cyr__Alphaproteobacteria__UR50_A0A7V7TUE7 is identical to Cyhr__Alphaproteobacteria__UR50_A0A7V7TUE7 but kept for subsequent analysis
+NOTE: Cyr__Sphingomonas__UR50_A0A2A2SBC3 is identical to Cyhr__Sphingomonas__UR50_A0A2A2SBC3 but kept for subsequent analysis
+NOTE: Cyr__Erysiphaceae__UR50_A0A0B1P8N0 is identical to Cyhr__Erysiphaceae__UR50_A0A0B1P8N0 but kept for subsequent analysis
+NOTE: Xer__Bacteria__UR50_A0A1G1STR4 is identical to Cyhr__Bacteria__UR50_A0A1G1STR4 but kept for subsequent analysis
+NOTE: Cyr__Ktedonobacterales__UR50_D6U1J0 is identical to Cyhr__Ktedonobacterales__UR50_D6U1J0 but kept for subsequent analysis
+NOTE: Xer__Terrabacteria__UR50_A0A0P7YZ09 is identical to Cyhr__Terrabacteria__UR50_A0A0P7YZ09 but kept for subsequent analysis
+NOTE: Cyr__Taphrinales__UR50_R4XKS9 is identical to Cyhr__Taphrinales__UR50_R4XKS9 but kept for subsequent analysis
+NOTE: Cyr__Cryptophyceae__UR50_L1JTW1 is identical to Cyhr__Cryptophyceae__UR50_L1JTW1 but kept for subsequent analysis
+NOTE: Cyr__Alphaproteobacteria__UR50_A0A5B2VFD4 is identical to Cyhr__Alphaproteobacteria__UR50_A0A5B2VFD4 but kept for subsequent analysis
+NOTE: Cyr__Halobacteria__UR50_A0A125T1B2 is identical to Cyhr__Halobacteria__UR50_A0A125T1B2 but kept for subsequent analysis
+NOTE: Xer__root__UR50_A0A938EDB5 is identical to Cyhr__root__UR50_A0A938EDB5 but kept for subsequent analysis
+NOTE: Xer__Sphingomonas__UR50_UPI0015775044 is identical to Cyhr__Sphingomonas__UR50_UPI0015775044 but kept for subsequent analysis
+NOTE: Cyr__Cyanobacteriota__UR50_A0A2W4UKV5 is identical to Cyhr__Cyanobacteriota__UR50_A0A2W4UKV5 but kept for subsequent analysis
+NOTE: Cyr__Nodosilinea__UR50_UPI00293DA23B is identical to Cyhr__Nodosilinea__UR50_UPI00293DA23B but kept for subsequent analysis
+NOTE: Xer__Bacteroidota__UR50_A0A1P9WTB2 is identical to Cyhr__Bacteroidota__UR50_A0A1P9WTB2 but kept for subsequent analysis
+NOTE: Cyr__Bacteria__UR50_A0A966QHT7 is identical to Cyhr__Bacteria__UR50_A0A966QHT7 but kept for subsequent analysis
+NOTE: Cyr__Halobacteria__UR50_P42196 is identical to Cyhr__Halobacteria__UR50_P42196 but kept for subsequent analysis
+NOTE: Cyr__Gloeobacterales__UR50_A0A925XUD8 is identical to Cyhr__Gloeobacterales__UR50_A0A925XUD8 but kept for subsequent analysis
+NOTE: Cyr__Halobacteria__UR50_A0A6G3ZG40 is identical to Cyhr__Halobacteria__UR50_A0A6G3ZG40 but kept for subsequent analysis
+NOTE: Xer__Bacteria__UR50_A0A072NB13 is identical to Cyhr__Bacteria__UR50_A0A072NB13 but kept for subsequent analysis
+NOTE: Cyr__Lichenibacterium__UR50_A0A4Q2RG75 is identical to Cyhr__Lichenibacterium__UR50_A0A4Q2RG75 but kept for subsequent analysis
+NOTE: Cyr__unclassified__UR50_A0A2H2Y0M0 is identical to Cyhr__unclassified__UR50_A0A2H2Y0M0 but kept for subsequent analysis
+NOTE: Cyr__Oculatella__UR50_A0A8J6T594 is identical to Cyhr__Oculatella__UR50_A0A8J6T594 but kept for subsequent analysis
+NOTE: Cyhr__Bacteria__UniRef90_A0A7Y3TUC4 is identical to Cyhr__Bacteria__UR50_A0A7Y3TUC4 but kept for subsequent analysis
+NOTE: Cyr__Actinomycetota__UR50_A0A9D8D7T8 is identical to Cyhr__Actinomycetota__UR50_A0A9D8D7T8 but kept for subsequent analysis
+NOTE: Cyhr__Iningainema__UniRef90_UPI00192D4A90 is identical to Cyhr__Nostocales__UR50_UPI00192D4A90 but kept for subsequent analysis
+NOTE: Xer__Alphaproteobacteria__UR50_A0A502GBB7 is identical to Cyr__Alphaproteobacteria__UR50_A0A502GBB7 but kept for subsequent analysis
+NOTE: Xer__Rubrobacter__UR50_UPI0009FD7C88 is identical to Cyr__Rubrobacter__UR50_UPI0009FD7C88 but kept for subsequent analysis
+NOTE: Xer__Terrabacteria__UR50_A0A1L3MLR8 is identical to Cyr__Terrabacteria__UR50_A0A1L3MLR8 but kept for subsequent analysis
+NOTE: Xer__Candidatus__UR50_A0A924HUX2 is identical to Cyr__Candidatus__UR50_A0A924HUX2 but kept for subsequent analysis
+NOTE: Xer__Bacteroidota/Chlorobiota__UR50_A0A259U1H3 is identical to Cyr__Bacteroidota/Chlorobiota__UR50_A0A259U1H3 but kept for subsequent analysis
+NOTE: Xer__Candidatus__UR50_A0A924E4Y5 is identical to Cyr__Candidatus__UR50_A0A924E4Y5 but kept for subsequent analysis
+NOTE: Xer__Bacillota__UR50_A0A6I0FE40 is identical to Cyr__Bacillota__UR50_A0A6I0FE40 but kept for subsequent analysis
+NOTE: Xer__Terrabacteria__UR50_A0A3R9M9T5 is identical to Cyr__Terrabacteria__UR50_A0A3R9M9T5 but kept for subsequent analysis
+NOTE: Xer__Truepera__UR50_D7CXV3 is identical to Cyr__Truepera__UR50_D7CXV3 but kept for subsequent analysis
+NOTE: Pr__root__UniRef90_Q6J4G7 is identical to Pr__root__UR50_Q6J4G7 but kept for subsequent analysis
+NOTE: Pr__root__UniRef90_A0A1L2YWB0 is identical to Pr__root__UR50_A0A1L2YWB0 but kept for subsequent analysis
+NOTE: Pr__Pseudomonadota__UniRef90_A0A0R2UEA1 is identical to Pr__root__UR50_A0A0R2UEA1 but kept for subsequent analysis
+NOTE: Pr__root__UniRef90_Q9AFF7 is identical to Pr__root__UR50_Q9AFF7 but kept for subsequent analysis
+NOTE: Cyr__Halomarina__UniRef90_UPI0026F40B8B is identical to Br__Halomarina__UniRef90_UPI0026F40B8B but kept for subsequent analysis
+NOTE: Cyr__Haloarchaeobius__UniRef90_UPI00226DF6EF is identical to Br__Haloarchaeobius__UniRef90_UPI00226DF6EF but kept for subsequent analysis
+NOTE: Cyr__Natrialbaceae__UniRef90_M0CK77 is identical to Br__Natrialbaceae__UniRef90_M0CK77 but kept for subsequent analysis
+NOTE: Cyr__Natronobeatus__UniRef90_UPI0020CDB3FE is identical to Br__Natronobeatus__UniRef90_UPI0020CDB3FE but kept for subsequent analysis
+NOTE: Cyr__Salinigranum__UniRef90_A0A2I8VEZ7 is identical to Br__Salinigranum__UniRef90_A0A2I8VEZ7 but kept for subsequent analysis
+NOTE: Cyr__Halomarina__UniRef90_UPI0020327DF1 is identical to Br__Halomarina__UniRef90_UPI0020327DF1 but kept for subsequent analysis
+NOTE: Cyr__Halobacteriales__UniRef90_A0A2R6KGD7 is identical to Br__Halobacteriales__UniRef90_A0A2R6KGD7 but kept for subsequent analysis
+NOTE: Cyr__Halobium__UniRef90_UPI002271B22C is identical to Br__Halobium__UniRef90_UPI002271B22C but kept for subsequent analysis
+NOTE: Cyr__Halostella__UniRef90_UPI000EF8332C is identical to Br__Halostella__UniRef90_UPI000EF8332C but kept for subsequent analysis
+NOTE: Cyr__Halolamina__UniRef90_UPI0022715CDC is identical to Br__Halolamina__UniRef90_UPI0022715CDC but kept for subsequent analysis
+NOTE: Cyhr__Halogranum__UniRef90_A0A1H8RSA7 is identical to Br__Halogranum__UniRef90_A0A1H8RSA7 but kept for subsequent analysis
+NOTE: Cyr__Salinilacihabitans__UniRef90_UPI0021140345 is identical to Br__Salinilacihabitans__UniRef90_UPI0021140345 but kept for subsequent analysis
+NOTE: Cyr__Halegenticoccus__UniRef90_UPI00100C2973 is identical to Br__Halegenticoccus__UniRef90_UPI00100C2973 but kept for subsequent analysis
+NOTE: Cyr__Halobiforma__UniRef90_A0A1I1DPA8 is identical to Br__Halobiforma__UniRef90_A0A1I1DPA8 but kept for subsequent analysis
+NOTE: Cyr__Natrarchaeobaculum__UniRef90_A0A346PUS3 is identical to Br__Natrarchaeobaculum__UniRef90_A0A346PUS3 but kept for subsequent analysis
+NOTE: Cyr__Pseudanabaenaceae__UniRef90_A0A928V9X3 is identical to Cyhr__Pseudanabaenaceae__UniRef90_A0A928V9X3 but kept for subsequent analysis
+NOTE: Cyr__Tolypothrix__UniRef90_A0A8S9SVI8 is identical to Cyhr__Tolypothrix__UniRef90_A0A8S9SVI8 but kept for subsequent analysis
+NOTE: Cyr__Pleurocapsa__UniRef90_UPI0029C671DC is identical to Cyhr__Pleurocapsa__UniRef90_UPI0029C671DC but kept for subsequent analysis
+NOTE: Cyr__Nostocaceae__UniRef90_A0A838VMV4 is identical to Cyhr__Nostocaceae__UniRef90_A0A838VMV4 but kept for subsequent analysis
+NOTE: Cyr__Nostocales__UniRef90_A0A6I8WFQ3 is identical to Cyhr__Nostocales__UniRef90_A0A6I8WFQ3 but kept for subsequent analysis
+NOTE: Cyr__Nostocales__UniRef90_A0A0C2L739 is identical to Cyhr__Nostocales__UniRef90_A0A0C2L739 but kept for subsequent analysis
+NOTE: Cyr__Leptolyngbya__UniRef90_UPI000B5A185C is identical to Cyhr__Leptolyngbya__UniRef90_UPI000B5A185C but kept for subsequent analysis
+NOTE: Cyr__Nodosilinea__UniRef90_A0A8J7EM17 is identical to Cyhr__Nodosilinea__UniRef90_A0A8J7EM17 but kept for subsequent analysis
+NOTE: Cyr__Cyanophyceae__UniRef90_A0A2W7AEB9 is identical to Cyhr__Cyanophyceae__UniRef90_A0A2W7AEB9 but kept for subsequent analysis
+NOTE: Cyr__Pseudanabaena__UniRef90_A0A926ZYX4 is identical to Cyhr__Pseudanabaena__UniRef90_A0A926ZYX4 but kept for subsequent analysis
+NOTE: Cyr__Leptolyngbya__UniRef90_A0A926ZAJ4 is identical to Cyhr__Leptolyngbya__UniRef90_A0A926ZAJ4 but kept for subsequent analysis
+NOTE: Cyr__Chroococcus__UniRef90_A0A8J2TRF2 is identical to Cyhr__Chroococcus__UniRef90_A0A8J2TRF2 but kept for subsequent analysis
+NOTE: Cyr__unclassified__UniRef90_UPI0016884D19 is identical to Cyhr__unclassified__UniRef90_UPI0016884D19 but kept for subsequent analysis
+NOTE: Cyr__unclassified__UniRef90_A0A252DUV9 is identical to Cyhr__unclassified__UniRef90_A0A252DUV9 but kept for subsequent analysis
+NOTE: Cyr__Phormidesmis__UniRef90_A0A2T1DCP3 is identical to Cyhr__Phormidesmis__UniRef90_A0A2T1DCP3 but kept for subsequent analysis
+NOTE: Cyr__Cyanobacteria__UniRef90_A0A3D1PJK7 is identical to Cyhr__Cyanobacteria__UniRef90_A0A3D1PJK7 but kept for subsequent analysis
+NOTE: Cyr__Phormidesmis__UniRef90_UPI00083B4DA5 is identical to Cyhr__Phormidesmis__UniRef90_UPI00083B4DA5 but kept for subsequent analysis
+NOTE: Cyr__Cyanothece__UniRef90_B8HQU4 is identical to Cyhr__Cyanothece__UniRef90_B8HQU4 but kept for subsequent analysis
+NOTE: Cyr__Tolypothrix__UniRef90_A0A0C1N3L3 is identical to Cyhr__Tolypothrix__UniRef90_A0A0C1N3L3 but kept for subsequent analysis
+NOTE: Cyr__Nostoc__UniRef90_A0A235I7A6 is identical to Cyhr__Nostoc__UniRef90_A0A235I7A6 but kept for subsequent analysis
+NOTE: Cyr__Hassalia__UniRef90_A0A846HFU5 is identical to Cyhr__Hassalia__UniRef90_A0A846HFU5 but kept for subsequent analysis
+NOTE: Cyr__Microcoleus__UniRef90_A0A926U182 is identical to Cyhr__Microcoleus__UniRef90_A0A926U182 but kept for subsequent analysis
+NOTE: Cyr__Cyanobacteria__UniRef90_A0A926PVG5 is identical to Cyhr__Cyanobacteria__UniRef90_A0A926PVG5 but kept for subsequent analysis
+NOTE: Cyr__Leptolyngbya__UniRef90_A0A926UF78 is identical to Cyhr__Leptolyngbya__UniRef90_A0A926UF78 but kept for subsequent analysis
+NOTE: Cyr__Chamaesiphon__UniRef90_K9UIK1 is identical to Cyhr__Chamaesiphon__UniRef90_K9UIK1 but kept for subsequent analysis
+NOTE: 82 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Xlr__root__UR50_Q7NP59 (identical to CYANO150__Gloeobacter__UniRef90_Q7NP59) is ignored but added at the end
+NOTE: Xlr__Gloeobacter__UniRef90_Q7NP59 (identical to CYANO150__Gloeobacter__UniRef90_Q7NP59) is ignored but added at the end
+NOTE: Xlr__Cyanophyceae__UniRef90_A0A2W7ARY7 (identical to CYANO150__Cyanophyceae__UniRef90_A0A2W7ARY7) is ignored but added at the end
+NOTE: Xlr__Cyanophyceae__UniRef90_A0A8T6QQF4 (identical to CYANO150__Cyanophyceae__UniRef90_A0A4Q7E4T5) is ignored but added at the end
+NOTE: Xlr__filamentous__UniRef90_A0A2P8WHZ5 (identical to CYANO150__filamentous__UniRef90_A0A2P8WHZ5) is ignored but added at the end
+NOTE: Xlr__Deltaproteobacteria__UniRef90_A0A2E7UR14 (identical to CYANO150__Deltaproteobacteria__UniRef90_A0A2E7UR14) is ignored but added at the end
+NOTE: Cyr__Phormidesmis__UniRef90_UPI0009442622 (identical to CyR_Phormidesmis) is ignored but added at the end
+NOTE: Cyhr__Cyanobacteriota__UR50_A0A9X9ZA75 (identical to CyHR_Synechocystis) is ignored but added at the end
+NOTE: Cyr__Cyanobacteriota__UR50_A0A9X9ZA75 (identical to CyHR_Synechocystis) is ignored but added at the end
+NOTE: Cyhr__Cyanophyceae__UniRef90_A0A9X9ZA75 (identical to CyHR_Synechocystis) is ignored but added at the end
+NOTE: Cyr__Cyanophyceae__UniRef90_A0A9X9ZA75 (identical to CyHR_Synechocystis) is ignored but added at the end
+NOTE: Cyhr__Archaea__UR50_P02945 (identical to BR_Halobacterium) is ignored but added at the end
+NOTE: Cyr__Archaea__UR50_P02945 (identical to BR_Halobacterium) is ignored but added at the end
+NOTE: Br__Halobacterium__UniRef90_P02945 (identical to BR_Halobacterium) is ignored but added at the end
+NOTE: Cyr__Archaea__UR50_P69051 (identical to Br__Archaea__UR50_P69051) is ignored but added at the end
+NOTE: Xer__Archaea__UR50_P69051 (identical to Br__Archaea__UR50_P69051) is ignored but added at the end
+NOTE: Br__Halobacteria__UniRef90_P69051 (identical to Br__Archaea__UR50_P69051) is ignored but added at the end
+NOTE: Cyr__Haloplanus__UR50_A0A368NBE5 (identical to Br__Haloplanus__UR50_A0A368NBE5) is ignored but added at the end
+NOTE: Cyr__Bacteria__UR50_A0A0D8ZW42 (identical to Br__Bacteria__UR50_A0A0D8ZW42) is ignored but added at the end
+NOTE: Xer__Bacteria__UR50_A0A0D8ZW42 (identical to Br__Bacteria__UR50_A0A0D8ZW42) is ignored but added at the end
+NOTE: Cyhr__Aliterella__UniRef90_A0A0D8ZW42 (identical to Br__Bacteria__UR50_A0A0D8ZW42) is ignored but added at the end
+NOTE: Cyr__Aliterella__UniRef90_A0A0D8ZW42 (identical to Br__Bacteria__UR50_A0A0D8ZW42) is ignored but added at the end
+NOTE: Cyr__Halobacteria__UR50_Q53496 (identical to Br__Halobacteria__UR50_Q53496) is ignored but added at the end
+NOTE: Xer__Halobacteria__UR50_Q53496 (identical to Br__Halobacteria__UR50_Q53496) is ignored but added at the end
+NOTE: Cyr__Archaea__UR50_P94854 (identical to Br__Archaea__UR50_P94854) is ignored but added at the end
+NOTE: Xer__Archaea__UR50_P94854 (identical to Br__Archaea__UR50_P94854) is ignored but added at the end
+NOTE: Br__Halobacteriales__UniRef90_P94854 (identical to Br__Archaea__UR50_P94854) is ignored but added at the end
+NOTE: Cyr__Halobacteriales__UR50_A0A2R6DJW3 (identical to Br__Halobacteriales__UR50_A0A2R6DJW3) is ignored but added at the end
+NOTE: Xer__Halobacteriales__UR50_A0A2R6DJW3 (identical to Br__Halobacteriales__UR50_A0A2R6DJW3) is ignored but added at the end
+NOTE: Cyr__Halobacteriales__UniRef90_A0A2R6DJW3 (identical to Br__Halobacteriales__UR50_A0A2R6DJW3) is ignored but added at the end
+NOTE: Cyr__Cyanobacteriota__UR50_A0A252D874 (identical to Br__Cyanobacteriota__UR50_A0A252D874) is ignored but added at the end
+NOTE: Xer__Cyanobacteriota__UR50_A0A252D874 (identical to Br__Cyanobacteriota__UR50_A0A252D874) is ignored but added at the end
+NOTE: Cyhr__Nostocales__UniRef90_A0A252D874 (identical to Br__Cyanobacteriota__UR50_A0A252D874) is ignored but added at the end
+NOTE: Cyr__Nostocales__UniRef90_A0A252D874 (identical to Br__Cyanobacteriota__UR50_A0A252D874) is ignored but added at the end
+NOTE: Cyr__Cryptomonadales__UR50_A0A7S1DWA7 (identical to Br__Cryptomonadales__UR50_A0A7S1DWA7) is ignored but added at the end
+NOTE: Cyr__Truepera__UR50_A0A6J4UQD4 (identical to Br__Truepera__UR50_A0A6J4UQD4) is ignored but added at the end
+NOTE: Xer__Truepera__UR50_A0A6J4UQD4 (identical to Br__Truepera__UR50_A0A6J4UQD4) is ignored but added at the end
+NOTE: Cyhr__uncultured__UniRef90_A0A6J4UQD4 (identical to Br__Truepera__UR50_A0A6J4UQD4) is ignored but added at the end
+NOTE: Cyr__Halorutilus__UR50_A0A9Q4C304 (identical to Br__Halorutilus__UR50_A0A9Q4C304) is ignored but added at the end
+NOTE: Cyr__Rubricoccaceae__UR50_A0A271IU12 (identical to Br__Rubricoccaceae__UR50_A0A271IU12) is ignored but added at the end
+NOTE: Cyhr__Rubrivirga__UniRef90_A0A271IU12 (identical to Br__Rubricoccaceae__UR50_A0A271IU12) is ignored but added at the end
+NOTE: Cyr__Haloquadratum__UR50_Q18DH5 (identical to Br__Haloquadratum__UR50_Q18DH5) is ignored but added at the end
+NOTE: Cyr__Halobacteria__UR50_U1R2U7 (identical to Br__Halobacteria__UR50_U1R2U7) is ignored but added at the end
+NOTE: Xer__Halobacteria__UR50_U1R2U7 (identical to Br__Halobacteria__UR50_U1R2U7) is ignored but added at the end
+NOTE: Cyr__Deinococcus__UR50_UPI00220D8E58 (identical to Br__Deinococcus__UR50_UPI00220D8E58) is ignored but added at the end
+NOTE: Xer__Deinococcus__UR50_UPI00220D8E58 (identical to Br__Deinococcus__UR50_UPI00220D8E58) is ignored but added at the end
+NOTE: Cyhr__Deinococcus__UniRef90_UPI00220D8E58 (identical to Br__Deinococcus__UR50_UPI00220D8E58) is ignored but added at the end
+NOTE: Cyr__Deinococcus__UniRef90_UPI00220D8E58 (identical to Br__Deinococcus__UR50_UPI00220D8E58) is ignored but added at the end
+NOTE: Cyr__Rubrobacteraceae__UR50_Q1AUE6 (identical to Br__Rubrobacteraceae__UR50_Q1AUE6) is ignored but added at the end
+NOTE: Xer__Rubrobacteraceae__UR50_Q1AUE6 (identical to Br__Rubrobacteraceae__UR50_Q1AUE6) is ignored but added at the end
+NOTE: Cyhr__Rubrobacter__UniRef90_Q1AUE6 (identical to Br__Rubrobacteraceae__UR50_Q1AUE6) is ignored but added at the end
+NOTE: Cyr__Rubrobacter__UniRef90_Q1AUE6 (identical to Br__Rubrobacteraceae__UR50_Q1AUE6) is ignored but added at the end
+NOTE: Cyr__Tetraselmis__UR50_A0A061S8L7 (identical to Br__Tetraselmis__UR50_A0A061S8L7) is ignored but added at the end
+NOTE: Cyr__Actinomycetota__UR50_A0A938EPH0 (identical to Br__Actinomycetota__UR50_A0A938EPH0) is ignored but added at the end
+NOTE: Xer__Actinomycetota__UR50_A0A938EPH0 (identical to Br__Actinomycetota__UR50_A0A938EPH0) is ignored but added at the end
+NOTE: Cyhr__Actinomycetota__UniRef90_A0A938EPH0 (identical to Br__Actinomycetota__UR50_A0A938EPH0) is ignored but added at the end
+NOTE: Cyr__Actinomycetota__UniRef90_A0A938EPH0 (identical to Br__Actinomycetota__UR50_A0A938EPH0) is ignored but added at the end
+NOTE: Cyr__Dictyobacter__UR50_A0A402ATH3 (identical to Br__Dictyobacter__UR50_A0A402ATH3) is ignored but added at the end
+NOTE: Xer__Dictyobacter__UR50_A0A402ATH3 (identical to Br__Dictyobacter__UR50_A0A402ATH3) is ignored but added at the end
+NOTE: Cyr__Dictyobacter__UniRef90_A0A402ATH3 (identical to Br__Dictyobacter__UR50_A0A402ATH3) is ignored but added at the end
+NOTE: Cyr__Gammaproteobacteria__UR50_A0A2R8CJ36 (identical to Br__Gammaproteobacteria__UR50_A0A2R8CJ36) is ignored but added at the end
+NOTE: Cyr__Halorutilus__UR50_A0A9Q4C3E6 (identical to Br__Halorutilus__UR50_A0A9Q4C3E6) is ignored but added at the end
+NOTE: Cyr__Pseudanabaenaceae__UR50_A0A928YZN9 (identical to Br__Pseudanabaenaceae__UR50_A0A928YZN9) is ignored but added at the end
+NOTE: Cyr__Pseudanabaenaceae__UniRef90_A0A928YZN9 (identical to Br__Pseudanabaenaceae__UR50_A0A928YZN9) is ignored but added at the end
+NOTE: Cyr__Halobacterium__UR50_UPI0000110B77 (identical to Br__Halobacterium__UR50_UPI0000110B77) is ignored but added at the end
+NOTE: Br__Halobacterium__UniRef90_UPI0000110B77 (identical to Br__Halobacterium__UR50_UPI0000110B77) is ignored but added at the end
+NOTE: Cyr__halophilic__UR50_U1R431 (identical to Br__halophilic__UR50_U1R431) is ignored but added at the end
+NOTE: Xer__Alphaproteobacteria__UR50_A0A7V7TUE7 (identical to Cyhr__Alphaproteobacteria__UR50_A0A7V7TUE7) is ignored but added at the end
+NOTE: Xer__Sphingomonas__UR50_A0A2A2SBC3 (identical to Cyhr__Sphingomonas__UR50_A0A2A2SBC3) is ignored but added at the end
+NOTE: Xer__Phormidesmis__UniRef90_A0A0P7YZ09 (identical to Cyhr__Terrabacteria__UR50_A0A0P7YZ09) is ignored but added at the end
+NOTE: Xer__Alphaproteobacteria__UR50_A0A5B2VFD4 (identical to Cyhr__Alphaproteobacteria__UR50_A0A5B2VFD4) is ignored but added at the end
+NOTE: Cyhr__Leptolyngbya__UniRef90_A0A2W4UKV5 (identical to Cyhr__Cyanobacteriota__UR50_A0A2W4UKV5) is ignored but added at the end
+NOTE: Xer__Bacteria__UR50_A0A966QHT7 (identical to Cyhr__Bacteria__UR50_A0A966QHT7) is ignored but added at the end
+NOTE: Xer__Gloeobacterales__UR50_A0A925XUD8 (identical to Cyhr__Gloeobacterales__UR50_A0A925XUD8) is ignored but added at the end
+NOTE: Xer__Halobacteria__UR50_A0A6G3ZG40 (identical to Cyhr__Halobacteria__UR50_A0A6G3ZG40) is ignored but added at the end
+NOTE: Xer__Lichenibacterium__UR50_A0A4Q2RG75 (identical to Cyhr__Lichenibacterium__UR50_A0A4Q2RG75) is ignored but added at the end
+NOTE: Xer__unclassified__UR50_A0A2H2Y0M0 (identical to Cyhr__unclassified__UR50_A0A2H2Y0M0) is ignored but added at the end
+NOTE: Cyhr__unclassified__UniRef90_A0A2H2Y0M0 (identical to Cyhr__unclassified__UR50_A0A2H2Y0M0) is ignored but added at the end
+NOTE: Cyr__unclassified__UniRef90_A0A2H2Y0M0 (identical to Cyhr__unclassified__UR50_A0A2H2Y0M0) is ignored but added at the end
+NOTE: Xer__Oculatella__UR50_A0A8J6T594 (identical to Cyhr__Oculatella__UR50_A0A8J6T594) is ignored but added at the end
+NOTE: Cyhr__Oculatella__UniRef90_A0A8J6T594 (identical to Cyhr__Oculatella__UR50_A0A8J6T594) is ignored but added at the end
+NOTE: Cyr__Halogranum__UniRef90_A0A1H8RSA7 (identical to Br__Halogranum__UniRef90_A0A1H8RSA7) is ignored but added at the end
+Alignment was printed to CombinedAncestors/00_tree/combined.ALN.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to CombinedAncestors/00_tree/combined.ALN.fa.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+1.161 seconds, parsimony score: 35391 (based on 1344 sites)
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -170468.265
+2. Current log-likelihood: -170466.242
+3. Current log-likelihood: -170465.131
+Optimal log-likelihood: -170464.510
+Proportion of invariable sites: 0.003
+Gamma shape alpha: 1.224
+Parameters optimization took 3 rounds (5.310 sec)
+Time for fast ML tree search: 50.211 seconds
+
+NOTE: ModelFinder requires 1917 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 2647 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            177743.830   1491 358469.660   362321.733   367238.503
+  2  LG+I          177677.962   1492 358339.923   362200.505   367114.647
+  3  LG+G4         170476.849   1492 343937.697   347798.279   352712.421
+  4  LG+I+G4       170463.970   1493 343913.939   347783.050   352694.544
+  5  LG+R2         172384.263   1493 347754.526   351623.636   356535.131
+  6  LG+R3         170821.622   1495 344633.243   348519.464   353425.611
+  7  LG+R4         170343.479   1497 343680.959   347584.364   352485.089
+  8  LG+R5         170045.339   1499 343088.679   347009.341   351904.571
+  9  LG+R6         169870.442   1501 342742.885   346680.880   351570.539
+ 10  LG+R7         169755.054   1503 342516.109   346471.510   351355.525
+ 11  LG+R8         169693.385   1505 342396.770   346369.653   351247.949
+ 12  LG+R9         169651.095   1507 342316.191   346306.631   351179.132
+ 13  LG+R10        169625.498   1509 342268.996   346277.070   351143.700
+ 14  LG+I+R2       172353.186   1494 347694.371   351572.027   356480.857
+ 15  LG+I+R3       170780.775   1496 344553.550   348448.354   353351.799
+ 16  LG+I+R4       170318.708   1498 343633.416   347545.440   352443.426
+ 17  LG+I+R5       170019.536   1500 343039.071   346968.391   351860.845
+ 18  LG+I+R6       169850.687   1502 342705.375   346652.063   351538.910
+ 19  LG+I+R7       169771.035   1504 342550.070   346514.203   351395.368
+ 20  LG+I+R8       169695.174   1506 342402.348   346384.000   351259.408
+ 21  LG+I+R9       169652.389   1508 342320.778   346320.026   351189.601
+ 22  LG+I+R10      169626.504   1510 342273.007   346289.926   351153.592
+ 35  LG+F+R10      170009.320   1528 343074.640   347254.089   352061.086
+ 44  LG+F+I+R10    170009.999   1529 343077.998   347266.664   352070.325
+ 57  WAG+R10       170202.052   1509 343422.103   347430.177   352296.807
+ 66  WAG+I+R10     170200.554   1510 343421.108   347438.027   352301.693
+ 79  WAG+F+R10     170467.824   1528 343991.648   348171.097   352978.095
+ 88  WAG+F+I+R10   170464.577   1529 343987.154   348175.820   352979.482
+101  JTT+R10       171009.703   1509 345037.406   349045.480   353912.110
+110  JTT+I+R10     171002.564   1510 345025.128   349042.048   353905.714
+123  JTT+F+R10     171083.975   1528 345223.950   349403.399   354210.397
+132  JTT+F+I+R10   171068.793   1529 345195.587   349384.253   354187.915
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+145  Q.pfam+R10    169138.233   1509 341294.467   345302.540   350169.170
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+154  Q.pfam+I+R10  169123.847   1510 341267.695   345284.614   350148.280
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+167  Q.pfam+F+R10  170104.750   1528 343265.499   347444.948   352251.945
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+176  Q.pfam+F+I+R10 170091.444   1529 343240.887   347429.553   352233.215
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+189  Q.bird+R10    174308.066   1509 351634.132   355642.206   360508.836
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+198  Q.bird+I+R10  174295.732   1510 351611.465   355628.384   360492.050
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+211  Q.bird+F+R10  174835.038   1528 352726.077   356905.526   361712.523
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+220  Q.bird+F+I+R10 174820.228   1529 352698.457   356887.123   361690.784
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+233  Q.mammal+R10  173007.115   1509 349032.230   353040.304   357906.934
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+242  Q.mammal+I+R10 172994.162   1510 349008.324   353025.243   357888.909
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+255  Q.mammal+F+R10 173458.563   1528 349973.127   354152.576   358959.573
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+264  Q.mammal+F+I+R10 173447.949   1529 349953.899   354142.565   358946.227
+277  Q.insect+R10  170845.947   1509 344709.893   348717.967   353584.597
+286  Q.insect+I+R10 170827.952   1510 344675.904   348692.823   353556.489
+299  Q.insect+F+R10 170451.759   1528 343959.518   348138.967   352945.964
+308  Q.insect+F+I+R10 170438.425   1529 343934.851   348123.517   352927.179
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+321  Q.plant+R10   171485.290   1509 345988.581   349996.655   354863.285
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+330  Q.plant+I+R10 171469.571   1510 345959.142   349976.061   354839.727
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+343  Q.plant+F+R10 172025.783   1528 347107.566   351287.015   356094.013
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+352  Q.plant+F+I+R10 172000.645   1529 347059.290   351247.956   356051.617
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+365  Q.yeast+R10   170788.357   1509 344594.714   348602.788   353469.418
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+374  Q.yeast+I+R10 170775.927   1510 344571.853   348588.772   353452.438
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+387  Q.yeast+F+R10 170133.881   1528 343323.763   347503.212   352310.209
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+396  Q.yeast+F+I+R10 170122.996   1529 343303.992   347492.658   352296.319
+409  JTTDCMut+R10  170994.752   1509 345007.505   349015.579   353882.209
+418  JTTDCMut+I+R10 170989.357   1510 344998.715   349015.634   353879.300
+431  JTTDCMut+F+R10 171055.865   1528 345167.730   349347.179   354154.177
+440  JTTDCMut+F+I+R10 171041.785   1529 345141.570   349330.237   354133.898
+453  DCMut+R10     172032.843   1509 347083.686   351091.760   355958.390
+462  DCMut+I+R10   172033.921   1510 347087.842   351104.761   355968.427
+475  DCMut+F+R10   171133.953   1528 345323.907   349503.356   354310.353
+484  DCMut+F+I+R10 171123.850   1529 345305.699   349494.365   354298.027
+497  VT+R10        170280.696   1509 343579.392   347587.466   352454.096
+506  VT+I+R10      170280.244   1510 343580.488   347597.407   352461.073
+519  VT+F+R10      170504.309   1528 344064.619   348244.068   353051.065
+528  VT+F+I+R10    170503.772   1529 344065.543   348254.209   353057.871
+541  PMB+R10       170779.574   1509 344577.148   348585.221   353451.851
+550  PMB+I+R10     170779.243   1510 344578.485   348595.404   353459.070
+563  PMB+F+R10     171244.013   1528 345544.025   349723.474   354530.472
+572  PMB+F+I+R10   171243.675   1529 345545.350   349734.016   354537.678
+585  Blosum62+R10  171005.922   1509 345029.844   349037.918   353904.548
+594  Blosum62+I+R10 171005.831   1510 345031.661   349048.580   353912.246
+607  Blosum62+F+R10 171147.349   1528 345350.699   349530.148   354337.145
+616  Blosum62+F+I+R10 171147.189   1529 345352.378   349541.044   354344.706
+629  Dayhoff+R10   172041.256   1509 347100.511   351108.585   355975.215
+638  Dayhoff+I+R10 172035.468   1510 347090.936   351107.855   355971.521
+651  Dayhoff+F+R10 171125.881   1528 345307.762   349487.211   354294.209
+660  Dayhoff+F+I+R10 171124.870   1529 345307.739   349496.405   354300.067
+673  mtREV+R10     178586.434   1509 360190.868   364198.942   369065.572
+682  mtREV+I+R10   178589.061   1510 360198.122   364215.041   369078.707
+695  mtREV+F+R10   174202.474   1528 351460.948   355640.397   360447.394
+704  mtREV+F+I+R10 174216.691   1529 351491.381   355680.047   360483.709
+717  mtART+R10     179931.268   1509 362880.535   366888.609   371755.239
+726  mtART+I+R10   179948.185   1510 362916.371   366933.290   371796.956
+739  mtART+F+R10   175458.171   1528 353972.342   358151.791   362958.789
+748  mtART+F+I+R10 175457.700   1529 353973.400   358162.066   362965.727
+761  mtZOA+R10     174820.365   1509 352658.731   356666.805   361533.435
+770  mtZOA+I+R10   174826.328   1510 352672.657   356689.576   361553.242
+783  mtZOA+F+R10   172557.698   1528 348171.395   352350.844   357157.842
+792  mtZOA+F+I+R10 172563.602   1529 348185.205   352373.871   357177.532
+805  mtMet+R10     178227.946   1509 359473.891   363481.965   368348.595
+814  mtMet+I+R10   178248.511   1510 359517.023   363533.942   368397.608
+827  mtMet+F+R10   173196.337   1528 349448.674   353628.123   358435.121
+836  mtMet+F+I+R10 173212.227   1529 349482.455   353671.121   358474.782
+849  mtVer+R10     179985.469   1509 362988.938   366997.012   371863.642
+858  mtVer+I+R10   179997.405   1510 363014.810   367031.729   371895.395
+871  mtVer+F+R10   175770.502   1528 354597.004   358776.453   363583.450
+880  mtVer+F+I+R10 175790.424   1529 354638.849   358827.515   363631.176
+893  mtInv+R10     178689.913   1509 360397.826   364405.900   369272.530
+902  mtInv+I+R10   178690.508   1510 360401.017   364417.936   369281.602
+915  mtInv+F+R10   171482.747   1528 346021.494   350200.943   355007.940
+924  mtInv+F+I+R10 171482.421   1529 346022.842   350211.508   355015.170
+937  mtMAM+R10     183556.635   1509 370131.269   374139.343   379005.973
+946  mtMAM+I+R10   183560.080   1510 370140.160   374157.079   379020.745
+959  mtMAM+F+R10   178793.516   1528 360643.032   364822.481   369629.479
+968  mtMAM+F+I+R10 178789.558   1529 360637.116   364825.782   369629.444
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+981  FLAVI+R10     178567.332   1509 360152.664   364160.738   369027.368
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+990  FLAVI+I+R10   178562.633   1510 360145.266   364162.185   369025.851
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1003  FLAVI+F+R10   178629.077   1528 360314.153   364493.602   369300.600
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1012  FLAVI+F+I+R10 178626.763   1529 360311.525   364500.191   369303.853
+1025  HIVb+R10      176174.870   1509 355367.739   359375.813   364242.443
+1034  HIVb+I+R10    176170.802   1510 355361.603   359378.522   364242.188
+1047  HIVb+F+R10    175326.363   1528 353708.726   357888.175   362695.173
+1056  HIVb+F+I+R10  175323.855   1529 353705.711   357894.377   362698.038
+1069  HIVw+R10      183785.307   1509 370588.614   374596.688   379463.318
+1078  HIVw+I+R10    183782.642   1510 370585.284   374602.203   379465.869
+1091  HIVw+F+R10    179560.861   1528 362177.722   366357.171   371164.169
+1100  HIVw+F+I+R10  179559.703   1529 362177.407   366366.073   371169.735
+1113  FLU+R10       175131.522   1509 353281.043   357289.117   362155.747
+1122  FLU+I+R10     175131.873   1510 353283.746   357300.665   362164.332
+1135  FLU+F+R10     173503.941   1528 350063.883   354243.332   359050.329
+1144  FLU+F+I+R10   173503.950   1529 350065.900   354254.566   359058.228
+1157  rtREV+R10     171902.685   1509 346823.369   350831.443   355698.073
+1166  rtREV+I+R10   171902.459   1510 346824.918   350841.837   355705.503
+1179  rtREV+F+R10   171340.850   1528 345737.700   349917.149   354724.146
+1188  rtREV+F+I+R10 171341.035   1529 345740.069   349928.735   354732.397
+1201  cpREV+R10     171235.205   1509 345488.409   349496.483   354363.113
+1210  cpREV+I+R10   171235.185   1510 345490.370   349507.289   354370.955
+1223  cpREV+F+R10   170984.925   1528 345025.850   349205.299   354012.296
+1232  cpREV+F+I+R10 170984.795   1529 345027.589   349216.255   354019.917
+Akaike Information Criterion:           Q.pfam+I+R10
+Corrected Akaike Information Criterion: Q.pfam+I+R10
+Bayesian Information Criterion:         Q.pfam+I+R10
+Best-fit model: Q.pfam+I+R10 chosen according to BIC
+
+All model information printed to CombinedAncestors/00_tree/combined.ALN.fa.model.gz
+CPU time for ModelFinder: 99532.782 seconds (27h:38m:52s)
+Wall-clock time for ModelFinder: 32154.168 seconds (8h:55m:54s)
+Generating 1000 samples for ultrafast bootstrap (seed: 40225)...
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 1917 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -169170.675
+2. Current log-likelihood: -169126.521
+3. Current log-likelihood: -169124.123
+4. Current log-likelihood: -169123.591
+5. Current log-likelihood: -169123.432
+Optimal log-likelihood: -169123.290
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.021,0.015) (0.028,0.089) (0.053,0.163) (0.060,0.252) (0.106,0.359) (0.097,0.491) (0.128,0.678) (0.185,0.968) (0.192,1.342) (0.129,2.814)
+Parameters optimization took 5 rounds (494.862 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 82.8034 secs using 141% CPU
+Computing ML distances took 82.815470 sec (of wall-clock time) 116.773178 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.0148408 secs using 136.2% CPU
+Computing RapidNJ tree took 2.123604 sec (of wall-clock time) 0.185828 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -171397.135
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 86.048 second
+Computing log-likelihood of 98 initial trees ... 3410.281 seconds
+Current best score: -169123.290
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -168986.013
+Iteration 10 / LogL: -169011.186 / Time: 10h:37m:43s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -168938.523
+Iteration 20 / LogL: -169069.584 / Time: 10h:52m:19s
+Finish initializing candidate tree set (20)
+Current best tree score: -168938.523 / CPU time: 5872.773
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -168907.134
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -168904.114
+Iteration 30 / LogL: -168906.668 / Time: 11h:2m:35s (6h:54m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -168902.032
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -168860.639
+Iteration 40 / LogL: -168892.228 / Time: 11h:12m:39s (5h:36m:37s left)
+Iteration 50 / LogL: -168914.776 / Time: 11h:21m:2s (4h:14m:44s left)
+Log-likelihood cutoff on original alignment: -169069.514
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -168847.106
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -168836.263
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -168835.404
+Iteration 60 / LogL: -168886.294 / Time: 11h:31m:29s (4h:21m:4s left)
+Iteration 70 / LogL: -168855.371 / Time: 11h:39m:59s (3h:31m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -168828.011
+Iteration 80 / LogL: -168840.329 / Time: 11h:48m:59s (3h:23m:45s left)
+Iteration 90 / LogL: -168870.562 / Time: 11h:57m:30s (2h:49m:21s left)
+Iteration 100 / LogL: -168851.079 / Time: 12h:5m:42s (2h:19m:57s left)
+Log-likelihood cutoff on original alignment: -168983.938
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 107: -168824.626
+Iteration 110 / LogL: -168855.433 / Time: 12h:14m:47s (2h:56m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 117: -168818.475
+Iteration 120 / LogL: -168836.189 / Time: 12h:23m:28s (2h:49m:11s left)
+Iteration 130 / LogL: -168848.521 / Time: 12h:31m:50s (2h:25m:38s left)
+Iteration 140 / LogL: -168859.063 / Time: 12h:40m:8s (2h:4m:12s left)
+Iteration 150 / LogL: -168848.941 / Time: 12h:49m:25s (1h:45m:0s left)
+Log-likelihood cutoff on original alignment: -168983.938
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 159: -168817.272
+Iteration 160 / LogL: -168852.372 / Time: 12h:59m:22s (2h:31m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 169: -168816.688
+Iteration 170 / LogL: -168875.582 / Time: 13h:8m:24s (2h:27m:54s left)
+Iteration 180 / LogL: -168856.178 / Time: 13h:16m:38s (2h:9m:38s left)
+Iteration 190 / LogL: -168831.927 / Time: 13h:25m:11s (1h:52m:33s left)
+Iteration 200 / LogL: -168849.971 / Time: 13h:33m:49s (1h:36m:22s left)
+Log-likelihood cutoff on original alignment: -168983.938
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 210 / LogL: -168819.187 / Time: 13h:42m:0s (2h:3m:12s left)
+Iteration 220 / LogL: -168828.134 / Time: 13h:50m:12s (1h:47m:30s left)
+Iteration 230 / LogL: -168888.864 / Time: 13h:58m:21s (1h:32m:27s left)
+Iteration 240 / LogL: -168857.179 / Time: 14h:6m:33s (1h:17m:59s left)
+Iteration 250 / LogL: -168842.437 / Time: 14h:14m:57s (1h:4m:4s left)
+Log-likelihood cutoff on original alignment: -168983.938
+Iteration 260 / LogL: -168850.363 / Time: 14h:23m:31s (0h:50m:35s left)
+BETTER TREE FOUND at iteration 270: -168816.687
+Iteration 270 / LogL: -168816.687 / Time: 14h:31m:47s (2h:4m:52s left)
+Iteration 280 / LogL: -168838.048 / Time: 14h:39m:55s (1h:50m:58s left)
+Iteration 290 / LogL: -168869.674 / Time: 14h:48m:19s (1h:37m:33s left)
+Iteration 300 / LogL: -168862.580 / Time: 14h:56m:39s (1h:24m:27s left)
+Log-likelihood cutoff on original alignment: -168923.931
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 304: -168814.380
+Iteration 310 / LogL: -168833.398 / Time: 15h:6m:30s (1h:52m:44s left)
+Iteration 320 / LogL: -168844.751 / Time: 15h:14m:51s (1h:39m:47s left)
+Iteration 330 / LogL: -168982.744 / Time: 15h:23m:0s (1h:27m:4s left)
+Iteration 340 / LogL: -168863.987 / Time: 15h:30m:59s (1h:14m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 348: -168812.233
+Iteration 350 / LogL: -168866.566 / Time: 15h:40m:26s (1h:53m:35s left)
+Log-likelihood cutoff on original alignment: -168923.931
+Iteration 360 / LogL: -168843.769 / Time: 15h:48m:32s (1h:41m:8s left)
+Iteration 370 / LogL: -168828.969 / Time: 15h:56m:34s (1h:28m:55s left)
+Iteration 380 / LogL: -168952.353 / Time: 16h:4m:51s (1h:16m:57s left)
+Iteration 390 / LogL: -168827.650 / Time: 16h:13m:40s (1h:5m:16s left)
+Iteration 400 / LogL: -168853.177 / Time: 16h:22m:47s (0h:53m:45s left)
+Log-likelihood cutoff on original alignment: -168923.931
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 410 / LogL: -169083.472 / Time: 16h:31m:3s (1h:40m:9s left)
+Iteration 420 / LogL: -168858.349 / Time: 16h:39m:40s (1h:28m:32s left)
+Iteration 430 / LogL: -168823.193 / Time: 16h:48m:1s (1h:17m:2s left)
+Iteration 440 / LogL: -168818.660 / Time: 16h:56m:15s (1h:5m:39s left)
+TREE SEARCH COMPLETED AFTER 449 ITERATIONS / Time: 17h:3m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -168812.233
+2. Current log-likelihood: -168812.216
+3. Current log-likelihood: -168812.204
+4. Current log-likelihood: -168812.191
+Optimal log-likelihood: -168812.184
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.021,0.015) (0.026,0.085) (0.057,0.165) (0.063,0.257) (0.107,0.366) (0.101,0.505) (0.120,0.688) (0.175,0.961) (0.197,1.325) (0.133,2.790)
+Parameters optimization took 4 rounds (38.704 sec)
+BEST SCORE FOUND : -168812.184
+Creating bootstrap support values...
+Split supports printed to NEXUS file CombinedAncestors/00_tree/combined.ALN.fa.splits.nex
+Total tree length: 412.056
+
+Total number of iterations: 449
+CPU time used for tree search: 89778.366 sec (24h:56m:18s)
+Wall-clock time used for tree search: 28155.647 sec (7h:49m:15s)
+Total CPU time used: 190105.969 sec (52h:48m:25s)
+Total wall-clock time used: 61463.215 sec (17h:4m:23s)
+
+Computing bootstrap consensus tree...
+Reading input file CombinedAncestors/00_tree/combined.ALN.fa.splits.nex...
+747 taxa and 2861 splits.
+Consensus tree written to CombinedAncestors/00_tree/combined.ALN.fa.contree
+Reading input trees file CombinedAncestors/00_tree/combined.ALN.fa.contree
+Log-likelihood of consensus tree: -168803.533
+
+Analysis results written to: 
+  IQ-TREE report:                CombinedAncestors/00_tree/combined.ALN.fa.iqtree
+  Maximum-likelihood tree:       CombinedAncestors/00_tree/combined.ALN.fa.treefile
+  Likelihood distances:          CombinedAncestors/00_tree/combined.ALN.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          CombinedAncestors/00_tree/combined.ALN.fa.splits.nex
+  Consensus tree:                CombinedAncestors/00_tree/combined.ALN.fa.contree
+  Screen log file:               CombinedAncestors/00_tree/combined.ALN.fa.log
+
+Date and Time: Thu Aug 14 03:56:48 2025
