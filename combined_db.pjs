@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "combined_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "combined.fa",
+  "number-of-letters": 211946,
+  "number-of-sequences": 829,
+  "last-updated": "2025-08-21T09:16:00",
+  "number-of-volumes": 1,
+  "bytes-total": 463984,
+  "bytes-to-cache": 219504,
+  "files": [
+    "combined_db.pdb",
+    "combined_db.phr",
+    "combined_db.pin",
+    "combined_db.pot",
+    "combined_db.psq",
+    "combined_db.ptf",
+    "combined_db.pto"
+  ]
+}
