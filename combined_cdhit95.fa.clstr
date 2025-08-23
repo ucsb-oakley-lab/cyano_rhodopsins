@@ -1,0 +1,1394 @@
+>Cluster 0
+0	1066aa, >Pr__Amoebophrya__UR... *
+>Cluster 1
+0	802aa, >Br__Chromera__UR50_... *
+>Cluster 2
+0	798aa, >Cyr__Stachybotrys__... *
+>Cluster 3
+0	726aa, >Pr__Amoebophrya__UR... *
+>Cluster 4
+0	640aa, >Cyr__Xylaria__UR50_... *
+>Cluster 5
+0	586aa, >Pr__Amoebophrya__UR... *
+>Cluster 6
+0	576aa, >Pr__Amoebophrya__UR... *
+>Cluster 7
+0	569aa, >Pr__Amoebophrya__UR... *
+>Cluster 8
+0	552aa, >Cyr__Aureobasidium_... *
+>Cluster 9
+0	503aa, >Pr__Amoebophrya__UR... *
+>Cluster 10
+0	470aa, >Cyhr__Monilinia__UR... *
+1	470aa, >Cyr__Monilinia__UR5... at 100.00%
+>Cluster 11
+0	450aa, >Pr__Amoebophrya__UR... *
+>Cluster 12
+0	418aa, >Cyhr__Phialophora__... *
+1	418aa, >Cyr__Phialophora__U... at 100.00%
+>Cluster 13
+0	398aa, >Pr__unclassified__U... *
+>Cluster 14
+0	369aa, >Br__Vitrella__UR50_... *
+1	369aa, >Cyr__Vitrella__UR50... at 100.00%
+>Cluster 15
+0	367aa, >CYANO150__Chamaesip... *
+>Cluster 16
+0	345aa, >Pr__Amoebophrya__UR... *
+>Cluster 17
+0	337aa, >Cyhr__Alphaproteoba... *
+1	337aa, >Cyr__Alphaproteobac... at 100.00%
+2	337aa, >Xer__Alphaproteobac... at 100.00%
+>Cluster 18
+0	332aa, >Br__Tremellales__UR... *
+>Cluster 19
+0	332aa, >Cyhr__Sphingomonas_... *
+1	332aa, >Cyr__Sphingomonas__... at 100.00%
+2	332aa, >Xer__Sphingomonas__... at 100.00%
+>Cluster 20
+0	323aa, >Cyr__Mixia__UR50_G7... *
+>Cluster 21
+0	321aa, >Cyr__leotiomyceta__... *
+>Cluster 22
+0	320aa, >CYANO150__Actinomyc... *
+>Cluster 23
+0	313aa, >Br__Daldinia__UR50_... *
+>Cluster 24
+0	309aa, >CYANO150__Goekera__... *
+>Cluster 25
+0	309aa, >Br__leotiomyceta__U... *
+>Cluster 26
+0	308aa, >Xlr__root__UR50_E8Q... *
+>Cluster 27
+0	308aa, >Xer__Chamaesiphon__... *
+>Cluster 28
+0	307aa, >Br__cellular__UR50_... *
+>Cluster 29
+0	306aa, >Xlr__Terrabacteria_... *
+>Cluster 30
+0	305aa, >CYANO150__Deinococc... *
+1	305aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 31
+0	305aa, >Xlr__root__UR50_A0A... *
+>Cluster 32
+0	304aa, >CYANO150__Chamaesip... *
+>Cluster 33
+0	304aa, >Cyr__Trebouxiophyce... *
+>Cluster 34
+0	301aa, >Cyr__Pleosporomycet... *
+>Cluster 35
+0	300aa, >Pr__PVC__UR50_A0A2A... *
+>Cluster 36
+0	299aa, >CYANO150__Cyanobact... *
+1	299aa, >Xlr__Cyanobacteria_... at 100.00%
+>Cluster 37
+0	299aa, >CYANO150__Deinococc... *
+1	299aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 38
+0	299aa, >CYANO150__Deinococc... *
+1	299aa, >Xlr__Deinococcus__U... at 95.99%
+>Cluster 39
+0	299aa, >CYANO150__unclassif... *
+1	299aa, >Xlr__unclassified__... at 100.00%
+>Cluster 40
+0	299aa, >Cyr__Dothideomycete... *
+>Cluster 41
+0	298aa, >CYANO150__Gloeobact... *
+1	298aa, >XLR_Gloeobacter... at 100.00%
+2	298aa, >Xlr__root__UR50_Q7N... at 100.00%
+3	298aa, >Xlr__Gloeobacter__U... at 100.00%
+>Cluster 42
+0	298aa, >CYANO150__Phormides... *
+1	298aa, >Xlr__Phormidesmis__... at 100.00%
+>Cluster 43
+0	298aa, >Br__Haloplanus__UR5... *
+1	298aa, >Cyhr__Haloplanus__U... at 100.00%
+2	298aa, >Cyr__Haloplanus__UR... at 100.00%
+>Cluster 44
+0	297aa, >CYANO150__Cyanophyc... *
+1	297aa, >Xlr__Terrabacteria_... at 100.00%
+2	297aa, >Xlr__Cyanophyceae__... at 100.00%
+>Cluster 45
+0	297aa, >CYANO150__unclassif... *
+1	297aa, >Xlr__unclassified__... at 100.00%
+>Cluster 46
+0	297aa, >CYANO150__Leptolyng... *
+1	297aa, >Xlr__Leptolyngbya__... at 100.00%
+>Cluster 47
+0	297aa, >CYANO150__Aquipurib... *
+>Cluster 48
+0	295aa, >CYANO150__Deinococc... *
+1	295aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 49
+0	295aa, >CYANO150__Mycolicib... *
+>Cluster 50
+0	293aa, >CYANO150__Deinococc... *
+1	293aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 51
+0	293aa, >CYANO150__Mycolicib... *
+>Cluster 52
+0	293aa, >Pr__Amoebophrya__UR... *
+>Cluster 53
+0	292aa, >CYANO150__Cryobacte... *
+>Cluster 54
+0	291aa, >Xlr__unclassified__... *
+>Cluster 55
+0	290aa, >Cyr__Cryptophyceae_... *
+>Cluster 56
+0	290aa, >Pr__unclassified__U... *
+>Cluster 57
+0	289aa, >CYANO150__Microbact... *
+>Cluster 58
+0	289aa, >Cyhr__Exobasidiomyc... *
+>Cluster 59
+0	288aa, >CYANO150__Deinococc... *
+1	288aa, >Xlr__Deinococcales_... at 100.00%
+>Cluster 60
+0	287aa, >Cyr__Pucciniales__U... *
+>Cluster 61
+0	286aa, >Xlr__root__UR50_A0A... *
+>Cluster 62
+0	285aa, >CYANO150__Deinococc... *
+1	285aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 63
+0	285aa, >CYANO150__Deinococc... *
+1	285aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 64
+0	285aa, >CYANO150__Mycolicib... *
+>Cluster 65
+0	285aa, >CYANO150__Mycobacte... *
+>Cluster 66
+0	284aa, >CYANO150__Graciliba... *
+1	284aa, >Xlr__Gracilibacteri... at 100.00%
+>Cluster 67
+0	284aa, >Xer__Chamaesiphon__... *
+>Cluster 68
+0	283aa, >CYANO150__unculture... *
+>Cluster 69
+0	283aa, >CYANO150__Mycolicib... *
+>Cluster 70
+0	283aa, >Xlr__root__UR50_A0A... *
+>Cluster 71
+0	282aa, >CYANO150__Leptolyng... *
+1	282aa, >Xlr__Leptolyngbya__... at 100.00%
+>Cluster 72
+0	282aa, >CYANO150__Nocardioi... *
+>Cluster 73
+0	282aa, >CYANO150__Pseudonoc... *
+>Cluster 74
+0	282aa, >CYANO150__Novosphin... *
+>Cluster 75
+0	282aa, >Xlr__Gammaproteobac... *
+>Cluster 76
+0	282aa, >Pr__Bacteria__UniRe... *
+>Cluster 77
+0	281aa, >CYANO150__Halomicro... *
+1	281aa, >Xlr__Halomicronema_... at 100.00%
+>Cluster 78
+0	281aa, >CYANO150__Cyanophyc... *
+1	281aa, >Xlr__root__UR50_A0A... at 100.00%
+2	281aa, >Xlr__Cyanophyceae__... at 100.00%
+>Cluster 79
+0	281aa, >CYANO150__Halothece... *
+1	281aa, >Xlr__Halothece__Uni... at 100.00%
+>Cluster 80
+0	281aa, >CYANO150__Cryobacte... *
+>Cluster 81
+0	281aa, >Xlr__Actinomycetes_... *
+>Cluster 82
+0	280aa, >Cyhr__viral__UR50_A... *
+>Cluster 83
+0	279aa, >CYANO150__Armatimon... *
+>Cluster 84
+0	279aa, >CYANO150__Cryobacte... *
+>Cluster 85
+0	279aa, >CYANO150__Bacteroid... *
+>Cluster 86
+0	279aa, >CYANO150__Nocardioi... *
+>Cluster 87
+0	278aa, >CYANO150__Actinotal... *
+>Cluster 88
+0	278aa, >CYANO150__Williamsi... *
+>Cluster 89
+0	278aa, >Xer__Chlorogloeopsi... *
+>Cluster 90
+0	277aa, >CYANO150__Actinomyc... *
+>Cluster 91
+0	277aa, >CYANO150__Actinomyc... *
+>Cluster 92
+0	277aa, >CYANO150__Actinomyc... *
+>Cluster 93
+0	277aa, >Xlr__cellular__UR50... *
+>Cluster 94
+0	276aa, >CYANO150__Leptolyng... *
+1	276aa, >Xlr__Leptolyngbya__... at 100.00%
+>Cluster 95
+0	276aa, >CYANO150__Nocardioi... *
+>Cluster 96
+0	276aa, >Xer__Hyphomicrobial... *
+>Cluster 97
+0	276aa, >Xer__Plectonema__Un... *
+>Cluster 98
+0	276aa, >Xer__Chroococcidiop... *
+>Cluster 99
+0	275aa, >CYANO150__Frankiace... *
+1	275aa, >Xlr__Frankiaceae__U... at 100.00%
+>Cluster 100
+0	275aa, >CYANO150__Calditric... *
+1	275aa, >Xlr__Bacteria__UR50... at 100.00%
+>Cluster 101
+0	275aa, >CYANO150__Rhodococc... *
+>Cluster 102
+0	275aa, >CYANO150__Ilumatoba... *
+>Cluster 103
+0	275aa, >CYANO150__Actinomyc... *
+1	275aa, >Xlr__root__UR50_A0A... at 100.00%
+>Cluster 104
+0	275aa, >CYANO150__Clavibact... *
+>Cluster 105
+0	275aa, >Xlr__Planctomycetac... *
+>Cluster 106
+0	275aa, >Xer__Cyanobacteria_... *
+>Cluster 107
+0	275aa, >Xer__unclassified__... *
+>Cluster 108
+0	274aa, >CYANO150__Marisedim... *
+>Cluster 109
+0	274aa, >Cyhr__Erysiphaceae_... *
+1	274aa, >Cyr__Erysiphaceae__... at 100.00%
+>Cluster 110
+0	274aa, >Xlr__Pseudomonadota... *
+>Cluster 111
+0	274aa, >Xlr__Deinococcus__U... *
+>Cluster 112
+0	274aa, >Xlr__Deinococcus__U... *
+>Cluster 113
+0	274aa, >Br__Halomarina__Uni... *
+1	274aa, >Cyr__Halomarina__Un... at 100.00%
+>Cluster 114
+0	274aa, >Pr__root__UniRef90_... *
+>Cluster 115
+0	273aa, >CYANO150__Actinomyc... *
+>Cluster 116
+0	273aa, >CYANO150__Longibact... *
+>Cluster 117
+0	273aa, >CYANO150__Nocardioi... *
+>Cluster 118
+0	273aa, >CYANO150__Nocardioi... *
+>Cluster 119
+0	273aa, >CYANO150__Salinibac... *
+>Cluster 120
+0	273aa, >Xer__Myxacorys__Uni... *
+>Cluster 121
+0	272aa, >CYANO150__Williamsi... *
+1	272aa, >Xlr__Williamsia__Un... at 100.00%
+>Cluster 122
+0	272aa, >CYANO150__Armatimon... *
+>Cluster 123
+0	272aa, >CYANO150__Nocardioi... *
+>Cluster 124
+0	272aa, >CYANO150__Mycolicib... *
+>Cluster 125
+0	272aa, >CYANO150__Ilumatoba... *
+>Cluster 126
+0	272aa, >CYANO150__Actinomyc... *
+>Cluster 127
+0	272aa, >Cyr__Klebsormidium_... *
+>Cluster 128
+0	272aa, >Xlr__Deinococcus__U... *
+>Cluster 129
+0	272aa, >Cyr__unclassified__... *
+>Cluster 130
+0	271aa, >CYANO150__Ilumatoba... *
+>Cluster 131
+0	271aa, >CYANO150__Williamsi... *
+>Cluster 132
+0	271aa, >Pr__root__UR50_A0A2... *
+>Cluster 133
+0	271aa, >Xlr__root__UR50_A0A... *
+>Cluster 134
+0	270aa, >CYANO150__Chlorofle... *
+>Cluster 135
+0	270aa, >CYANO150__Meiotherm... *
+1	270aa, >Xlr__Meiothermus__U... at 100.00%
+>Cluster 136
+0	270aa, >CYANO150__Frankiace... *
+>Cluster 137
+0	270aa, >CYANO150__Nocardioi... *
+>Cluster 138
+0	270aa, >Cyhr__Taphrinales__... *
+1	270aa, >Cyr__Taphrinales__U... at 100.00%
+>Cluster 139
+0	270aa, >Xer__Trichocoleus__... *
+>Cluster 140
+0	269aa, >CYANO150__Cyanophyc... *
+1	269aa, >Xlr__Cyanophyceae__... at 100.00%
+>Cluster 141
+0	269aa, >CYANO150__Meiotherm... *
+1	269aa, >Xlr__Meiothermus__U... at 100.00%
+>Cluster 142
+0	269aa, >CYANO150__Meiotherm... *
+1	269aa, >Xlr__Meiothermus__U... at 100.00%
+>Cluster 143
+0	269aa, >CYANO150__Meiotherm... *
+>Cluster 144
+0	269aa, >CYANO150__Euzebya__... *
+>Cluster 145
+0	269aa, >Xlr__Bellilinea__UR... *
+>Cluster 146
+0	269aa, >Pr__Burkholderiales... *
+>Cluster 147
+0	269aa, >Xer__Pegethrix__Uni... *
+>Cluster 148
+0	269aa, >Xer__Leptolyngbya__... *
+>Cluster 149
+0	268aa, >CYANO150__Aeromicro... *
+>Cluster 150
+0	268aa, >CYANO150__Armatimon... *
+>Cluster 151
+0	268aa, >CYANO150__Chlorofle... *
+>Cluster 152
+0	268aa, >CYANO150__Actinomyc... *
+>Cluster 153
+0	268aa, >Cyr__Alphaproteobac... *
+1	268aa, >Xer__Alphaproteobac... at 100.00%
+>Cluster 154
+0	268aa, >Pr__Polaromonas__Un... *
+>Cluster 155
+0	268aa, >Xer__unclassified__... *
+>Cluster 156
+0	268aa, >Xer__Cyanophyceae__... *
+>Cluster 157
+0	268aa, >Xer__Cyanobacteria_... *
+>Cluster 158
+0	268aa, >Xer__unclassified__... *
+>Cluster 159
+0	268aa, >Xer__Leptolyngbya__... *
+>Cluster 160
+0	268aa, >Xer__Calothrix__Uni... *
+>Cluster 161
+0	267aa, >Pr__unclassified__U... *
+>Cluster 162
+0	267aa, >Pr__Polaromonas__Un... *
+>Cluster 163
+0	267aa, >Pr__Polaromonas__Un... *
+>Cluster 164
+0	267aa, >Pr__Polaromonas__Un... *
+>Cluster 165
+0	267aa, >Pr__Rhodoferax__Uni... *
+>Cluster 166
+0	267aa, >Xer__filamentous__U... *
+>Cluster 167
+0	267aa, >Xer__Synechococcale... *
+>Cluster 168
+0	267aa, >Xer__unclassified__... *
+>Cluster 169
+0	267aa, >Xer__Aliterella__Un... *
+>Cluster 170
+0	267aa, >Xer__Cyanophyceae__... *
+>Cluster 171
+0	267aa, >Xer__Thermocoleosto... *
+>Cluster 172
+0	266aa, >CYANO150__Salisaeta... *
+1	266aa, >Xlr__Salisaeta__Uni... at 100.00%
+>Cluster 173
+0	266aa, >CYANO150__Armatimon... *
+>Cluster 174
+0	266aa, >CYANO150__Anaerolin... *
+>Cluster 175
+0	266aa, >Pr__Hymenobacter__U... *
+>Cluster 176
+0	266aa, >Xlr__Micrococcales_... *
+>Cluster 177
+0	266aa, >Pr__Opitutae__UniRe... *
+>Cluster 178
+0	266aa, >Xer__Fischerella__U... *
+>Cluster 179
+0	266aa, >Xer__Gloeocapsopsis... *
+>Cluster 180
+0	266aa, >Xer__Dulcicalothrix... *
+>Cluster 181
+0	266aa, >Xer__Gloeocapsopsis... *
+>Cluster 182
+0	266aa, >Xer__filamentous__U... *
+>Cluster 183
+0	265aa, >CYANO150__Symploca_... *
+1	265aa, >Xlr__Symploca__UniR... at 100.00%
+>Cluster 184
+0	265aa, >CYANO150__Chlorofle... *
+>Cluster 185
+0	265aa, >Cyr__Rubrobacter__U... *
+1	265aa, >Xer__Rubrobacter__U... at 100.00%
+>Cluster 186
+0	265aa, >Br__Halobacteriales... *
+>Cluster 187
+0	265aa, >Pr__Polaromonas__Un... *
+>Cluster 188
+0	265aa, >Pr__Polaromonas__Un... *
+>Cluster 189
+0	264aa, >CYANO150__Trueperac... *
+1	264aa, >Xlr__Trueperaceae__... at 100.00%
+>Cluster 190
+0	264aa, >CYANO150__Chlorofle... *
+1	264aa, >Xlr__Chloroflexota_... at 100.00%
+>Cluster 191
+0	264aa, >CYANO150__Ilumatoba... *
+>Cluster 192
+0	264aa, >CYANO150__Balneolac... *
+>Cluster 193
+0	264aa, >Xlr__Bacteria__UR50... *
+>Cluster 194
+0	264aa, >Br__Halobacteriales... *
+>Cluster 195
+0	264aa, >Br__unclassified__U... *
+>Cluster 196
+0	264aa, >Pr__Polynucleobacte... *
+>Cluster 197
+0	264aa, >Pr__Polynucleobacte... *
+>Cluster 198
+0	264aa, >Xer__Gloeothece__Un... *
+>Cluster 199
+0	264aa, >Xer__Chlorogloeopsi... *
+>Cluster 200
+0	263aa, >Cyhr__Alphaproteoba... *
+1	263aa, >Cyr__Alphaproteobac... at 100.00%
+2	263aa, >Xer__Alphaproteobac... at 100.00%
+>Cluster 201
+0	263aa, >Br__Halobacteriales... *
+>Cluster 202
+0	263aa, >Br__Halohasta__UniR... *
+>Cluster 203
+0	263aa, >Pr__Polynucleobacte... *
+>Cluster 204
+0	263aa, >Pr__Betaproteobacte... *
+>Cluster 205
+0	263aa, >Pr__root__UniRef90_... *
+>Cluster 206
+0	263aa, >Xer__Nodosilinea__U... *
+>Cluster 207
+0	262aa, >CYANO150__Leptolyng... *
+1	262aa, >Xlr__Leptolyngbyace... at 100.00%
+>Cluster 208
+0	262aa, >CYANO150__Thermacea... *
+1	262aa, >Xlr__Thermaceae__Un... at 100.00%
+>Cluster 209
+0	262aa, >CYANO150__Deltaprot... *
+1	262aa, >Xlr__Deltaproteobac... at 100.00%
+>Cluster 210
+0	262aa, >CYANO150__Deltaprot... *
+1	262aa, >Xlr__Bacteria__UR50... at 100.00%
+2	262aa, >Xlr__Deltaproteobac... at 100.00%
+>Cluster 211
+0	262aa, >BR_Halobacterium... *
+1	262aa, >Br__Archaea__UR50_P... at 100.00%
+2	262aa, >Cyhr__Archaea__UR50... at 100.00%
+3	262aa, >Cyr__Archaea__UR50_... at 100.00%
+4	262aa, >Br__Halobacterium__... at 100.00%
+>Cluster 212
+0	262aa, >Br__Halobacteriales... *
+1	262aa, >Cyhr__Halobacterial... at 100.00%
+2	262aa, >Cyr__Halobacteriale... at 100.00%
+3	262aa, >Xer__Halobacteriale... at 100.00%
+4	262aa, >Cyr__Halobacteriale... at 100.00%
+>Cluster 213
+0	262aa, >Cyhr__Cryptophyceae... *
+1	262aa, >Cyr__Cryptophyceae_... at 100.00%
+>Cluster 214
+0	262aa, >Xlr__Actinomycetota... *
+>Cluster 215
+0	262aa, >Br__unclassified__U... *
+>Cluster 216
+0	129aa, >Br__uncultured__UR5... at 97.67%
+1	262aa, >Br__Halobacterium__... *
+>Cluster 217
+0	262aa, >Br__Halorientalis__... *
+>Cluster 218
+0	262aa, >Cyr__Actinomycetes_... *
+>Cluster 219
+0	262aa, >Cyr__Bacteria__UniR... *
+>Cluster 220
+0	262aa, >Xer__Komarekiella__... *
+>Cluster 221
+0	261aa, >CYANO150__Myxococca... *
+1	261aa, >Xlr__Myxococcales__... at 100.00%
+>Cluster 222
+0	261aa, >CYANO150__Rhodother... *
+1	261aa, >Xlr__Rhodothermales... at 100.00%
+>Cluster 223
+0	261aa, >XeR_Nostoc... *
+1	261aa, >Xer__Nostocaceae__U... at 100.00%
+>Cluster 224
+0	261aa, >Br__Halobacteriales... *
+>Cluster 225
+0	261aa, >Cyr__Halobacteriale... *
+>Cluster 226
+0	261aa, >Xer__unclassified__... *
+>Cluster 227
+0	261aa, >Xer__Nodosilinea__U... *
+>Cluster 228
+0	261aa, >Xer__Nostoc__UniRef... *
+>Cluster 229
+0	261aa, >Xer__Anabaena__UniR... *
+>Cluster 230
+0	260aa, >CYANO150__Bacteroid... *
+1	260aa, >Xlr__Bacteroidota__... at 100.00%
+>Cluster 231
+0	260aa, >CYANO150__Halalkali... *
+>Cluster 232
+0	260aa, >CYANO150__bacterium... *
+>Cluster 233
+0	260aa, >CYANO150__Novosphin... *
+>Cluster 234
+0	260aa, >CYANO150__Chlorofle... *
+>Cluster 235
+0	260aa, >CYANO150__Sphingomo... *
+>Cluster 236
+0	260aa, >Br__Archaea__UR50_P... *
+1	104aa, >Br__Halorubrum__UR5... at 99.04%
+2	260aa, >Cyhr__Archaea__UR50... at 100.00%
+3	260aa, >Cyr__Archaea__UR50_... at 100.00%
+4	260aa, >Xer__Archaea__UR50_... at 100.00%
+5	260aa, >Br__Halobacteria__U... at 100.00%
+>Cluster 237
+0	260aa, >Cyhr__Sphingomonas_... *
+1	260aa, >Xer__Sphingomonas__... at 100.00%
+>Cluster 238
+0	260aa, >Br__Archaea__UniRef... *
+>Cluster 239
+0	259aa, >CYANO150__Deinococc... *
+1	259aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 240
+0	259aa, >CYANO150__unclassif... *
+1	259aa, >Xlr__unclassified__... at 100.00%
+>Cluster 241
+0	259aa, >CYANO150__Roseiflex... *
+1	259aa, >Xlr__Roseiflexaceae... at 100.00%
+>Cluster 242
+0	259aa, >CYANO150__Polymorph... *
+>Cluster 243
+0	259aa, >CYANO150__Rhodohalo... *
+>Cluster 244
+0	259aa, >CYANO150__Sphingomo... *
+>Cluster 245
+0	259aa, >Cyhr__Cyanobacterio... *
+1	259aa, >Cyr__Cyanobacteriot... at 100.00%
+2	259aa, >Cyhr__Leptolyngbya_... at 100.00%
+>Cluster 246
+0	259aa, >Br__Halobacteria__U... *
+>Cluster 247
+0	259aa, >Br__Uncultured__Uni... *
+>Cluster 248
+0	259aa, >Cyr__Mycobacteriace... *
+>Cluster 249
+0	258aa, >CYANO150__Allomeiot... *
+1	258aa, >Xlr__Allomeiothermu... at 100.00%
+>Cluster 250
+0	258aa, >CYANO150__Sandaraki... *
+>Cluster 251
+0	258aa, >Br__Cryptomonadales... *
+1	258aa, >Cyhr__Cryptomonadal... at 100.00%
+2	258aa, >Cyr__Cryptomonadale... at 100.00%
+>Cluster 252
+0	258aa, >Pr__root__UR50_A0A2... *
+>Cluster 253
+0	258aa, >Br__unclassified__U... *
+1	258aa, >Br__Halorubrum__Uni... at 95.74%
+>Cluster 254
+0	258aa, >Br__Halorientalis__... *
+>Cluster 255
+0	258aa, >Br__unclassified__U... *
+>Cluster 256
+0	258aa, >Br__Halorubrum__Uni... *
+>Cluster 257
+0	258aa, >Br__Natronomonas__U... *
+>Cluster 258
+0	258aa, >Pr__uncultured__Uni... *
+>Cluster 259
+0	258aa, >Xer__Leptolyngbyace... *
+>Cluster 260
+0	258aa, >Xer__Leptolyngbyace... *
+>Cluster 261
+0	258aa, >Xer__Leptolyngbyace... *
+>Cluster 262
+0	257aa, >CYANO150__Candidatu... *
+1	257aa, >Xlr__Candidatus__Un... at 100.00%
+>Cluster 263
+0	257aa, >CYANO150__Deltaprot... *
+>Cluster 264
+0	257aa, >CYANO150__Sphingomo... *
+>Cluster 265
+0	257aa, >CYANO150__Sphingomo... *
+>Cluster 266
+0	257aa, >CYANO150__Actinomyc... *
+>Cluster 267
+0	257aa, >CYANO150__Sphingomo... *
+>Cluster 268
+0	257aa, >Br__Halohasta__UR50... *
+>Cluster 269
+0	257aa, >Xlr__root__UR50_A0A... *
+>Cluster 270
+0	256aa, >CYANO150__Oligoflex... *
+1	256aa, >Xlr__Oligoflexia__U... at 100.00%
+>Cluster 271
+0	256aa, >CYANO150__Bacteria_... *
+>Cluster 272
+0	256aa, >CYANO150__Chlorofle... *
+1	256aa, >Xlr__Bacteria__UR50... at 100.00%
+>Cluster 273
+0	256aa, >CYANO150__Bacteroid... *
+>Cluster 274
+0	256aa, >CYANO150__Sphingomo... *
+>Cluster 275
+0	256aa, >Cyhr__Halobacteria_... *
+1	256aa, >Cyr__Halobacteria__... at 100.00%
+>Cluster 276
+0	256aa, >Cyhr__Nodosilinea__... *
+1	256aa, >Cyr__Nodosilinea__U... at 100.00%
+>Cluster 277
+0	256aa, >Br__Halobacteriales... *
+>Cluster 278
+0	256aa, >Br__Halobellus__Uni... *
+>Cluster 279
+0	256aa, >Br__Haloplanus__Uni... *
+>Cluster 280
+0	256aa, >Br__Halobacteriales... *
+>Cluster 281
+0	256aa, >Br__uncultured__Uni... *
+>Cluster 282
+0	256aa, >Br__Haloplanus__Uni... *
+>Cluster 283
+0	256aa, >Cyr__Dictyobacter__... *
+>Cluster 284
+0	256aa, >Pr__root__UniRef90_... *
+>Cluster 285
+0	255aa, >CYANO150__Oligoflex... *
+1	255aa, >Xlr__Oligoflexia__U... at 100.00%
+>Cluster 286
+0	255aa, >CYANO150__Sphingomo... *
+>Cluster 287
+0	255aa, >CYANO150__unculture... *
+>Cluster 288
+0	255aa, >CYANO150__Pyrinomon... *
+>Cluster 289
+0	255aa, >CYANO150__Polymorph... *
+>Cluster 290
+0	255aa, >CYANO150__Sphingomo... *
+>Cluster 291
+0	255aa, >Br__Halobacteria__U... *
+1	255aa, >Cyhr__Halobacteria_... at 100.00%
+2	255aa, >Cyr__Halobacteria__... at 100.00%
+3	255aa, >Xer__Halobacteria__... at 100.00%
+>Cluster 292
+0	255aa, >Cyhr__Bacteroidota_... *
+1	255aa, >Xer__Bacteroidota__... at 100.00%
+>Cluster 293
+0	255aa, >Pr__root__UR50_A0A2... *
+>Cluster 294
+0	254aa, >CYANO150__Sphingomo... *
+>Cluster 295
+0	254aa, >Br__Halobacteria__U... *
+>Cluster 296
+0	254aa, >Br__Salinirubrum__U... *
+>Cluster 297
+0	254aa, >Br__Natronomonas__U... *
+>Cluster 298
+0	254aa, >Cyr__unclassified__... *
+>Cluster 299
+0	254aa, >Pr__uncultured__Uni... *
+>Cluster 300
+0	254aa, >Pr__Gammaproteobact... *
+>Cluster 301
+0	253aa, >CYANO150__Bdellovib... *
+1	253aa, >Xlr__Bdellovibrio__... at 100.00%
+>Cluster 302
+0	253aa, >CYANO150__Pseudobde... *
+1	253aa, >Xlr__Pseudobdellovi... at 100.00%
+>Cluster 303
+0	253aa, >CYANO150__Bdellovib... *
+1	253aa, >Xlr__Bdellovibrio__... at 100.00%
+>Cluster 304
+0	253aa, >CYANO150__Sphingomo... *
+1	205aa, >Xlr__uncultured__UR... at 96.10%
+>Cluster 305
+0	253aa, >CYANO150__Sphingorh... *
+>Cluster 306
+0	253aa, >CYANO150__Novosphin... *
+>Cluster 307
+0	253aa, >CYANO150__Novosphin... *
+>Cluster 308
+0	253aa, >Br__unclassified__U... *
+1	253aa, >Cyhr__unclassified_... at 100.00%
+>Cluster 309
+0	253aa, >Br__Haloarculaceae_... *
+>Cluster 310
+0	253aa, >Pr__Gammaproteobact... *
+>Cluster 311
+0	252aa, >CYANO150__Sphingomo... *
+>Cluster 312
+0	252aa, >CyR_Tolypothrix... *
+1	252aa, >Cyr__Tolypothrix__U... at 100.00%
+>Cluster 313
+0	252aa, >Br__Halobacteriales... *
+>Cluster 314
+0	252aa, >Br__Tetraselmis__UR... *
+>Cluster 315
+0	252aa, >Cyhr__Bacteria__UR5... *
+1	252aa, >Cyr__Bacteria__UR50... at 100.00%
+2	252aa, >Xer__Bacteria__UR50... at 100.00%
+>Cluster 316
+0	252aa, >Pr__Bacillales__UR5... *
+>Cluster 317
+0	252aa, >Xer__Methylobacteri... *
+>Cluster 318
+0	252aa, >Xlr__Bacteria__UR50... *
+>Cluster 319
+0	252aa, >Xlr__cellular__UR50... *
+>Cluster 320
+0	252aa, >Cyr__Halobacteria__... *
+>Cluster 321
+0	251aa, >CYANO150__Wenzhouxi... *
+>Cluster 322
+0	251aa, >Pr__root__UR50_Q9AF... *
+1	251aa, >Pr__root__UniRef90_... at 100.00%
+>Cluster 323
+0	251aa, >Pr__root__UniRef90_... *
+>Cluster 324
+0	251aa, >Pr__Bacteria__UniRe... *
+>Cluster 325
+0	251aa, >Pr__uncultured__Uni... *
+>Cluster 326
+0	251aa, >Pr__Gammaproteobact... *
+>Cluster 327
+0	250aa, >CYANO150__unclassif... *
+>Cluster 328
+0	250aa, >CYANO150__Ramlibact... *
+>Cluster 329
+0	250aa, >Br__Archaea__UR50_P... *
+1	250aa, >Cyhr__Archaea__UR50... at 100.00%
+2	250aa, >Cyr__Archaea__UR50_... at 100.00%
+3	250aa, >Xer__Archaea__UR50_... at 100.00%
+4	250aa, >Br__Halobacteriales... at 100.00%
+>Cluster 330
+0	249aa, >PR_proteobacterium... at 99.60%
+1	250aa, >Pr__root__UR50_Q6J4... *
+2	250aa, >Pr__root__UniRef90_... at 100.00%
+>Cluster 331
+0	250aa, >Pr__root__UR50_A0A1... *
+1	250aa, >Pr__root__UniRef90_... at 100.00%
+>Cluster 332
+0	250aa, >Pr__root__UR50_A0A9... *
+>Cluster 333
+0	250aa, >Br__Halobacteriales... *
+>Cluster 334
+0	250aa, >Cyr__Natrialbaceae_... *
+>Cluster 335
+0	250aa, >Cyr__Halobacteriale... *
+>Cluster 336
+0	250aa, >Cyr__Solirubrobacte... *
+>Cluster 337
+0	250aa, >Cyr__Halorussus__Un... *
+>Cluster 338
+0	250aa, >Cyr__Halorussus__Un... *
+>Cluster 339
+0	250aa, >Pr__Bacteria__UniRe... *
+>Cluster 340
+0	250aa, >Pr__root__UniRef90_... *
+>Cluster 341
+0	250aa, >Pr__Gammaproteobact... *
+>Cluster 342
+0	250aa, >Pr__Gammaproteobact... *
+>Cluster 343
+0	250aa, >Pr__SAR86__UniRef90... *
+>Cluster 344
+0	249aa, >CYANO150__Chamaesip... *
+>Cluster 345
+0	249aa, >Br__Haloplanus__UR5... *
+1	249aa, >Cyr__Haloplanus__UR... at 100.00%
+>Cluster 346
+0	249aa, >Br__Halorutilus__UR... *
+1	249aa, >Cyhr__Halorutilus__... at 100.00%
+2	249aa, >Cyr__Halorutilus__U... at 100.00%
+>Cluster 347
+0	249aa, >Cyr__Halohasta__Uni... *
+>Cluster 348
+0	249aa, >Cyr__Halorussus__Un... *
+>Cluster 349
+0	249aa, >Pr__Bacteria__UniRe... *
+>Cluster 350
+0	249aa, >Pr__root__UniRef90_... *
+>Cluster 351
+0	249aa, >Pr__Pseudomonadota_... *
+>Cluster 352
+0	248aa, >CYANO150__unclassif... *
+>Cluster 353
+0	248aa, >CyR_Phormidesmis... *
+1	248aa, >Cyhr__Phormidesmis_... at 100.00%
+2	248aa, >Cyr__Phormidesmis__... at 100.00%
+>Cluster 354
+0	248aa, >Br__Hemiselmis__UR5... *
+1	248aa, >Cyr__Hemiselmis__UR... at 100.00%
+>Cluster 355
+0	248aa, >Pr__root__UR50_A0A0... *
+1	248aa, >Pr__Pseudomonadota_... at 100.00%
+>Cluster 356
+0	248aa, >Br__Haloarchaeobius... *
+1	248aa, >Cyr__Haloarchaeobiu... at 100.00%
+>Cluster 357
+0	248aa, >Cyhr__Pseudanabaena... *
+1	248aa, >Cyr__Pseudanabaenac... at 100.00%
+>Cluster 358
+0	248aa, >Cyr__Haloferacales_... *
+>Cluster 359
+0	248aa, >Cyr__Halobaculum__U... *
+>Cluster 360
+0	248aa, >Cyr__Haloplanus__Un... *
+>Cluster 361
+0	248aa, >Pr__root__UniRef90_... *
+>Cluster 362
+0	248aa, >Pr__Woeseiaceae__Un... *
+>Cluster 363
+0	247aa, >CYANO150__Rhodofera... *
+>Cluster 364
+0	247aa, >CYANO150__Rhodofera... *
+>Cluster 365
+0	247aa, >CyR_Calothrix... *
+1	247aa, >Br__Cyanobacteriota... at 95.95%
+2	247aa, >Cyhr__Cyanobacterio... at 95.95%
+3	247aa, >Cyr__Cyanobacteriot... at 95.95%
+4	247aa, >Xer__Cyanobacteriot... at 95.95%
+5	247aa, >Cyhr__Nostocales__U... at 95.95%
+6	247aa, >Cyr__Nostocales__Un... at 95.95%
+>Cluster 366
+0	247aa, >Cyhr__Halobellus__U... *
+>Cluster 367
+0	247aa, >Cyhr__Gloeobacteral... *
+1	247aa, >Cyr__Gloeobacterale... at 100.00%
+2	247aa, >Xer__Gloeobacterale... at 100.00%
+>Cluster 368
+0	247aa, >Cyhr__Tolypothrix__... *
+1	247aa, >Cyr__Tolypothrix__U... at 100.00%
+>Cluster 369
+0	247aa, >Cyhr__Rubrivirga__U... *
+>Cluster 370
+0	247aa, >Cyr__Halorubrum__Un... *
+>Cluster 371
+0	247aa, >Cyr__Salinirubrum__... *
+>Cluster 372
+0	247aa, >Pr__Gammaproteobact... *
+>Cluster 373
+0	246aa, >Br__Haloquadratum__... *
+1	246aa, >Cyhr__Haloquadratum... at 100.00%
+2	246aa, >Cyr__Haloquadratum_... at 100.00%
+>Cluster 374
+0	246aa, >Br__Halobacteria__U... *
+1	138aa, >Br__cellular__UR50_... at 95.65%
+2	246aa, >Cyhr__Halobacteria_... at 100.00%
+3	246aa, >Cyr__Halobacteria__... at 100.00%
+4	138aa, >Cyr__cellular__UR50... at 95.65%
+5	246aa, >Xer__Halobacteria__... at 100.00%
+>Cluster 375
+0	246aa, >Cyhr__Haloplanus__U... *
+>Cluster 376
+0	246aa, >Cyhr__Halohasta__UR... *
+>Cluster 377
+0	246aa, >Pr__root__UR50_C0KT... *
+>Cluster 378
+0	246aa, >Pr__Alphaproteobact... *
+>Cluster 379
+0	246aa, >Xlr__Chloroflexota_... *
+>Cluster 380
+0	246aa, >Br__Natronobeatus__... *
+1	246aa, >Cyr__Natronobeatus_... at 100.00%
+>Cluster 381
+0	246aa, >Cyhr__Pleurocapsa__... *
+1	246aa, >Cyr__Pleurocapsa__U... at 100.00%
+>Cluster 382
+0	246aa, >Cyr__Salinigranum__... *
+>Cluster 383
+0	246aa, >Pr__Gammaproteobact... *
+>Cluster 384
+0	245aa, >CYANO150__Chlorofle... *
+>Cluster 385
+0	245aa, >Br__Truepera__UR50_... *
+1	245aa, >Cyhr__Truepera__UR5... at 100.00%
+2	245aa, >Cyr__Truepera__UR50... at 100.00%
+3	245aa, >Xer__Truepera__UR50... at 100.00%
+4	245aa, >Cyhr__uncultured__U... at 100.00%
+>Cluster 386
+0	245aa, >Br__Rubricoccaceae_... *
+1	245aa, >Cyhr__Rubricoccacea... at 100.00%
+2	245aa, >Cyr__Rubricoccaceae... at 100.00%
+3	245aa, >Cyhr__Rubrivirga__U... at 100.00%
+>Cluster 387
+0	245aa, >Br__Deinococcus__UR... *
+1	245aa, >Cyhr__Deinococcus__... at 100.00%
+2	245aa, >Cyr__Deinococcus__U... at 100.00%
+3	245aa, >Xer__Deinococcus__U... at 100.00%
+4	245aa, >Cyhr__Deinococcus__... at 100.00%
+5	245aa, >Cyr__Deinococcus__U... at 100.00%
+>Cluster 388
+0	245aa, >Br__Halorientalis__... *
+>Cluster 389
+0	245aa, >Cyhr__Rubricoccus__... *
+>Cluster 390
+0	245aa, >Cyr__Halorientalis_... *
+>Cluster 391
+0	245aa, >Cyr__unclassified__... *
+>Cluster 392
+0	245aa, >Cyr__Halobaculum__U... *
+>Cluster 393
+0	245aa, >Pr__root__UniRef90_... *
+>Cluster 394
+0	244aa, >Br__cellular__UR50_... *
+>Cluster 395
+0	244aa, >Cyhr__Terrabacteria... *
+1	244aa, >Xer__Terrabacteria_... at 100.00%
+2	244aa, >Xer__Phormidesmis__... at 100.00%
+>Cluster 396
+0	244aa, >Cyhr__Haloferacales... *
+>Cluster 397
+0	244aa, >Cyr__Candidatus__UR... *
+1	244aa, >Xer__Candidatus__UR... at 100.00%
+>Cluster 398
+0	244aa, >Pr__Verrucomicrobio... *
+>Cluster 399
+0	244aa, >Br__Salinigranum__U... *
+1	244aa, >Cyr__Salinigranum__... at 100.00%
+>Cluster 400
+0	244aa, >Br__Halomarina__Uni... *
+1	244aa, >Cyr__Halomarina__Un... at 100.00%
+>Cluster 401
+0	244aa, >Cyhr__Nostocaceae__... *
+1	244aa, >Cyr__Nostocaceae__U... at 100.00%
+>Cluster 402
+0	244aa, >Cyr__Salinirubellus... *
+>Cluster 403
+0	244aa, >Cyr__Halobacteriale... *
+>Cluster 404
+0	243aa, >Cyhr__Halobacteria_... *
+1	243aa, >Cyr__Halobacteria__... at 100.00%
+2	243aa, >Xer__Halobacteria__... at 100.00%
+>Cluster 405
+0	243aa, >Cyr__Candidatus__UR... *
+1	243aa, >Xer__Candidatus__UR... at 100.00%
+>Cluster 406
+0	243aa, >Pr__root__UR50_A0A1... *
+>Cluster 407
+0	243aa, >Br__Halobacteriales... *
+1	243aa, >Cyr__Halobacteriale... at 100.00%
+>Cluster 408
+0	243aa, >Br__Halorientalis__... *
+>Cluster 409
+0	243aa, >Br__Halobium__UniRe... *
+1	243aa, >Cyr__Halobium__UniR... at 100.00%
+>Cluster 410
+0	243aa, >Br__Halostella__Uni... *
+1	243aa, >Cyr__Halostella__Un... at 100.00%
+>Cluster 411
+0	243aa, >Br__Halolamina__Uni... *
+1	243aa, >Cyr__Halolamina__Un... at 100.00%
+>Cluster 412
+0	243aa, >Cyhr__Plectolyngbya... *
+>Cluster 413
+0	243aa, >Cyr__Haloferax__Uni... *
+>Cluster 414
+0	243aa, >Pr__root__UniRef90_... *
+>Cluster 415
+0	86aa, >Pr__root__UR50_A0A2... at 98.84%
+1	243aa, >Pr__SAR86__UniRef90... *
+>Cluster 416
+0	242aa, >Cyhr__Ktedonobacter... *
+1	242aa, >Cyr__Ktedonobactera... at 100.00%
+>Cluster 417
+0	242aa, >Cyr__Cryptophyceae_... *
+>Cluster 418
+0	242aa, >Pr__SAR86__UniRef90... *
+>Cluster 419
+0	242aa, >Pr__Gammaproteobact... *
+>Cluster 420
+0	241aa, >Cyhr__Bacteria__UR5... *
+1	241aa, >Xer__Bacteria__UR50... at 100.00%
+>Cluster 421
+0	241aa, >Br__Natrialbaceae__... *
+1	241aa, >Cyr__Natrialbaceae_... at 100.00%
+>Cluster 422
+0	241aa, >Br__Halogranum__Uni... *
+1	241aa, >Cyhr__Halogranum__U... at 100.00%
+2	241aa, >Cyr__Halogranum__Un... at 100.00%
+>Cluster 423
+0	241aa, >Br__Salinilacihabit... *
+1	241aa, >Cyr__Salinilacihabi... at 100.00%
+>Cluster 424
+0	241aa, >Br__Halegenticoccus... *
+1	241aa, >Cyr__Halegenticoccu... at 100.00%
+>Cluster 425
+0	232aa, >CyHR_Mastigocladops... at 100.00%
+1	241aa, >Cyhr__Nostocales__U... *
+2	241aa, >Cyr__Nostocales__Un... at 100.00%
+>Cluster 426
+0	241aa, >Cyhr__Bacteria__Uni... *
+>Cluster 427
+0	241aa, >Cyr__Halobiforma__U... *
+>Cluster 428
+0	241aa, >Cyr__Natrinema__Uni... *
+>Cluster 429
+0	240aa, >Br__Tetraselmis__UR... *
+1	240aa, >Cyhr__Tetraselmis__... at 100.00%
+2	240aa, >Cyr__Tetraselmis__U... at 100.00%
+>Cluster 430
+0	240aa, >Cyr__Candidatus__UR... *
+>Cluster 431
+0	240aa, >Xer__Gonapodya__UR5... *
+>Cluster 432
+0	240aa, >Br__Halobiforma__Un... *
+1	240aa, >Cyr__Halobiforma__U... at 100.00%
+>Cluster 433
+0	240aa, >Br__Natrarchaeobacu... *
+1	240aa, >Cyr__Natrarchaeobac... at 100.00%
+>Cluster 434
+0	240aa, >Cyhr__Rubrivirga__U... *
+>Cluster 435
+0	240aa, >Cyr__Natribaculum__... *
+>Cluster 436
+0	240aa, >Xer__Chroococcidiop... *
+>Cluster 437
+0	240aa, >Xer__Leptolyngbya__... *
+>Cluster 438
+0	240aa, >Xer__Cyanobacteriot... *
+>Cluster 439
+0	240aa, >Xer__Leptolyngbya__... *
+>Cluster 440
+0	240aa, >Xer__Trichocoleus__... *
+>Cluster 441
+0	240aa, >Xer__Phormidium__Un... *
+>Cluster 442
+0	239aa, >Br__Rubrobacteracea... *
+1	239aa, >Cyhr__Rubrobacterac... at 100.00%
+2	239aa, >Cyr__Rubrobacterace... at 100.00%
+3	239aa, >Xer__Rubrobacterace... at 100.00%
+4	239aa, >Cyhr__Rubrobacter__... at 100.00%
+5	239aa, >Cyr__Rubrobacter__U... at 100.00%
+>Cluster 443
+0	239aa, >Cyhr__Halobacteria_... *
+1	239aa, >Cyr__Halobacteria__... at 100.00%
+>Cluster 444
+0	239aa, >Cyr__Haloarchaeobiu... *
+>Cluster 445
+0	238aa, >Cyhr__root__UR50_A0... *
+1	238aa, >Xer__root__UR50_A0A... at 100.00%
+>Cluster 446
+0	238aa, >Xlr__root__UR50_A0A... *
+>Cluster 447
+0	238aa, >Cyhr__Myxosarcina__... *
+>Cluster 448
+0	238aa, >Xer__Oculatella__Un... *
+>Cluster 449
+0	238aa, >Xer__Oscillatoria__... *
+>Cluster 450
+0	237aa, >Br__Actinomycetota_... *
+1	237aa, >Cyhr__Actinomycetot... at 100.00%
+2	148aa, >Cyhr__Actinomycetot... at 95.27%
+3	237aa, >Cyr__Actinomycetota... at 100.00%
+4	148aa, >Cyr__Actinomycetota... at 95.27%
+5	237aa, >Xer__Actinomycetota... at 100.00%
+6	237aa, >Cyhr__Actinomycetot... at 100.00%
+7	237aa, >Cyr__Actinomycetota... at 100.00%
+>Cluster 451
+0	237aa, >Br__Dictyobacter__U... *
+1	237aa, >Cyhr__Dictyobacter_... at 100.00%
+2	237aa, >Cyr__Dictyobacter__... at 100.00%
+3	237aa, >Xer__Dictyobacter__... at 100.00%
+4	237aa, >Cyr__Dictyobacter__... at 100.00%
+>Cluster 452
+0	237aa, >Cyhr__Lichenibacter... *
+1	237aa, >Cyr__Lichenibacteri... at 100.00%
+2	237aa, >Xer__Lichenibacteri... at 100.00%
+>Cluster 453
+0	237aa, >Cyr__Halapricum__UR... *
+>Cluster 454
+0	237aa, >Xer__Pseudomonadota... *
+>Cluster 455
+0	237aa, >Xer__Cyanobacteria_... *
+>Cluster 456
+0	236aa, >Br__Bacteria__UR50_... *
+1	236aa, >Cyhr__Bacteria__UR5... at 100.00%
+2	236aa, >Cyr__Bacteria__UR50... at 100.00%
+3	236aa, >Xer__Bacteria__UR50... at 100.00%
+4	236aa, >Cyhr__Aliterella__U... at 100.00%
+5	236aa, >Cyr__Aliterella__Un... at 100.00%
+>Cluster 457
+0	236aa, >Cyhr__Alphaproteoba... *
+>Cluster 458
+0	236aa, >Cyhr__Nostocales__U... *
+1	236aa, >Cyr__Nostocales__Un... at 100.00%
+>Cluster 459
+0	236aa, >Cyhr__Cyanobacterio... *
+>Cluster 460
+0	236aa, >Cyhr__Cyanophyceae_... *
+>Cluster 461
+0	236aa, >Cyhr__Leptolyngbya_... *
+>Cluster 462
+0	236aa, >Cyhr__Leptolyngbya_... *
+1	236aa, >Cyr__Leptolyngbya__... at 100.00%
+>Cluster 463
+0	235aa, >Xer__Paeniclostridi... *
+>Cluster 464
+0	235aa, >Xlr__root__UR50_A0A... *
+>Cluster 465
+0	235aa, >Xlr__Actinobacteria... *
+>Cluster 466
+0	235aa, >Cyhr__Cyanophyceae_... *
+>Cluster 467
+0	235aa, >Cyhr__Nodosilinea__... *
+1	235aa, >Cyr__Nodosilinea__U... at 100.00%
+>Cluster 468
+0	235aa, >Cyhr__Cyanophyceae_... *
+1	235aa, >Cyr__Cyanophyceae__... at 100.00%
+>Cluster 469
+0	235aa, >Cyhr__Pseudanabaena... *
+1	235aa, >Cyr__Pseudanabaena_... at 100.00%
+>Cluster 470
+0	235aa, >Cyhr__Leptolyngbya_... *
+1	235aa, >Cyr__Leptolyngbya__... at 100.00%
+>Cluster 471
+0	235aa, >Cyhr__Chroococcus__... *
+1	235aa, >Cyr__Chroococcus__U... at 100.00%
+>Cluster 472
+0	183aa, >Cyhr__Oculatella__U... at 97.81%
+1	183aa, >Cyr__Oculatella__UR... at 97.81%
+2	183aa, >Xer__Oculatella__UR... at 97.81%
+3	235aa, >Cyhr__unclassified_... *
+4	183aa, >Cyhr__Oculatella__U... at 97.81%
+5	235aa, >Cyr__unclassified__... at 100.00%
+>Cluster 473
+0	234aa, >CYANO150__Deinococc... *
+1	234aa, >Xlr__Deinococcus__U... at 100.00%
+>Cluster 474
+0	234aa, >CyHR_Synechocystis... *
+1	234aa, >Br__Cyanobacteriota... at 100.00%
+2	234aa, >Cyhr__Cyanobacterio... at 100.00%
+3	234aa, >Cyr__Cyanobacteriot... at 100.00%
+4	234aa, >Cyhr__Cyanophyceae_... at 100.00%
+5	234aa, >Cyr__Cyanophyceae__... at 100.00%
+>Cluster 475
+0	234aa, >Cyhr__Bacteria__UR5... *
+1	234aa, >Xer__Bacteria__UR50... at 100.00%
+>Cluster 476
+0	234aa, >Xer__Actinomycetes_... *
+>Cluster 477
+0	234aa, >Cyhr__unclassified_... *
+1	234aa, >Cyr__unclassified__... at 100.00%
+>Cluster 478
+0	234aa, >Cyhr__Leptolyngbya_... *
+>Cluster 479
+0	234aa, >Cyhr__Phormidesmis_... *
+1	234aa, >Cyr__Phormidesmis__... at 100.00%
+>Cluster 480
+0	234aa, >Cyhr__Cyanobacteria... *
+1	234aa, >Cyr__Cyanobacteria_... at 100.00%
+>Cluster 481
+0	234aa, >Cyhr__Phormidesmis_... *
+1	234aa, >Cyr__Phormidesmis__... at 100.00%
+>Cluster 482
+0	234aa, >Cyr__Cyanobacteria_... *
+>Cluster 483
+0	233aa, >Br__Halovenus__UR50... *
+1	233aa, >Cyhr__Halovenus__UR... at 100.00%
+>Cluster 484
+0	233aa, >Cyhr__unclassified_... *
+1	233aa, >Cyr__unclassified__... at 100.00%
+2	233aa, >Xer__unclassified__... at 100.00%
+3	233aa, >Cyhr__unclassified_... at 100.00%
+4	233aa, >Cyr__unclassified__... at 100.00%
+>Cluster 485
+0	233aa, >Cyr__Bacteroidota/C... *
+1	233aa, >Xer__Bacteroidota/C... at 100.00%
+>Cluster 486
+0	233aa, >Pr__Pseudomonadota_... *
+>Cluster 487
+0	233aa, >Xer__Cyanothece__UR... *
+>Cluster 488
+0	233aa, >Cyhr__Cyanothece__U... *
+1	233aa, >Cyr__Cyanothece__Un... at 100.00%
+>Cluster 489
+0	233aa, >Cyhr__Tolypothrix__... *
+1	233aa, >Cyr__Tolypothrix__U... at 100.00%
+>Cluster 490
+0	233aa, >Cyhr__Nostoc__UniRe... *
+1	233aa, >Cyr__Nostoc__UniRef... at 100.00%
+>Cluster 491
+0	233aa, >Cyhr__Hassalia__Uni... *
+1	233aa, >Cyr__Hassalia__UniR... at 100.00%
+>Cluster 492
+0	233aa, >Cyhr__Microcoleus__... *
+1	233aa, >Cyr__Microcoleus__U... at 100.00%
+>Cluster 493
+0	232aa, >Br__Halorutilus__UR... *
+1	232aa, >Cyhr__Halorutilus__... at 100.00%
+2	232aa, >Cyr__Halorutilus__U... at 100.00%
+>Cluster 494
+0	232aa, >Cyr__Bacillota__UR5... *
+1	232aa, >Xer__Bacillota__UR5... at 100.00%
+>Cluster 495
+0	232aa, >Xer__Micromonospora... *
+>Cluster 496
+0	232aa, >Cyhr__Cyanobacteria... *
+1	232aa, >Cyr__Cyanobacteria_... at 100.00%
+>Cluster 497
+0	231aa, >Pr__root__UR50_A0A2... *
+>Cluster 498
+0	230aa, >Cyr__Terrabacteria_... *
+1	230aa, >Xer__Terrabacteria_... at 100.00%
+>Cluster 499
+0	230aa, >Pr__Dehalococcoidia... *
+>Cluster 500
+0	230aa, >Pr__Hyphomicrobiale... *
+1	229aa, >Pr__Gammaproteobact... at 96.07%
+>Cluster 501
+0	229aa, >Pr__root__UR50_A0A0... *
+>Cluster 502
+0	229aa, >Br__Halobaculum__Un... *
+>Cluster 503
+0	229aa, >Cyhr__Leptolyngbya_... *
+1	229aa, >Cyr__Leptolyngbya__... at 100.00%
+>Cluster 504
+0	228aa, >Pr__Candidatus__UR5... *
+>Cluster 505
+0	227aa, >Br__Gammaproteobact... *
+1	227aa, >Cyhr__Gammaproteoba... at 100.00%
+2	227aa, >Cyr__Gammaproteobac... at 100.00%
+>Cluster 506
+0	226aa, >Cyhr__Phormidium__U... *
+>Cluster 507
+0	223aa, >Pr__root__UR50_A0A1... *
+>Cluster 508
+0	223aa, >Cyhr__Chamaesiphon_... *
+1	223aa, >Cyr__Chamaesiphon__... at 100.00%
+>Cluster 509
+0	222aa, >Xer__Bacteria__UR50... *
+>Cluster 510
+0	220aa, >CYANO150__filamento... *
+1	220aa, >Xlr__Terrabacteria_... at 100.00%
+2	220aa, >Xlr__filamentous__U... at 100.00%
+>Cluster 511
+0	218aa, >Xlr__uncultured__UR... *
+>Cluster 512
+0	213aa, >Xlr__Bacteria__UR50... *
+>Cluster 513
+0	212aa, >Xlr__Bacteria__UR50... *
+>Cluster 514
+0	212aa, >Xlr__Sar__UR50_A0A8... *
+>Cluster 515
+0	209aa, >Xlr__Dinophyceae__U... *
+>Cluster 516
+0	205aa, >Pr__root__UR50_A0A2... *
+>Cluster 517
+0	205aa, >Pr__Bacteroidota__U... *
+>Cluster 518
+0	202aa, >Pr__root__UR50_A0A1... *
+>Cluster 519
+0	202aa, >Cyhr__Leptolyngbya_... *
+>Cluster 520
+0	200aa, >Xlr__Bacteria__UR50... *
+>Cluster 521
+0	199aa, >Xlr__Microbacterium... *
+>Cluster 522
+0	198aa, >Pr__Flavobacteriale... *
+>Cluster 523
+0	197aa, >Br__Pseudanabaenace... *
+1	197aa, >Cyhr__Pseudanabaena... at 100.00%
+2	197aa, >Cyr__Pseudanabaenac... at 100.00%
+3	197aa, >Cyr__Pseudanabaenac... at 100.00%
+>Cluster 524
+0	196aa, >Br__Halobacterium__... *
+1	196aa, >Cyhr__Halobacterium... at 100.00%
+2	196aa, >Cyr__Halobacterium_... at 100.00%
+3	196aa, >Br__Halobacterium__... at 100.00%
+>Cluster 525
+0	195aa, >Pr__Bacteroidota__U... *
+>Cluster 526
+0	192aa, >Pr__root__UR50_A0A1... *
+>Cluster 527
+0	191aa, >Xlr__Balneola__UR50... *
+>Cluster 528
+0	190aa, >Br__Hemiselmis__UR5... *
+>Cluster 529
+0	190aa, >Pr__root__UR50_A0A9... *
+>Cluster 530
+0	188aa, >Xlr__Phototrophical... *
+>Cluster 531
+0	186aa, >Br__halophilic__UR5... *
+1	186aa, >Cyhr__halophilic__U... at 100.00%
+2	186aa, >Cyr__halophilic__UR... at 100.00%
+>Cluster 532
+0	185aa, >Xlr__root__UR50_A0A... *
+>Cluster 533
+0	181aa, >Xlr__Actinomycetota... *
+>Cluster 534
+0	179aa, >Pr__root__UR50_B7S3... *
+>Cluster 535
+0	179aa, >Xer__Bacteria__UR50... *
+>Cluster 536
+0	174aa, >Cyr__Truepera__UR50... *
+1	174aa, >Xer__Truepera__UR50... at 100.00%
+>Cluster 537
+0	173aa, >Cyr__Terrabacteria_... *
+1	173aa, >Xer__Terrabacteria_... at 100.00%
+>Cluster 538
+0	168aa, >Pr__root__UR50_A0A2... *
+>Cluster 539
+0	168aa, >Xlr__root__UR50_A0A... *
+>Cluster 540
+0	165aa, >Xlr__root__UR50_A0A... *
+>Cluster 541
+0	163aa, >Pr__root__UR50_A8QL... *
+>Cluster 542
+0	162aa, >Pr__root__UniRef90_... *
+1	161aa, >Pr__uncultured__Uni... at 97.52%
+>Cluster 543
+0	161aa, >Pr__Bacteria__UR50_... *
+>Cluster 544
+0	160aa, >Pr__root__UR50_A0A1... *
+>Cluster 545
+0	159aa, >Xlr__root__UR50_A0A... *
+>Cluster 546
+0	158aa, >Pr__Verrucomicrobia... *
+>Cluster 547
+0	145aa, >Br__cellular__UR50_... *
+1	145aa, >Cyr__cellular__UR50... at 100.00%
+>Cluster 548
+0	144aa, >Xer__Hymenobacter__... *
+>Cluster 549
+0	141aa, >Xlr__root__UR50_A0A... *
+>Cluster 550
+0	138aa, >Pr__root__UR50_A0A2... *
+>Cluster 551
+0	134aa, >Cyhr__Bacteria__UR5... *
+1	134aa, >Cyhr__Bacteria__Uni... at 100.00%
+>Cluster 552
+0	133aa, >Pr__root__UR50_A0A2... *
+>Cluster 553
+0	133aa, >Xer__Fischerella__U... *
+>Cluster 554
+0	132aa, >Xer__Deinococcus__U... *
+>Cluster 555
+0	130aa, >Br__Uncultured__UR5... *
+>Cluster 556
+0	129aa, >Br__Uncultured__UR5... *
+>Cluster 557
+0	129aa, >Br__Halobacteria__U... *
+>Cluster 558
+0	128aa, >Xer__Pontibacter__U... *
+>Cluster 559
+0	126aa, >Cyhr__Nostocales__U... *
+1	126aa, >Cyhr__Iningainema__... at 100.00%
+>Cluster 560
+0	123aa, >Br__uncultured__UR5... *
+>Cluster 561
+0	123aa, >Br__uncultured__UR5... *
+>Cluster 562
+0	120aa, >Pr__Bacteria__UR50_... *
+>Cluster 563
+0	112aa, >Cyhr__Bacteria__UR5... *
+>Cluster 564
+0	68aa, >Cyhr__Cyanophyceae_... *
