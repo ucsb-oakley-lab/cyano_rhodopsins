@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ---- Config (override via env vars when calling this script) -----------------
+REPO_DIR="${REPO_DIR:-$HOME/labdata/users/Oakley/GitHub/cyano_rhodopsins}"
+ENV_NAME="${ENV_NAME:-tcoffee}"
+FASTA="${FASTA:-combined.fa}"
+DB_ROOT="${DB_ROOT:-combined_db}"            # BLAST DB root (no extension)
+THREADS="${THREADS:-4}"
+RUN_TAG="${RUN_TAG:-$(date +%Y%m%d-%H%M%S)}"
+OUTDIR="${OUTDIR:-alignments_$RUN_TAG}"
+USE_TM="${USE_TM:-1}"                        # 1 = attempt TM-aware run; 0 = skip
+MAX_PID="${MAX_PID:-5000000}"
+
+# ---- Conda env ---------------------------------------------------------------
+if command -v conda >/dev/null 2>&1; then
+  # shellcheck disable=SC1090
+  source "$(conda info --base)/etc/profile.d/conda.sh"
+  conda activate "$ENV_NAME"
+else
+  echo "ERROR: conda not found. Install Miniconda/Anaconda and create env '$ENV_NAME'." >&2
+  exit 1
+fi
+
+# ---- Tool checks -------------------------------------------------------------
+for x in t_coffee2 blastp psiblast makeblastdb blastdbcmd; do
+  command -v "$x" >/dev/null 2>&1 || { echo "ERROR: '$x' not found in PATH."; exit 1; }
+done
+
+# ---- Go to repo & sanity checks ---------------------------------------------
+cd "$REPO_DIR"
+[[ -s "$FASTA" ]] || { echo "ERROR: FASTA '$FASTA' not found in $REPO_DIR"; exit 1; }
+
+export MAX_N_PID_4_TCOFFEE="$MAX_PID"
+export BLASTDB="$PWD"
+
+mkdir -p "$OUTDIR"
+
+# ---- Resolve a usable BLAST DB (v5 or v4) -----------------------------------
+DB_USED=""
+if blastdbcmd -info -db "$DB_ROOT" >/dev/null 2>&1; then
+  DB_USED="$DB_ROOT"
+elif blastdbcmd -info -db "${DB_ROOT}_v4" >/dev/null 2>&1; then
+  DB_USED="${DB_ROOT}_v4"
+else
+  echo "BLAST DB '$DB_ROOT' not found. Building v4 DB '${DB_ROOT}_v4' from $FASTA..."
+  makeblastdb -in "$FASTA" -dbtype prot -out "${DB_ROOT}_v4" -blastdb_version 4
+  DB_USED="${DB_ROOT}_v4"
+fi
+
+# Absolute path helps some wrappers
+DB_USED="$(readlink -f "$DB_USED")"
+
+echo "Using FASTA:      $FASTA"
+echo "Using BLAST DB:   $DB_USED"
+echo "Threads:          $THREADS"
+echo "Output dir:       $OUTDIR"
+echo
+
+# ---- Quick BLAST sanity ------------------------------------------------------
+blastp -db "$DB_USED" -query "$FASTA" -outfmt 6 -max_target_seqs 5 -num_threads "$THREADS" -out /dev/null || {
+  echo "ERROR: BLAST sanity check failed against DB '$DB_USED'"; exit 1; }
+
+# ---- PSI-Coffee (LOCAL BLAST) -----------------------------------------------
+echo "=== Running PSI-Coffee (LOCAL) ==="
+t_coffee2 "$FASTA" \
+  -mode psicoffee \
+  -blast_server=LOCAL \
+  -protein_db "$DB_USED" \
+  -outfile "$OUTDIR/combined_psicoffee.aln" \
+  -output fasta_aln,clustalw_aln \
+  -run_name "combined_psicoffee_$RUN_TAG" \
+  -n_core "$THREADS"
+
+# ---- TM-aware recipe (PSITM) if predictor available -------------------------
+if [[ "$USE_TM" == "1" ]]; then
+  if command -v hmmtop >/dev/null 2>&1 || [[ -n "${HMMTOP_PATH:-}" && -x "${HMMTOP_PATH}" ]]; then
+    echo "=== Running TM-aware PSI-Coffee (PSITM) ==="
+    t_coffee2 "$FASTA" \
+      -mode psicoffee \
+      -blast_server=LOCAL \
+      -protein_db "$DB_USED" \
+      -template_file PSITM \
+      -outfile "$OUTDIR/combined_tmcoffee.aln" \
+      -output fasta_aln,clustalw_aln \
+      -run_name "combined_tmcoffee_$RUN_TAG" \
+      -n_core "$THREADS"
+  else
+    echo "NOTE: Skipping TM-aware run (no TM predictor found). Install hmmtop or set HMMTOP_PATH, or run with USE_TM=0."
+  fi
+fi
+
+echo
+echo "Done. Outputs:"
+ls -l "$OUTDIR"/*.aln 2>/dev/null || true
