@@ -1,0 +1,206 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    osiris (AVX, 62 GB RAM)
+Command: iqtree2 -s ../results/align/BAC88139.1_top150_uniref90.rename.culled_20250827_ALN.faa -m LG+F+R4 -nt AUTO -keep-ident -pre ../results/trees/BAC88139.1_top150_uniref90.rename.culled_20250827_ML_2025-08-27 -quiet
+Seed:    668082 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 27 07:55:28 2025
+Kernel:  AVX - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file ../results/align/BAC88139.1_top150_uniref90.rename.culled_20250827_ALN.faa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 90 sequences with 438 columns, 380 distinct patterns
+256 parsimony-informative, 70 singleton sites, 112 constant sites
+                                                                       Gap/Ambiguity  Composition  p-value
+   1  CYANO150__Gloeobacter_violaceus__UniRef90_Q7NP59                        31.96%    passed     96.24%
+   2  CYANO150__Cyanophyceae__UniRef90_A0A2W7ARY7                             32.19%    passed     97.57%
+   3  CYANO150__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7            32.19%    passed     88.39%
+   4  CYANO150__Chamaesiphon_sp__UniRef90_UPI0035946169                       16.21%    passed      5.53%
+   5  CYANO150__Chamaesiphon_sp__UniRef90_UPI003592F9D2                       30.59%    passed     94.71%
+   6  CYANO150__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1               35.62%    passed     88.38%
+   7  CYANO150__Cyanophyceae__UniRef90_A0A8J7JTD9                             38.58%    passed     42.45%
+   8  CYANO150__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7       40.18%    passed     96.80%
+   9  CYANO150__Halothece_sp__UniRef90_K9YEI2                                 35.84%    passed     99.83%
+  10  CYANO150__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9               36.99%    passed     99.95%
+  11  CYANO150__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9                       39.50%    passed     97.18%
+  12  CYANO150__Deinococcus__UniRef90_A0A172TD44                              34.93%    passed     51.85%
+  13  CYANO150__Deinococcus_sp__UniRef90_UPI0025F8D0E5                        40.87%    passed     99.04%
+  14  CYANO150__Allomeiothermus_silvanus__UniRef90_UPI0023F38943              41.10%    passed     97.48%
+  15  CYANO150__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2                   39.73%    passed     85.68%
+  16  CYANO150__Myxococcales_bacterium__UniRef90_A0A2E7ZR97                   40.41%    passed     91.50%
+  17  CYANO150__Thermaceae_bacterium__UniRef90_A0A931EK09                     40.18%    passed     97.53%
+  18  CYANO150__Oligoflexia_bacterium__UniRef90_A0A923U6H7                    41.78%    passed     86.96%
+  19  CYANO150__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9                   40.64%    passed     95.83%
+  20  CYANO150__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6                 40.41%    passed     99.93%
+  21  CYANO150__filamentous_cyanobacterium_CCP5__UniRef90_A0A2P8WHZ5          49.77%    passed     97.67%
+  22  CYANO150__Gracilibacteria_bacterium__UniRef90_A0A968T6V2                35.16%    passed     44.34%
+  23  CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2D4SQ06            40.18%    passed     99.24%
+  24  CYANO150__unclassified_Roseiflexus__UniRef90_A5UXH7                     40.87%    passed     95.40%
+  25  CYANO150__Oligoflexia_bacterium__UniRef90_A0A924SSG2                    41.55%    passed     96.28%
+  26  CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A2E7UR14            40.18%    passed     89.17%
+  27  CYANO150__Roseiflexaceae_bacterium__UniRef90_A0A926CB40                 40.87%    passed     85.45%
+  28  CYANO150__Candidatus_Sericytochromatia_bacterium__UniRef90_A0A923XRS8   41.32%    passed     78.09%
+  29  CYANO150__Chloroflexota_bacterium__UniRef90_A0A6L9IXQ0                  39.73%    passed     95.44%
+  30  CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7L1S3                  38.36%    passed     87.91%
+  31  CYANO150__Meiothermus_sp_QL_1__UniRef90_A0A370JXE9                      38.36%    passed     33.65%
+  32  CYANO150__Salisaeta_longa__UniRef90_UPI0003B640DC                       39.27%    passed     48.36%
+  33  CYANO150__Williamsia_sp_CHRR_6__UniRef90_UPI001BDAAC7A                  37.90%    passed     36.47%
+  34  CYANO150__Deinococcales_bacterium__UniRef90_A0A924RR09                  34.25%    passed     99.92%
+  35  CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NNI9                    38.36%    passed     99.38%
+  36  CYANO150__Ilumatobacteraceae_bacterium__UniRef90_A0A973H857             38.13%    passed     93.57%
+  37  CYANO150__Frankiaceae_bacterium__UniRef90_A0A924NQ99                    37.21%    passed     99.42%
+  38  CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BAJ6                 39.27%    passed     75.57%
+  39  CYANO150__Actinomycetes_bacterium__UniRef90_A0A3C1P5D0                  36.76%    passed     94.09%
+  40  CYANO150__Actinotalea_ferrariae_CF5_4__UniRef90_A0A021VV84              36.53%    passed     36.90%
+  41  CYANO150__Halalkalibaculum_roseum__UniRef90_A0A6M1SYC8                  40.64%    passed     99.43%
+  42  CYANO150__Calditrichota_bacterium__UniRef90_A0A958E829                  37.21%    passed     59.96%
+  43  CYANO150__Bacteria__UniRef90_A0A977XLG0                                 41.55%    passed     58.06%
+  44  CYANO150__Armatimonadota_bacterium__UniRef90_A0A926BQ30                 36.30%    passed     93.91%
+  45  CYANO150__uncultured_Friedmanniella_sp__UniRef90_UPI0035CB696C          35.39%    passed     66.96%
+  46  CYANO150__Deltaproteobacteria_bacterium__UniRef90_A0A938QS95            41.32%    passed     45.81%
+  47  CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0P1B6                  37.67%    passed     95.59%
+  48  CYANO150__Longibacter_salinarum__UniRef90_A0A2A8D2B5                    37.67%    passed     93.77%
+  49  CYANO150__Microbacteriaceae_bacterium__UniRef90_A0A924CUM7              34.02%    passed     93.82%
+  50  CYANO150__bacterium__UniRef90_A0A969PXR2                                40.64%    passed     99.44%
+  51  CYANO150__Anaerolineae_bacterium__UniRef90_A0A925E260                   39.27%    passed     99.94%
+  52  CYANO150__Sphingomonas_sp_SUN039__UniRef90_UPI00216411C4                42.01%    passed     99.44%
+  53  CYANO150__Chloroflexota_bacterium__UniRef90_A0A3L7VYY9                  41.55%    passed     95.27%
+  54  CYANO150__Marisediminicola__UniRef90_A0A7L5AK79                         37.44%    passed     91.55%
+  55  CYANO150__Armatimonadota_bacterium__UniRef90_A0A924Y846                 37.90%    passed     99.77%
+  56  CYANO150__Rhodococcus_antarcticus__UniRef90_UPI00223C9C6A               37.21%    passed     94.30%
+  57  CYANO150__Goekera_deserti__UniRef90_A0A7K3WHF5                          29.45%    passed     57.66%
+  58  CYANO150__Armatimonadota_bacterium__UniRef90_A0A926AH54                 38.81%    passed     91.98%
+  59  CYANO150__Cryobacterium__UniRef90_A0A5R1NKQ6                            36.30%    passed     81.96%
+  60  CYANO150__Cryobacterium__UniRef90_A0A4V3IV66                            33.33%    passed     46.92%
+  61  CYANO150__Ilumatobacter_sp__UniRef90_UPI0026349BF9                      37.21%    passed     30.22%
+  62  CYANO150__Actinomycetota__UniRef90_A0A4P5SJD2                           37.21%    passed     98.36%
+  63  CYANO150__Bacteroidota_bacterium__UniRef90_A0A2T4XL02                   41.55%    passed     91.28%
+  64  CYANO150__Polymorphobacter__UniRef90_UPI001C1E708F                      40.87%    passed     91.33%
+  65  CYANO150__Pseudonocardia_sp_73_21__UniRef90_A0A1Q4DHI1                  35.62%    passed     63.74%
+  66  CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6P5N0                  38.81%    passed     98.82%
+  67  CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T6NY40                  39.50%    passed     94.10%
+  68  CYANO150__Chloroflexota_bacterium__UniRef90_A0A8T7K4U3                  40.64%    passed     94.14%
+  69  CYANO150__Novosphingopyxis_baekryungensis__UniRef90_UPI0003B5F996       35.62%    passed     80.02%
+  70  CYANO150__Aquipuribacter_nitratireducens__UniRef90_UPI0030EFA4BC        32.19%    passed     47.29%
+  71  CYANO150__Sandarakinorhabdus__UniRef90_UPI00286D8C23                    41.10%    passed     88.70%
+  72  CYANO150__Euzebya_tangerina__UniRef90_UPI00196AFC51                     38.58%    passed     98.66%
+  73  CYANO150__Wenzhouxiangella_sp__UniRef90_A0A5Q4GMP1                      42.69%    passed     83.70%
+  74  CYANO150__Clavibacter_michiganensis__UniRef90_UPI0026DDB336             37.21%    passed     80.23%
+  75  CYANO150__Actinomycetes_bacterium__UniRef90_A0A7K0KLA6                  26.94%    passed     10.94%
+  76  CYANO150__Rhodohalobacter_sulfatireducens__UniRef90_UPI001EDA905F       40.87%    passed     67.94%
+  77  CYANO150__Sphingomonadaceae__UniRef90_UPI001669FD14                     40.64%    passed     98.44%
+  78  CYANO150__Chloroflexota__UniRef90_A0A4P5V1B0                            44.06%    passed     99.41%
+  79  CYANO150__Pyrinomonas_sp__UniRef90_UPI00333052B4                        41.78%    passed     97.45%
+  80  CYANO150__Mycolicibacterium_sp_CR10__UniRef90_UPI0010C0A09F             32.65%    passed     69.45%
+  81  CYANO150__unclassified_Novosphingobium__UniRef90_UPI001CEFCFBB          43.38%    passed     98.75%
+  82  CYANO150__Balneolaceae__UniRef90_A0A2D8CE81                             39.73%    passed     94.59%
+  83  CYANO150__Sphingomonas__UniRef90_A0A7W9BTJ3                             41.32%    passed     80.09%
+  84  CYANO150__Actinomycetota_bacterium__UniRef90_A0A965K6Y6                 41.32%    passed     59.67%
+  85  CYANO150__Sphingomonadaceae_bacterium__UniRef90_A0A924C2L6              40.87%    passed     97.40%
+  86  CYANO150__Mycolicibacterium_lacusdiani__UniRef90_UPI001F1CAB3C          33.11%    passed     97.94%
+  87  CYANO150__Novosphingobium_sp_Chol11__UniRef90_UPI0025FC40A3             42.24%    passed     80.87%
+  88  CYANO150__Sphingomonas_sp__UniRef90_UPI00286D4F82                       41.32%    passed     94.68%
+  89  CYANO150__Actinomycetota_bacterium__UniRef90_A0A938J199                 38.81%    passed     94.95%
+  90  CYANO150__Cryobacterium__UniRef90_A0A7W8ZXB5                            35.84%    passed     95.22%
+****  TOTAL                                                                   38.15%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.050 seconds
+
+NOTE: 22 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 16.596 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -35262
+Threads: 2 / Time: 8.504 sec / Speedup: 1.952 / Efficiency: 98% / LogL: -35262
+Threads: 3 / Time: 6.734 sec / Speedup: 2.465 / Efficiency: 82% / LogL: -35262
+Threads: 4 / Time: 7.211 sec / Speedup: 2.302 / Efficiency: 58% / LogL: -35262
+Threads: 5 / Time: 6.912 sec / Speedup: 2.401 / Efficiency: 48% / LogL: -35262
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -28103.938
+2. Current log-likelihood: -27056.886
+3. Current log-likelihood: -27034.277
+4. Current log-likelihood: -27031.582
+5. Current log-likelihood: -27031.130
+Optimal log-likelihood: -27031.105
+Site proportion and rates:  (0.178,0.032) (0.222,0.252) (0.312,0.800) (0.288,2.393)
+Parameters optimization took 5 rounds (2.186 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.376881 sec (of wall-clock time) 1.129820 sec(of CPU time)
+Computing RapidNJ tree took 0.001309 sec (of wall-clock time) 0.002812 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -27129.476
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.667 second
+Computing log-likelihood of 98 initial trees ... 5.355 seconds
+Current best score: -27031.105
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -26979.556
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -26975.199
+Iteration 10 / LogL: -26999.439 / Time: 0h:1m:4s
+Iteration 20 / LogL: -26992.619 / Time: 0h:1m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -26975.199 / CPU time: 21.719
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -26974.608
+Iteration 30 / LogL: -26986.662 / Time: 0h:1m:17s (0h:4m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -26974.111
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -26970.192
+Iteration 40 / LogL: -26976.878 / Time: 0h:1m:26s (0h:3m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -26970.018
+Iteration 50 / LogL: -26970.208 / Time: 0h:1m:33s (0h:2m:56s left)
+Iteration 60 / LogL: -26986.147 / Time: 0h:1m:39s (0h:2m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 67: -26969.809
+Iteration 70 / LogL: -26979.091 / Time: 0h:1m:47s (0h:2m:30s left)
+Iteration 80 / LogL: -26975.172 / Time: 0h:1m:54s (0h:2m:6s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -26969.697
+Iteration 90 / LogL: -26972.553 / Time: 0h:2m:1s (0h:1m:45s left)
+Iteration 100 / LogL: -26969.702 / Time: 0h:2m:8s (0h:1m:26s left)
+Iteration 110 / LogL: -26977.805 / Time: 0h:2m:14s (0h:1m:10s left)
+Iteration 120 / LogL: -26979.395 / Time: 0h:2m:21s (0h:0m:55s left)
+Iteration 130 / LogL: -26979.657 / Time: 0h:2m:28s (0h:0m:42s left)
+Iteration 140 / LogL: -26979.152 / Time: 0h:2m:35s (0h:0m:30s left)
+Iteration 150 / LogL: -26970.620 / Time: 0h:2m:41s (0h:0m:18s left)
+Iteration 160 / LogL: -26970.192 / Time: 0h:2m:48s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 168 ITERATIONS / Time: 0h:2m:53s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -26969.697
+Optimal log-likelihood: -26969.697
+Site proportion and rates:  (0.179,0.032) (0.221,0.256) (0.310,0.809) (0.290,2.366)
+Parameters optimization took 1 rounds (0.123 sec)
+BEST SCORE FOUND : -26969.697
+Total tree length: 45.792
+
+Total number of iterations: 168
+CPU time used for tree search: 367.851 sec (0h:6m:7s)
+Wall-clock time used for tree search: 124.874 sec (0h:2m:4s)
+Total CPU time used: 493.054 sec (0h:8m:13s)
+Total wall-clock time used: 173.905 sec (0h:2m:53s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../results/trees/BAC88139.1_top150_uniref90.rename.culled_20250827_ML_2025-08-27.iqtree
+  Maximum-likelihood tree:       ../results/trees/BAC88139.1_top150_uniref90.rename.culled_20250827_ML_2025-08-27.treefile
+  Likelihood distances:          ../results/trees/BAC88139.1_top150_uniref90.rename.culled_20250827_ML_2025-08-27.mldist
+  Screen log file:               ../results/trees/BAC88139.1_top150_uniref90.rename.culled_20250827_ML_2025-08-27.log
+
+Date and Time: Wed Aug 27 07:58:22 2025
