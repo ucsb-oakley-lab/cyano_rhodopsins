@@ -2,7 +2,7 @@ from Bio import Phylo
 from pathlib import Path
 import matplotlib.pyplot as plt
 
-def plot_tree(tree_file, save_path=None, figsize=(12, 30), optics_tsv=None, n=20):
+def plot_tree(tree_file, save_path=None, figsize=(12, 30), optics_tsv=None, n=20, lmax_table_path=None):
     # Read tree
     tree = Phylo.read(tree_file, "newick")
     tree.root_at_midpoint()
@@ -34,6 +34,16 @@ def plot_tree(tree_file, save_path=None, figsize=(12, 30), optics_tsv=None, n=20
         print(bottom_n_df[["Names", "Single_Prediction"]].to_string(index=False))
         print(f"\nHighest {n} λmax predictions:")
         print(top_n_df[["Names", "Single_Prediction"]].to_string(index=False))
+
+        # Write table to file if requested
+        if lmax_table_path:
+            with open(lmax_table_path, "w") as f:
+                f.write(f"Lowest {n} λmax predictions:\n")
+                f.write(bottom_n_df[["Names", "Single_Prediction"]].to_string(index=False))
+                f.write("\n\nHighest {n} λmax predictions:\n")
+                f.write(top_n_df[["Names", "Single_Prediction"]].to_string(index=False))
+                f.write("\n")
+            print(f"Saved λmax table to: {lmax_table_path}")
 
         # Color tip labels
         for text in ax.texts:
