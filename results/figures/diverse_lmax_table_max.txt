@@ -1,0 +1,5 @@
+Xlr__Micrococcales__UR50_A0A1R3VVE3
+Cyhr__Bacteria__UR50_A0A7Y3TUC4
+Br__Deinococcus__UR50_UPI00220D8E58
+Br__Archaea__UR50_P69051
+Xlr__Deinococcus__UR50_UPI0025F3DD2E

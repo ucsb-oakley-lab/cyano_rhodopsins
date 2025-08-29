@@ -1,0 +1,5 @@
+Pr__root__UR50_Q9AFF7
+Pr__Pseudomonadota__UR50_A0A5J6N178
+Br__Haloquadratum__UR50_Q18DH5
+Cyr__Halapricum__UR50_A0A897NL32
+Cyhr__Halohasta__UR50_A0A1H6WB68
