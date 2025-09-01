@@ -2,7 +2,7 @@ IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
 
 Input file name: ../results/align/combined_plus_hasegawa24_ALN.fasta
 Type of analysis: tree reconstruction
-Random seed number: 878327
+Random seed number: 958098
 
 REFERENCES
 ----------
@@ -18,11 +18,11 @@ https://doi.org/10.1093/molbev/msaa015
 SEQUENCE ALIGNMENT
 ------------------
 
-Input data: 182 sequences with 478 amino-acid sites
-Number of constant sites: 107 (= 22.3849% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 107 (= 22.3849% of all sites)
+Input data: 182 sequences with 491 amino-acid sites
+Number of constant sites: 116 (= 23.6253% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 116 (= 23.6253% of all sites)
 Number of parsimony informative sites: 339
-Number of distinct site patterns: 430
+Number of distinct site patterns: 441
 
 SUBSTITUTION PROCESS
 --------------------
@@ -38,7 +38,7 @@ State frequencies: (empirical counts from alignment)
   pi(C) = 0.0066
   pi(Q) = 0.0271
   pi(E) = 0.0308
-  pi(G) = 0.0794
+  pi(G) = 0.0793
   pi(H) = 0.0104
   pi(I) = 0.0757
   pi(L) = 0.1345
@@ -53,404 +53,404 @@ State frequencies: (empirical counts from alignment)
   pi(V) = 0.0823
 
 Model of rate heterogeneity: FreeRate with 4 categories
-Site proportion and rates:  (0.1585,0.1043) (0.3918,0.4396) (0.2395,1.1619) (0.2102,2.5356)
+Site proportion and rates:  (0.1541,0.1022) (0.3754,0.4358) (0.2221,1.0853) (0.2484,2.3333)
 
  Category  Relative_rate  Proportion
-  1         0.1043         0.1585
-  2         0.4396         0.3918
-  3         1.1619         0.2395
-  4         2.5356         0.2102
+  1         0.1022         0.1541
+  2         0.4358         0.3754
+  3         1.0853         0.2221
+  4         2.3333         0.2484
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -37322.2270 (s.e. 1625.2250)
-Unconstrained log-likelihood (without tree): -2859.1682
+Log-likelihood of the tree: -37328.9080 (s.e. 1647.7128)
+Unconstrained log-likelihood (without tree): -2948.0496
 Number of free parameters (#branches + #model parameters): 386
-Akaike information criterion (AIC) score: 75416.4541
-Corrected Akaike information criterion (AICc) score: 78699.5750
-Bayesian information criterion (BIC) score: 77025.9238
+Akaike information criterion (AIC) score: 75429.8159
+Corrected Akaike information criterion (AICc) score: 78302.5467
+Bayesian information criterion (BIC) score: 77049.6433
 
-Total tree length (sum of branch lengths): 70.2009
-Sum of internal branch lengths: 39.6637 (56.5003% of tree length)
+Total tree length (sum of branch lengths): 68.9197
+Sum of internal branch lengths: 39.2611 (56.9664% of tree length)
 
-WARNING: 8 near-zero internal branches (<0.0021) should be treated with caution
+WARNING: 8 near-zero internal branches (<0.0020) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
 NOTE: Tree is UNROOTED although outgroup taxon 'YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2' is drawn at root
 
 +**YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2
 |
-|                                      +----YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4
-|                                   +--|
-|                                   |  |                    +**YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9
-|                                   |  |                 +--|
-|                                   |  |                 |  +**CyHR_OUL31344.1
-|                                   |  |              +--|
-|                                   |  |              |  |  +**CyHR_OUL21043.1
-|                                   |  |              |  +--|
-|                                   |  |              |     +**CyHR_OUL30531.1
-|                                   |  |           +--|
-|                                   |  |           |  |     +--CyHR_OKH35942.1
-|                                   |  |           |  |  +--|
-|                                   |  |           |  |  |  |  +**CyHR_BAZ09854.1
-|                                   |  |           |  |  |  +--|
-|                                   |  |           |  |  |     +**CyHR_BAZ56001.1
-|                                   |  |           |  +--|
-|                                   |  |           |     |  +--CyHR_AVH69120.1
-|                                   |  |           |     +--|
-|                                   |  |           |        +--CyHR_OYD93951.1
-|                                   |  |        +--|
-|                                   |  |        |  +--CyHR_KAB8329998.1
-|                                   |  |     +--|
-|                                   |  |     |  |  +**CyHR_OKH60099.1
-|                                   |  |     |  +--|
-|                                   |  |     |     +--CyHR_KAB8320924.1
-|                                   |  |  +--|
-|                                   |  |  |  +--CyHR_WP_017314391.1
-|                                   |  +--|
-|                                   |     +--CyHR_KAF3885102.1
-|                                +--|
-|                                |  +--YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5
-|                             +--|
-|                             |  |     +**YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78
-|                             |  |  +--|
-|                             |  |  |  +**GCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78
-|                             |  +--|
-|                             |     |        +**YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42
-|                             |     |     +--|
-|                             |     |     |  +**CyHR_KJH72993.1
-|                             |     |  +--|
-|                             |     |  |  |  +--CyHR_PSB29224.1
-|                             |     |  |  +--|
-|                             |     |  |     +--CyHR_WP_009632765.1
-|                             |     +--|
-|                             |        |   +--CyHR_NHC34874.1
-|                             |        +---|
-|                             |            |  +--CyHR_PSM48400.1
-|                             |            +--|
-|                             |               |  +**CyHR_AFY87851.1
-|                             |               +**|
-|                             |                  |  +**CyHR_PSB42915.1
-|                             |                  +**|
-|                             |                     +**CyHR_PSB64649.1
+|                             +--YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4
 |                          +--|
-|                          |  +--YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182
+|                          |  +--YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19
 |                       +--|
-|                       |  +--YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19
+|                       |  |        +**YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78
+|                       |  |     +--|
+|                       |  |     |  +**GCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78
+|                       |  |  +--|
+|                       |  |  |  |           +**YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42
+|                       |  |  |  |        +--|
+|                       |  |  |  |        |  +**CyHR_KJH72993.1
+|                       |  |  |  |     +--|
+|                       |  |  |  |     |  |  +--CyHR_PSB29224.1
+|                       |  |  |  |     |  +--|
+|                       |  |  |  |     |     +--CyHR_WP_009632765.1
+|                       |  |  |  |  +--|
+|                       |  |  |  |  |  |                                                   +**GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59
+|                       |  |  |  |  |  |                                                +--|
+|                       |  |  |  |  |  |                                                |  +**XLR_BAC88139.1
+|                       |  |  |  |  |  |                                             +--|
+|                       |  |  |  |  |  |                                             |  |        +--GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4
+|                       |  |  |  |  |  |                                             |  |     +--|
+|                       |  |  |  |  |  |                                             |  |     |  |  +--GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7
+|                       |  |  |  |  |  |                                             |  |     |  +--|
+|                       |  |  |  |  |  |                                             |  |     |     |  +--GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9
+|                       |  |  |  |  |  |                                             |  |     |     +--|
+|                       |  |  |  |  |  |                                             |  |     |        |  +**GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D
+|                       |  |  |  |  |  |                                             |  |     |        +--|
+|                       |  |  |  |  |  |                                             |  |     |           +**XLR_WP_156518896.1
+|                       |  |  |  |  |  |                                             |  |  +--|
+|                       |  |  |  |  |  |                                             |  |  |  +--GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7
+|                       |  |  |  |  |  |                                             |  +--|
+|                       |  |  |  |  |  |                                             |     |  +--GRhit__Chamaesiphon_sp__UniRef90_UPI0035946169
+|                       |  |  |  |  |  |                                             |     +--|
+|                       |  |  |  |  |  |                                             |        |  +--GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2
+|                       |  |  |  |  |  |                                             |        +--|
+|                       |  |  |  |  |  |                                             |           +--GRhit__Chamaesiphon_sp__UniRef90_UPI0035935AE6
+|                       |  |  |  |  |  |                                          +--|
+|                       |  |  |  |  |  |                                          |  |        +--GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1
+|                       |  |  |  |  |  |                                          |  |     +--|
+|                       |  |  |  |  |  |                                          |  |     |  +--GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7
+|                       |  |  |  |  |  |                                          |  |  +--|
+|                       |  |  |  |  |  |                                          |  |  |  +--GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9
+|                       |  |  |  |  |  |                                          |  +--|
+|                       |  |  |  |  |  |                                          |     |  +--GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9
+|                       |  |  |  |  |  |                                          |     +--|
+|                       |  |  |  |  |  |                                          |        |        +--GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B
+|                       |  |  |  |  |  |                                          |        |     +--|
+|                       |  |  |  |  |  |                                          |        |     |  +--GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5
+|                       |  |  |  |  |  |                                          |        |  +--|
+|                       |  |  |  |  |  |                                          |        |  |  +--GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9
+|                       |  |  |  |  |  |                                          |        +--|
+|                       |  |  |  |  |  |                                          |           |  +**GRhit__Halothece_sp__UniRef90_K9YEI2
+|                       |  |  |  |  |  |                                          |           +--|
+|                       |  |  |  |  |  |                                          |              +**XLR_AFZ45366.1
+|                       |  |  |  |  |  |                                       +--|
+|                       |  |  |  |  |  |                                       |  |     +--GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3
+|                       |  |  |  |  |  |                                       |  |  +--|
+|                       |  |  |  |  |  |                                       |  |  |  +--GRhit__Deinococcus__UniRef90_A0A917PC33
+|                       |  |  |  |  |  |                                       |  +--|
+|                       |  |  |  |  |  |                                       |     +--GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5
+|                       |  |  |  |  |  |                                    +--|
+|                       |  |  |  |  |  |                                    |  +--GRhit__Deinococcus__UniRef90_A0A172TD44
+|                       |  |  |  |  |  |                                 +--|
+|                       |  |  |  |  |  |                                 |  |  +--GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943
+|                       |  |  |  |  |  |                                 |  +--|
+|                       |  |  |  |  |  |                                 |     +--GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09
+|                       |  |  |  |  |  |                              +--|
+|                       |  |  |  |  |  |                              |  |        +--GRhit__Bdellovibrio_sp__UniRef90_A0A924B300
+|                       |  |  |  |  |  |                              |  |     +--|
+|                       |  |  |  |  |  |                              |  |     |  +--GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0
+|                       |  |  |  |  |  |                              |  |  +--|
+|                       |  |  |  |  |  |                              |  |  |  +--GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7
+|                       |  |  |  |  |  |                              |  +--|
+|                       |  |  |  |  |  |                              |     |     +--GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97
+|                       |  |  |  |  |  |                              |     |  +--|
+|                       |  |  |  |  |  |                              |     |  |  +--GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9
+|                       |  |  |  |  |  |                              |     +--|
+|                       |  |  |  |  |  |                              |        +--GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6
+|                       |  |  |  |  |  |                           +--|
+|                       |  |  |  |  |  |                           |  |     +--GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0
+|                       |  |  |  |  |  |                           |  |  +--|
+|                       |  |  |  |  |  |                           |  |  |  +--GRhit__Deinococcus__UniRef90_UPI0031F05F27
+|                       |  |  |  |  |  |                           |  +--|
+|                       |  |  |  |  |  |                           |     +--GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4
+|                       |  |  |  |  |  |                        +--|
+|                       |  |  |  |  |  |                        |  +--GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2
+|                       |  |  |  |  |  |                    +---|
+|                       |  |  |  |  |  |                    |   |       +--NaR_PSN11013.1
+|                       |  |  |  |  |  |                    |   +-------|
+|                       |  |  |  |  |  |                    |           |     +--NaR_WP_052056064.1
+|                       |  |  |  |  |  |                    |           |  +--|
+|                       |  |  |  |  |  |                    |           |  |  +--NaR_WP_087592702.1
+|                       |  |  |  |  |  |                    |           +--|
+|                       |  |  |  |  |  |                    |              |     +--NaR_WP_196601241.1
+|                       |  |  |  |  |  |                    |              |  +--|
+|                       |  |  |  |  |  |                    |              |  |  +--NaR_PPS40940.1
+|                       |  |  |  |  |  |                    |              +--|
+|                       |  |  |  |  |  |                    |                 +--NaR_OKH25360.1
+|                       |  |  |  |  |  +--------------------|
+|                       |  |  |  |  |                       |             +--PRhit__Bacteria__UniRef90_Q6J4G7
+|                       |  |  |  |  |                       |          +--|
+|                       |  |  |  |  |                       |          |  |     +--PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1
+|                       |  |  |  |  |                       |          |  |  +--|
+|                       |  |  |  |  |                       |          |  |  |  |  +--PRhit__environmental_samples__UniRef90_Q6PL05
+|                       |  |  |  |  |                       |          |  |  |  +--|
+|                       |  |  |  |  |                       |          |  |  |     |     +--PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20
+|                       |  |  |  |  |                       |          |  |  |     |  +--|
+|                       |  |  |  |  |                       |          |  |  |     |  |  |  +--PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1
+|                       |  |  |  |  |                       |          |  |  |     |  |  +--|
+|                       |  |  |  |  |                       |          |  |  |     |  |     +--PRhit__Bacteria__UniRef90_A0A2E1JM07
+|                       |  |  |  |  |                       |          |  |  |     +--|
+|                       |  |  |  |  |                       |          |  |  |        |  +--PRhit__Bacteria__UniRef90_Q9AFF7
+|                       |  |  |  |  |                       |          |  |  |        +--|
+|                       |  |  |  |  |                       |          |  |  |           +--PRhit__Bacteria__UniRef90_A0A1L2YW54
+|                       |  |  |  |  |                       |          |  +--|
+|                       |  |  |  |  |                       |          |     |           +--PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93
+|                       |  |  |  |  |                       |          |     |        +--|
+|                       |  |  |  |  |                       |          |     |        |  +--PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1
+|                       |  |  |  |  |                       |          |     |     +--|
+|                       |  |  |  |  |                       |          |     |     |  +--PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0
+|                       |  |  |  |  |                       |          |     |  +--|
+|                       |  |  |  |  |                       |          |     |  |  |  +--PRhit__environmental_samples__UniRef90_A0A1L2YWB0
+|                       |  |  |  |  |                       |          |     |  |  +--|
+|                       |  |  |  |  |                       |          |     |  |     +--PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6
+|                       |  |  |  |  |                       |          |     +--|
+|                       |  |  |  |  |                       |          |        +--PRhit__Bacteria__UniRef90_J4KSW5
+|                       |  |  |  |  |                       +----------|
+|                       |  |  |  |  |                                  +--PRhit__uncultured_bacterium__UniRef90_Q84C21
+|                       |  |  |  +--|
+|                       |  |  |     |  +--CyHR_NHC34874.1
+|                       |  |  |     +--|
+|                       |  |  |        |  +--CyHR_PSM48400.1
+|                       |  |  |        +--|
+|                       |  |  |           |  +**CyHR_AFY87851.1
+|                       |  |  |           +**|
+|                       |  |  |              |  +**CyHR_PSB42915.1
+|                       |  |  |              +**|
+|                       |  |  |                 +**CyHR_PSB64649.1
+|                       |  +--|
+|                       |     |  +--YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5
+|                       |     +--|
+|                       |        |              +**YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9
+|                       |        |           +--|
+|                       |        |           |  +**CyHR_OUL31344.1
+|                       |        |        +--|
+|                       |        |        |  |  +**CyHR_OUL21043.1
+|                       |        |        |  +--|
+|                       |        |        |     +**CyHR_OUL30531.1
+|                       |        |     +--|
+|                       |        |     |  |     +--CyHR_OKH35942.1
+|                       |        |     |  |  +--|
+|                       |        |     |  |  |  |  +**CyHR_BAZ09854.1
+|                       |        |     |  |  |  +--|
+|                       |        |     |  |  |     +**CyHR_BAZ56001.1
+|                       |        |     |  +--|
+|                       |        |     |     |  +--CyHR_AVH69120.1
+|                       |        |     |     +--|
+|                       |        |     |        +--CyHR_OYD93951.1
+|                       |        |  +--|
+|                       |        |  |  +--CyHR_KAB8329998.1
+|                       |        +--|
+|                       |           |     +--CyHR_KAF3885102.1
+|                       |           |  +--|
+|                       |           |  |  |  +**CyHR_OKH60099.1
+|                       |           |  |  +--|
+|                       |           |  |     +--CyHR_KAB8320924.1
+|                       |           +--|
+|                       |              +--CyHR_WP_017314391.1
 |                    +--|
-|                    |  |               +**YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C
-|                    |  |            +--|
-|                    |  |            |  +**CyHR_WP_088890041.1
-|                    |  |        +---|
-|                    |  |        |   +--YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5
-|                    |  |     +--|
-|                    |  |     |  |      +**YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4
-|                    |  |     |  |   +--|
-|                    |  |     |  |   |  +**CyHR_GAP98192.1
-|                    |  |     |  +---|
-|                    |  |     |      +--CyHR_BAU14895.1
-|                    |  |  +--|
-|                    |  |  |  |  +--CyHR_WP_073073184.1
-|                    |  |  |  +--|
-|                    |  |  |     +--CyHR_WP_068820240.1
-|                    |  +--|
-|                    |     +----CyHR_ACL45765.1
+|                    |  +--YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182
 |                 +--|
 |                 |  +--CyHR_AFY94034.1
-|             +---|
-|             |   +-----CyHR_WP_052056058.1
-|          +--|
-|          |  |                                                     +**GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59
-|          |  |                                                  +--|
-|          |  |                                                  |  +**XLR_BAC88139.1
-|          |  |                                               +--|
-|          |  |                                               |  |        +--GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4
-|          |  |                                               |  |     +--|
-|          |  |                                               |  |     |  |  +--GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7
-|          |  |                                               |  |     |  +--|
-|          |  |                                               |  |     |     |  +--GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9
-|          |  |                                               |  |     |     +--|
-|          |  |                                               |  |     |        |  +**GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D
-|          |  |                                               |  |     |        +--|
-|          |  |                                               |  |     |           +**XLR_WP_156518896.1
-|          |  |                                               |  |  +--|
-|          |  |                                               |  |  |  +--GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7
-|          |  |                                               |  +--|
-|          |  |                                               |     |  +--GRhit__Chamaesiphon_sp__UniRef90_UPI0035946169
-|          |  |                                               |     +--|
-|          |  |                                               |        |  +--GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2
-|          |  |                                               |        +--|
-|          |  |                                               |           +--GRhit__Chamaesiphon_sp__UniRef90_UPI0035935AE6
-|          |  |                                            +--|
-|          |  |                                            |  |        +--GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1
-|          |  |                                            |  |     +--|
-|          |  |                                            |  |     |  +--GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7
-|          |  |                                            |  |  +--|
-|          |  |                                            |  |  |  +--GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9
-|          |  |                                            |  +--|
-|          |  |                                            |     |  +--GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9
-|          |  |                                            |     +--|
-|          |  |                                            |        |        +--GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B
-|          |  |                                            |        |     +--|
-|          |  |                                            |        |     |  +--GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5
-|          |  |                                            |        |  +--|
-|          |  |                                            |        |  |  +--GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9
-|          |  |                                            |        +--|
-|          |  |                                            |           |  +**GRhit__Halothece_sp__UniRef90_K9YEI2
-|          |  |                                            |           +--|
-|          |  |                                            |              +**XLR_AFZ45366.1
-|          |  |                                         +--|
-|          |  |                                         |  |     +--GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3
-|          |  |                                         |  |  +--|
-|          |  |                                         |  |  |  +--GRhit__Deinococcus__UniRef90_A0A917PC33
-|          |  |                                         |  +--|
-|          |  |                                         |     +--GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5
-|          |  |                                      +--|
-|          |  |                                      |  +--GRhit__Deinococcus__UniRef90_A0A172TD44
-|          |  |                                   +--|
-|          |  |                                   |  |  +--GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943
-|          |  |                                   |  +--|
-|          |  |                                   |     +--GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09
-|          |  |                                +--|
-|          |  |                                |  |        +--GRhit__Bdellovibrio_sp__UniRef90_A0A924B300
-|          |  |                                |  |     +--|
-|          |  |                                |  |     |  +--GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0
-|          |  |                                |  |  +--|
-|          |  |                                |  |  |  +--GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7
-|          |  |                                |  +--|
-|          |  |                                |     |     +--GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97
-|          |  |                                |     |  +--|
-|          |  |                                |     |  |  +--GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9
-|          |  |                                |     +--|
-|          |  |                                |        +--GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6
-|          |  |                             +--|
-|          |  |                             |  |      +--GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0
-|          |  |                             |  |   +--|
-|          |  |                             |  |   |  +--GRhit__Deinococcus__UniRef90_UPI0031F05F27
-|          |  |                             |  +---|
-|          |  |                             |      +--GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4
-|          |  |                          +--|
-|          |  |                          |  +--GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2
-|          |  |                      +---|
-|          |  |                      |   |          +---NaR_PSN11013.1
-|          |  |                      |   +----------|
-|          |  |                      |              |      +--NaR_WP_052056064.1
-|          |  |                      |              |   +--|
-|          |  |                      |              |   |  +--NaR_WP_087592702.1
-|          |  |                      |              +---|
-|          |  |                      |                  |     +--NaR_WP_196601241.1
-|          |  |                      |                  |  +--|
-|          |  |                      |                  |  |  +--NaR_PPS40940.1
-|          |  |                      |                  +--|
-|          |  |                      |                     +--NaR_OKH25360.1
-|          |  |  +-------------------|
-|          |  |  |                   |                      +--PRhit__Bacteria__UniRef90_Q6J4G7
-|          |  |  |                   |                   +--|
-|          |  |  |                   |                   |  +--PRhit__uncultured_bacterium__UniRef90_Q84C21
-|          |  |  |                   |                +--|
-|          |  |  |                   |                |  |  +--PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1
-|          |  |  |                   |                |  +--|
-|          |  |  |                   |                |     |  +--PRhit__environmental_samples__UniRef90_Q6PL05
-|          |  |  |                   |                |     +--|
-|          |  |  |                   |                |        |     +--PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20
-|          |  |  |                   |                |        |  +--|
-|          |  |  |                   |                |        |  |  |  +--PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1
-|          |  |  |                   |                |        |  |  +--|
-|          |  |  |                   |                |        |  |     +--PRhit__Bacteria__UniRef90_A0A2E1JM07
-|          |  |  |                   |                |        +--|
-|          |  |  |                   |                |           |  +--PRhit__Bacteria__UniRef90_Q9AFF7
-|          |  |  |                   |                |           +--|
-|          |  |  |                   |                |              +--PRhit__Bacteria__UniRef90_A0A1L2YW54
-|          |  |  |                   |             +--|
-|          |  |  |                   |             |  |        +--PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93
-|          |  |  |                   |             |  |     +--|
-|          |  |  |                   |             |  |     |  +--PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1
-|          |  |  |                   |             |  |  +--|
-|          |  |  |                   |             |  |  |  +--PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0
-|          |  |  |                   |             |  +--|
-|          |  |  |                   |             |     |  +--PRhit__environmental_samples__UniRef90_A0A1L2YWB0
-|          |  |  |                   |             |     +--|
-|          |  |  |                   |             |        +--PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6
-|          |  |  |                   +-------------|
-|          |  |  |                                 +--PRhit__Bacteria__UniRef90_J4KSW5
-|          |  +--|
-|          |     |                       +---------------XeR_ACL43260.1
-|          |     |                    +--|
-|          |     |                    |  +--XeR_KPQ35581.1
-|          |     |                 +--|
-|          |     |                 |  |     +--XeR_WP_035991571.1
-|          |     |                 |  |  +--|
-|          |     |                 |  |  |  +--XeR_PSR16659.1
-|          |     |                 |  +--|
-|          |     |                 |     +--XeR_PSN14944.1
-|          |     |              +--|
-|          |     |              |  |     +--XeR_WP_036010184.1
-|          |     |              |  |  +--|
-|          |     |              |  |  |  +--XeR_ACK72303.1
-|          |     |              |  +--|
-|          |     |              |     |        +--XeR_AFY92621.1
-|          |     |              |     |     +--|
-|          |     |              |     |     |  +--XeR_BAB74864.1
-|          |     |              |     |  +--|
-|          |     |              |     |  |  |  +--XeR_BAT52736.1
-|          |     |              |     |  |  +--|
-|          |     |              |     |  |     +--XeR_BAY39575.1
-|          |     |              |     +--|
-|          |     |              |        |  +--XeR_WP_019495028.1
-|          |     |              |        +--|
-|          |     |              |           |  +**XeR_BAZ09081.1
-|          |     |              |           +--|
-|          |     |              |              +**XeR_BAZ55229.1
-|          |     |           +--|
-|          |     |           |  |     +**XeR_PSM50718.1
-|          |     |           |  |  +--|
-|          |     |           |  |  |  +**XeR_PSM50749.1
-|          |     |           |  +--|
-|          |     |           |     +--XeR_PSB66177.1
-|          |     |       +---|
-|          |     |       |   |           +--XeR_WP_088889602.1
-|          |     |       |   |        +--|
-|          |     |       |   |        |  +--XeR_WP_088889936.1
-|          |     |       |   |     +--|
-|          |     |       |   |     |  +--XeR_WP_017288501.1
-|          |     |       |   |  +--|
-|          |     |       |   |  |  |  +--XeR_PSB20510.1
-|          |     |       |   |  |  +--|
-|          |     |       |   |  |     +--XeR_WP_016877934.1
-|          |     |       |   +--|
-|          |     |       |      |     +--XeR_KJH69699.1
-|          |     |       |      |  +--|
-|          |     |       |      |  |  |  +--XeR_WP_105217802.1
-|          |     |       |      |  |  +--|
-|          |     |       |      |  |     |     +--XeR_PIG91504.1
-|          |     |       |      |  |     |  +--|
-|          |     |       |      |  |     |  |  |  +--XeR_PPS42283.1
-|          |     |       |      |  |     |  |  +--|
-|          |     |       |      |  |     |  |     +--XeR_OKH23111.1
-|          |     |       |      |  |     +--|
-|          |     |       |      |  |        +--XeR_AFZ32418.1
-|          |     |       |      +--|
-|          |     |       |         |     +--XeR_PSM46427.1
-|          |     |       |         |  +--|
-|          |     |       |         |  |  |     +**XeR_AFY89683.1
-|          |     |       |         |  |  |  +--|
-|          |     |       |         |  |  |  |  +**XeR_PSB41265.1
-|          |     |       |         |  |  +--|
-|          |     |       |         |  |     +**XeR_PSB64307.1
-|          |     |       |         +--|
-|          |     |       |            |  +--XeR_WP_026731117.1
-|          |     |       |            +--|
-|          |     |       |               +--XeR_PLZ95198.1
-|          |     +-------|
-|          |             +--XeR_KAB8333665.1
-|  +-------|
-|  |       |               +--YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9
-|  |       |            +--|
-|  |       |            |  +--YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7
-|  |       |         +--|
-|  |       |         |  |                    +--YCyR2hit__UnknownTaxon__UniRef90_P29563
-|  |       |         |  |                 +--|
-|  |       |         |  |                 |  +--YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7
-|  |       |         |  |              +--|
-|  |       |         |  |              |  +--BRhit__Halorubrum__UniRef90_A0A4U7F7H9
-|  |       |         |  |           +--|
-|  |       |         |  |           |  +--BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6
-|  |       |         |  |        +--|
-|  |       |         |  |        |  +--BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7
-|  |       |         |  |     +--|
-|  |       |         |  |     |  |                    +**BRhit__Halobacterium__UniRef90_P02945
-|  |       |         |  |     |  |                 +--|
-|  |       |         |  |     |  |                 |  +--BRhit__Halobacterium_salinarum__UniRef90_UPI0000110B77
-|  |       |         |  |     |  |              +--|
-|  |       |         |  |     |  |              |  +--BRhit__Halobacterium__UniRef90_UPI001F011AB0
-|  |       |         |  |     |  |           +--|
-|  |       |         |  |     |  |           |  +--BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1
-|  |       |         |  |     |  |        +--|
-|  |       |         |  |     |  |        |  |  +--BRhit__Haloplanus__UniRef90_A0A6B9F3P5
-|  |       |         |  |     |  |        |  +--|
-|  |       |         |  |     |  |        |     +--BRhit__Halohasta_salina__UniRef90_UPI002110EEC8
-|  |       |         |  |     |  |     +--|
-|  |       |         |  |     |  |     |  +--BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D
-|  |       |         |  |     |  |  +--|
-|  |       |         |  |     |  |  |  +--BRhit__Uncultured_archaeon__UniRef90_I1X958
-|  |       |         |  |     |  +--|
-|  |       |         |  |     |     +--BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63
-|  |       |         |  |  +--|
-|  |       |         |  |  |  +--BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78
-|  |       |         |  +--|
-|  |       |         |     +--BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC
-|  |       |  +------|
-|  |       |  |      |  +--GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973
-|  |       |  |      +--|
-|  |       |  |         +--GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5
-|  |       +--|
-|  |          |                          +**GCyR2hit__Nostocales__UniRef90_A0A252D874
-|  |          |                       +**|
-|  |          |                       |  +**CyR_OUL23757.1
-|  |          |                    +--|
-|  |          |                    |  +--CyR_OUL18258.1
-|  |          |                 +--|
-|  |          |                 |  +--CyR_BAY09002.1
-|  |          |              +--|
-|  |          |              |  |  +**GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8
-|  |          |              |  +--|
-|  |          |              |     +**CyR_KAF3883857.1
-|  |          |           +--|
-|  |          |           |  +--GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD
-|  |          |        +--|
-|  |          |        |  |        +**GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7
-|  |          |        |  |     +--|
-|  |          |        |  |     |  +**CyR_GAX43141.1
-|  |          |        |  |  +--|
-|  |          |        |  |  |  |   +--GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3
-|  |          |        |  |  |  +---|
-|  |          |        |  |  |      +--GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928YZN9
-|  |          |        |  +--|
-|  |          |        |     |  +--GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4
-|  |          |        |     +--|
-|  |          |        |        |    +--CyR_MBV9388690.1
-|  |          |        |        +----|
-|  |          |        |             +--CyR_MBV8884430.1
-|  |          |     +--|
-|  |          |     |  |   +**GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622
-|  |          |     |  +---|
-|  |          |     |      +**CyR_WP_074382570.1
-|  |          |  +--|
-|  |          |  |  +--GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC
-|  |          +--|
-|  |             |                      +**GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81
-|  |             |                   +**|
-|  |             |                   |  +**CyR_PSO68105.1
-|  |             |                +**|
-|  |             |                |  |  +--CyR_PSO60175.1
-|  |             |                |  +**|
-|  |             |                |     +--CyR_PSO74148.1
-|  |             |             +--|
-|  |             |             |  +--CyR_PSO81870.1
-|  |             |          +--|
-|  |             |          |  +**CyR_PSO53854.1
-|  |             |       +**|
-|  |             |       |  +**CyR_PSO62648.1
-|  |             |    +**|
-|  |             |    |  +--CyR_PSO50292.1
-|  |             +----|
-|  |                  +--CyR_PSO76378.1
+|              +--|
+|              |  |              +**YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C
+|              |  |           +--|
+|              |  |           |  +**CyHR_WP_088890041.1
+|              |  |        +--|
+|              |  |        |  +--YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5
+|              |  |     +--|
+|              |  |     |  |     +**YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4
+|              |  |     |  |  +--|
+|              |  |     |  |  |  +**CyHR_GAP98192.1
+|              |  |     |  +--|
+|              |  |     |     +--CyHR_BAU14895.1
+|              |  |  +--|
+|              |  |  |  |  +--CyHR_WP_073073184.1
+|              |  |  |  +--|
+|              |  |  |     +--CyHR_WP_068820240.1
+|              |  +--|
+|              |     +---CyHR_ACL45765.1
+|           +--|
+|           |  +---CyHR_WP_052056058.1
+|        +--|
+|        |  |                       +-------------XeR_ACL43260.1
+|        |  |                    +--|
+|        |  |                    |  +--XeR_KPQ35581.1
+|        |  |                 +--|
+|        |  |                 |  |     +--XeR_WP_035991571.1
+|        |  |                 |  |  +--|
+|        |  |                 |  |  |  +--XeR_PSR16659.1
+|        |  |                 |  +--|
+|        |  |                 |     +--XeR_PSN14944.1
+|        |  |              +--|
+|        |  |              |  |     +--XeR_WP_036010184.1
+|        |  |              |  |  +--|
+|        |  |              |  |  |  +--XeR_ACK72303.1
+|        |  |              |  +--|
+|        |  |              |     |        +--XeR_AFY92621.1
+|        |  |              |     |     +--|
+|        |  |              |     |     |  +--XeR_BAB74864.1
+|        |  |              |     |  +--|
+|        |  |              |     |  |  |  +--XeR_BAT52736.1
+|        |  |              |     |  |  +--|
+|        |  |              |     |  |     +--XeR_BAY39575.1
+|        |  |              |     +--|
+|        |  |              |        |  +--XeR_WP_019495028.1
+|        |  |              |        +--|
+|        |  |              |           |  +**XeR_BAZ09081.1
+|        |  |              |           +--|
+|        |  |              |              +**XeR_BAZ55229.1
+|        |  |           +--|
+|        |  |           |  |     +**XeR_PSM50718.1
+|        |  |           |  |  +--|
+|        |  |           |  |  |  +**XeR_PSM50749.1
+|        |  |           |  +--|
+|        |  |           |     +--XeR_PSB66177.1
+|        |  |        +--|
+|        |  |        |  |           +--XeR_WP_088889602.1
+|        |  |        |  |        +--|
+|        |  |        |  |        |  +--XeR_WP_088889936.1
+|        |  |        |  |     +--|
+|        |  |        |  |     |  +--XeR_WP_017288501.1
+|        |  |        |  |  +--|
+|        |  |        |  |  |  |  +--XeR_PSB20510.1
+|        |  |        |  |  |  +--|
+|        |  |        |  |  |     +--XeR_WP_016877934.1
+|        |  |        |  +--|
+|        |  |        |     |     +--XeR_KJH69699.1
+|        |  |        |     |  +--|
+|        |  |        |     |  |  |  +--XeR_WP_105217802.1
+|        |  |        |     |  |  +--|
+|        |  |        |     |  |     |     +--XeR_PIG91504.1
+|        |  |        |     |  |     |  +--|
+|        |  |        |     |  |     |  |  |  +--XeR_PPS42283.1
+|        |  |        |     |  |     |  |  +--|
+|        |  |        |     |  |     |  |     +--XeR_OKH23111.1
+|        |  |        |     |  |     +--|
+|        |  |        |     |  |        +--XeR_AFZ32418.1
+|        |  |        |     +--|
+|        |  |        |        |     +--XeR_PSM46427.1
+|        |  |        |        |  +--|
+|        |  |        |        |  |  |     +**XeR_AFY89683.1
+|        |  |        |        |  |  |  +--|
+|        |  |        |        |  |  |  |  +**XeR_PSB41265.1
+|        |  |        |        |  |  +--|
+|        |  |        |        |  |     +**XeR_PSB64307.1
+|        |  |        |        +--|
+|        |  |        |           |  +--XeR_WP_026731117.1
+|        |  |        |           +--|
+|        |  |        |              +--XeR_PLZ95198.1
+|        |  +--------|
+|        |           +--XeR_KAB8333665.1
+|  +-----|
+|  |     |              +--YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9
+|  |     |           +--|
+|  |     |           |  +--YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7
+|  |     |        +--|
+|  |     |        |  |                    +--YCyR2hit__UnknownTaxon__UniRef90_P29563
+|  |     |        |  |                 +--|
+|  |     |        |  |                 |  +--YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7
+|  |     |        |  |              +--|
+|  |     |        |  |              |  +--BRhit__Halorubrum__UniRef90_A0A4U7F7H9
+|  |     |        |  |           +--|
+|  |     |        |  |           |  +--BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6
+|  |     |        |  |        +--|
+|  |     |        |  |        |  +--BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7
+|  |     |        |  |     +--|
+|  |     |        |  |     |  |                    +**BRhit__Halobacterium__UniRef90_P02945
+|  |     |        |  |     |  |                 +--|
+|  |     |        |  |     |  |                 |  +--BRhit__Halobacterium_salinarum__UniRef90_UPI0000110B77
+|  |     |        |  |     |  |              +--|
+|  |     |        |  |     |  |              |  +--BRhit__Halobacterium__UniRef90_UPI001F011AB0
+|  |     |        |  |     |  |           +--|
+|  |     |        |  |     |  |           |  +--BRhit__Haloplanus__UniRef90_A0A6B9F3P5
+|  |     |        |  |     |  |        +--|
+|  |     |        |  |     |  |        |  +--BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D
+|  |     |        |  |     |  |     +--|
+|  |     |        |  |     |  |     |  +--BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1
+|  |     |        |  |     |  |  +--|
+|  |     |        |  |     |  |  |  +--BRhit__Halohasta_salina__UniRef90_UPI002110EEC8
+|  |     |        |  |     |  +--|
+|  |     |        |  |     |     |  +--BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63
+|  |     |        |  |     |     +--|
+|  |     |        |  |     |        +--BRhit__Uncultured_archaeon__UniRef90_I1X958
+|  |     |        |  |  +--|
+|  |     |        |  |  |  +--BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78
+|  |     |        |  +--|
+|  |     |        |     +--BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC
+|  |     |  +-----|
+|  |     |  |     |  +--GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973
+|  |     |  |     +--|
+|  |     |  |        +--GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5
+|  |     +--|
+|  |        |                          +**GCyR2hit__Nostocales__UniRef90_A0A252D874
+|  |        |                       +**|
+|  |        |                       |  +**CyR_OUL23757.1
+|  |        |                    +--|
+|  |        |                    |  +--CyR_OUL18258.1
+|  |        |                 +--|
+|  |        |                 |  +--CyR_BAY09002.1
+|  |        |              +--|
+|  |        |              |  |  +**GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8
+|  |        |              |  +--|
+|  |        |              |     +**CyR_KAF3883857.1
+|  |        |           +--|
+|  |        |           |  +--GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD
+|  |        |        +--|
+|  |        |        |  |        +**GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7
+|  |        |        |  |     +--|
+|  |        |        |  |     |  +**CyR_GAX43141.1
+|  |        |        |  |  +--|
+|  |        |        |  |  |  |  +--GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3
+|  |        |        |  |  |  +--|
+|  |        |        |  |  |     +--GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928YZN9
+|  |        |        |  +--|
+|  |        |        |     |  +--GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4
+|  |        |        |     +--|
+|  |        |        |        |   +--CyR_MBV9388690.1
+|  |        |        |        +---|
+|  |        |        |            +--CyR_MBV8884430.1
+|  |        |     +--|
+|  |        |     |  |  +**GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622
+|  |        |     |  +--|
+|  |        |     |     +**CyR_WP_074382570.1
+|  |        |  +--|
+|  |        |  |  +--GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC
+|  |        +--|
+|  |           |                     +**GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81
+|  |           |                  +**|
+|  |           |                  |  +**CyR_PSO68105.1
+|  |           |               +**|
+|  |           |               |  |  +--CyR_PSO81870.1
+|  |           |               |  +**|
+|  |           |               |     +--CyR_PSO74148.1
+|  |           |            +--|
+|  |           |            |  +--CyR_PSO60175.1
+|  |           |         +--|
+|  |           |         |  +**CyR_PSO53854.1
+|  |           |      +**|
+|  |           |      |  +**CyR_PSO62648.1
+|  |           |   +**|
+|  |           |   |  +--CyR_PSO50292.1
+|  |           +---|
+|  |               +--CyR_PSO76378.1
 +--|
-|  |   +--CyR-II_MBV9385464.1
-|  +---|
-|      +--CyR-II_MBV8882851.1
+|  |  +--CyR-II_MBV9385464.1
+|  +--|
+|     +--CyR-II_MBV8882851.1
 |
 +**CyR-II_WP_017301364.1
 
 Tree in newick format:
 
-(YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2:0.0000019881,(((((((((((YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4:0.8070156417,(((((((YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9:0.0000025028,CyHR_OUL31344.1:0.0000010055):0.0068077857,(CyHR_OUL21043.1:0.0000024265,CyHR_OUL30531.1:0.0000021582):0.0072541273):0.1202417738,((CyHR_OKH35942.1:0.0482402772,(CyHR_BAZ09854.1:0.0000010055,CyHR_BAZ56001.1:0.0000010055):0.0898374870):0.3679331789,(CyHR_AVH69120.1:0.0581512664,CyHR_OYD93951.1:0.0600931111):0.0847121116):0.0747267541):0.0875288650,CyHR_KAB8329998.1:0.0880872048):0.0352451179,(CyHR_OKH60099.1:0.0000024041,CyHR_KAB8320924.1:0.0301254688):0.0831871957):0.0312839898,CyHR_WP_017314391.1:0.0872066508):0.0641830133,CyHR_KAF3885102.1:0.1105555829):0.1252714467):0.0495170750,YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5:0.2248397344):0.1066467775,((YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78:0.0000010055,GCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78:0.0000010055):0.4907724687,(((YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42:0.0000010055,CyHR_KJH72993.1:0.0000010055):0.0912775667,(CyHR_PSB29224.1:0.0633491238,CyHR_WP_009632765.1:0.0553823016):0.1068023142):0.2707119031,(CyHR_NHC34874.1:0.0672882582,(CyHR_PSM48400.1:0.0066439514,(CyHR_AFY87851.1:0.0000010055,(CyHR_PSB42915.1:0.0000010055,CyHR_PSB64649.1:0.0000010055):0.0000010054):0.0000010054):0.0084988926):0.7342126504):0.0859841055):0.0371601702):0.0858196317,YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182:0.5181915110):0.0835794779,YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19:0.4556846895):0.0839793431,(((((YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C:0.0000010055,CyHR_WP_088890041.1:0.0000010055):0.1312258968,YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5:0.0733742895):0.6400753307,((YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4:0.0000010055,CyHR_GAP98192.1:0.0000010055):0.1555808786,CyHR_BAU14895.1:0.0645673616):0.6542458338):0.1590194806,(CyHR_WP_073073184.1:0.0805266275,CyHR_WP_068820240.1:0.1413148691):0.3112216829):0.0881793416,CyHR_ACL45765.1:0.8500974445):0.1855991447):0.0574232296,CyHR_AFY94034.1:0.5143637035):0.2328019462,CyHR_WP_052056058.1:0.9287750583):0.6886802368,((((((((((((GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59:0.0000010055,XLR_BAC88139.1:0.0000010055):0.2973321915,(((GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4:0.0979871498,(GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7:0.1811003179,(GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9:0.1496216300,(GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D:0.0000010055,XLR_WP_156518896.1:0.0000010055):0.0961040334):0.0491581467):0.0220132518):0.0795962920,GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7:0.1797744799):0.0572057412,(GRhit__Chamaesiphon_sp__UniRef90_UPI0035946169:0.1709475576,(GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2:0.1627949963,GRhit__Chamaesiphon_sp__UniRef90_UPI0035935AE6:0.0803055862):0.1836834949):0.0414625036):0.0963342911):0.1467845982,(((GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1:0.1934892782,GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7:0.2030951409):0.0585271209,GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9:0.2414183401):0.2494971469,(GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9:0.4493409664,(((GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B:0.0757815738,GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5:0.0957519836):0.1983140440,GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9:0.2772654331):0.1088541498,(GRhit__Halothece_sp__UniRef90_K9YEI2:0.0000010055,XLR_AFZ45366.1:0.0000010055):0.4822236816):0.1491807597):0.1849385662):0.1788578969):0.1890455993,((GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3:0.0920102080,GRhit__Deinococcus__UniRef90_A0A917PC33:0.0786379915):0.4666968884,GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5:0.4906947149):0.1903925173):0.1114576042,GRhit__Deinococcus__UniRef90_A0A172TD44:0.3921596214):0.1898744179,(GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943:0.1824804104,GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09:0.1730683591):0.5675186667):0.1102327794,(((GRhit__Bdellovibrio_sp__UniRef90_A0A924B300:0.1080776300,GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0:0.1228150708):0.2328553257,GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7:0.3928618545):0.3494059081,((GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97:0.5807245808,GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9:0.3845007830):0.0885791499,GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6:0.4966560937):0.1571802094):0.1754431724):0.1081069168,((GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0:0.0956412849,GRhit__Deinococcus__UniRef90_UPI0031F05F27:0.0985618642):0.0414714127,GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4:0.1329879649):0.6673751052):0.1789601273,GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2:0.3668337061):0.4761765627,(NaR_PSN11013.1:0.6310880446,((NaR_WP_052056064.1:0.2263273885,NaR_WP_087592702.1:0.2657079342):0.1845713204,((NaR_WP_196601241.1:0.0749381481,NaR_PPS40940.1:0.0379416667):0.0131031645,NaR_OKH25360.1:0.0208442319):0.3705175502):0.6494814817):1.7404520112):0.6889670545,((((PRhit__Bacteria__UniRef90_Q6J4G7:0.1477989060,PRhit__uncultured_bacterium__UniRef90_Q84C21:0.1290034197):0.0545113178,(PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1:0.1175272262,(PRhit__environmental_samples__UniRef90_Q6PL05:0.1193948690,((PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20:0.1079324397,(PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1:0.1134399058,PRhit__Bacteria__UniRef90_A0A2E1JM07:0.2413028890):0.0597771517):0.0281652686,(PRhit__Bacteria__UniRef90_Q9AFF7:0.0640223859,PRhit__Bacteria__UniRef90_A0A1L2YW54:0.1040552010):0.0529187172):0.1042185851):0.0507694766):0.0292866293):0.0787221016,(((PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93:0.1496968816,PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1:0.0586690956):0.1673812258,PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0:0.1655862857):0.0924773601,(PRhit__environmental_samples__UniRef90_A0A1L2YWB0:0.1735853945,PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6:0.3461484407):0.1330388078):0.1670154490):0.1688135003,PRhit__Bacteria__UniRef90_J4KSW5:0.1908117934):2.2316202802):3.2345974537,((((((XeR_ACL43260.1:2.5849604559,XeR_KPQ35581.1:0.2679569201):0.3517399834,((XeR_WP_035991571.1:0.1242415262,XeR_PSR16659.1:0.1163022167):0.0686103139,XeR_PSN14944.1:0.0979859829):0.2395128716):0.1068234311,((XeR_WP_036010184.1:0.2110613898,XeR_ACK72303.1:0.3081010623):0.0391943561,(((XeR_AFY92621.1:0.4732858383,XeR_BAB74864.1:0.0610794695):0.0702399608,(XeR_BAT52736.1:0.0273392051,XeR_BAY39575.1:0.0200952476):0.1223830461):0.0506339763,(XeR_WP_019495028.1:0.0220825036,(XeR_BAZ09081.1:0.0000010055,XeR_BAZ55229.1:0.0000010055):0.0494883156):0.1766161713):0.0682331168):0.0491511752):0.0883702267,((XeR_PSM50718.1:0.0000010055,XeR_PSM50749.1:0.0000010055):0.0266646073,XeR_PSB66177.1:0.0191572908):0.4055010875):0.0720449357,((((XeR_WP_088889602.1:0.0379405245,XeR_WP_088889936.1:0.0691169467):0.0498137490,XeR_WP_017288501.1:0.1233068226):0.2501993837,(XeR_PSB20510.1:0.4764294441,XeR_WP_016877934.1:0.2454072534):0.1467104943):0.1780468552,((XeR_KJH69699.1:0.1336317943,(XeR_WP_105217802.1:0.1215707748,((XeR_PIG91504.1:0.0949748268,(XeR_PPS42283.1:0.0689454250,XeR_OKH23111.1:0.0320009035):0.0229186066):0.0358909440,XeR_AFZ32418.1:0.0121439418):0.0369209737):0.1427634181):0.0773131987,((XeR_PSM46427.1:0.0086788461,((XeR_AFY89683.1:0.0000010055,XeR_PSB41265.1:0.0000010055):0.0044940436,XeR_PSB64307.1:0.0000010055):0.0244193610):0.0445982872,(XeR_WP_026731117.1:0.0213959293,XeR_PLZ95198.1:0.1096640390):0.0533662298):0.1609175050):0.1011833996):0.1670752352):0.6587609457,XeR_KAB8333665.1:0.5646505655):1.3020869251):0.4670653456):0.2358660120,((((YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9:0.1467750715,YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7:0.1886852679):0.2377680028,(((((((YCyR2hit__UnknownTaxon__UniRef90_P29563:0.1637128062,YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7:0.1739889476):0.0788713073,BRhit__Halorubrum__UniRef90_A0A4U7F7H9:0.0954391242):0.0630890220,BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6:0.0482231950):0.4464935847,BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7:0.4592715829):0.1636829029,(((((((BRhit__Halobacterium__UniRef90_P02945:0.0000010055,BRhit__Halobacterium_salinarum__UniRef90_UPI0000110B77:0.0100455762):0.0726197682,BRhit__Halobacterium__UniRef90_UPI001F011AB0:0.0467878542):0.1656311711,BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1:0.0898632694):0.0550106418,(BRhit__Haloplanus__UniRef90_A0A6B9F3P5:0.0589349054,BRhit__Halohasta_salina__UniRef90_UPI002110EEC8:0.2763598336):0.0547394031):0.0841023798,BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D:0.0693232023):0.2724837862,BRhit__Uncultured_archaeon__UniRef90_I1X958:0.4845008011):0.0862842930,BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63:0.3885613745):0.2506206069):0.1235576153,BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78:0.2599194099):0.1295099701,BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC:0.3361333177):0.5576713622):0.2308080783,(GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973:0.1537854158,GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5:0.2038934207):0.1948439964):1.1709807501,(((((((((GCyR2hit__Nostocales__UniRef90_A0A252D874:0.0000010055,CyR_OUL23757.1:0.0000010055):0.0000010054,CyR_OUL18258.1:0.0058223938):0.0294037349,CyR_BAY09002.1:0.0324182531):0.0804320833,(GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8:0.0000029280,CyR_KAF3883857.1:0.0000025315):0.0797669517):0.1422056917,GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD:0.2032257192):0.0790150875,(((GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7:0.0000010055,CyR_GAX43141.1:0.0000010055):0.1576305955,(GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3:0.0814563980,GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928YZN9:0.2210107932):0.6933332424):0.1358461787,(GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4:0.5568729869,(CyR_MBV9388690.1:0.1036571534,CyR_MBV8884430.1:0.0683189746):0.9242063651):0.1254662972):0.0618278919):0.1528043551,(GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622:0.0000024142,CyR_WP_074382570.1:0.0000010055):0.6488198278):0.1638383888,GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC:0.5407579851):0.1645884804,(((((((GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81:0.0000010055,CyR_PSO68105.1:0.0000010055):0.0000010054,(CyR_PSO60175.1:0.0068577793,CyR_PSO74148.1:0.0137174000):0.0000010054):0.0000026723,CyR_PSO81870.1:0.0068442904):0.0068394572,CyR_PSO53854.1:0.0000019726):0.0067958962,CyR_PSO62648.1:0.0000010055):0.0000010054,CyR_PSO50292.1:0.0136669260):0.0000022409,CyR_PSO76378.1:0.0136149573):0.8612716813):0.5820326580):0.2579635609):1.2712350419,(CyR-II_MBV9385464.1:0.1427103345,CyR-II_MBV8882851.1:0.0360735962):0.7445606466):0.5262739780,CyR-II_WP_017301364.1:0.0000025818);
+(YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2:0.0000027154,(((((((((YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4:0.6979205164,YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19:0.3369013341):0.1615725107,(((YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78:0.0000025093,GCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78:0.0000023551):0.4824040021,((((YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42:0.0000010024,CyHR_KJH72993.1:0.0000010024):0.0760990849,(CyHR_PSB29224.1:0.0629091090,CyHR_WP_009632765.1:0.0535455347):0.1177173538):0.1386221061,(((((((((((GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59:0.0000010024,XLR_BAC88139.1:0.0000010024):0.2902815976,(((GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4:0.0958932106,(GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7:0.1771822718,(GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9:0.1451452655,(GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D:0.0000010024,XLR_WP_156518896.1:0.0000010024):0.0936341679):0.0492073604):0.0204037605):0.0772161344,GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7:0.1750144895):0.0559844472,(GRhit__Chamaesiphon_sp__UniRef90_UPI0035946169:0.1674151588,(GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2:0.1609399723,GRhit__Chamaesiphon_sp__UniRef90_UPI0035935AE6:0.0761794260):0.1794441595):0.0403615483):0.0936771181):0.1448018273,(((GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1:0.1882861471,GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7:0.1980862655):0.0569817581,GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9:0.2363298942):0.2409663163,(GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9:0.4331509000,(((GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B:0.0741793973,GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5:0.0943472362):0.1903715550,GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9:0.2680645374):0.1076101323,(GRhit__Halothece_sp__UniRef90_K9YEI2:0.0000010024,XLR_AFZ45366.1:0.0000010024):0.4636134665):0.1401697863):0.1768228021):0.1680915011):0.1842480378,((GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3:0.0917807833,GRhit__Deinococcus__UniRef90_A0A917PC33:0.0748788564):0.4494098946,GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5:0.4750803105):0.1870964322):0.1048684855,GRhit__Deinococcus__UniRef90_A0A172TD44:0.3768155915):0.1822079620,(GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943:0.1792430281,GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09:0.1648853976):0.5419671928):0.1098228955,(((GRhit__Bdellovibrio_sp__UniRef90_A0A924B300:0.1036120432,GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0:0.1185632708):0.2227246922,GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7:0.3745223488):0.3412258998,((GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97:0.5606290258,GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9:0.3665461240):0.0857723274,GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6:0.4725673264):0.1543422487):0.1690528009):0.1015616060,((GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0:0.0944420936,GRhit__Deinococcus__UniRef90_UPI0031F05F27:0.0967201569):0.0362852267,GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4:0.1323391574):0.6570142988):0.1647669846,GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2:0.3546410011):0.5084787888,(NaR_PSN11013.1:0.5925244994,((NaR_WP_052056064.1:0.2174958429,NaR_WP_087592702.1:0.2579946147):0.2185103677,((NaR_WP_196601241.1:0.0735617535,NaR_PPS40940.1:0.0371277971):0.0131786707,NaR_OKH25360.1:0.0203132040):0.3512624451):0.6100845871):1.6274755220):0.7939343384,((PRhit__Bacteria__UniRef90_Q6J4G7:0.1438515489,((PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1:0.1125950331,(PRhit__environmental_samples__UniRef90_Q6PL05:0.1145457523,((PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20:0.1031319298,(PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1:0.1086590056,PRhit__Bacteria__UniRef90_A0A2E1JM07:0.2339152009):0.0582059355):0.0276758883,(PRhit__Bacteria__UniRef90_Q9AFF7:0.0620147507,PRhit__Bacteria__UniRef90_A0A1L2YW54:0.0999895749):0.0515112129):0.1001648147):0.0487510418):0.0287797895,((((PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93:0.1440490001,PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1:0.0575912070):0.1630660762,PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0:0.1587544160):0.0882784138,(PRhit__environmental_samples__UniRef90_A0A1L2YWB0:0.1644299797,PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6:0.3354896918):0.1289999526):0.1595739274,PRhit__Bacteria__UniRef90_J4KSW5:0.3496979038):0.0766961407):0.0532852515):0.1132605022,PRhit__uncultured_bacterium__UniRef90_Q84C21:0.0116637324):2.0903481412):3.9209818451):0.1262631694,(CyHR_NHC34874.1:0.0659042311,(CyHR_PSM48400.1:0.0064830677,(CyHR_AFY87851.1:0.0000010024,(CyHR_PSB42915.1:0.0000010024,CyHR_PSB64649.1:0.0000010024):0.0000010023):0.0000029423):0.0079544815):0.7119630442):0.0875987047):0.0280949480,(YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5:0.2117428596,(((((YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9:0.0000010024,CyHR_OUL31344.1:0.0000010024):0.0066271860,(CyHR_OUL21043.1:0.0000010024,CyHR_OUL30531.1:0.0000010024):0.0070602662):0.1222157469,((CyHR_OKH35942.1:0.0488660602,(CyHR_BAZ09854.1:0.0000010024,CyHR_BAZ56001.1:0.0000010024):0.0859631102):0.3557405469,(CyHR_AVH69120.1:0.0549486007,CyHR_OYD93951.1:0.0604280954):0.0843253901):0.0667164243):0.0762651813,CyHR_KAB8329998.1:0.0994795658):0.0206055927,((CyHR_KAF3885102.1:0.1436122532,(CyHR_OKH60099.1:0.0000020894,CyHR_KAB8320924.1:0.0289911621):0.0885699348):0.0228114634,CyHR_WP_017314391.1:0.0894411031):0.0298879779):0.1840558543):0.0823681026):0.0977206089):0.0640825975,YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182:0.4834207652):0.0917023216,CyHR_AFY94034.1:0.5360092726):0.0516204463,(((((YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C:0.0000010024,CyHR_WP_088890041.1:0.0000010024):0.1301721635,YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5:0.0678671790):0.6202578116,((YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4:0.0000010024,CyHR_GAP98192.1:0.0000010024):0.1464789076,CyHR_BAU14895.1:0.0673071347):0.6412226313):0.1603323747,(CyHR_WP_073073184.1:0.0712743028,CyHR_WP_068820240.1:0.1436520795):0.2910513712):0.0767681810,CyHR_ACL45765.1:0.8591123466):0.1697746216):0.2771418573,CyHR_WP_052056058.1:0.8805402812):0.7257664158,((((((XeR_ACL43260.1:2.5962311199,XeR_KPQ35581.1:0.2578270560):0.3481586079,((XeR_WP_035991571.1:0.1221562545,XeR_PSR16659.1:0.1134857870):0.0692850391,XeR_PSN14944.1:0.0939082435):0.2271089357):0.1084705533,((XeR_WP_036010184.1:0.2062881903,XeR_ACK72303.1:0.2989395595):0.0390980704,(((XeR_AFY92621.1:0.4642417059,XeR_BAB74864.1:0.0606034002):0.0677841973,(XeR_BAT52736.1:0.0270259570,XeR_BAY39575.1:0.0197426814):0.1220514427):0.0501127220,(XeR_WP_019495028.1:0.0212790310,(XeR_BAZ09081.1:0.0000010024,XeR_BAZ55229.1:0.0000010024):0.0489448808):0.1737810743):0.0643982868):0.0480720229):0.0886646953,((XeR_PSM50718.1:0.0000010024,XeR_PSM50749.1:0.0000010024):0.0261162827,XeR_PSB66177.1:0.0186331363):0.3887814489):0.0708250782,((((XeR_WP_088889602.1:0.0374580415,XeR_WP_088889936.1:0.0674470776):0.0489302609,XeR_WP_017288501.1:0.1199457886):0.2412296376,(XeR_PSB20510.1:0.4610694823,XeR_WP_016877934.1:0.2382656601):0.1443128148):0.1734792057,((XeR_KJH69699.1:0.1303810041,(XeR_WP_105217802.1:0.1189713222,((XeR_PIG91504.1:0.0927098128,(XeR_PPS42283.1:0.0670001751,XeR_OKH23111.1:0.0311983836):0.0222196947):0.0349151096,XeR_AFZ32418.1:0.0120281017):0.0360738365):0.1380917429):0.0762249093,((XeR_PSM46427.1:0.0084738053,((XeR_AFY89683.1:0.0000010024,XeR_PSB41265.1:0.0000010024):0.0044007151,XeR_PSB64307.1:0.0000022898):0.0239134845):0.0434578656,(XeR_WP_026731117.1:0.0209323456,XeR_PLZ95198.1:0.1067937977):0.0522023964):0.1560498520):0.0972890863):0.1649900467):0.6360414838,XeR_KAB8333665.1:0.5740164983):1.7089809196):0.1947285152,((((YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9:0.1404874080,YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7:0.1866444946):0.2286159567,(((((((YCyR2hit__UnknownTaxon__UniRef90_P29563:0.1573093893,YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7:0.1691255006):0.0748401887,BRhit__Halorubrum__UniRef90_A0A4U7F7H9:0.0925006518):0.0593207283,BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6:0.0488520830):0.4208396853,BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7:0.4472440313):0.1752348770,(((((((BRhit__Halobacterium__UniRef90_P02945:0.0000020970,BRhit__Halobacterium_salinarum__UniRef90_UPI0000110B77:0.0097175569):0.0697069841,BRhit__Halobacterium__UniRef90_UPI001F011AB0:0.0489418635):0.1701284728,BRhit__Haloplanus__UniRef90_A0A6B9F3P5:0.0719464432):0.0525046606,BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D:0.1299012912):0.0231236587,BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1:0.0921370700):0.1055210790,BRhit__Halohasta_salina__UniRef90_UPI002110EEC8:0.1814151382):0.2357347839,(BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63:0.3486617671,BRhit__Uncultured_archaeon__UniRef90_I1X958:0.5038148598):0.1006093730):0.2245073692):0.1062114470,BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78:0.2538830664):0.1103217749,BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC:0.3415332076):0.5292797204):0.2322240468,(GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973:0.1502367201,GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5:0.2005420521):0.1794460245):1.1812676963,(((((((((GCyR2hit__Nostocales__UniRef90_A0A252D874:0.0000010024,CyR_OUL23757.1:0.0000010024):0.0000027374,CyR_OUL18258.1:0.0056966559):0.0286939460,CyR_BAY09002.1:0.0317857826):0.0784525552,(GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8:0.0000010024,CyR_KAF3883857.1:0.0000010024):0.0780042751):0.1369667424,GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD:0.1992299500):0.0747158849,(((GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7:0.0000026872,CyR_GAX43141.1:0.0000020217):0.1526492135,(GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3:0.0777487525,GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928YZN9:0.2142086007):0.6719148505):0.1343704615,(GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4:0.5312452345,(CyR_MBV9388690.1:0.1013041013,CyR_MBV8884430.1:0.0648191063):0.8582169139):0.1197543793):0.0579598769):0.1460887657,(GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622:0.0000010024,CyR_WP_074382570.1:0.0000010024):0.6311065291):0.1571553076,GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC:0.5212262499):0.1505298465,(((((((GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81:0.0000010024,CyR_PSO68105.1:0.0000010024):0.0000010023,(CyR_PSO81870.1:0.0066606017,CyR_PSO74148.1:0.0133499497):0.0000024065):0.0000024579,CyR_PSO60175.1:0.0066725083):0.0066564373,CyR_PSO53854.1:0.0000027666):0.0066180913,CyR_PSO62648.1:0.0000026013):0.0000026084,CyR_PSO50292.1:0.0133091303):0.0000021978,CyR_PSO76378.1:0.0132595115):0.8467932717):0.5105376905):0.2829169597):1.1828117493,(CyR-II_MBV9385464.1:0.1421174747,CyR-II_MBV8882851.1:0.0331751848):0.6830477678):0.5399329895,CyR-II_WP_017301364.1:0.0000010024);
 
 TIME STAMP
 ----------
 
-Date and time: Mon Sep  1 14:52:06 2025
-Total CPU time used: 1786.22 seconds (0h:29m:46s)
-Total wall-clock time used: 388.275 seconds (0h:6m:28s)
+Date and time: Mon Sep  1 16:12:00 2025
+Total CPU time used: 3301.11 seconds (0h:55m:1s)
+Total wall-clock time used: 693.223 seconds (0h:11m:33s)
 
