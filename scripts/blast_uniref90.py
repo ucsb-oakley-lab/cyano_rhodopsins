@@ -76,6 +76,15 @@ def write_fasta(sequences, out_file):
             f.write(seq)
 
 def main(accession, email, max_hits, out_file=None, force=False, log_file=None, job_id=None):
+    output_file = out_file if out_file else f"{accession}_top{max_hits}_uniref90.fasta"
+    # Check for existing output file before starting any BLAST/search
+    if os.path.exists(output_file) and not force:
+        msg = f"ERROR: Output file {output_file} already exists. Use --force to overwrite."
+        print(msg)
+        if log_file:
+            logging.error(msg)
+        sys.exit(1)
+
     if job_id:
         print(f"Using existing BLAST job ID: {job_id}")
         if log_file:
@@ -95,19 +104,11 @@ def main(accession, email, max_hits, out_file=None, force=False, log_file=None, 
                 return
             time.sleep(5)
         xml_result = get_xml_results(job_id)
-        #print(xml_result[:90000])  # Print first 90000 characters for inspection
         uniref_ids = parse_uniref_ids_from_xml(xml_result, max_hits)
         print(f"Retrieved {len(uniref_ids)} UniRef IDs")
         if log_file:
             logging.info(f"Retrieved {len(uniref_ids)} UniRef IDs")
         fasta_seqs = fetch_fasta(uniref_ids)
-        output_file = out_file if out_file else f"{job_id}_top{max_hits}_uniref90.fasta"
-        if os.path.exists(output_file) and not force:
-            msg = f"ERROR: Output file {output_file} already exists. Use --force to overwrite."
-            print(msg)
-            if log_file:
-                logging.error(msg)
-            sys.exit(1)
         write_fasta(fasta_seqs, output_file)
         print(f"Saved FASTA to: {output_file}")
         if log_file:
@@ -125,9 +126,6 @@ def main(accession, email, max_hits, out_file=None, force=False, log_file=None, 
         if log_file:
             logging.error(f"Error fetching sequence: {e}")
         sys.exit(1)
-
-    print("Fetched FASTA sequence:")
-    print(fasta_seq)
 
     record = next(SeqIO.parse(io.StringIO(fasta_seq), "fasta"))
     sequence = str(record.seq)
@@ -162,13 +160,6 @@ def main(accession, email, max_hits, out_file=None, force=False, log_file=None, 
             logging.info(f"Retrieved {len(uniref_ids)} UniRef IDs")
 
         fasta_seqs = fetch_fasta(uniref_ids)
-        output_file = out_file if out_file else f"{accession}_top{max_hits}_uniref90.fasta"
-        if os.path.exists(output_file) and not force:
-            msg = f"ERROR: Output file {output_file} already exists. Use --force to overwrite."
-            print(msg)
-            if log_file:
-                logging.error(msg)
-            sys.exit(1)
         write_fasta(fasta_seqs, output_file)
         print(f"Saved FASTA to: {output_file}")
         if log_file:

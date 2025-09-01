@@ -1,0 +1,222 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    osiris (AVX, 62 GB RAM)
+Command: iqtree2 -s ../results/align/combined_uniref90_ALN.fasta -m LG+F+R4 -nt AUTO -keep-ident -pre iqtree_ -quiet
+Seed:    951555 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep  1 13:00:34 2025
+Kernel:  AVX - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file ../results/align/combined_uniref90_ALN.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 85 sequences with 401 columns, 353 distinct patterns
+292 parsimony-informative, 16 singleton sites, 93 constant sites
+                                                                            Gap/Ambiguity  Composition  p-value
+   1  YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2                          36.16%    failed      2.32%
+   2  YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4                   41.40%    passed     85.15%
+   3  YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78                     42.89%    passed     96.08%
+   4  YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5                   41.90%    passed     33.12%
+   5  YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9                                 38.90%    passed     83.42%
+   6  YCyR2hit__UnknownTaxon__UniRef90_P29563                                      35.41%    passed     33.57%
+   7  YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C                        41.15%    passed     76.48%
+   8  YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42                  41.15%    passed     34.03%
+   9  YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5                               42.14%    passed     45.06%
+  10  YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182                     41.90%    passed     94.06%
+  11  YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7                       39.40%    passed     85.07%
+  12  YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19                  41.40%    passed     79.06%
+  13  YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4                     41.15%    passed     61.44%
+  14  YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9                           41.65%    passed     32.17%
+  15  YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7                          35.66%    passed     23.12%
+  16  BRhit__Halobacterium__UniRef90_P02945                                        34.66%    passed     93.74%
+  17  BRhit__Halobacterium__UniRef90_UPI001F011AB0                                 34.66%    passed     94.14%
+  18  BRhit__Haloplanus__UniRef90_A0A6B9F3P5                                       36.16%    passed     67.39%
+  19  BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D                             36.16%    passed     84.47%
+  20  BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1                            38.15%    passed     80.00%
+  21  BRhit__Halohasta_salina__UniRef90_UPI002110EEC8                              34.41%    passed     38.62%
+  22  BRhit__Halobacterium_salinarum__UniRef90_UPI0000110B77                       51.12%    passed     67.69%
+  23  BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63              33.92%    passed     15.66%
+  24  BRhit__Uncultured_archaeon__UniRef90_I1X958                                  35.41%    passed     64.87%
+  25  BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78                          35.66%    passed     21.44%
+  26  BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7                     34.16%    passed     22.55%
+  27  BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6                          35.16%    passed     18.68%
+  28  BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC                       35.16%    passed     84.36%
+  29  BRhit__Halorubrum__UniRef90_A0A4U7F7H9                                       35.66%    passed     23.89%
+  30  GCyR2hit__Nostocales__UniRef90_A0A252D874                                    38.40%    passed     10.58%
+  31  GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8               38.40%    passed     19.31%
+  32  GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD                                  38.15%    passed     87.30%
+  33  GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7                      37.16%    passed     93.90%
+  34  GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC                       38.65%    passed     27.19%
+  35  GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4                    39.15%    passed     58.75%
+  36  GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622                    38.15%    passed     61.75%
+  37  GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3   38.15%    passed     38.90%
+  38  GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81            41.65%    passed     19.76%
+  39  GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928YZN9   50.87%    passed     22.40%
+  40  GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973                 39.90%    passed     37.96%
+  41  GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5                   39.40%    passed     62.60%
+  42  GCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78                     42.89%    passed     96.08%
+  43  GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59                                25.69%    passed     73.00%
+  44  GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4                  25.44%    passed     94.32%
+  45  GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7                                     25.94%    passed     90.59%
+  46  GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7                    25.94%    passed     41.21%
+  47  GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9                        25.94%    passed     35.71%
+  48  GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D                       25.69%    passed     72.13%
+  49  GRhit__Chamaesiphon_sp__UniRef90_UPI0035946169                                8.48%    failed      0.62%
+  50  GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2                               24.19%    passed     86.53%
+  51  GRhit__Chamaesiphon_sp__UniRef90_UPI0035935AE6                               37.91%    passed     93.44%
+  52  GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1                       29.68%    passed     63.77%
+  53  GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9                                     32.92%    passed     39.26%
+  54  GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B                     29.93%    passed     86.78%
+  55  GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5                                     29.93%    passed     86.28%
+  56  GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7               34.66%    passed     68.53%
+  57  GRhit__Halothece_sp__UniRef90_K9YEI2                                         29.93%    passed     93.36%
+  58  GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9                       31.17%    passed     98.35%
+  59  GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9                               33.92%    passed     90.20%
+  60  GRhit__Deinococcus__UniRef90_A0A172TD44                                      28.93%    passed     25.92%
+  61  GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3                                26.93%    passed     91.04%
+  62  GRhit__Deinococcus__UniRef90_A0A917PC33                                      26.43%    passed     94.00%
+  63  GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5                                35.41%    passed     97.25%
+  64  GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943                      35.66%    passed     79.33%
+  65  GRhit__Bdellovibrio_sp__UniRef90_A0A924B300                                  36.91%    passed     78.90%
+  66  GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2                           34.16%    passed     64.48%
+  67  GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97                           34.91%    passed     75.23%
+  68  GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09                             34.66%    passed     86.42%
+  69  GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7                            36.41%    passed     89.86%
+  70  GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0                                25.44%    passed     93.00%
+  71  GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9                           35.16%    passed     98.50%
+  72  GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6                         34.91%    passed     99.38%
+  73  GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0               36.91%    passed     88.10%
+  74  GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4                            28.93%    passed     85.05%
+  75  GRhit__Deinococcus__UniRef90_UPI0031F05F27                                   25.44%    passed     85.86%
+  76  GPRhit__Bacteria__UniRef90_Q6J4G7                                            37.66%    passed     47.44%
+  77  GPRhit__uncultured_bacterium__UniRef90_Q84C21                                35.66%    passed      8.09%
+  78  GPRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1                         37.66%    passed     70.39%
+  79  GPRhit__environmental_samples__UniRef90_Q6PL05                               37.41%    passed     86.53%
+  80  GPRhit__uncultured_bacterium__UniRef90_A0A1L2YW20                            37.41%    passed     39.33%
+  81  BPRhit__Bacteria__UniRef90_Q9AFF7                                            37.41%    passed     71.75%
+  82  BPRhit__Bacteria__UniRef90_A0A1L2YW54                                        37.91%    passed     36.87%
+  83  BPRhit__uncultured_bacterium__UniRef90_A0A1L2YW20                            37.41%    passed     39.33%
+  84  BPRhit__Gammaproteobacteria__UniRef90_A0A368C6X1                             37.66%    passed     46.11%
+  85  BPRhit__environmental_samples__UniRef90_Q6PL05                               37.41%    passed     86.53%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                        35.31%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.021 seconds
+
+NOTE: 19 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 16.682 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -40446
+Threads: 2 / Time: 8.794 sec / Speedup: 1.897 / Efficiency: 95% / LogL: -40446
+Threads: 3 / Time: 6.811 sec / Speedup: 2.449 / Efficiency: 82% / LogL: -40446
+Threads: 4 / Time: 5.736 sec / Speedup: 2.908 / Efficiency: 73% / LogL: -40446
+Threads: 5 / Time: 6.857 sec / Speedup: 2.433 / Efficiency: 49% / LogL: -40446
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -23138.085
+2. Current log-likelihood: -22583.407
+3. Current log-likelihood: -22570.705
+4. Current log-likelihood: -22567.195
+5. Current log-likelihood: -22564.781
+6. Current log-likelihood: -22563.099
+7. Current log-likelihood: -22562.020
+8. Current log-likelihood: -22561.226
+9. Current log-likelihood: -22560.625
+10. Current log-likelihood: -22560.204
+11. Current log-likelihood: -22559.891
+12. Current log-likelihood: -22559.632
+13. Current log-likelihood: -22559.296
+14. Current log-likelihood: -22559.094
+15. Current log-likelihood: -22558.792
+16. Current log-likelihood: -22558.615
+17. Current log-likelihood: -22558.341
+18. Current log-likelihood: -22558.184
+19. Current log-likelihood: -22558.024
+20. Current log-likelihood: -22557.783
+21. Current log-likelihood: -22557.650
+22. Current log-likelihood: -22557.515
+23. Current log-likelihood: -22557.386
+24. Current log-likelihood: -22557.262
+25. Current log-likelihood: -22557.143
+26. Current log-likelihood: -22557.029
+27. Current log-likelihood: -22556.919
+28. Current log-likelihood: -22556.814
+29. Current log-likelihood: -22556.713
+Optimal log-likelihood: -22556.554
+Site proportion and rates:  (0.151,0.085) (0.414,0.464) (0.291,1.225) (0.144,3.052)
+Parameters optimization took 29 rounds (7.302 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.318552 sec (of wall-clock time) 1.261489 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.002561 sec (of wall-clock time) 0.008694 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22866.795
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.194 second
+Computing log-likelihood of 98 initial trees ... 2.962 seconds
+Current best score: -22556.554
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -22531.647
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -22525.421
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -22521.365
+Iteration 10 / LogL: -22523.616 / Time: 0h:1m:6s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 16: -22519.940
+Iteration 20 / LogL: -22525.268 / Time: 0h:1m:12s
+Finish initializing candidate tree set (15)
+Current best tree score: -22519.940 / CPU time: 19.369
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -22518.439
+Iteration 30 / LogL: -22522.795 / Time: 0h:1m:19s (0h:4m:9s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -22518.156
+Iteration 40 / LogL: -22519.432 / Time: 0h:1m:26s (0h:2m:58s left)
+Iteration 50 / LogL: -22520.929 / Time: 0h:1m:32s (0h:2m:13s left)
+Iteration 60 / LogL: -22532.311 / Time: 0h:1m:38s (0h:1m:41s left)
+Iteration 70 / LogL: -22520.155 / Time: 0h:1m:45s (0h:1m:17s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -22518.044
+Iteration 80 / LogL: -22519.844 / Time: 0h:1m:52s (0h:0m:58s left)
+Iteration 90 / LogL: -22537.756 / Time: 0h:1m:59s (0h:0m:41s left)
+Iteration 100 / LogL: -22519.012 / Time: 0h:2m:5s (0h:0m:26s left)
+Iteration 110 / LogL: -22518.112 / Time: 0h:2m:11s (0h:0m:13s left)
+Iteration 120 / LogL: -22518.470 / Time: 0h:2m:17s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 122 ITERATIONS / Time: 0h:2m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22518.044
+2. Current log-likelihood: -22518.030
+Optimal log-likelihood: -22518.014
+Site proportion and rates:  (0.138,0.072) (0.375,0.442) (0.273,1.062) (0.214,2.500)
+Parameters optimization took 2 rounds (0.386 sec)
+BEST SCORE FOUND : -22518.014
+Total tree length: 37.594
+
+Total number of iterations: 122
+CPU time used for tree search: 334.487 sec (0h:5m:34s)
+Wall-clock time used for tree search: 85.838 sec (0h:1m:25s)
+Total CPU time used: 478.913 sec (0h:7m:58s)
+Total wall-clock time used: 139.191 sec (0h:2m:19s)
+
+Analysis results written to: 
+  IQ-TREE report:                iqtree_.iqtree
+  Maximum-likelihood tree:       iqtree_.treefile
+  Likelihood distances:          iqtree_.mldist
+  Screen log file:               iqtree_.log
+
+Date and Time: Mon Sep  1 13:02:54 2025
