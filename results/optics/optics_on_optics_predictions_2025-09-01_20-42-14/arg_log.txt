@@ -1,0 +1,17 @@
+Selected Options...
+input_fasta: ../data/pumphits_culled.fasta
+report_dir: ../results/optics/optics_on_optics_predictions_2025-09-01_20-42-14
+output_file: optics_predictions_predictions
+model: type-one
+encoding_method: aa_prop
+blastp: False
+blastp_report: blastp_report.txt
+refseq: bovine
+custom_ref_file: None
+bootstrap: False
+	visualize_bootstrap: True
+		bootstrap_viz_file: bootstrap_viz
+		save_as: svg
+		full_spectrum_xaxis: False
+Command executed (reconstructed): python optics_predictions.py -i ../data/pumphits_culled.fasta -o ../results/optics -p optics_predictions_predictions -v vpod_1.3 -m type-one -e aa_prop --visualize_bootstrap --bootstrap_viz_file bootstrap_viz --save_viz_as svg --full_spectrum_xaxis False
+

@@ -4,264 +4,551 @@ Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    osiris (AVX, 62 GB RAM)
 Command: iqtree2 -s ../results/align/combined_plus_hasegawa24_ALN.fasta -m LG+F+R4 -nt AUTO -keep-ident -pre ../results/trees/combined_plus_hasegawa24_iqtree -quiet -redo
-Seed:    784349 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Sep  1 18:43:36 2025
+Seed:    251311 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep  1 19:40:39 2025
 Kernel:  AVX - auto-detect threads (16 CPU cores detected)
 
 Reading alignment file ../results/align/combined_plus_hasegawa24_ALN.fasta ... Fasta format detected
 Alignment most likely contains protein sequences
-Alignment has 156 sequences with 417 columns, 416 distinct patterns
-348 parsimony-informative, 28 singleton sites, 41 constant sites
+Alignment has 160 sequences with 383 columns, 383 distinct patterns
+333 parsimony-informative, 21 singleton sites, 29 constant sites
                                                                             Gap/Ambiguity  Composition  p-value
-   1  YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2                          38.61%    passed     41.11%
-   2  YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4                   43.65%    passed     99.30%
-   3  YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78                     45.08%    passed     99.77%
-   4  YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5                   44.12%    passed     86.57%
-   5  YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9                                 41.25%    passed     56.97%
-   6  YCyR2hit__UnknownTaxon__UniRef90_P29563                                      37.89%    passed      8.48%
-   7  YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C                        43.41%    passed     98.86%
-   8  YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42                  43.41%    passed     93.42%
-   9  YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5                               44.36%    passed     96.61%
-  10  YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182                     44.12%    passed     99.96%
-  11  YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7                       41.73%    passed     59.94%
-  12  YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19                  43.65%    passed     98.71%
-  13  YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4                     43.41%    passed     99.20%
-  14  YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9                           43.88%    passed     88.12%
-  15  YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7                          38.13%    passed     10.74%
-  16  BRhit__Halobacterium__UniRef90_P02945                                        37.17%    passed     66.48%
-  17  BRhit__Halobacterium__UniRef90_UPI001F011AB0                                 37.17%    passed     69.34%
-  18  BRhit__Haloplanus__UniRef90_A0A6B9F3P5                                       38.61%    passed     45.00%
-  19  BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D                             38.61%    passed     63.46%
-  20  BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1                            40.53%    passed     55.31%
-  21  BRhit__Halohasta_salina__UniRef90_UPI002110EEC8                              36.93%    passed     10.95%
-  22  BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63              36.45%    failed      4.53%
-  23  BRhit__Uncultured_archaeon__UniRef90_I1X958                                  37.89%    passed     41.41%
-  24  BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78                          38.13%    passed      7.42%
-  25  BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7                     36.69%    failed      4.93%
-  26  BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6                          37.65%    passed      6.66%
-  27  BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC                       37.65%    passed     53.63%
-  28  BRhit__Halorubrum__UniRef90_A0A4U7F7H9                                       38.13%    passed      7.71%
-  29  BRhit__Halobacteria__UniRef90_P69051                                         37.65%    passed     18.47%
-  30  GCyR2hit__Nostocales__UniRef90_A0A252D874                                    40.77%    passed     47.17%
-  31  GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8               40.77%    passed     56.60%
-  32  GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD                                  40.53%    passed     96.09%
-  33  GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7                      39.57%    passed     90.29%
-  34  GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC                       41.01%    passed     82.48%
-  35  GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4                    41.49%    passed     62.90%
-  36  GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622                    40.53%    passed     90.60%
-  37  GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3   40.53%    passed     67.57%
-  38  GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81            43.88%    passed     36.80%
-  39  GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973                 42.21%    passed     22.91%
-  40  GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5                   41.73%    passed     46.82%
-  41  GCyR2hit__Halobiforma__UniRef90_A0A1P8LVS0                                   42.45%    passed     29.55%
-  42  GCyR2hit__Halogranum_amylolyticum__UniRef90_A0A1H8RSA7                       42.21%    passed     26.75%
-  43  GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59                                28.54%    passed     40.83%
-  44  GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4                  28.30%    passed     78.89%
-  45  GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7                                     28.78%    passed     82.98%
-  46  GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7                    28.78%    passed     14.91%
-  47  GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9                        28.78%    passed     36.28%
-  48  GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D                       28.54%    passed     58.97%
-  49  GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2                               27.10%    passed     76.63%
-  50  GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1                       32.37%    passed     13.98%
-  51  GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9                                     35.49%    passed     25.65%
-  52  GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B                     32.61%    passed     79.25%
-  53  GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5                                     32.61%    passed     60.99%
-  54  GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7               37.17%    passed     26.51%
-  55  GRhit__Halothece_sp__UniRef90_K9YEI2                                         32.61%    passed     66.91%
-  56  GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9                       33.81%    passed     80.10%
-  57  GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9                               36.45%    passed     53.31%
-  58  GRhit__Deinococcus__UniRef90_A0A172TD44                                      31.65%    failed      3.83%
-  59  GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3                                29.74%    passed     73.48%
-  60  GRhit__Deinococcus__UniRef90_A0A917PC33                                      29.26%    passed     86.50%
-  61  GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5                                37.89%    passed     89.64%
-  62  GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943                      38.13%    passed     48.73%
-  63  GRhit__Bdellovibrio_sp__UniRef90_A0A924B300                                  39.33%    passed     79.03%
-  64  GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2                           36.69%    passed     22.32%
-  65  GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97                           37.41%    passed     49.02%
-  66  GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09                             37.17%    passed     57.08%
-  67  GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7                            38.85%    passed     79.72%
-  68  GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0                                28.30%    passed     61.39%
-  69  GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9                           37.65%    passed     85.64%
-  70  GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6                         37.41%    passed     89.47%
-  71  PRhit__Bacteria__UniRef90_Q6J4G7                                             40.05%    passed     57.58%
-  72  PRhit__uncultured_bacterium__UniRef90_Q84C21                                 38.13%    passed      9.13%
-  73  PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1                          40.05%    passed     49.91%
-  74  PRhit__environmental_samples__UniRef90_Q6PL05                                39.81%    passed     72.94%
-  75  PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20                             39.81%    passed     44.64%
-  76  PRhit__Bacteria__UniRef90_Q9AFF7                                             39.81%    passed     37.15%
-  77  PRhit__Bacteria__UniRef90_A0A1L2YW54                                         40.29%    passed     38.87%
-  78  PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1                              40.05%    passed     25.83%
-  79  PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93            40.77%    passed     24.97%
-  80  PRhit__Bacteria__UniRef90_J4KSW5                                             39.81%    passed     23.09%
-  81  PRhit__Bacteria__UniRef90_A0A2E1JM07                                         40.05%    passed     39.80%
-  82  PRhit__environmental_samples__UniRef90_A0A1L2YWB0                            40.05%    passed     46.28%
-  83  PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0                         40.29%    passed     21.22%
-  84  PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1                                   40.53%    passed     75.97%
-  85  PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6                    39.81%    passed     53.67%
-  86  CyHR_ACL45765.1                                                              44.12%    passed     60.94%
-  87  XeR_WP_088889602.1                                                           34.29%    passed      6.93%
-  88  XeR_WP_088889936.1                                                           34.29%    passed     18.04%
-  89  XeR_WP_036010184.1                                                           35.73%    passed      6.74%
-  90  XeR_PSB20510.1                                                               34.53%    passed      5.04%
-  91  XeR_KPQ35581.1                                                               41.49%    passed     14.39%
-  92  XeR_WP_035991571.1                                                           35.97%    passed     66.45%
-  93  CyR-II_WP_017301364.1                                                        40.29%    passed     53.30%
-  94  XeR_PSR16659.1                                                               35.97%    passed     70.73%
-  95  NaR_PSN11013.1                                                               26.62%    passed     54.24%
-  96  XeR_PSN14944.1                                                               36.21%    passed     52.98%
-  97  CyHR_WP_073073184.1                                                          43.88%    passed     97.01%
-  98  XLR_WP_156518896.1                                                           27.34%    passed     59.69%
-  99  CyHR_WP_068820240.1                                                          43.88%    passed     98.76%
- 100  XeR_WP_017288501.1                                                           34.29%    passed      7.53%
- 101  CyHR_BAU14895.1                                                              43.41%    passed     96.09%
- 102  CyHR_AFY94034.1                                                              46.52%    passed     64.98%
- 103  CyR_PSO81870.1                                                               43.88%    passed     29.26%
- 104  CyR_PSO60175.1                                                               43.88%    passed     41.75%
- 105  CyR_PSO53854.1                                                               43.88%    passed     39.92%
- 106  CyR_PSO74148.1                                                               43.88%    passed     17.47%
- 107  CyR_PSO50292.1                                                               43.88%    passed     54.06%
- 108  CyR_PSO62648.1                                                               43.88%    passed     51.04%
- 109  CyR_PSO76378.1                                                               43.88%    passed     29.02%
- 110  NaR_WP_052056064.1                                                           23.50%    passed     32.96%
- 111  CyHR_WP_052056058.1                                                          42.93%    passed     84.73%
- 112  XeR_ACK72303.1                                                               36.69%    passed     42.74%
- 113  NaR_WP_087592702.1                                                           23.26%    passed     34.24%
- 114  CyR_MBV9388690.1                                                             42.93%    passed     69.54%
- 115  CyR_MBV8884430.1                                                             40.77%    passed     77.05%
- 116  CyR-II_MBV8882851.1                                                          35.49%    passed     61.10%
- 117  XeR_KJH69699.1                                                               35.97%    passed     39.70%
- 118  CyHR_PSB29224.1                                                              43.88%    passed     93.09%
- 119  CyHR_WP_009632765.1                                                          43.88%    passed     70.07%
- 120  CyHR_NHC34874.1                                                              43.65%    passed     72.37%
- 121  XeR_PSM46427.1                                                               34.53%    passed     47.01%
- 122  XeR_PSM50718.1                                                               42.45%    passed     97.44%
- 123  CyHR_PSM48400.1                                                              43.65%    passed     75.80%
- 124  XeR_AFY89683.1                                                               33.81%    passed     57.26%
- 125  CyHR_AFY87851.1                                                              43.65%    passed     82.97%
- 126  XeR_PSB64307.1                                                               33.81%    passed     54.53%
- 127  XeR_PSB66177.1                                                               42.45%    passed     97.48%
- 128  NaR_WP_196601241.1                                                           22.54%    passed     93.68%
- 129  XeR_WP_105217802.1                                                           36.21%    passed     29.77%
- 130  XeR_PIG91504.1                                                               36.21%    passed     43.08%
- 131  NaR_PPS40940.1                                                               22.54%    passed     51.78%
- 132  XeR_PPS42283.1                                                               35.97%    passed     73.91%
- 133  NaR_OKH25360.1                                                               22.54%    passed     76.99%
- 134  XeR_OKH23111.1                                                               35.97%    passed     83.29%
- 135  XeR_AFZ32418.1                                                               35.97%    passed     90.49%
- 136  CyHR_OKH35942.1                                                              44.12%    passed     55.51%
- 137  XeR_WP_019495028.1                                                           36.45%    passed     39.90%
- 138  XeR_BAZ09081.1                                                               35.73%    passed     55.53%
- 139  CyHR_BAZ09854.1                                                              44.12%    passed     81.53%
- 140  CyHR_KAF3885102.1                                                            44.12%    passed     94.68%
- 141  XeR_KAB8333665.1                                                             41.01%    passed     48.62%
- 142  CyHR_KAB8329998.1                                                            44.36%    passed     89.58%
- 143  CyHR_WP_017314391.1                                                          44.36%    passed     77.86%
- 144  CyHR_OKH60099.1                                                              43.88%    passed     92.99%
- 145  CyHR_KAB8320924.1                                                            43.41%    passed     89.93%
- 146  XeR_WP_016877934.1                                                           33.33%    passed     70.78%
- 147  XeR_WP_026731117.1                                                           33.57%    passed     12.79%
- 148  XeR_PLZ95198.1                                                               36.21%    passed     10.71%
- 149  CyHR_AVH69120.1                                                              44.12%    passed     80.73%
- 150  CyHR_OYD93951.1                                                              44.12%    passed     85.47%
- 151  CyR_BAY09002.1                                                               40.77%    passed     40.86%
- 152  CyHR_OUL21043.1                                                              43.88%    passed     94.55%
- 153  CyR_OUL18258.1                                                               40.77%    passed     50.95%
- 154  XeR_BAB74864.1                                                               37.41%    passed     48.49%
- 155  XeR_BAT52736.1                                                               37.41%    passed     43.19%
- 156  XeR_BAY39575.1                                                               37.41%    passed     38.78%
-****  TOTAL                                                                        38.24%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+   1  YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2                          33.16%    passed     39.86%
+   2  YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4                   38.64%    passed     99.28%
+   3  YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78                     40.21%    passed     99.75%
+   4  YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5                   39.16%    passed     85.72%
+   5  YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9                                 36.03%    passed     58.70%
+   6  YCyR2hit__UnknownTaxon__UniRef90_P29563                                      32.38%    passed      9.17%
+   7  YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C                        38.38%    passed     98.78%
+   8  YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42                  38.38%    passed     92.56%
+   9  YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5                               39.43%    passed     96.32%
+  10  YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182                     39.16%    passed     99.95%
+  11  YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7                       36.55%    passed     61.48%
+  12  YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19                  38.64%    passed     98.63%
+  13  YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4                     38.38%    passed     99.05%
+  14  YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9                           38.90%    passed     87.17%
+  15  YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7                          32.64%    passed     11.30%
+  16  BRhit__Halobacterium__UniRef90_P02945                                        31.59%    passed     67.81%
+  17  BRhit__Halobacterium__UniRef90_UPI001F011AB0                                 31.59%    passed     70.72%
+  18  BRhit__Haloplanus__UniRef90_A0A6B9F3P5                                       33.16%    passed     46.38%
+  19  BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D                             33.16%    passed     64.93%
+  20  BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1                            35.25%    passed     56.80%
+  21  BRhit__Halohasta_salina__UniRef90_UPI002110EEC8                              31.33%    passed     11.91%
+  22  BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63              30.81%    failed      4.96%
+  23  BRhit__Uncultured_archaeon__UniRef90_I1X958                                  32.38%    passed     42.59%
+  24  BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78                          32.64%    passed      7.97%
+  25  BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7                     31.07%    passed      5.37%
+  26  BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6                          32.11%    passed      7.03%
+  27  BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC                       32.11%    passed     55.43%
+  28  BRhit__Halorubrum__UniRef90_A0A4U7F7H9                                       32.64%    passed      8.16%
+  29  BRhit__Halobacteria__UniRef90_P69051                                         32.11%    passed     19.50%
+  30  BRhit__Halobaculum_sp_MBLA0147__UniRef90_UPI0035267C65                       34.20%    passed     53.54%
+  31  GCyR2hit__Nostocales__UniRef90_A0A252D874                                    35.51%    passed     47.08%
+  32  GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8               35.51%    passed     56.66%
+  33  GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD                                  35.25%    passed     96.10%
+  34  GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7                      34.20%    passed     90.67%
+  35  GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC                       35.77%    passed     82.06%
+  36  GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4                    36.29%    passed     63.15%
+  37  GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622                    35.25%    passed     90.72%
+  38  GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3   35.25%    passed     67.96%
+  39  GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81            38.90%    passed     35.84%
+  40  GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973                 37.08%    passed     23.99%
+  41  GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5                   36.55%    passed     48.13%
+  42  GCyR2hit__Halobiforma__UniRef90_A0A1P8LVS0                                   37.34%    passed     30.74%
+  43  GCyR2hit__Halogranum_amylolyticum__UniRef90_A0A1H8RSA7                       37.08%    passed     27.57%
+  44  GCyR2hit__Halobacteria__UniRef90_O93740                                      34.73%    passed     30.68%
+  45  GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59                                22.19%    passed     41.51%
+  46  GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4                  21.93%    passed     79.85%
+  47  GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7                                     22.45%    passed     83.34%
+  48  GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7                    22.45%    passed     15.29%
+  49  GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9                        22.45%    passed     36.23%
+  50  GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D                       22.19%    passed     59.70%
+  51  GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2                               20.63%    passed     76.31%
+  52  GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1                       26.37%    passed     14.75%
+  53  GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9                                     29.77%    passed     25.36%
+  54  GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B                     26.63%    passed     79.90%
+  55  GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5                                     26.63%    passed     62.46%
+  56  GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7               31.59%    passed     27.86%
+  57  GRhit__Halothece_sp__UniRef90_K9YEI2                                         26.63%    passed     68.11%
+  58  GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9                       27.94%    passed     81.27%
+  59  GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9                               30.81%    passed     54.33%
+  60  GRhit__Deinococcus__UniRef90_A0A172TD44                                      25.59%    failed      4.19%
+  61  GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3                                23.50%    passed     74.34%
+  62  GRhit__Deinococcus__UniRef90_A0A917PC33                                      22.98%    passed     87.07%
+  63  GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5                                32.38%    passed     90.26%
+  64  GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943                      32.64%    passed     50.05%
+  65  GRhit__Bdellovibrio_sp__UniRef90_A0A924B300                                  33.94%    passed     78.67%
+  66  GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2                           31.07%    passed     23.95%
+  67  GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97                           31.85%    passed     50.95%
+  68  GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09                             31.59%    passed     58.93%
+  69  GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7                            33.42%    passed     79.50%
+  70  GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0                                21.93%    passed     63.32%
+  71  GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9                           32.11%    passed     86.65%
+  72  GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6                         31.85%    passed     90.41%
+  73  GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0               33.94%    passed     92.53%
+  74  GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4                            25.59%    passed     72.72%
+  75  GPRhit__Bacteria__UniRef90_Q6J4G7                                            34.73%    passed     57.34%
+  76  GPRhit__uncultured_bacterium__UniRef90_Q84C21                                32.64%    passed      9.05%
+  77  GPRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1                         34.73%    passed     50.24%
+  78  GPRhit__environmental_samples__UniRef90_Q6PL05                               34.46%    passed     73.22%
+  79  GPRhit__uncultured_bacterium__UniRef90_A0A1L2YW20                            34.46%    passed     44.00%
+  80  GPRhit__Bacteria__UniRef90_Q9AFF7                                            34.46%    passed     37.89%
+  81  GPRhit__Bacteria__UniRef90_A0A1L2YW54                                        34.99%    passed     38.59%
+  82  GPRhit__Gammaproteobacteria__UniRef90_A0A368C6X1                             34.73%    passed     26.25%
+  83  GPRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93           35.51%    passed     25.70%
+  84  GPRhit__Bacteria__UniRef90_J4KSW5                                            34.46%    passed     22.91%
+  85  BPRhit__Bacteria__UniRef90_A0A2E1JM07                                        34.73%    passed     40.21%
+  86  PRhit__environmental_samples__UniRef90_A0A1L2YWB0                            34.73%    passed     46.91%
+  87  PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0                         34.99%    passed     21.42%
+  88  PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1                                   35.25%    passed     76.35%
+  89  PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6                    34.46%    passed     53.91%
+  90  CyHR_ACL45765.1                                                              39.16%    passed     60.32%
+  91  XeR_WP_088889602.1                                                           28.46%    passed      6.35%
+  92  XeR_WP_088889936.1                                                           28.46%    passed     16.72%
+  93  XeR_WP_036010184.1                                                           30.03%    passed      6.31%
+  94  XeR_PSB20510.1                                                               28.72%    failed      4.86%
+  95  XeR_KPQ35581.1                                                               36.29%    passed     13.49%
+  96  XeR_WP_035991571.1                                                           30.29%    passed     64.87%
+  97  CyR-II_WP_017301364.1                                                        34.99%    passed     52.10%
+  98  XeR_PSR16659.1                                                               30.29%    passed     69.60%
+  99  NaR_PSN11013.1                                                               20.10%    passed     53.68%
+ 100  XeR_PSN14944.1                                                               30.55%    passed     50.88%
+ 101  CyHR_WP_073073184.1                                                          38.90%    passed     96.58%
+ 102  XLR_WP_156518896.1                                                           20.89%    passed     60.49%
+ 103  CyHR_WP_068820240.1                                                          38.90%    passed     98.71%
+ 104  XeR_WP_017288501.1                                                           28.46%    passed      7.07%
+ 105  CyHR_BAU14895.1                                                              38.38%    passed     95.74%
+ 106  CyHR_AFY94034.1                                                              41.78%    passed     63.37%
+ 107  CyR_PSO81870.1                                                               38.90%    passed     28.40%
+ 108  CyR_PSO60175.1                                                               38.90%    passed     40.89%
+ 109  CyR_PSO53854.1                                                               38.90%    passed     38.89%
+ 110  CyR_PSO74148.1                                                               38.90%    passed     16.87%
+ 111  CyR_PSO50292.1                                                               38.90%    passed     52.89%
+ 112  CyR_PSO62648.1                                                               38.90%    passed     49.91%
+ 113  CyR_PSO76378.1                                                               38.90%    passed     28.14%
+ 114  NaR_WP_052056064.1                                                           16.71%    passed     31.75%
+ 115  CyHR_WP_052056058.1                                                          37.86%    passed     84.53%
+ 116  XeR_ACK72303.1                                                               31.07%    passed     40.38%
+ 117  NaR_WP_087592702.1                                                           16.45%    passed     33.35%
+ 118  CyR_MBV9388690.1                                                             37.86%    passed     66.81%
+ 119  CyR_MBV8884430.1                                                             35.51%    passed     75.10%
+ 120  CyR-II_MBV8882851.1                                                          29.77%    passed     59.50%
+ 121  XeR_KJH69699.1                                                               30.29%    passed     37.04%
+ 122  CyHR_PSB29224.1                                                              38.90%    passed     92.41%
+ 123  CyHR_WP_009632765.1                                                          38.90%    passed     68.24%
+ 124  CyHR_NHC34874.1                                                              38.64%    passed     71.08%
+ 125  XeR_PSM46427.1                                                               28.72%    passed     45.64%
+ 126  XeR_PSM50718.1                                                               37.34%    passed     97.15%
+ 127  CyHR_PSM48400.1                                                              38.64%    passed     74.85%
+ 128  XeR_AFY89683.1                                                               27.94%    passed     55.56%
+ 129  CyHR_AFY87851.1                                                              38.64%    passed     82.16%
+ 130  XeR_PSB64307.1                                                               27.94%    passed     52.99%
+ 131  XeR_PSB66177.1                                                               37.34%    passed     97.22%
+ 132  NaR_WP_196601241.1                                                           15.67%    passed     93.33%
+ 133  XeR_WP_105217802.1                                                           30.55%    passed     28.94%
+ 134  XeR_PIG91504.1                                                               30.55%    passed     41.79%
+ 135  NaR_PPS40940.1                                                               15.67%    passed     50.92%
+ 136  XeR_PPS42283.1                                                               30.29%    passed     72.34%
+ 137  NaR_OKH25360.1                                                               15.67%    passed     76.41%
+ 138  XeR_OKH23111.1                                                               30.29%    passed     82.02%
+ 139  XeR_AFZ32418.1                                                               30.29%    passed     89.56%
+ 140  CyHR_OKH35942.1                                                              39.16%    passed     53.54%
+ 141  XeR_WP_019495028.1                                                           30.81%    passed     37.38%
+ 142  XeR_BAZ09081.1                                                               30.03%    passed     53.32%
+ 143  CyHR_BAZ09854.1                                                              39.16%    passed     80.13%
+ 144  CyHR_KAF3885102.1                                                            39.16%    passed     94.35%
+ 145  XeR_KAB8333665.1                                                             35.77%    passed     49.79%
+ 146  CyHR_KAB8329998.1                                                            39.43%    passed     88.65%
+ 147  CyHR_WP_017314391.1                                                          39.43%    passed     77.06%
+ 148  CyHR_OKH60099.1                                                              38.90%    passed     92.33%
+ 149  CyHR_KAB8320924.1                                                            38.38%    passed     89.04%
+ 150  XeR_WP_016877934.1                                                           27.42%    passed     69.70%
+ 151  XeR_WP_026731117.1                                                           27.68%    passed     11.97%
+ 152  XeR_PLZ95198.1                                                               30.55%    passed      9.71%
+ 153  CyHR_AVH69120.1                                                              39.16%    passed     79.76%
+ 154  CyHR_OYD93951.1                                                              39.16%    passed     84.28%
+ 155  CyR_BAY09002.1                                                               35.51%    passed     40.69%
+ 156  CyHR_OUL21043.1                                                              38.90%    passed     93.94%
+ 157  CyR_OUL18258.1                                                               35.51%    passed     50.64%
+ 158  XeR_BAB74864.1                                                               31.85%    passed     46.60%
+ 159  XeR_BAT52736.1                                                               31.85%    passed     41.48%
+ 160  XeR_BAY39575.1                                                               31.85%    passed     37.19%
+****  TOTAL                                                                        32.75%  3 sequences failed composition chi2 test (p-value<5%; df=19)
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.054 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.047 seconds
 
-NOTE: 42 MB RAM (0 GB) is required!
+NOTE: 39 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 16 CPU cores
 Increase to 10 rounds for branch lengths
-10 trees examined
-Threads: 1 / Time: 16.593 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -78177
-Threads: 2 / Time: 9.180 sec / Speedup: 1.808 / Efficiency: 90% / LogL: -78177
-Threads: 3 / Time: 6.653 sec / Speedup: 2.494 / Efficiency: 83% / LogL: -78177
-Threads: 4 / Time: 5.376 sec / Speedup: 3.087 / Efficiency: 77% / LogL: -78177
-Threads: 5 / Time: 4.917 sec / Speedup: 3.375 / Efficiency: 67% / LogL: -78177
-Threads: 6 / Time: 5.796 sec / Speedup: 2.863 / Efficiency: 48% / LogL: -78177
-BEST NUMBER OF THREADS: 5
+11 trees examined
+Threads: 1 / Time: 16.952 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -79276
+Threads: 2 / Time: 9.082 sec / Speedup: 1.866 / Efficiency: 93% / LogL: -79276
+Threads: 3 / Time: 6.424 sec / Speedup: 2.639 / Efficiency: 88% / LogL: -79276
+Threads: 4 / Time: 5.052 sec / Speedup: 3.355 / Efficiency: 84% / LogL: -79276
+Threads: 5 / Time: 7.894 sec / Speedup: 2.147 / Efficiency: 43% / LogL: -79276
+BEST NUMBER OF THREADS: 4
 
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -36725.951
-2. Current log-likelihood: -35747.568
-3. Current log-likelihood: -35738.984
-4. Current log-likelihood: -35738.866
-5. Current log-likelihood: -35738.766
-6. Current log-likelihood: -35738.664
-7. Current log-likelihood: -35738.550
-8. Current log-likelihood: -35738.073
-9. Current log-likelihood: -35737.486
-10. Current log-likelihood: -35736.923
-11. Current log-likelihood: -35736.368
-12. Current log-likelihood: -35735.799
-13. Current log-likelihood: -35735.189
-14. Current log-likelihood: -35734.512
-15. Current log-likelihood: -35733.752
-16. Current log-likelihood: -35732.975
-17. Current log-likelihood: -35732.367
-18. Current log-likelihood: -35732.037
-19. Current log-likelihood: -35731.903
-Optimal log-likelihood: -35731.835
-Site proportion and rates:  (0.137,0.094) (0.351,0.417) (0.203,0.984) (0.309,2.072)
-Parameters optimization took 19 rounds (8.448 sec)
+1. Initial log-likelihood: -37272.722
+2. Current log-likelihood: -36428.237
+3. Current log-likelihood: -36413.562
+4. Current log-likelihood: -36411.221
+5. Current log-likelihood: -36410.146
+6. Current log-likelihood: -36409.695
+7. Current log-likelihood: -36409.471
+8. Current log-likelihood: -36409.329
+9. Current log-likelihood: -36409.215
+10. Current log-likelihood: -36409.115
+Optimal log-likelihood: -36408.961
+Site proportion and rates:  (0.141,0.096) (0.360,0.422) (0.204,0.967) (0.295,2.160)
+Parameters optimization took 10 rounds (5.081 sec)
 Computing ML distances based on estimated model parameters...
-Computing ML distances took 0.860689 sec (of wall-clock time) 4.287138 sec(of CPU time)
+Computing ML distances took 1.058001 sec (of wall-clock time) 4.225489 sec(of CPU time)
 WARNING: Some pairwise ML distances are too long (saturated)
-Computing RapidNJ tree took 0.007211 sec (of wall-clock time) 0.036122 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -36298.823
+Computing RapidNJ tree took 0.005930 sec (of wall-clock time) 0.023081 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -36954.021
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 5.155 second
-Computing log-likelihood of 98 initial trees ... 6.088 seconds
-Current best score: -35731.835
+Generating 98 parsimony trees... 5.251 second
+Computing log-likelihood of 98 initial trees ... 6.472 seconds
+Current best score: -36408.961
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -35682.987
+BETTER TREE FOUND at iteration 1: -36311.036
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 2: -35672.914
-Iteration 10 / LogL: -35691.896 / Time: 0h:1m:28s
-Iteration 20 / LogL: -35691.698 / Time: 0h:1m:40s
+BETTER TREE FOUND at iteration 2: -36306.820
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -36299.495
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -36299.257
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -36294.857
+Iteration 10 / LogL: -36299.039 / Time: 0h:1m:23s
+Iteration 20 / LogL: -36316.175 / Time: 0h:1m:35s
 Finish initializing candidate tree set (20)
-Current best tree score: -35672.914 / CPU time: 41.540
+Current best tree score: -36294.857 / CPU time: 43.384
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
+Iteration 30 / LogL: -36302.378 / Time: 0h:1m:51s (0h:4m:59s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 24: -35664.197
+BETTER TREE FOUND at iteration 32: -36291.493
+Iteration 40 / LogL: -36326.421 / Time: 0h:2m:7s (0h:4m:59s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 30: -35660.763
-Iteration 30 / LogL: -35660.763 / Time: 0h:1m:58s (0h:6m:49s left)
+BETTER TREE FOUND at iteration 44: -36290.814
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 35: -35660.128
-Iteration 40 / LogL: -35665.143 / Time: 0h:2m:12s (0h:5m:23s left)
-Iteration 50 / LogL: -35665.995 / Time: 0h:2m:26s (0h:4m:13s left)
+BETTER TREE FOUND at iteration 45: -36287.151
+Iteration 50 / LogL: -36320.716 / Time: 0h:2m:23s (0h:4m:38s left)
+Iteration 60 / LogL: -36289.566 / Time: 0h:2m:40s (0h:3m:50s left)
+Iteration 70 / LogL: -36288.464 / Time: 0h:2m:56s (0h:3m:11s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 60: -35657.768
-Iteration 60 / LogL: -35657.768 / Time: 0h:2m:40s (0h:4m:31s left)
+BETTER TREE FOUND at iteration 71: -36284.751
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 70: -35656.653
-Iteration 70 / LogL: -35656.653 / Time: 0h:2m:54s (0h:4m:12s left)
+BETTER TREE FOUND at iteration 78: -36284.320
+Iteration 80 / LogL: -36285.251 / Time: 0h:3m:13s (0h:3m:59s left)
+Iteration 90 / LogL: -36291.076 / Time: 0h:3m:29s (0h:3m:26s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 76: -35655.683
-Iteration 80 / LogL: -35669.597 / Time: 0h:3m:9s (0h:3m:49s left)
-Iteration 90 / LogL: -35657.266 / Time: 0h:3m:22s (0h:3m:15s left)
-Iteration 100 / LogL: -35767.026 / Time: 0h:3m:36s (0h:2m:45s left)
-Iteration 110 / LogL: -35665.162 / Time: 0h:3m:49s (0h:2m:18s left)
-Iteration 120 / LogL: -35679.581 / Time: 0h:4m:2s (0h:1m:54s left)
+BETTER TREE FOUND at iteration 95: -36283.032
+Iteration 100 / LogL: -36288.914 / Time: 0h:3m:44s (0h:3m:34s left)
+Iteration 110 / LogL: -36286.372 / Time: 0h:4m:0s (0h:3m:7s left)
+Iteration 120 / LogL: -36292.244 / Time: 0h:4m:15s (0h:2m:40s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 127: -35653.246
-Iteration 130 / LogL: -35657.479 / Time: 0h:4m:15s (0h:3m:12s left)
-Iteration 140 / LogL: -35722.376 / Time: 0h:4m:29s (0h:2m:48s left)
+BETTER TREE FOUND at iteration 130: -36282.887
+Iteration 130 / LogL: -36282.887 / Time: 0h:4m:31s (0h:3m:30s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 144: -35653.119
-Iteration 150 / LogL: -35656.074 / Time: 0h:4m:43s (0h:2m:58s left)
-Iteration 160 / LogL: -35679.372 / Time: 0h:4m:56s (0h:2m:36s left)
+BETTER TREE FOUND at iteration 134: -36282.478
+Iteration 140 / LogL: -36297.228 / Time: 0h:4m:47s (0h:3m:14s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 162: -35653.016
+BETTER TREE FOUND at iteration 149: -36282.320
+Iteration 150 / LogL: -36399.335 / Time: 0h:5m:3s (0h:3m:21s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -36282.172
+Iteration 160 / LogL: -36284.097 / Time: 0h:5m:19s (0h:2m:58s left)
+Iteration 170 / LogL: -36284.307 / Time: 0h:5m:34s (0h:2m:36s left)
+Iteration 180 / LogL: -36293.268 / Time: 0h:5m:49s (0h:2m:14s left)
+Iteration 190 / LogL: -36288.522 / Time: 0h:6m:5s (0h:1m:54s left)
+Iteration 200 / LogL: -36292.803 / Time: 0h:6m:21s (0h:1m:33s left)
+Iteration 210 / LogL: -36314.183 / Time: 0h:6m:36s (0h:1m:13s left)
+BETTER TREE FOUND at iteration 211: -36282.169
+Iteration 220 / LogL: -36307.868 / Time: 0h:6m:51s (0h:2m:50s left)
+Iteration 230 / LogL: -36285.634 / Time: 0h:7m:6s (0h:2m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 237: -36280.713
+Iteration 240 / LogL: -36354.333 / Time: 0h:7m:22s (0h:2m:59s left)
+Iteration 250 / LogL: -36300.613 / Time: 0h:7m:37s (0h:2m:39s left)
+Iteration 260 / LogL: -36283.451 / Time: 0h:7m:49s (0h:2m:19s left)
+Iteration 270 / LogL: -36300.602 / Time: 0h:8m:3s (0h:2m:0s left)
+Iteration 280 / LogL: -36316.910 / Time: 0h:8m:15s (0h:1m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 283: -36280.448
+Iteration 290 / LogL: -36314.485 / Time: 0h:8m:29s (0h:2m:43s left)
+Iteration 300 / LogL: -36396.875 / Time: 0h:8m:43s (0h:2m:25s left)
+Iteration 310 / LogL: -36282.972 / Time: 0h:8m:58s (0h:2m:7s left)
+
+******************************************************
+CHECKPOINT: Resuming analysis from ../results/trees/combined_plus_hasegawa24_iqtree.ckp.gz
+
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    osiris (AVX, 62 GB RAM)
+Command: iqtree2 -s ../results/align/combined_plus_hasegawa24_ALN.fasta -m LG+F+R4 -nt AUTO -keep-ident -pre ../results/trees/combined_plus_hasegawa24_iqtree -quiet
+Seed:    268533 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep  1 20:23:09 2025
+Kernel:  AVX - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file ../results/align/combined_plus_hasegawa24_ALN.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 160 sequences with 386 columns, 386 distinct patterns
+334 parsimony-informative, 25 singleton sites, 27 constant sites
+                                                                            Gap/Ambiguity  Composition  p-value
+   1  YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2                          33.68%    passed     39.87%
+   2  YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4                   39.12%    passed     99.28%
+   3  YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78                     40.67%    passed     99.75%
+   4  YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5                   39.64%    passed     85.72%
+   5  YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9                                 36.53%    passed     58.70%
+   6  YCyR2hit__UnknownTaxon__UniRef90_P29563                                      32.90%    passed      9.17%
+   7  YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C                        38.86%    passed     98.78%
+   8  YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42                  38.86%    passed     92.56%
+   9  YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5                               39.90%    passed     96.32%
+  10  YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182                     39.64%    passed     99.95%
+  11  YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7                       37.05%    passed     61.47%
+  12  YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19                  39.12%    passed     98.63%
+  13  YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4                     38.86%    passed     99.06%
+  14  YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9                           39.38%    passed     87.18%
+  15  YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7                          33.16%    passed     11.30%
+  16  BRhit__Halobacterium__UniRef90_P02945                                        32.12%    passed     67.81%
+  17  BRhit__Halobacterium__UniRef90_UPI001F011AB0                                 32.12%    passed     70.72%
+  18  BRhit__Haloplanus__UniRef90_A0A6B9F3P5                                       33.68%    passed     46.38%
+  19  BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D                             33.68%    passed     64.92%
+  20  BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1                            35.75%    passed     56.80%
+  21  BRhit__Halohasta_salina__UniRef90_UPI002110EEC8                              31.87%    passed     11.90%
+  22  BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63              31.35%    failed      4.96%
+  23  BRhit__Uncultured_archaeon__UniRef90_I1X958                                  32.90%    passed     42.59%
+  24  BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78                          33.16%    passed      7.97%
+  25  BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7                     31.61%    passed      5.37%
+  26  BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6                          32.64%    passed      7.03%
+  27  BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC                       32.64%    passed     55.43%
+  28  BRhit__Halorubrum__UniRef90_A0A4U7F7H9                                       33.16%    passed      8.16%
+  29  BRhit__Halobacteria__UniRef90_P69051                                         32.64%    passed     19.49%
+  30  BRhit__Halobaculum_sp_MBLA0147__UniRef90_UPI0035267C65                       34.72%    passed     53.54%
+  31  GCyR2hit__Nostocales__UniRef90_A0A252D874                                    36.01%    passed     47.09%
+  32  GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8               36.01%    passed     56.67%
+  33  GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD                                  35.75%    passed     96.10%
+  34  GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7                      34.72%    passed     90.67%
+  35  GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC                       36.27%    passed     82.07%
+  36  GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4                    36.79%    passed     63.14%
+  37  GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622                    35.75%    passed     90.72%
+  38  GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3   35.75%    passed     67.97%
+  39  GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81            39.38%    passed     35.83%
+  40  GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973                 37.56%    passed     23.98%
+  41  GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5                   37.05%    passed     48.13%
+  42  GCyR2hit__Halobiforma__UniRef90_A0A1P8LVS0                                   37.82%    passed     30.73%
+  43  GCyR2hit__Halogranum_amylolyticum__UniRef90_A0A1H8RSA7                       37.56%    passed     27.57%
+  44  GCyR2hit__Halobacteria__UniRef90_O93740                                      35.23%    passed     30.68%
+  45  GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59                                22.80%    passed     41.51%
+  46  GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4                  22.54%    passed     79.84%
+  47  GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7                                     23.06%    passed     83.34%
+  48  GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7                    23.06%    passed     15.29%
+  49  GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9                        23.06%    passed     36.23%
+  50  GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D                       22.80%    passed     59.69%
+  51  GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2                               21.24%    passed     76.31%
+  52  GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1                       26.94%    passed     14.74%
+  53  GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9                                     30.31%    passed     25.36%
+  54  GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B                     27.20%    passed     79.90%
+  55  GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5                                     27.20%    passed     62.46%
+  56  GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7               32.12%    passed     27.86%
+  57  GRhit__Halothece_sp__UniRef90_K9YEI2                                         27.20%    passed     68.11%
+  58  GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9                       28.50%    passed     81.27%
+  59  GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9                               31.35%    passed     54.32%
+  60  GRhit__Deinococcus__UniRef90_A0A172TD44                                      26.17%    failed      4.19%
+  61  GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3                                24.09%    passed     74.33%
+  62  GRhit__Deinococcus__UniRef90_A0A917PC33                                      23.58%    passed     87.07%
+  63  GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5                                32.90%    passed     90.26%
+  64  GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943                      33.16%    passed     50.04%
+  65  GRhit__Bdellovibrio_sp__UniRef90_A0A924B300                                  34.46%    passed     78.67%
+  66  GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2                           31.61%    passed     23.95%
+  67  GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97                           32.38%    passed     50.95%
+  68  GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09                             32.12%    passed     58.92%
+  69  GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7                            33.94%    passed     79.50%
+  70  GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0                                22.54%    passed     63.32%
+  71  GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9                           32.64%    passed     86.65%
+  72  GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6                         32.38%    passed     90.41%
+  73  GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0               34.46%    passed     92.53%
+  74  GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4                            26.17%    passed     72.72%
+  75  PRhit__Bacteria__UniRef90_Q6J4G7                                             35.23%    passed     57.34%
+  76  PRhit__uncultured_bacterium__UniRef90_Q84C21                                 33.16%    passed      9.05%
+  77  PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1                          35.23%    passed     50.24%
+  78  PRhit__environmental_samples__UniRef90_Q6PL05                                34.97%    passed     73.22%
+  79  PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20                             34.97%    passed     44.00%
+  80  PRhit__Bacteria__UniRef90_Q9AFF7                                             34.97%    passed     37.88%
+  81  PRhit__Bacteria__UniRef90_A0A1L2YW54                                         35.49%    passed     38.59%
+  82  PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1                              35.23%    passed     26.25%
+  83  PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93            36.01%    passed     25.70%
+  84  PRhit__Bacteria__UniRef90_J4KSW5                                             34.97%    passed     22.91%
+  85  PRhit__Bacteria__UniRef90_A0A2E1JM07                                         35.23%    passed     40.21%
+  86  PRhit__environmental_samples__UniRef90_A0A1L2YWB0                            35.23%    passed     46.91%
+  87  PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0                         35.49%    passed     21.42%
+  88  PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1                                   35.75%    passed     76.35%
+  89  PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6                    34.97%    passed     53.91%
+  90  CyHR_ACL45765.1                                                              39.64%    passed     60.32%
+  91  XeR_WP_088889602.1                                                           29.02%    passed      6.35%
+  92  XeR_WP_088889936.1                                                           29.02%    passed     16.73%
+  93  XeR_WP_036010184.1                                                           30.57%    passed      6.31%
+  94  XeR_PSB20510.1                                                               29.27%    failed      4.87%
+  95  XeR_KPQ35581.1                                                               36.79%    passed     13.50%
+  96  XeR_WP_035991571.1                                                           30.83%    passed     64.88%
+  97  CyR-II_WP_017301364.1                                                        35.49%    passed     52.12%
+  98  XeR_PSR16659.1                                                               30.83%    passed     69.61%
+  99  NaR_PSN11013.1                                                               20.73%    passed     53.68%
+ 100  XeR_PSN14944.1                                                               31.09%    passed     50.88%
+ 101  CyHR_WP_073073184.1                                                          39.38%    passed     96.58%
+ 102  XLR_WP_156518896.1                                                           21.50%    passed     60.49%
+ 103  CyHR_WP_068820240.1                                                          39.38%    passed     98.71%
+ 104  XeR_WP_017288501.1                                                           29.02%    passed      7.07%
+ 105  CyHR_BAU14895.1                                                              38.86%    passed     95.74%
+ 106  CyHR_AFY94034.1                                                              42.23%    passed     63.38%
+ 107  CyR_PSO81870.1                                                               39.38%    passed     28.39%
+ 108  CyR_PSO60175.1                                                               39.38%    passed     40.89%
+ 109  CyR_PSO53854.1                                                               39.38%    passed     38.88%
+ 110  CyR_PSO74148.1                                                               39.38%    passed     16.87%
+ 111  CyR_PSO50292.1                                                               39.38%    passed     52.89%
+ 112  CyR_PSO62648.1                                                               39.38%    passed     49.91%
+ 113  CyR_PSO76378.1                                                               39.38%    passed     28.14%
+ 114  NaR_WP_052056064.1                                                           17.36%    passed     31.75%
+ 115  CyHR_WP_052056058.1                                                          38.34%    passed     84.53%
+ 116  XeR_ACK72303.1                                                               31.61%    passed     40.39%
+ 117  NaR_WP_087592702.1                                                           17.10%    passed     33.35%
+ 118  CyR_MBV9388690.1                                                             38.34%    passed     66.81%
+ 119  CyR_MBV8884430.1                                                             36.01%    passed     75.10%
+ 120  CyR-II_MBV8882851.1                                                          30.31%    passed     59.52%
+ 121  XeR_KJH69699.1                                                               30.83%    passed     37.06%
+ 122  CyHR_PSB29224.1                                                              39.38%    passed     92.41%
+ 123  CyHR_WP_009632765.1                                                          39.38%    passed     68.25%
+ 124  CyHR_NHC34874.1                                                              39.12%    passed     71.09%
+ 125  XeR_PSM46427.1                                                               29.27%    passed     45.65%
+ 126  XeR_PSM50718.1                                                               37.82%    passed     97.15%
+ 127  CyHR_PSM48400.1                                                              39.12%    passed     74.85%
+ 128  XeR_AFY89683.1                                                               28.50%    passed     55.57%
+ 129  CyHR_AFY87851.1                                                              39.12%    passed     82.16%
+ 130  XeR_PSB64307.1                                                               28.50%    passed     53.00%
+ 131  XeR_PSB66177.1                                                               37.82%    passed     97.22%
+ 132  NaR_WP_196601241.1                                                           16.32%    passed     93.34%
+ 133  XeR_WP_105217802.1                                                           31.09%    passed     28.94%
+ 134  XeR_PIG91504.1                                                               31.09%    passed     41.80%
+ 135  NaR_PPS40940.1                                                               16.32%    passed     50.92%
+ 136  XeR_PPS42283.1                                                               30.83%    passed     72.35%
+ 137  NaR_OKH25360.1                                                               16.32%    passed     76.42%
+ 138  XeR_OKH23111.1                                                               30.83%    passed     82.02%
+ 139  XeR_AFZ32418.1                                                               30.83%    passed     89.57%
+ 140  CyHR_OKH35942.1                                                              39.64%    passed     53.55%
+ 141  XeR_WP_019495028.1                                                           31.35%    passed     37.40%
+ 142  XeR_BAZ09081.1                                                               30.57%    passed     53.33%
+ 143  CyHR_BAZ09854.1                                                              39.64%    passed     80.13%
+ 144  CyHR_KAF3885102.1                                                            39.64%    passed     94.35%
+ 145  XeR_KAB8333665.1                                                             36.27%    passed     49.78%
+ 146  CyHR_KAB8329998.1                                                            39.90%    passed     88.65%
+ 147  CyHR_WP_017314391.1                                                          39.90%    passed     77.07%
+ 148  CyHR_OKH60099.1                                                              39.38%    passed     92.33%
+ 149  CyHR_KAB8320924.1                                                            38.86%    passed     89.05%
+ 150  XeR_WP_016877934.1                                                           27.98%    passed     69.71%
+ 151  XeR_WP_026731117.1                                                           28.24%    passed     11.97%
+ 152  XeR_PLZ95198.1                                                               31.09%    passed      9.71%
+ 153  CyHR_AVH69120.1                                                              39.64%    passed     79.77%
+ 154  CyHR_OYD93951.1                                                              39.64%    passed     84.29%
+ 155  CyR_BAY09002.1                                                               36.01%    passed     40.70%
+ 156  CyHR_OUL21043.1                                                              39.38%    passed     93.95%
+ 157  CyR_OUL18258.1                                                               36.01%    passed     50.65%
+ 158  XeR_BAB74864.1                                                               32.38%    passed     46.61%
+ 159  XeR_BAT52736.1                                                               32.38%    passed     41.49%
+ 160  XeR_BAY39575.1                                                               32.38%    passed     37.19%
+****  TOTAL                                                                        33.27%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+
+CHECKPOINT: Initial tree restored
+
+NOTE: 40 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 17.119 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -79541
+Threads: 2 / Time: 9.013 sec / Speedup: 1.899 / Efficiency: 95% / LogL: -79541
+Threads: 3 / Time: 6.447 sec / Speedup: 2.655 / Efficiency: 89% / LogL: -79541
+Threads: 4 / Time: 5.289 sec / Speedup: 3.237 / Efficiency: 81% / LogL: -79541
+Threads: 5 / Time: 5.104 sec / Speedup: 3.354 / Efficiency: 67% / LogL: -79541
+Threads: 6 / Time: 5.056 sec / Speedup: 3.386 / Efficiency: 56% / LogL: -79541
+Threads: 7 / Time: 6.183 sec / Speedup: 2.769 / Efficiency: 40% / LogL: -79541
+BEST NUMBER OF THREADS: 4
+
+CHECKPOINT: Model parameters restored, LogL: -36325.048
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -36280.448
+Finish initializing candidate tree set (20)
+Current best tree score: -36280.448 / CPU time: 0.000
+Number of iterations: 299
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 300 / LogL: -36328.985 / Time: 0h:0m:55s (0h:0m:15s left)
+Iteration 310 / LogL: -36325.404 / Time: 0h:1m:8s (0h:0m:16s left)
+Iteration 320 / LogL: -36359.919 / Time: 0h:1m:22s (0h:0m:16s left)
+Iteration 330 / LogL: -36342.164 / Time: 0h:1m:37s (0h:0m:15s left)
+Iteration 340 / LogL: -36344.593 / Time: 0h:1m:51s (0h:0m:14s left)
+Iteration 350 / LogL: -36326.258 / Time: 0h:2m:7s (0h:0m:12s left)
+Iteration 360 / LogL: -36334.433 / Time: 0h:2m:20s (0h:0m:9s left)
+Iteration 370 / LogL: -36339.772 / Time: 0h:2m:34s (0h:0m:5s left)
+Iteration 380 / LogL: -36377.927 / Time: 0h:2m:50s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 384 ITERATIONS / Time: 0h:2m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -36325.048
+2. Current log-likelihood: -36323.482
+3. Current log-likelihood: -36323.418
+4. Current log-likelihood: -36323.365
+5. Current log-likelihood: -36323.317
+6. Current log-likelihood: -36323.273
+7. Current log-likelihood: -36323.233
+8. Current log-likelihood: -36323.194
+9. Current log-likelihood: -36323.158
+10. Current log-likelihood: -36323.125
+11. Current log-likelihood: -36323.093
+12. Current log-likelihood: -36323.064
+13. Current log-likelihood: -36323.037
+14. Current log-likelihood: -36323.012
+15. Current log-likelihood: -36322.998
+16. Current log-likelihood: -36322.984
+17. Current log-likelihood: -36322.970
+18. Current log-likelihood: -36322.956
+19. Current log-likelihood: -36322.944
+20. Current log-likelihood: -36322.932
+21. Current log-likelihood: -36322.922
+22. Current log-likelihood: -36322.911
+23. Current log-likelihood: -36322.900
+Optimal log-likelihood: -36322.886
+Site proportion and rates:  (0.113,0.070) (0.308,0.367) (0.251,0.820) (0.329,2.047)
+Parameters optimization took 23 rounds (10.209 sec)
+BEST SCORE FOUND : -36322.886
+Total tree length: 63.375
+
+Total number of iterations: 384
+CPU time used for tree search: 486.342 sec (0h:8m:6s)
+Wall-clock time used for tree search: 122.205 sec (0h:2m:2s)
+Total CPU time used: 699.792 sec (0h:11m:39s)
+Total wall-clock time used: 186.722 sec (0h:3m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../results/trees/combined_plus_hasegawa24_iqtree.iqtree
+  Maximum-likelihood tree:       ../results/trees/combined_plus_hasegawa24_iqtree.treefile
+  Likelihood distances:          ../results/trees/combined_plus_hasegawa24_iqtree.mldist
+  Screen log file:               ../results/trees/combined_plus_hasegawa24_iqtree.log
+
+Date and Time: Mon Sep  1 20:26:16 2025
