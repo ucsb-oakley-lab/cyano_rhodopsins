@@ -1,0 +1,205 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    osiris (AVX, 62 GB RAM)
+Command: iqtree -asr -s /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary -te /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/00_tree/combined_plus_hasegawa24_ALN.fasta.treefile -st BIN -T 4 -blfix -keep_empty_seq -m JC2
+Seed:    227265 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep  1 23:33:09 2025
+Kernel:  AVX - 4 threads (16 CPU cores detected)
+
+Reading alignment file /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary ... Fasta format detected
+Reading fasta file: done in 0.00201762 secs using 57.74% CPU
+Alignment most likely contains binary sequences
+Alignment has 160 sequences with 396 columns, 130 distinct patterns
+168 parsimony-informative, 28 singleton sites, 200 constant sites
+                                                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.2298e-05 secs using 2642% CPU
+   1  YCyR2hit__Nodosilinea_nodulosa__UniRef90_A0AAJ6N6B2                           0.00%    passed     86.19%
+   2  YCyR2hit__Pseudanabaena_sp_FACHB_2040__UniRef90_A0A926ZYX4                    0.00%    failed      1.70%
+   3  YCyR2hit__Leptolyngbya_sp_FACHB_261__UniRef90_A0A926UF78                      0.00%    failed      0.25%
+   4  YCyR2hit__Hassalia_byssoidea_VB512170__UniRef90_A0A846HFU5                    0.00%    failed      0.94%
+   5  YCyR2hit__Halorientalis__UniRef90_A0A1G7PUC9                                  0.00%    passed     18.24%
+   6  YCyR2hit__UnknownTaxon__UniRef90_P29563                                       0.00%    passed     88.69%
+   7  YCyR2hit__Leptolyngbya_ohadii__UniRef90_UPI000B5A185C                         0.00%    failed      2.25%
+   8  YCyR2hit__Aliterella_atlantica_CENA595__UniRef90_A0A0D8ZW42                   0.00%    failed      2.25%
+   9  YCyR2hit__Cyanobacteriota__UniRef90_A0A926PVG5                                0.00%    failed      0.69%
+  10  YCyR2hit__Microcoleus_sp_FACHB_1515__UniRef90_A0A926U182                      0.00%    failed      0.94%
+  11  YCyR2hit__Halorientalis_marina__UniRef90_UPI001FF6C9D7                        0.00%    passed     12.26%
+  12  YCyR2hit__unclassified_Leptolyngbya__UniRef90_UPI0016884D19                   0.00%    failed      1.70%
+  13  YCyR2hit__Leptolyngbya_sp_NIES_2104__UniRef90_A0A0P4V0S4                      0.00%    failed      2.25%
+  14  YCyR2hit__unclassified_Nostoc__UniRef90_A0A252DUV9                            0.00%    failed      1.27%
+  15  YCyR2hit__Natronomonas_moolapensis__UniRef90_M1Y5I7                           0.00%    passed     97.06%
+  16  BRhit__Halobacterium__UniRef90_P02945                                         0.00%    passed     64.66%
+  17  BRhit__Halobacterium__UniRef90_UPI001F011AB0                                  0.00%    passed     64.66%
+  18  BRhit__Haloplanus__UniRef90_A0A6B9F3P5                                        0.00%    passed     86.19%
+  19  BRhit__Haloplanus_natans__UniRef90_UPI000A5CE34D                              0.00%    passed     86.19%
+  20  BRhit__Halobaculum_rubrum__UniRef90_UPI001CA389E1                             0.00%    passed     30.91%
+  21  BRhit__Halohasta_salina__UniRef90_UPI002110EEC8                               0.00%    passed     57.28%
+  22  BRhit__Halobacteriales_archaeon_QS_8_69_26__UniRef90_A0A2R6JS63               0.00%    passed     43.85%
+  23  BRhit__Uncultured_archaeon__UniRef90_I1X958                                   0.00%    passed     88.69%
+  24  BRhit__Halorientalis_regularis__UniRef90_A0A1G7RA78                           0.00%    passed     97.06%
+  25  BRhit__unclassified_Halobacteriales__UniRef90_A0A2R6LDY7                      0.00%    passed     50.33%
+  26  BRhit__uncultured_archaeon_A07HR67__UniRef90_V4ZQH6                           0.00%    passed     80.44%
+  27  BRhit__Halobaculum_sp_MBLA0143__UniRef90_UPI00352426DC                        0.00%    passed     80.44%
+  28  BRhit__Halorubrum__UniRef90_A0A4U7F7H9                                        0.00%    passed     97.06%
+  29  BRhit__Halobacteria__UniRef90_P69051                                          0.00%    passed     80.44%
+  30  GCyR2hit__Nostocales__UniRef90_A0A252D874                                     0.00%    passed     26.16%
+  31  GCyR2hit__Tolypothrix_bouteillei_VB521301__UniRef90_A0A8S9SVI8                0.00%    passed     26.16%
+  32  GCyR2hit__Nostoc_sp__UniRef90_UPI002FFB8FFD                                   0.00%    passed     30.91%
+  33  GCyR2hit__Tolypothrix_sp_NIES_4075__UniRef90_A0A218QMM7                       0.00%    passed     55.15%
+  34  GCyR2hit__Pleurocapsa_sp_FMAR1__UniRef90_UPI0029C671DC                        0.00%    passed     21.95%
+  35  GCyR2hit__Nostocaceae_cyanobacterium__UniRef90_A0A838VMV4                     0.00%    passed     15.02%
+  36  GCyR2hit__Phormidesmis_priestleyi__UniRef90_UPI0009442622                     0.00%    passed     30.91%
+  37  GCyR2hit__Pseudanabaenaceae_cyanobacterium_LEGE_13415__UniRef90_A0A928V9X3    0.00%    passed     30.91%
+  38  GCyR2hit__Cyanobacteria_bacterium_QH_9_48_43__UniRef90_A0A2T2RN81             0.00%    failed      1.27%
+  39  GCyR2hit__Halegenticoccus_tardaugens__UniRef90_UPI00100C2973                  0.00%    passed      7.93%
+  40  GCyR2hit__Haloferax_mucosum_ATCC_BAA_1512__UniRef90_M0IDG5                    0.00%    passed     12.26%
+  41  GCyR2hit__Halobiforma__UniRef90_A0A1P8LVS0                                    0.00%    passed      6.28%
+  42  GCyR2hit__Halogranum_amylolyticum__UniRef90_A0A1H8RSA7                        0.00%    passed      7.93%
+  43  GCyR2hit__Halobacteria__UniRef90_O93740                                       0.00%    passed     42.01%
+  44  GRhit__Gloeobacter_violaceus__UniRef90_Q7NP59                                 0.00%    failed      0.00%
+  45  GRhit__Cyanobacteria_bacterium_RM1_2_2__UniRef90_A0A969T0G4                   0.00%    failed      0.00%
+  46  GRhit__Cyanophyceae__UniRef90_A0A2W7ARY7                                      0.00%    failed      0.00%
+  47  GRhit__unclassified_Leptolyngbyaceae__UniRef90_A0A969FEC7                     0.00%    failed      0.00%
+  48  GRhit__Leptolyngbya_sp_ES_bin_22__UniRef90_A0A925M2S9                         0.00%    failed      0.00%
+  49  GRhit__Phormidesmis_priestleyi__UniRef90_UPI000A475A3D                        0.00%    failed      0.00%
+  50  GRhit__Chamaesiphon_sp__UniRef90_UPI003592F9D2                                0.00%    failed      0.00%
+  51  GRhit__Leptolyngbya_sp_Heron_Island_J__UniRef90_U9W0I1                        0.00%    failed      1.03%
+  52  GRhit__Cyanophyceae__UniRef90_A0A8J7JTD9                                      0.00%    passed     23.16%
+  53  GRhit__Halomicronema_sp_CCY15110__UniRef90_UPI0021030F7B                      0.00%    failed      1.39%
+  54  GRhit__Cyanophyceae__UniRef90_A0A4Q7E4T5                                      0.00%    failed      1.39%
+  55  GRhit__Leptolyngbyaceae_cyanobacterium_JSC_12__UniRef90_K8GTY7                0.00%    passed     64.66%
+  56  GRhit__Halothece_sp__UniRef90_K9YEI2                                          0.00%    failed      1.39%
+  57  GRhit__Leptolyngbya_sp_LCM1_Bin17__UniRef90_A0A6H2NHV9                        0.00%    passed      5.31%
+  58  GRhit__Symploca_sp_SIO2G7__UniRef90_A0A845YHD9                                0.00%    passed     43.85%
+  59  GRhit__Deinococcus__UniRef90_A0A172TD44                                       0.00%    failed      0.39%
+  60  GRhit__Deinococcus_ruber__UniRef90_A0A918CFF3                                 0.00%    failed      0.02%
+  61  GRhit__Deinococcus__UniRef90_A0A917PC33                                       0.00%    failed      0.01%
+  62  GRhit__Deinococcus_sp__UniRef90_UPI0025F8D0E5                                 0.00%    passed     88.69%
+  63  GRhit__Allomeiothermus_silvanus__UniRef90_UPI0023F38943                       0.00%    passed     97.06%
+  64  GRhit__Bdellovibrio_sp__UniRef90_A0A924B300                                   0.00%    passed     62.41%
+  65  GRhit__Trueperaceae_bacterium__UniRef90_A0A5Q4G3V2                            0.00%    passed     50.33%
+  66  GRhit__Myxococcales_bacterium__UniRef90_A0A2E7ZR97                            0.00%    passed     72.40%
+  67  GRhit__Thermaceae_bacterium__UniRef90_A0A931EK09                              0.00%    passed     64.66%
+  68  GRhit__Oligoflexia_bacterium__UniRef90_A0A923U6H7                             0.00%    passed     78.00%
+  69  GRhit__Deinococcus_sp__UniRef90_UPI002869BBA0                                 0.00%    failed      0.00%
+  70  GRhit__Bacteroidota_bacterium__UniRef90_A0A3M2FMH9                            0.00%    passed     80.44%
+  71  GRhit__Rhodothermales_bacterium__UniRef90_A0A9D8YSH6                          0.00%    passed     72.40%
+  72  GRhit__Pseudobdellovibrionaceae_bacterium__UniRef90_A0A924ZXQ0                0.00%    passed     62.41%
+  73  GRhit__Deinococcus_koreensis__UniRef90_A0A2K3UTP4                             0.00%    failed      0.39%
+  74  PRhit__Bacteria__UniRef90_Q6J4G7                                              0.00%    passed     42.01%
+  75  PRhit__uncultured_bacterium__UniRef90_Q84C21                                  0.00%    passed     97.06%
+  76  PRhit__SAR86_cluster_bacterium__UniRef90_A0A937M2P1                           0.00%    passed     42.01%
+  77  PRhit__environmental_samples__UniRef90_Q6PL05                                 0.00%    passed     48.34%
+  78  PRhit__uncultured_bacterium__UniRef90_A0A1L2YW20                              0.00%    passed     48.34%
+  79  PRhit__Bacteria__UniRef90_Q9AFF7                                              0.00%    passed     48.34%
+  80  PRhit__Bacteria__UniRef90_A0A1L2YW54                                          0.00%    passed     36.19%
+  81  PRhit__Gammaproteobacteria__UniRef90_A0A368C6X1                               0.00%    passed     42.01%
+  82  PRhit__Gammaproteobacteria_bacterium_TMED104__UniRef90_A0A3S5JK93             0.00%    passed     26.16%
+  83  PRhit__Bacteria__UniRef90_J4KSW5                                              0.00%    passed     48.34%
+  84  PRhit__Bacteria__UniRef90_A0A2E1JM07                                          0.00%    passed     42.01%
+  85  PRhit__environmental_samples__UniRef90_A0A1L2YWB0                             0.00%    passed     42.01%
+  86  PRhit__Pseudomonadota_bacterium__UniRef90_A0A944UJK0                          0.00%    passed     36.19%
+  87  PRhit__Pseudomonadota__UniRef90_A0A0R2UEA1                                    0.00%    passed     30.91%
+  88  PRhit__Gammaproteobacteria_bacterium__UniRef90_A0A2E8KSB6                     0.00%    passed     48.34%
+  89  BRmutant_WP_136361479.1_D85A                                                  0.00%    passed     57.28%
+  90  CyHR_ACL45765.1                                                               0.00%    failed      0.94%
+  91  XeR_WP_088889602.1                                                            0.00%    passed      8.48%
+  92  XeR_WP_088889936.1                                                            0.00%    passed      8.48%
+  93  XeR_WP_036010184.1                                                            0.00%    passed     27.53%
+  94  XeR_PSB20510.1                                                                0.00%    passed     10.57%
+  95  XeR_KPQ35581.1                                                                0.00%    passed     15.02%
+  96  XeR_WP_035991571.1                                                            0.00%    passed     32.44%
+  97  CyR-II_WP_017301364.1                                                         0.00%    passed     36.19%
+  98  XeR_PSR16659.1                                                                0.00%    passed     32.44%
+  99  NaR_PSN11013.1                                                                0.00%    failed      0.00%
+ 100  XeR_PSN14944.1                                                                0.00%    passed     37.88%
+ 101  CyHR_WP_073073184.1                                                           0.00%    failed      1.27%
+ 102  XLR_WP_156518896.1                                                            0.00%    failed      0.00%
+ 103  CyHR_WP_068820240.1                                                           0.00%    failed      1.27%
+ 104  XeR_WP_017288501.1                                                            0.00%    passed      8.48%
+ 105  CyHR_BAU14895.1                                                               0.00%    failed      2.25%
+ 106  CyHR_AFY94034.1                                                               0.00%    failed      0.03%
+ 107  CyR_PSO81870.1                                                                0.00%    failed      1.27%
+ 108  CyR_PSO60175.1                                                                0.00%    failed      1.27%
+ 109  CyR_PSO53854.1                                                                0.00%    failed      1.27%
+ 110  CyR_PSO74148.1                                                                0.00%    failed      1.27%
+ 111  CyR_PSO50292.1                                                                0.00%    failed      1.27%
+ 112  CyR_PSO62648.1                                                                0.00%    failed      1.27%
+ 113  CyR_PSO76378.1                                                                0.00%    failed      1.27%
+ 114  NaR_WP_052056064.1                                                            0.00%    failed      0.00%
+ 115  CyHR_WP_052056058.1                                                           0.00%    failed      3.83%
+ 116  XeR_ACK72303.1                                                                0.00%    passed     50.33%
+ 117  NaR_WP_087592702.1                                                            0.00%    failed      0.00%
+ 118  CyR_MBV9388690.1                                                              0.00%    failed      3.83%
+ 119  CyR_MBV8884430.1                                                              0.00%    passed     26.16%
+ 120  CyR-II_MBV8882851.1                                                           0.00%    passed     23.16%
+ 121  XeR_KJH69699.1                                                                0.00%    passed     32.44%
+ 122  CyHR_PSB29224.1                                                               0.00%    failed      1.27%
+ 123  CyHR_WP_009632765.1                                                           0.00%    failed      1.27%
+ 124  CyHR_NHC34874.1                                                               0.00%    failed      1.70%
+ 125  XeR_PSM46427.1                                                                0.00%    passed     10.57%
+ 126  XeR_PSM50718.1                                                                0.00%    passed      6.28%
+ 127  CyHR_PSM48400.1                                                               0.00%    failed      1.70%
+ 128  XeR_AFY89683.1                                                                0.00%    passed      5.31%
+ 129  CyHR_AFY87851.1                                                               0.00%    failed      1.70%
+ 130  XeR_PSB64307.1                                                                0.00%    passed      5.31%
+ 131  XeR_PSB66177.1                                                                0.00%    passed      6.28%
+ 132  NaR_WP_196601241.1                                                            0.00%    failed      0.00%
+ 133  XeR_WP_105217802.1                                                            0.00%    passed     37.88%
+ 134  XeR_PIG91504.1                                                                0.00%    passed     37.88%
+ 135  NaR_PPS40940.1                                                                0.00%    failed      0.00%
+ 136  XeR_PPS42283.1                                                                0.00%    passed     32.44%
+ 137  NaR_OKH25360.1                                                                0.00%    failed      0.00%
+ 138  XeR_OKH23111.1                                                                0.00%    passed     32.44%
+ 139  XeR_AFZ32418.1                                                                0.00%    passed     32.44%
+ 140  CyHR_OKH35942.1                                                               0.00%    failed      0.94%
+ 141  XeR_WP_019495028.1                                                            0.00%    passed     43.85%
+ 142  XeR_BAZ09081.1                                                                0.00%    passed     27.53%
+ 143  CyHR_BAZ09854.1                                                               0.00%    failed      0.94%
+ 144  CyHR_KAF3885102.1                                                             0.00%    failed      0.94%
+ 145  XeR_KAB8333665.1                                                              0.00%    passed     21.95%
+ 146  CyHR_KAB8329998.1                                                             0.00%    failed      0.69%
+ 147  CyHR_WP_017314391.1                                                           0.00%    failed      0.69%
+ 148  CyHR_OKH60099.1                                                               0.00%    failed      1.27%
+ 149  CyHR_KAB8320924.1                                                             0.00%    failed      2.25%
+ 150  XeR_WP_016877934.1                                                            0.00%    failed      3.20%
+ 151  XeR_WP_026731117.1                                                            0.00%    failed      4.14%
+ 152  XeR_PLZ95198.1                                                                0.00%    passed     37.88%
+ 153  CyHR_AVH69120.1                                                               0.00%    failed      0.94%
+ 154  CyHR_OYD93951.1                                                               0.00%    failed      0.94%
+ 155  CyR_BAY09002.1                                                                0.00%    passed     26.16%
+ 156  CyHR_OUL21043.1                                                               0.00%    failed      1.27%
+ 157  CyR_OUL18258.1                                                                0.00%    passed     26.16%
+ 158  XeR_BAB74864.1                                                                0.00%    passed     72.40%
+ 159  XeR_BAT52736.1                                                                0.00%    passed     72.40%
+ 160  XeR_BAY39575.1                                                                0.00%    passed     72.40%
+****  TOTAL                                                                         0.00%  65 sequences failed composition chi2 test (p-value<5%; df=1)
+Reading input tree file /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/00_tree/combined_plus_hasegawa24_ALN.fasta.treefile ...
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18603.716
+Optimal log-likelihood: -18603.716
+State frequencies:  0: 0.500  1: 0.500
+Parameters optimization took 1 rounds (0.001 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -18603.716
+Ancestral state probabilities printed to /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary.state
+Total tree length: 62.945
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.880 sec (0h:0m:0s)
+Total wall-clock time used: 0.292 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary.iqtree
+  Maximum-likelihood tree:       /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary.treefile
+  Ancestral state:               /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary.state
+  Screen log file:               /home/likewise-open/ADS/oakley/labdata/users/Oakley/GitHub/cyano_rhodopsins/results/ancestors/cph24/20_indels/combined_plus_hasegawa24_ALN.fasta.binary.log
+
+Date and Time: Mon Sep  1 23:33:09 2025
